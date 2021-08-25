@@ -1,6 +1,6 @@
 # Tweet2Story
 
-[TOC]
+
 
 *Tweet2Story* is a framework to **automatically extract narratives** from sets of Tweets. Despite the focus on tweets, it can also be used to extract narratives from regular texts. The tool performs a set of Natural Language Processing tasks, in order to transform the texts it receives into [brat style annotations](https://brat.nlplab.org/standoff.html).
 
@@ -15,7 +15,7 @@ Taking this into account, this repository provides **two** things:
 
 ## How to use Tweet2Story
 
-Explain in what consists the tool and how to use the demo provided (possibly make a notebook to help explaining)
+Placeholder
 
 ## Gold annotations dataset
 
@@ -24,14 +24,6 @@ Explain in what consists the tool and how to use the demo provided (possibly mak
 -----
 
 The gold annotations dataset contains a set of **48 news articles** and **564 tweets** retrieved from the [Signal1M-tweetir](https://research.signal-ai.com/datasets/signal1m-tweetir.html) dataset. The articles are exclusively in **English** and as stated by [Signal](https://research.signal-ai.com/datasets/signal1m.html), they are collected from a variety of news sources. Each article was curated by a pre-processing pipeline that removed unnecessary parts of the text, such as links. Finally, the texts were annotated by an expert linguist using the [brat style annotations](https://brat.nlplab.org/standoff.html).
-
-* Estrutura do dataset
-* Quem é que beneficia de o usar
-* Como retirar as noticias e os tweets através dos IDs
-* Estatísticas
-* Contactos
-
-
 
 ### Dataset Structure
 
