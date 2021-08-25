@@ -1,0 +1,67 @@
+T1	ACTOR 0 5	Grace
+T2	ACTOR 12 15	its
+R1	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+T3	ACTOR 16 49	maximum sustained winds of 40 mph
+T4	EVENT 51 53	is
+E1	EVENT:T4 
+T5	ACTOR 54 105	about 285 miles southwest of the Cape Verde Islands
+T6	TIME_X3 110 128	at least five days
+#1	AnnotatorNotes T6	value=P5D
+T7	ACTOR 129 156	east of the Lesser Antilles
+T8	ACTOR 161 172	Forecasters
+T9	EVENT 173 177	said
+E2	EVENT:T9 
+T10	ACTOR 178 183	Grace
+R2	OBJ_REL_objIdentity Arg1:T10 Arg2:T1	
+T11	EVENT 184 201	should strengthen
+E3	EVENT:T11 
+T12	TIME_X3 209 227	the next day or so
+#2	AnnotatorNotes T12	value=P1D
+T13	TIME_X3 233 237	then
+T14	ACTOR 238 247	the storm
+T15	EVENT 248 256	will run
+E4	EVENT:T15 
+T16	ACTOR 262 276	vertical winds
+T17	EVENT 282 292	will cause
+E5	EVENT:T17 
+T18	ACTOR 293 295	it
+T19	EVENT 296 305	to weaken
+E6	EVENT:T19 
+T20	EVENT 309 317	break up
+E7	EVENT:T20 
+T21	ACTOR 319 321	It
+T22	EVENT 327 353	will be adversely affected
+E8	EVENT:T22 
+T23	ACTOR 357 364	dry air
+T24	ACTOR 366 386	the hurricane center
+T25	EVENT 387 391	said
+E9	EVENT:T25 
+R4	OBJ_REL_objIdentity Arg1:E9 Arg2:E2	
+T26	ACTOR 396 416	Tropical Storm Grace
+T27	EVENT 417 426	is headed
+E10	EVENT:T27 
+T28	ACTOR 427 441	west at 14 mph
+R5	OBJ_REL_objIdentity Arg1:T14 Arg2:T10	
+R6	OBJ_REL_objIdentity Arg1:T18 Arg2:T14	
+R7	OBJ_REL_objIdentity Arg1:T21 Arg2:T18	
+R8	OBJ_REL_partOf Arg1:T8 Arg2:T24	
+R9	OBJ_REL_objIdentity Arg1:T26 Arg2:T21	
+R19	SEMROLE_theme	Arg1:E1	Arg2:T1
+R20	SEMROLE_location	Arg1:E1	Arg2:T5
+R21	SEMROLE_location	Arg1:E1	Arg2:T7
+R22	SEMROLE_time	Arg1:E1	Arg2:T6
+R23	SEMROLE_agent	Arg1:E2	Arg2:T8
+R24	SEMROLE_theme	Arg1:E2	Arg2:E3
+R25	SEMROLE_experiencer	Arg1:E3	Arg2:T10
+R26	SEMROLE_experiencer	Arg1:E4	Arg2:T14
+R27	SEMROLE_theme	Arg1:E4	Arg2:T16
+R28	SEMROLE_instrument	Arg1:E5	Arg2:T16
+R29	SEMROLE_experiencer	Arg1:E5	Arg2:T18
+R30	SEMROLE_theme	Arg1:E5	Arg2:E6
+R31	SEMROLE_theme	Arg1:E5	Arg2:E7
+R32	SEMROLE_experiencer	Arg1:E8	Arg2:T21
+R33	SEMROLE_theme	Arg1:E8	Arg2:T23
+R34	SEMROLE_agent	Arg1:E9	Arg2:T24
+R35	SEMROLE_theme	Arg1:E9	Arg2:E8
+R36	SEMROLE_theme	Arg1:E10	Arg2:T26
+R37	SEMROLE_location	Arg1:E10	Arg2:T28

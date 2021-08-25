@@ -1,0 +1,305 @@
+T1	ACTOR 171 200	The 14-time Grand Slam winner
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	EVENT 201 216	was knocked out
+E1	EVENT:T2 
+A3	Class E1 Occurrence
+A4	Pos E1 Verb
+T3	ACTOR 220 225	Italy
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Loc
+T4	ACTOR 228 241	Fabio Fognini
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Per
+T5	ACTOR 243 246	who
+A9	Lexical_Head T5 Pronoun
+A10	Actor_Type T5 Per
+T6	EVENT 247 257	pulled off
+E2	EVENT:T6 
+A11	Class E2 I_Action
+A12	Pos E2 Verb
+T7	EVENT 258 315	a sensational 3-6, 4-6, 6-4, 6-3, 6-4 third-round victory
+E3	EVENT:T7 
+A13	Class E3 Occurrence
+A14	Pos E3 Noun
+T8	ACTOR 494 499	Nadal
+A15	Lexical_Head T8 Noun
+A16	Actor_Type T8 Per
+T9	EVENT 500 516	will also finish
+E4	EVENT:T9 
+A17	Class E4 Aspectual
+A18	Pos E4 Verb
+T10	ACTOR 536 548;560 565	at least one title
+A19	Lexical_Head T10 Noun
+A20	Actor_Type T10 Other
+T11	TIME_X3 585 595	since 2004
+A21	Time_Type T11 Duration
+#1	AnnotatorNotes T11	value=P9Y beginPoint=2004 endPoint=2015
+T12	EVENT 603 606	was
+E5	EVENT:T12 
+A22	Class E5 State
+A23	Pos E5 Verb
+T13	EVENT 607 622	the 15th defeat
+E6	EVENT:T13 
+A24	Class E6 Occurrence
+A25	Pos E6 Noun
+T14	ACTOR 626 629	his
+A26	Lexical_Head T14 Pronoun
+A27	Actor_Type T14 Per
+T15	TIME_X3 630 644	miserable year
+A28	Time_Type T15 Date
+#2	AnnotatorNotes T15	value=2015
+T16	EVENT 652 660	has seen
+E7	EVENT:T16 
+A29	Class E7 Perception
+A30	Pos E7 Verb
+T17	ACTOR 661 664	him
+A31	Lexical_Head T17 Pronoun
+A32	Actor_Type T17 Per
+T18	EVENT 665 669	beat
+E8	EVENT:T18 
+A33	Class E8 Occurrence
+A34	Pos E8 Verb
+T19	ACTOR 675 693	two top-10 players
+A35	Lexical_Head T19 Noun
+A36	Actor_Type T19 Per
+T20	ACTOR 704 707	his
+A37	Lexical_Head T20 Pronoun
+A38	Actor_Type T20 Per
+T21	EVENT 708 725	best performances
+E9	EVENT:T21 
+A39	Class E9 Occurrence
+A40	Pos E9 Noun
+T22	EVENT 729 739	the majors
+E10	EVENT:T22 
+A41	Class E10 Occurrence
+A42	Pos E10 Noun
+T23	EVENT 740 744	were
+E11	EVENT:T23 
+A43	Class E11 State
+A44	Pos E11 Verb
+T24	EVENT 745 763	quarter-final runs
+E12	EVENT:T24 
+A45	Class E12 Occurrence
+A46	Pos E12 Noun
+T25	EVENT 767 781	the Australian
+E13	EVENT:T25 
+A47	Class E13 Occurrence
+A48	Pos E13 Noun
+T26	EVENT 786 798	French Opens
+E14	EVENT:T26 
+A49	Class E14 Occurrence
+A50	Pos E14 Noun
+T27	EVENT 517 527	the season
+E15	EVENT:T27 
+A51	Class E15 Occurrence
+A52	Pos E15 Noun
+A53	Involvement T10 0
+T28	EVENT 570 584	the first time
+E16	EVENT:T28 
+A54	Class E16 Aspectual
+A55	Pos E16 Noun
+T30	EVENT 340 349	confirmed
+E17	EVENT:T30 
+A58	Class E17 Occurrence
+A59	Pos E17 Verb
+T31	EVENT 350 373	the sad, sudden decline
+E18	EVENT:T31 
+A60	Class E18 Occurrence
+A61	Pos E18 Noun
+T32	TIME_X3 381 385	2010
+A62	Time_Type T32 Date
+#3	AnnotatorNotes T32	value=2010
+T33	TIME_X3 390 394	2013
+A63	Time_Type T33 Date
+#4	AnnotatorNotes T33	value=2013
+T34	ACTOR 395 403	champion
+A64	Lexical_Head T34 Noun
+A65	Actor_Type T34 Per
+T35	ACTOR 405 408	who
+A66	Lexical_Head T35 Pronoun
+A67	Actor_Type T35 Per
+T36	TIME_X3 409 421	until Friday
+A68	Time_Type T36 Duration
+#5	AnnotatorNotes T36	endPoint=Friday
+T37	EVENT 422 429	had won
+E19	EVENT:T37 
+A69	Class E19 Occurrence
+A70	Pos E19 Verb
+T38	EVENT 430 452	151 Grand Slam matches
+E20	EVENT:T38 
+A71	Class E20 Occurrence
+A72	Pos E20 Noun
+T39	ACTOR 458 460	he
+A73	Lexical_Head T39 Pronoun
+A74	Actor_Type T39 Per
+T40	EVENT 461 470	had taken
+E21	EVENT:T40 
+A75	Class E21 I_Action
+A76	Pos E21 Verb
+T41	EVENT 471 489	the first two sets
+E22	EVENT:T41 
+A77	Class E22 Occurrence
+A78	Pos E22 Noun
+T42	ACTOR 2068 2075	Fognini
+A79	Lexical_Head T42 Noun
+A80	Actor_Type T42 Per
+T43	ACTOR 2077 2090	the 32nd seed
+A81	Lexical_Head T43 Noun
+A82	Actor_Type T43 Per
+T44	EVENT 2092 2099	becomes
+E23	EVENT:T44 
+A83	Class E23 State
+A84	Pos E23 Verb
+T45	ACTOR 2100 2117	the first Italian
+A85	Lexical_Head T45 Noun
+A86	Actor_Type T45 Per
+T46	EVENT 2121 2132	the last 16
+E24	EVENT:T46 
+A87	Class E24 Occurrence
+A88	Pos E24 Noun
+T47	EVENT 2136 2147	the US Open
+E25	EVENT:T47 
+A89	Class E25 Occurrence
+A90	Pos E25 Noun
+T48	ACTOR 2154 2172	Davide Sanguinetti
+A91	Lexical_Head T48 Noun
+A92	Actor_Type T48 Per
+T49	TIME_X3 2176 2180	2005
+A93	Time_Type T49 Date
+#6	AnnotatorNotes T49	value=2005
+T50	EVENT 2185 2194	will face
+E26	EVENT:T50 
+A94	Class E26 Occurrence
+A95	Pos E26 Verb
+T51	ACTOR 2195 2200	Spain
+A96	Lexical_Head T51 Noun
+A97	Actor_Type T51 Loc
+T52	ACTOR 2203 2218	Feliciano Lopez
+A98	Lexical_Head T52 Noun
+A99	Actor_Type T52 Per
+T53	ACTOR 2223 2230	a place
+A100	Lexical_Head T53 Noun
+A101	Actor_Type T53 Loc
+T54	EVENT 2234 2252	the quarter-finals
+E27	EVENT:T54 
+A102	Class E27 Occurrence
+A103	Pos E27 Noun
+T55	ACTOR 2787 2794	Fognini
+A104	Lexical_Head T55 Noun
+A105	Actor_Type T55 Per
+T56	EVENT 2795 2798;2803 2811	has defeated
+E28	EVENT:T56 
+A106	Class E28 Occurrence
+A107	Pos E28 Verb
+T57	TIME_X3 2799 2802	now
+A108	Time_Type T57 Date
+A109	FunctionInDocument T57 Publication_Time
+T58	ACTOR 2812 2817	Nadal
+A110	Lexical_Head T58 Noun
+A111	Actor_Type T58 Per
+T60	TIME_X3 2818 2839	three times this year
+A113	Time_Type T60 Set
+#8	AnnotatorNotes T60	value=P1Y freq="3X"
+T59	ACTOR 2844 2847	his
+A112	Lexical_Head T59 Pronoun
+A114	Actor_Type T59 Per
+T61	EVENT 2848 2860	earlier wins
+E29	EVENT:T61 
+A115	Class E29 Occurrence
+A116	Pos E29 Noun
+T62	EVENT 2861 2865	were
+E30	EVENT:T62 
+A117	Class E30 State
+A118	Pos E30 Verb
+T63	ACTOR 2869 2873	clay
+A119	Lexical_Head T63 Noun
+A120	Actor_Type T63 Other
+T64	ACTOR 2877 2880	Rio
+A121	Lexical_Head T64 Noun
+A122	Actor_Type T64 Loc
+T65	ACTOR 2885 2894	Barcelona
+A123	Lexical_Head T65 Noun
+A124	Actor_Type T65 Loc
+R1	OBJ_REL_partOf Arg1:T4 Arg2:T3	
+R2	OBJ_REL_objIdentity Arg1:T5 Arg2:T4	
+T29	EVENT 320 339	The stunning result
+E31	EVENT:T29 
+A56	Class E31 State
+A57	Pos E31 Noun
+R3	OBJ_REL_objIdentity Arg1:T34 Arg2:T1	
+R4	OBJ_REL_objIdentity Arg1:T35 Arg2:T34	
+R5	OBJ_REL_objIdentity Arg1:T39 Arg2:T35	
+R6	OBJ_REL_objIdentity Arg1:T8 Arg2:T39	
+T66	EVENT 549 559	Grand Slam
+E32	EVENT:T66 
+A125	Class E32 Occurrence
+A126	Pos E32 Noun
+T67	ACTOR 600 602	It
+A127	Lexical_Head T67 Pronoun
+A128	Actor_Type T67 Other
+R7	OBJ_REL_objIdentity Arg1:T14 Arg2:T8	
+R8	OBJ_REL_objIdentity Arg1:T17 Arg2:T14	
+R9	OBJ_REL_objIdentity Arg1:T20 Arg2:T17	
+R10	OBJ_REL_objIdentity Arg1:T43 Arg2:T42	
+R11	OBJ_REL_objIdentity Arg1:T42 Arg2:T5	
+R12	OBJ_REL_objIdentity Arg1:T45 Arg2:T43	
+R13	OBJ_REL_partOf Arg1:T52 Arg2:T51	
+R14	OBJ_REL_objIdentity Arg1:T55 Arg2:T45	
+R15	OBJ_REL_objIdentity Arg1:T59 Arg2:T55	
+R16	OBJ_REL_objIdentity Arg1:T58 Arg2:T20	
+R17	SEMROLE_patient Arg1:E1 Arg2:T1	
+R18	SEMROLE_agent Arg1:E1 Arg2:T4	
+R19	SEMROLE_agent Arg1:E2 Arg2:T5	
+R20	SEMROLE_theme Arg1:E2 Arg2:E3	
+R21	SUBORD_modal Arg1:E2 Arg2:E3	
+R22	SEMROLE_cause Arg1:E17 Arg2:E31	
+R23	SEMROLE_theme Arg1:E17 Arg2:E18	
+R24	SEMROLE_patient Arg1:E18 Arg2:T34	
+R25	TLINK_isIncluded Arg1:E19 Arg2:T36	
+R26	SEMROLE_patient Arg1:E19 Arg2:T35	
+R27	SEMROLE_theme Arg1:E19 Arg2:E20	
+R28	SEMROLE_agent Arg1:E21 Arg2:T39	
+R29	SEMROLE_theme Arg1:E21 Arg2:E22	
+R30	SEMROLE_patient Arg1:E4 Arg2:T8	
+R31	SEMROLE_theme Arg1:E4 Arg2:E15	
+T68	EVENT 528 535	without
+E33	EVENT:T68 
+A129	Class E33 State
+A130	Pos E33 Preposition
+R32	SEMROLE_manner Arg1:E4 Arg2:E33	
+R33	SEMROLE_theme Arg1:E33 Arg2:T10	
+R34	SEMROLE_theme Arg1:E32 Arg2:T10	
+R35	TLINK_during Arg1:E16 Arg2:T11	
+R36	SEMROLE_theme Arg1:E33 Arg2:E16	
+R37	SEMROLE_theme Arg1:E5 Arg2:T67	
+R38	SEMROLE_theme Arg1:E5 Arg2:E6	
+R39	TLINK_isIncluded Arg1:E6 Arg2:T15	
+R40	SEMROLE_patient Arg1:E6 Arg2:T14	
+R41	SEMROLE_theme Arg1:E7 Arg2:E8	
+R42	SUBORD_evidential Arg1:E7 Arg2:E8	
+R43	SEMROLE_agent Arg1:E8 Arg2:T17	
+R44	SEMROLE_patient Arg1:E8 Arg2:T19	
+R45	SEMROLE_agent Arg1:E9 Arg2:T20	
+R46	SEMROLE_setting Arg1:E9 Arg2:E10	
+R47	SEMROLE_pivot Arg1:E11 Arg2:E9	
+R48	SEMROLE_theme Arg1:E11 Arg2:E12	
+R49	SEMROLE_setting Arg1:E12 Arg2:E13	
+R50	SEMROLE_setting Arg1:E12 Arg2:E14	
+R51	SEMROLE_pivot Arg1:E23 Arg2:T43	
+R52	SEMROLE_theme Arg1:E23 Arg2:T45	
+R53	SEMROLE_setting Arg1:E23 Arg2:E24	
+R54	SEMROLE_setting Arg1:E24 Arg2:E25	
+R55	SEMROLE_agent Arg1:E26 Arg2:T42	
+R56	SEMROLE_patient Arg1:E26 Arg2:T52	
+R57	SEMROLE_purpose Arg1:E26 Arg2:T53	
+R58	SEMROLE_theme Arg1:E27 Arg2:T53	
+R59	TLINK_isIncluded Arg1:E28 Arg2:T57	
+R60	SEMROLE_agent Arg1:E28 Arg2:T55	
+R61	SEMROLE_patient Arg1:E28 Arg2:T58	
+R62	TLINK_isIncluded Arg1:E28 Arg2:T60	
+R63	SEMROLE_agent Arg1:E29 Arg2:T59	
+R64	SEMROLE_pivot Arg1:E30 Arg2:E29	
+R65	SEMROLE_manner Arg1:E30 Arg2:T63	
+R66	SEMROLE_location Arg1:E30 Arg2:T64	
+R67	SEMROLE_location Arg1:E30 Arg2:T65	

@@ -1,0 +1,204 @@
+T1	EVENT 265 271	scored
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Verb
+T2	EVENT 272 287	two early tries
+E2	EVENT:T2 
+A3	Class E2 Occurrence
+A4	Pos E2 Noun
+T3	ACTOR 257 264	England
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Org
+T4	ACTOR 296 313	wingers Jonny May
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Per
+T5	ACTOR 318 332	Anthony Watson
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Per
+T6	EVENT 353 358	break
+E3	EVENT:T6 
+A11	Class E3 Occurrence
+A12	Pos E3 Noun
+T7	ACTOR 370 377	Ireland
+A13	Lexical_Head T7 Noun
+A14	Actor_Type T7 Org
+T8	EVENT 386 395	got close
+E4	EVENT:T8 
+A15	Class E4 Occurrence
+A16	Pos E4 Verb
+T9	ACTOR 403 417	Paul O'Connell
+A17	Lexical_Head T9 Noun
+A18	Actor_Type T9 Per
+T10	EVENT 418 421	try
+E5	EVENT:T10 
+A19	Class E5 Occurrence
+A20	Pos E5 Noun
+T11	TIME_X3 422 446	early in the second half
+A21	Time_Type T11 Time
+T12	ACTOR 448 457	the hosts
+A22	Lexical_Head T12 Noun
+A23	Actor_Type T12 Org
+T13	EVENT 469 475;485 488	closed out
+E6	EVENT:T13 
+A24	Class E6 Occurrence
+A25	Pos E6 Verb
+T14	EVENT 480 484	game
+E7	EVENT:T14 
+A26	Class E7 Occurrence
+A27	Pos E7 Noun
+T15	ACTOR 498 510	Owen Farrell
+A28	Lexical_Head T15 Noun
+A29	Actor_Type T15 Per
+T16	EVENT 494 497;511 520	two penalties
+E8	EVENT:T16 
+A30	Class E8 Occurrence
+A31	Pos E8 Noun
+T17	EVENT 2313 2316	are
+E9	EVENT:T17 
+A32	Class E9 State
+A33	Pos E9 Verb
+T18	ACTOR 2305 2312	England
+A34	Lexical_Head T18 Noun
+A35	Actor_Type T18 Org
+T19	EVENT 2326 2343	run of seven wins
+E10	EVENT:T19 
+A36	Class E10 Occurrence
+A37	Pos E10 Noun
+T20	ACTOR 2347 2357	Twickenham
+A38	Lexical_Head T20 Noun
+A39	Actor_Type T20 Loc
+T21	EVENT 2364 2374	going down
+E11	EVENT:T21 
+A40	Class E11 Occurrence
+A41	Pos E11 Verb
+T22	ACTOR 2378 2390	South Africa
+A42	Lexical_Head T22 Noun
+A43	Actor_Type T22 Loc
+T23	TIME_X3 2394 2407	November 2014
+A44	Time_Type T23 Date
+#1	AnnotatorNotes T23	value=2014-11-XX
+T24	ACTOR 2412 2419	Ireland
+A45	Lexical_Head T24 Noun
+A46	Actor_Type T24 Org
+T25	EVENT 2420 2424	have
+E12	EVENT:T25 
+A47	Class E12 State
+A48	Pos E12 Verb
+T26	EVENT 2425 2429	work
+E13	EVENT:T26 
+A49	Class E13 Occurrence
+A50	Pos E13 Noun
+T27	EVENT 2430 2435	to do
+E14	EVENT:T27 
+A51	Class E14 State
+A52	Pos E14 Verb
+T28	EVENT 2456 2463	defeats
+E15	EVENT:T28 
+A53	Class E15 Occurrence
+A54	Pos E15 Noun
+T29	ACTOR 2451 2455	away
+A55	Lexical_Head T29 Noun
+A56	Actor_Type T29 Loc
+T30	ACTOR 2442 2446	home
+A57	Lexical_Head T30 Noun
+A58	Actor_Type T30 Loc
+T31	ACTOR 1415 1422	Ireland
+A59	Lexical_Head T31 Noun
+A60	Actor_Type T31 Org
+T32	EVENT 1423 1432	struggled
+E16	EVENT:T32 
+A61	Class E16 I_Action
+A62	Pos E16 Verb
+T33	EVENT 1433 1439	to get
+E17	EVENT:T33 
+A63	Class E17 Occurrence
+A64	Pos E17 Verb
+T34	EVENT 1452 1460	foothold
+E18	EVENT:T34 
+A65	Class E18 State
+A66	Pos E18 Noun
+T35	EVENT 1468 1472	game
+E19	EVENT:T35 
+A67	Class E19 Occurrence
+A68	Pos E19 Noun
+T36	ACTOR 1493 1508	Jonathan Sexton
+A69	Lexical_Head T36 Noun
+A70	Actor_Type T36 Per
+T37	EVENT 1509 1516	penalty
+E20	EVENT:T37 
+A71	Class E20 Occurrence
+A72	Pos E20 Noun
+T38	ACTOR 1520 1525	their
+A73	Lexical_Head T38 Pronoun
+A74	Actor_Type T38 Org
+T39	ACTOR 1526 1530	name
+A75	Lexical_Head T39 Noun
+A76	Actor_Type T39 Other
+T40	ACTOR 1534 1538	they
+A77	Lexical_Head T40 Pronoun
+A78	Actor_Type T40 Org
+T41	EVENT 1539 1570	turned round somewhat fortunate
+E21	EVENT:T41 
+A79	Class E21 State
+A80	Pos E21 Verb
+T42	EVENT 1571 1576;1587 1591	to be down
+E22	EVENT:T42 
+A81	Class E22 State
+A82	Pos E22 Verb
+T43	ACTOR 1582 1586	12-3
+A83	Lexical_Head T43 Noun
+A84	Actor_Type T43 Other
+R1	OBJ_REL_memberOf Arg1:T4 Arg2:T3	
+R2	OBJ_REL_memberOf Arg1:T5 Arg2:T3	
+T44	EVENT 333 340	to lead
+E23	EVENT:T44 
+A85	Class E23 State
+A86	Pos E23 Verb
+T45	ACTOR 341 345	12-3
+A87	Lexical_Head T45 Noun
+A88	Actor_Type T45 Other
+R3	OBJ_REL_memberOf Arg1:T9 Arg2:T7	
+R4	OBJ_REL_objIdentity Arg1:T12 Arg2:T3	
+R5	OBJ_REL_memberOf Arg1:T15 Arg2:T12	
+R6	OBJ_REL_objIdentity Arg1:T31 Arg2:T7	
+R7	OBJ_REL_memberOf Arg1:T36 Arg2:T31	
+R8	OBJ_REL_objIdentity Arg1:T38 Arg2:T31	
+R9	OBJ_REL_partOf Arg1:T39 Arg2:T38	
+R10	OBJ_REL_objIdentity Arg1:T40 Arg2:T38	
+R11	OBJ_REL_objIdentity Arg1:T43 Arg2:T45	
+R12	OBJ_REL_objIdentity Arg1:T18 Arg2:T12	
+R13	OBJ_REL_objIdentity Arg1:T24 Arg2:T31	
+R14	SEMROLE_agent Arg1:E1 Arg2:T3	
+R15	SEMROLE_theme Arg1:E1 Arg2:E2	
+R16	SEMROLE_agent Arg1:E2 Arg2:T4	
+R17	SEMROLE_agent Arg1:E2 Arg2:T5	
+R18	SEMROLE_theme Arg1:E23 Arg2:T45	
+R19	SEMROLE_patient Arg1:E23 Arg2:T3	
+R20	SEMROLE_setting Arg1:E23 Arg2:E3	
+R21	SEMROLE_agent Arg1:E4 Arg2:T7	
+R22	SEMROLE_manner Arg1:E4 Arg2:E5	
+R23	SEMROLE_agent Arg1:E5 Arg2:T9	
+R24	SEMROLE_agent Arg1:E6 Arg2:T12	
+R25	SEMROLE_theme Arg1:E6 Arg2:E7	
+R26	SEMROLE_agent Arg1:E8 Arg2:T15	
+R27	SEMROLE_agent Arg1:E16 Arg2:T31	
+R28	SEMROLE_theme Arg1:E16 Arg2:E17	
+R29	SUBORD_modal Arg1:E16 Arg2:E17	
+R30	SEMROLE_theme Arg1:E17 Arg2:E18	
+R31	SEMROLE_setting Arg1:E18 Arg2:E19	
+R32	SEMROLE_agent Arg1:E20 Arg2:T36	
+R33	SEMROLE_beneficiary Arg1:E20 Arg2:T38	
+R35	SEMROLE_pivot Arg1:E21 Arg2:T40	
+R34	SEMROLE_theme Arg1:E21 Arg2:E22	
+R36	SEMROLE_amount Arg1:E22 Arg2:T43	
+R37	SEMROLE_pivot Arg1:E9 Arg2:T18	
+R38	SEMROLE_setting Arg1:E9 Arg2:E10	
+R39	SEMROLE_location Arg1:E10 Arg2:T20	
+R40	SEMROLE_patient Arg1:E11 Arg2:T18	
+R41	SEMROLE_beneficiary Arg1:E11 Arg2:T22	
+R42	SEMROLE_pivot Arg1:E12 Arg2:T24	
+R43	SEMROLE_theme Arg1:E12 Arg2:E13	
+R44	SEMROLE_theme Arg1:E14 Arg2:E13	
+R45	SEMROLE_reason Arg1:E13 Arg2:E15	
+R46	SEMROLE_location Arg1:E15 Arg2:T30	
+R47	SEMROLE_location Arg1:E15 Arg2:T29	

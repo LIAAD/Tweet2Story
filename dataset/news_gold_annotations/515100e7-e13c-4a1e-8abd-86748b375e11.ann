@@ -1,0 +1,220 @@
+T1	ACTOR 0 8	Mahindra
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Org
+T2	ACTOR 9 36	player-coach Manny Pacquiao
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Per
+R1	OBJ_REL_partOf Arg1:T2 Arg2:T1	
+T3	EVENT 37 43	proved
+E1	EVENT:T3 
+A5	Class E1 Occurrence
+A6	Pos E1 Verb
+T4	ACTOR 49 51	he
+A7	Lexical_Head T4 Pronoun
+A8	Actor_Type T4 Per
+T5	EVENT 52 71	has fully recovered
+E2	EVENT:T5 
+A9	Class E2 Occurrence
+A10	Pos E2 Verb
+T6	ACTOR 79 93	right shoulder
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Other
+T7	EVENT 94 100	injury
+E3	EVENT:T7 
+A13	Class E3 State
+A14	Pos E3 Noun
+T8	EVENT 104 111	scoring
+E4	EVENT:T8 
+A15	Class E4 Occurrence
+A16	Pos E4 Verb
+T9	ACTOR 112 135	a career-best 19 points
+A17	Lexical_Head T9 Noun
+A18	Actor_Type T9 Other
+T10	ACTOR 139 147	the team
+A19	Lexical_Head T10 Noun
+A20	Actor_Type T10 Org
+T11	EVENT 150 160	108-69 win
+E5	EVENT:T11 
+A21	Class E5 State
+A22	Pos E5 Noun
+T12	ACTOR 166 191	the Davao-based Gold Star
+A23	Lexical_Head T12 Noun
+A24	Actor_Type T12 Per
+T13	EVENT 197 214	pocket tournament
+E6	EVENT:T13 
+A25	Class E6 Occurrence
+A26	Pos E6 Noun
+T14	ACTOR 218 237	General Santos City
+A27	Lexical_Head T14 Noun
+A28	Actor_Type T14 Loc
+T15	TIME_X3 238 251	last Saturday
+A29	Time_Type T15 Date
+T16	EVENT 303 314	highlighted
+E7	EVENT:T16 
+A30	Class E7 Occurrence
+A31	Pos E7 Verb
+T17	ACTOR 315 318	his
+A32	Lexical_Head T17 Pronoun
+A33	Actor_Type T17 Per
+T18	EVENT 319 323	game
+E8	EVENT:T18 
+A34	Class E8 State
+A35	Pos E8 Noun
+T19	EVENT 327 334	burying
+E9	EVENT:T19 
+A36	Class E9 Occurrence
+A37	Pos E9 Verb
+T20	ACTOR 258 302	An incoming sophomore, the 5-foot-6 Pacquiao
+A38	Lexical_Head T20 Noun
+A39	Actor_Type T20 Per
+T21	EVENT 362 369	delight
+E10	EVENT:T21 
+A40	Class E10 State
+A41	Pos E10 Noun
+T22	ACTOR 373 382	the crowd
+A42	Lexical_Head T22 Noun
+A43	Actor_Type T22 Per
+T23	ACTOR 335 354	five three-pointers
+A44	Lexical_Head T23 Noun
+A45	Actor_Type T23 Other
+T24	ACTOR 409 417	Mahindra
+A46	Lexical_Head T24 Noun
+A47	Actor_Type T24 Org
+T25	EVENT 425 433	acquired
+E11	EVENT:T25 
+A48	Class E11 Occurrence
+A49	Pos E11 Verb
+T26	ACTOR 434 452	Nino “KG” Canaleta
+A50	Lexical_Head T26 Noun
+A51	Actor_Type T26 Per
+T27	ACTOR 454 467	Aldrech Ramos
+A52	Lexical_Head T27 Noun
+A53	Actor_Type T27 Per
+T28	ACTOR 472 481	Rob Reyes
+A54	Lexical_Head T28 Noun
+A55	Actor_Type T28 Per
+T29	EVENT 482 492	to beef up
+E12	EVENT:T29 
+A56	Class E12 State
+A57	Pos E12 Verb
+T30	ACTOR 493 496	its
+A58	Lexical_Head T30 Pronoun
+A59	Actor_Type T30 Org
+T31	EVENT 497 503	lineup
+E13	EVENT:T31 
+A60	Class E13 State
+A61	Pos E13 Noun
+T32	EVENT 505 514	will face
+E14	EVENT:T32 
+A62	Class E14 Occurrence
+A63	Pos E14 Verb
+T33	ACTOR 515 525	Globalport
+A64	Lexical_Head T33 Noun
+A65	Actor_Type T33 Org
+T34	EVENT 533 539	finals
+E15	EVENT:T34 
+A66	Class E15 State
+A67	Pos E15 Noun
+T35	TIME_X3 540 545	today
+A68	Time_Type T35 Date
+A69	FunctionInDocument T35 Publication_Time
+T36	EVENT 1336 1343	Unknown
+E16	EVENT:T36 
+A70	Class E16 State
+A71	Pos E16 Adjective
+T37	ACTOR 1347 1351	many
+A72	Lexical_Head T37 Noun
+A73	Actor_Type T37 Per
+T38	ACTOR 1353 1361	Pacquiao
+A74	Lexical_Head T38 Noun
+A75	Actor_Type T38 Per
+T39	EVENT 1362 1381	was already hurting
+E17	EVENT:T39 
+A76	Class E17 State
+A77	Pos E17 Verb
+T40	ACTOR 1387 1389	he
+A78	Lexical_Head T40 Pronoun
+A79	Actor_Type T40 Per
+T41	EVENT 1390 1396	fought
+E18	EVENT:T41 
+A80	Class E18 Occurrence
+A81	Pos E18 Verb
+T42	ACTOR 1397 1407	Mayweather
+A82	Lexical_Head T42 Noun
+A83	Actor_Type T42 Per
+T43	ACTOR 1414 1416	He
+A84	Lexical_Head T43 Pronoun
+A85	Actor_Type T43 Per
+T44	EVENT 1417 1420	had
+E19	EVENT:T44 
+A86	Class E19 State
+A87	Pos E19 Verb
+T45	EVENT 1423 1430	surgery
+E20	EVENT:T45 
+A88	Class E20 Occurrence
+A89	Pos E20 Noun
+T46	EVENT 1431 1440	to repair
+E21	EVENT:T46 
+A90	Class E21 Occurrence
+A91	Pos E21 Verb
+T47	EVENT 1443 1466	torn right rotator cuff
+E22	EVENT:T47 
+A92	Class E22 State
+A93	Pos E22 Noun
+T48	ACTOR 1468 1476	shoulder
+A94	Lexical_Head T48 Noun
+A95	Actor_Type T48 Other
+R2	OBJ_REL_objIdentity Arg1:T4 Arg2:T2	
+R3	OBJ_REL_partOf Arg1:T6 Arg2:T4	
+R4	OBJ_REL_objIdentity Arg1:T10 Arg2:T1	
+R5	OBJ_REL_objIdentity Arg1:T17 Arg2:T20	
+R6	OBJ_REL_objIdentity Arg1:T20 Arg2:T4	
+R7	OBJ_REL_objIdentity Arg1:T24 Arg2:T10	
+T49	ACTOR 419 424	which
+A96	Lexical_Head T49 Pronoun
+A97	Actor_Type T49 Org
+R8	OBJ_REL_objIdentity Arg1:T49 Arg2:T24	
+R9	OBJ_REL_objIdentity Arg1:T30 Arg2:T49	
+R10	OBJ_REL_objIdentity Arg1:T38 Arg2:T20	
+R11	OBJ_REL_objIdentity Arg1:T40 Arg2:T38	
+R12	OBJ_REL_objIdentity Arg1:T43 Arg2:T40	
+R13	OBJ_REL_objIdentity Arg1:T48 Arg2:T6	
+R14	OBJ_REL_partOf Arg1:T48 Arg2:T43	
+R15	SEMROLE_agent Arg1:E1 Arg2:T2	
+R16	SEMROLE_theme Arg1:E1 Arg2:E2	
+R17	SEMROLE_patient Arg1:E2 Arg2:T4	
+R18	SEMROLE_theme Arg1:E2 Arg2:E3	
+R19	SEMROLE_pivot Arg1:E3 Arg2:T6	
+R20	SEMROLE_agent Arg1:E4 Arg2:T4	
+R21	SEMROLE_theme Arg1:E4 Arg2:T9	
+R22	SEMROLE_pivot Arg1:E5 Arg2:T10	
+R23	SEMROLE_theme Arg1:E5 Arg2:T12	
+R24	SEMROLE_setting Arg1:E5 Arg2:E6	
+R25	SEMROLE_location Arg1:E6 Arg2:T14	
+R26	SEMROLE_agent Arg1:E7 Arg2:T20	
+R27	SEMROLE_theme Arg1:E7 Arg2:E8	
+R28	SEMROLE_pivot Arg1:E8 Arg2:T17	
+R29	SEMROLE_manner Arg1:E7 Arg2:E9	
+R30	SEMROLE_theme Arg1:E9 Arg2:T23	
+R31	SEMROLE_pivot Arg1:E10 Arg2:T22	
+R32	SEMROLE_cause Arg1:E10 Arg2:E9	
+R33	SEMROLE_agent Arg1:E11 Arg2:T49	
+R34	SEMROLE_patient Arg1:E11 Arg2:T26	
+R35	SEMROLE_patient Arg1:E11 Arg2:T27	
+R36	SEMROLE_patient Arg1:E11 Arg2:T28	
+R37	SEMROLE_purpose Arg1:E11 Arg2:E12	
+R38	SEMROLE_theme Arg1:E12 Arg2:E13	
+R39	SEMROLE_pivot Arg1:E13 Arg2:T30	
+R40	SEMROLE_agent Arg1:E14 Arg2:T49	
+R41	SEMROLE_theme Arg1:E14 Arg2:T33	
+R42	SEMROLE_setting Arg1:E14 Arg2:E15	
+R43	SEMROLE_goal Arg1:E16 Arg2:T37	
+R44	SEMROLE_pivot Arg1:E16 Arg2:T38	
+R45	SEMROLE_pivot Arg1:E17 Arg2:T38	
+R46	SEMROLE_setting Arg1:E17 Arg2:E18	
+R47	SEMROLE_agent Arg1:E18 Arg2:T40	
+R48	SEMROLE_theme Arg1:E18 Arg2:T42	
+R49	SEMROLE_pivot Arg1:E19 Arg2:T43	
+R50	SEMROLE_theme Arg1:E19 Arg2:E20	
+R51	SEMROLE_purpose Arg1:E20 Arg2:E21	
+R52	SEMROLE_theme Arg1:E21 Arg2:E22	

@@ -1,0 +1,223 @@
+T1	ACTOR 113 130	British lawmakers
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	TIME_X3 134 140	Friday
+A3	Time_Type T2 Date
+#1	AnnotatorNotes T2	anchorTime=Publication_Time
+T3	EVENT 141 149	rejected
+E1	EVENT:T3 
+A4	Class E1 Occurrence
+A5	Pos E1 Verb
+T5	EVENT 177 195	would have allowed
+E3	EVENT:T5 
+A8	Class E3 I_Action
+T6	EVENT 218 224	to end
+E4	EVENT:T6 
+A9	Class E4 Occurrence
+A10	Pos E4 Verb
+T7	EVENT 231 236	lives
+E5	EVENT:T7 
+A11	Class E5 State
+A12	Pos E5 Noun
+T8	EVENT 242 261	medical supervision
+E6	EVENT:T8 
+A13	Class E6 State
+A14	Pos E6 Noun
+T9	EVENT 196 210	terminally ill
+E7	EVENT:T9 
+A15	Class E7 State
+A16	Pos E7 Adjective
+T10	ACTOR 211 217	adults
+A17	Lexical_Head T10 Noun
+A18	Actor_Type T10 Per
+T4	ACTOR 150 171	a "right to die" bill
+A6	Lexical_Head T4 Noun
+A7	Actor_Type T4 Other
+T11	ACTOR 225 230	their
+A19	Lexical_Head T11 Pronoun
+A20	Actor_Type T11 Per
+R1	OBJ_REL_objIdentity Arg1:T11 Arg2:T10	
+T12	EVENT 271 276	marks
+E2	EVENT:T12 
+A21	Class E2 Occurrence
+A22	Pos E2 Verb
+T13	EVENT 277 289	another blow
+E8	EVENT:T13 
+A23	Class E8 Occurrence
+A24	Pos E8 Noun
+T14	ACTOR 268 270	It
+A25	Lexical_Head T14 Pronoun
+A26	Actor_Type T14 Sit
+T15	EVENT 295 308	long campaign
+E9	EVENT:T15 
+A27	Class E9 Occurrence
+A28	Pos E9 Noun
+T16	EVENT 309 321	to introduce
+E10	EVENT:T16 
+A29	Class E10 Occurrence
+A30	Pos E10 Verb
+T17	ACTOR 322 338	such legislation
+A31	Lexical_Head T17 Noun
+A32	Actor_Type T17 Other
+T18	ACTOR 342 349	Britain
+A33	Lexical_Head T18 Noun
+A34	Actor_Type T18 Loc
+T19	EVENT 357 370	has attracted
+E11	EVENT:T19 
+A35	Class E11 Occurrence
+A36	Pos E11 Verb
+T20	EVENT 371 378	support
+E12	EVENT:T20 
+A37	Class E12 State
+A38	Pos E12 Noun
+T21	ACTOR 384 391	figures
+A39	Lexical_Head T21 Noun
+A40	Actor_Type T21 Per
+T22	EVENT 395 402	diverse
+E13	EVENT:T22 
+A41	Class E13 State
+A42	Pos E13 Adjective
+T23	ACTOR 406 445	the late fantasy author Terry Pratchett
+A43	Lexical_Head T23 Noun
+A44	Actor_Type T23 Per
+T24	ACTOR 450 490	billionaire entrepreneur Richard Branson
+A45	Lexical_Head T24 Noun
+A46	Actor_Type T24 Per
+T25	EVENT 656 667	a free vote
+E14	EVENT:T25 
+A47	Class E14 Occurrence
+A48	Pos E14 Noun
+T26	ACTOR 669 680	118 Members
+A49	Lexical_Head T26 Noun
+A50	Actor_Type T26 Per
+T27	ACTOR 684 694	Parliament
+A51	Lexical_Head T27 Noun
+A52	Actor_Type T27 Org
+R2	OBJ_REL_partOf Arg1:T26 Arg2:T27	
+T28	EVENT 695 709	voted in favor
+E15	EVENT:T28 
+A53	Class E15 Occurrence
+A54	Pos E15 Verb
+T29	ACTOR 713 721	the bill
+A55	Lexical_Head T29 Noun
+A56	Actor_Type T29 Other
+T30	ACTOR 728 731	330
+A57	Lexical_Head T30 Noun
+A58	Actor_Type T30 Per
+T31	EVENT 732 745	voted against
+E16	EVENT:T31 
+A59	Class E16 Occurrence
+A60	Pos E16 Verb
+T32	ACTOR 747 775	Prime Minister David Cameron
+A61	Lexical_Head T32 Noun
+A62	Actor_Type T32 Per
+T33	EVENT 776 786	is against
+E17	EVENT:T33 
+A63	Class E17 State
+A64	Pos E17 Verb
+T34	EVENT 787 795	any move
+E18	EVENT:T34 
+A65	Class E18 Occurrence
+A66	Pos E18 Noun
+T35	EVENT 796 807	to legalize
+E19	EVENT:T35 
+A67	Class E19 Occurrence
+A68	Pos E19 Verb
+T36	EVENT 808 822	assisted dying
+E20	EVENT:T36 
+A69	Class E20 Occurrence
+A70	Pos E20 Noun
+T37	EVENT 989 1002	The last time
+E21	EVENT:T37 
+A71	Class E21 Occurrence
+A72	Pos E21 Noun
+T38	ACTOR 1003 1012	the issue
+A73	Lexical_Head T38 Noun
+A74	Actor_Type T38 Other
+T39	EVENT 1013 1024	was debated
+E22	EVENT:T39 
+A75	Class E22 Occurrence
+A76	Pos E22 Verb
+T40	ACTOR 1028 1035	Britain
+A77	Lexical_Head T40 Noun
+A78	Actor_Type T40 Loc
+T41	ACTOR 1038 1054	House of Commons
+A79	Lexical_Head T41 Noun
+A80	Actor_Type T41 Org
+T42	EVENT 1055 1058	was
+E23	EVENT:T42 
+A81	Class E23 State
+A82	Pos E23 Verb
+T43	TIME_X3 1062 1066	1997
+A83	Time_Type T43 Date
+#2	AnnotatorNotes T43	value=1997-XX-XX
+T44	EVENT 1068 1078	An attempt
+E24	EVENT:T44 
+A84	Class E24 I_Action
+A85	Pos E24 Noun
+T45	EVENT 1079 1086	to push
+E25	EVENT:T45 
+A86	Class E25 Occurrence
+A87	Pos E25 Verb
+T46	ACTOR 1087 1098	legislation
+A88	Lexical_Head T46 Noun
+A89	Actor_Type T46 Other
+T47	ACTOR 1107 1125	the House of Lords
+A90	Lexical_Head T47 Noun
+A91	Actor_Type T47 Org
+T48	EVENT 1126 1141	ran out of time
+E26	EVENT:T48 
+A92	Class E26 Occurrence
+A93	Pos E26 Verb
+T49	EVENT 1155 1171	general election
+E27	EVENT:T49 
+A94	Class E27 Occurrence
+A95	Pos E27 Noun
+T50	TIME_X3 1149 1152	May
+A96	Time_Type T50 Date
+#3	AnnotatorNotes T50	value=XXXX-05-XX anchorTime=Publication_Time
+R3	OBJ_REL_memberOf Arg1:T23 Arg2:T21	
+R4	OBJ_REL_memberOf Arg1:T24 Arg2:T21	
+R5	OBJ_REL_partOf Arg1:T30 Arg2:T27	
+R6	OBJ_REL_objIdentity Arg1:T29 Arg2:T4	
+R7	OBJ_REL_partOf Arg1:T41 Arg2:T40	
+R8	OBJ_REL_objIdentity Arg1:T38 Arg2:T29	
+R9	SEMROLE_agent Arg1:E1 Arg2:T1	
+R10	SEMROLE_theme Arg1:E1 Arg2:T4	
+R11	SUBORD_modal Arg1:E3 Arg2:E7	
+R12	SEMROLE_theme Arg1:E3 Arg2:E7	
+R13	SEMROLE_cause Arg1:E3 Arg2:T4	
+R14	SEMROLE_theme Arg1:E3 Arg2:E4	
+R15	SEMROLE_pivot Arg1:E7 Arg2:T10	
+R16	SEMROLE_agent Arg1:E4 Arg2:T10	
+R17	SEMROLE_theme Arg1:E4 Arg2:E5	
+R18	SEMROLE_pivot Arg1:E5 Arg2:T11	
+R19	SEMROLE_manner Arg1:E4 Arg2:E6	
+R20	SEMROLE_cause Arg1:E2 Arg2:T14	
+R21	SEMROLE_theme Arg1:E2 Arg2:E8	
+R22	SEMROLE_beneficiary Arg1:E8 Arg2:E9	
+R23	SEMROLE_purpose Arg1:E9 Arg2:E10	
+R24	SEMROLE_theme Arg1:E10 Arg2:T17	
+R25	SEMROLE_location Arg1:E10 Arg2:T18	
+R26	SEMROLE_cause Arg1:E11 Arg2:E9	
+R27	SEMROLE_theme Arg1:E11 Arg2:E12	
+R28	SEMROLE_pivot Arg1:E12 Arg2:T21	
+R29	SEMROLE_pivot Arg1:E13 Arg2:T21	
+R30	SEMROLE_pivot Arg1:E13 Arg2:T23	
+R31	SEMROLE_pivot Arg1:E13 Arg2:T24	
+R32	SEMROLE_setting Arg1:E15 Arg2:E14	
+R33	SEMROLE_agent Arg1:E15 Arg2:T26	
+R34	SEMROLE_beneficiary Arg1:E15 Arg2:T29	
+R35	SEMROLE_agent Arg1:E16 Arg2:T30	
+R36	SEMROLE_beneficiary Arg1:E16 Arg2:T29	
+R37	TLINK_isIncluded Arg1:E23 Arg2:T43	
+R38	SEMROLE_theme Arg1:E22 Arg2:T38	
+R39	SEMROLE_location Arg1:E22 Arg2:T41	
+R40	SEMROLE_manner Arg1:E22 Arg2:E21	
+R41	SEMROLE_theme Arg1:E23 Arg2:E22	
+R42	SUBORD_modal Arg1:E24 Arg2:E25	
+R43	SEMROLE_theme Arg1:E24 Arg2:E25	
+R44	SEMROLE_theme Arg1:E25 Arg2:T46	
+R45	SEMROLE_goal Arg1:E25 Arg2:T47	
+R46	SEMROLE_theme Arg1:E26 Arg2:E24	
+R47	TLINK_isIncluded Arg1:E27 Arg2:T50	

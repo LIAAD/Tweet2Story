@@ -1,0 +1,236 @@
+T1	ACTOR 62 67	Miami
+T2	EVENT 164 172	happened
+E1	EVENT:T2 
+A1	Class E1 Occurrence
+A2	Pos E1 Verb
+T3	ACTOR 23 29	driver
+A3	Lexical_Head T3 Noun
+A4	Actor_Type T3 Per
+T4	ACTOR 30 33	who
+A5	Lexical_Head T4 Pronoun
+A6	Actor_Type T4 Per
+T5	EVENT 34 50	allegedly struck
+E2	EVENT:T5 
+A7	Class E2 Occurrence
+A8	Pos E2 Verb
+T6	EVENT 2 22	would-be hit-and-run
+E3	EVENT:T6 
+A9	Class E3 Occurrence
+A10	Pos E3 Noun
+T7	ACTOR 51 58	a woman
+A11	Lexical_Head T7 Noun
+A12	Actor_Type T7 Per
+A13	Lexical_Head T1 Noun
+A14	Actor_Type T1 Loc
+T8	EVENT 68 90	was taken into custody
+E4	EVENT:T8 
+A15	Class E4 Occurrence
+A16	Tense E4 Past
+T9	ACTOR 97 106	witnesses
+A17	Lexical_Head T9 Noun
+A18	Actor_Type T9 Per
+T10	ACTOR 114 117	him
+A19	Lexical_Head T10 Pronoun
+A20	Actor_Type T10 Per
+T11	EVENT 107 113;118 122	chased down
+E5	EVENT:T11 
+A21	Class E5 Occurrence
+A22	Tense E5 Past
+T12	TIME_X3 123 135	early Sunday
+A23	Time_Type T12 Date
+T13	EVENT 144 163	alleged hit and run
+E6	EVENT:T13 
+A24	Class E6 Occurrence
+A25	Pos E6 Noun
+T14	ACTOR 180 192	intersection
+A26	Lexical_Head T14 Noun
+A27	Actor_Type T14 Loc
+T15	ACTOR 644 654	The victim
+A28	Lexical_Head T15 Noun
+A29	Actor_Type T15 Per
+T16	EVENT 655 665	was rushed
+E7	EVENT:T16 
+A30	Class E7 Occurrence
+A31	Pos E7 Verb
+T17	ACTOR 669 681	the hospital
+A32	Lexical_Head T17 Noun
+A33	Actor_Type T17 Loc
+T18	EVENT 687 703	unknown injuries
+E8	EVENT:T18 
+A34	Class E8 State
+A35	Pos E8 Noun
+T19	ACTOR 717 728	the suspect
+A36	Lexical_Head T19 Noun
+A37	Actor_Type T19 Per
+T20	EVENT 729 734	tried
+E9	EVENT:T20 
+A38	Class E9 I_Action
+A39	Pos E9 Verb
+T21	EVENT 735 741	to run
+E10	EVENT:T21 
+A40	Class E10 Occurrence
+A41	Pos E10 Verb
+T22	ACTOR 742 756	the four women
+A42	Lexical_Head T22 Noun
+A43	Actor_Type T22 Per
+T23	ACTOR 757 760	who
+A44	Lexical_Head T23 Noun
+A45	Actor_Type T23 Per
+T24	EVENT 761 770	witnessed
+E11	EVENT:T24 
+A46	Class E11 Occurrence
+A47	Pos E11 Verb
+T25	EVENT 771 783	the accident
+E12	EVENT:T25 
+A48	Class E12 Occurrence
+A49	Pos E12 Noun
+T26	EVENT 784 798	weren’t having
+E13	EVENT:T26 
+A50	Class E13 State
+A51	Pos E13 Verb
+A52	Polarity E13 Neg
+T27	ACTOR 1587 1593	Police
+A53	Lexical_Head T27 Noun
+A54	Actor_Type T27 Org
+T28	EVENT 1594 1612	haven't identified
+E14	EVENT:T28 
+A55	Class E14 Occurrence
+A56	Pos E14 Verb
+A57	Polarity E14 Neg
+T29	ACTOR 1613 1624	the suspect
+A58	Lexical_Head T29 Noun
+A59	Actor_Type T29 Per
+T30	EVENT 1628 1632	said
+E15	EVENT:T30 
+A60	Class E15 Reporting
+A61	Pos E15 Verb
+T31	EVENT 1638 1645	charges
+E16	EVENT:T31 
+A62	Class E16 Occurrence
+A63	Pos E16 Noun
+T32	EVENT 1649 1656	ll face
+E17	EVENT:T32 
+A64	Class E17 Occurrence
+A65	Pos E17 Verb
+T33	ACTOR 1646 1648	he
+A66	Lexical_Head T33 Noun
+A67	Actor_Type T33 Per
+T34	ACTOR 196 217	Northwest 27th Avenue
+A68	Lexical_Head T34 Noun
+A69	Actor_Type T34 Loc
+T35	ACTOR 222 243	Northwest 62nd Street
+A70	Lexical_Head T35 Noun
+A71	Actor_Type T35 Loc
+R1	OBJ_REL_partOf Arg1:T14 Arg2:T34	
+R2	OBJ_REL_partOf Arg1:T14 Arg2:T35	
+T36	ACTOR 248 250	He
+A72	Lexical_Head T36 Noun
+A73	Actor_Type T36 Per
+T37	ACTOR 287 305	he good Samaritans
+A74	Lexical_Head T37 Noun
+A75	Actor_Type T37 Per
+T38	ACTOR 306 309	who
+A76	Lexical_Head T38 Noun
+A77	Actor_Type T38 Per
+T39	EVENT 310 313	saw
+E18	EVENT:T39 
+A78	Class E18 Perception
+A79	Pos E18 Verb
+T40	EVENT 314 323	the crash
+E19	EVENT:T40 
+A80	Class E19 Occurrence
+A81	Pos E19 Noun
+T41	EVENT 328 344	laid a beat down
+E20	EVENT:T41 
+A82	Class E20 Occurrence
+A83	Pos E20 Verb
+T42	ACTOR 348 359	the suspect
+A84	Lexical_Head T42 Noun
+A85	Actor_Type T42 Per
+T43	ACTOR 365 367	he
+A86	Lexical_Head T43 Pronoun
+A87	Actor_Type T43 Per
+T44	EVENT 368 373	tried
+E21	EVENT:T44 
+A88	Class E21 I_Action
+A89	Pos E21 Verb
+T45	EVENT 374 385	to run away
+E22	EVENT:T45 
+A90	Class E22 Occurrence
+A91	Pos E22 Verb
+R3	OBJ_REL_objIdentity Arg1:T4 Arg2:T3	
+R4	OBJ_REL_objIdentity Arg1:T10 Arg2:T4	
+R5	OBJ_REL_objIdentity Arg1:T36 Arg2:T10	
+T46	EVENT 251 270	might have got away
+E23	EVENT:T46 
+A92	Class E23 Occurrence
+A93	Pos E23 Verb
+R6	OBJ_REL_objIdentity Arg1:T37 Arg2:T9	
+R7	OBJ_REL_objIdentity Arg1:T38 Arg2:T37	
+R8	OBJ_REL_objIdentity Arg1:T43 Arg2:T42	
+R9	OBJ_REL_objIdentity Arg1:T42 Arg2:T36	
+R10	OBJ_REL_objIdentity Arg1:T19 Arg2:T42	
+R11	OBJ_REL_objIdentity Arg1:T23 Arg2:T22	
+R12	OBJ_REL_objIdentity Arg1:T22 Arg2:T37	
+T47	ACTOR 1110 1114	they
+A94	Lexical_Head T47 Noun
+A95	Actor_Type T47 Per
+T48	EVENT 1115 1119	held
+E24	EVENT:T48 
+A96	Class E24 Occurrence
+A97	Pos E24 Verb
+T49	ACTOR 1120 1123	him
+A98	Lexical_Head T49 Pronoun
+A99	Actor_Type T49 Per
+T50	ACTOR 1130 1138	the cops
+A100	Lexical_Head T50 Noun
+A101	Actor_Type T50 Per
+T51	EVENT 1139 1146	arrived
+E25	EVENT:T51 
+A102	Class E25 Occurrence
+A103	Pos E25 Verb
+R13	OBJ_REL_objIdentity Arg1:T47 Arg2:T23	
+R14	OBJ_REL_objIdentity Arg1:T49 Arg2:T19	
+T52	EVENT 799 801	it
+E26	EVENT:T52 
+A104	Class E26 Occurrence
+R15	OBJ_REL_objIdentity Arg1:T29 Arg2:T49	
+R16	OBJ_REL_objIdentity Arg1:T33 Arg2:T29	
+R17	OBJ_REL_partOf Arg1:T50 Arg2:T27	
+R18	SEMROLE_agent Arg1:E3 Arg2:T3	
+R19	SEMROLE_agent Arg1:E2 Arg2:T4	
+R20	SEMROLE_patient Arg1:E2 Arg2:T7	
+R21	SEMROLE_location Arg1:E2 Arg2:T1	
+R22	SEMROLE_patient Arg1:E4 Arg2:T3	
+R23	SEMROLE_agent Arg1:E5 Arg2:T9	
+R24	SEMROLE_patient Arg1:E5 Arg2:T10	
+R25	SEMROLE_theme Arg1:E1 Arg2:E6	
+R26	SEMROLE_location Arg1:E1 Arg2:T14	
+R27	SEMROLE_agent Arg1:E23 Arg2:T36	
+R28	SEMROLE_agent Arg1:E18 Arg2:T38	
+R29	SEMROLE_theme Arg1:E18 Arg2:E19	
+R30	SEMROLE_agent Arg1:E20 Arg2:T38	
+R31	SEMROLE_goal Arg1:E20 Arg2:T42	
+R32	SEMROLE_agent Arg1:E21 Arg2:T43	
+R33	SEMROLE_theme Arg1:E21 Arg2:E22	
+R34	SEMROLE_patient Arg1:E7 Arg2:T15	
+R35	SEMROLE_finalLocation Arg1:E7 Arg2:T17	
+R36	SEMROLE_manner Arg1:E7 Arg2:E8	
+R37	SEMROLE_pivot Arg1:E8 Arg2:T15	
+R38	SEMROLE_agent Arg1:E9 Arg2:T19	
+R39	SEMROLE_theme Arg1:E9 Arg2:E10	
+R40	SEMROLE_agent Arg1:E11 Arg2:T23	
+R41	SEMROLE_theme Arg1:E11 Arg2:E12	
+R42	SEMROLE_pivot Arg1:E13 Arg2:T23	
+R43	SEMROLE_theme Arg1:E13 Arg2:E26	
+R44	SEMROLE_agent Arg1:E24 Arg2:T47	
+R45	SEMROLE_goal Arg1:E24 Arg2:T49	
+R46	SEMROLE_agent Arg1:E25 Arg2:T50	
+R47	SEMROLE_agent Arg1:E14 Arg2:T27	
+R48	SEMROLE_theme Arg1:E14 Arg2:T29	
+R49	SEMROLE_agent Arg1:E15 Arg2:T27	
+R50	SEMROLE_theme Arg1:E15 Arg2:E16	
+R51	SEMROLE_agent Arg1:E17 Arg2:T33	
+R52	SEMROLE_theme Arg1:E17 Arg2:E16	
+R53	SUBORD_modal Arg1:E21 Arg2:E22	
+R54	SUBORD_modal Arg1:E9 Arg2:E10	

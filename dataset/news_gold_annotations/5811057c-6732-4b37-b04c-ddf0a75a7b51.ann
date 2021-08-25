@@ -1,0 +1,383 @@
+T1	ACTOR 29 40	New Zealand
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Loc
+T2	ACTOR 43 51	Lydia Ko
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Per
+T3	EVENT 52 57	wrote
+E1	EVENT:T3 
+A5	Class E1 I_Action
+A6	Pos E1 Verb
+T4	ACTOR 58 73	another chapter
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Other
+T5	EVENT 77 84	golfing
+E2	EVENT:T5 
+A9	Class E2 Occurrence
+A10	Pos E2 Noun
+T7	TIME_X3 96 102	Sunday
+A13	Time_Type T7 Date
+T8	ACTOR 108 111	she
+A14	Lexical_Head T8 Pronoun
+A15	Actor_Type T8 Per
+T9	EVENT 112 118	became
+E4	EVENT:T9 
+A16	Class E4 State
+A17	Pos E4 Verb
+T10	ACTOR 119 138	the youngest winner
+A18	Lexical_Head T10 Noun
+A19	Actor_Type T10 Per
+T11	EVENT 142 157	a women's major
+E5	EVENT:T11 
+A20	Class E5 Occurrence
+A21	Pos E5 Noun
+T12	EVENT 163 188	a stunning final round 63
+E6	EVENT:T12 
+A22	Class E6 Occurrence
+A23	Pos E6 Noun
+T13	EVENT 192 214	the Evian Championship
+E7	EVENT:T13 
+A24	Class E7 Occurrence
+A25	Pos E7 Noun
+T14	TIME_X3 220 227	Sunday'
+A26	Time_Type T14 Date
+T15	EVENT 229 256	flawless eight-birdie round
+E8	EVENT:T15 
+A27	Class E8 Occurrence
+A28	Pos E8 Noun
+T16	EVENT 257 260	was
+E9	EVENT:T16 
+A29	Class E9 State
+A30	Pos E9 Verb
+T17	TIME_X3 281 289	the week
+A31	Time_Type T17 Duration
+#1	AnnotatorNotes T17	value=P1W
+T18	ACTOR 294 297	she
+A32	Lexical_Head T18 Pronoun
+A33	Actor_Type T18 Per
+T19	EVENT 298 306	finished
+E10	EVENT:T19 
+A34	Class E10 Aspectual
+A35	Pos E10 Verb
+T20	ACTOR 310 313	268
+A36	Lexical_Head T20 Noun
+A37	Actor_Type T20 Other
+T21	TIME_X3 560 576	Back in February
+A38	Time_Type T21 Date
+#2	AnnotatorNotes T21	value=2015-02-XX
+T22	EVENT 578 582	aged
+E11	EVENT:T22 
+A39	Class E11 State
+A40	Pos E11 Verb
+T23	ACTOR 583 585	17
+A41	Lexical_Head T23 Noun
+A42	Actor_Type T23 Other
+T24	ACTOR 587 589	Ko
+A43	Lexical_Head T24 Noun
+A44	Actor_Type T24 Per
+T25	EVENT 590 596	became
+E12	EVENT:T25 
+A45	Class E12 State
+A46	Pos E12 Verb
+T26	ACTOR 597 616	the youngest player
+A47	Lexical_Head T26 Noun
+A48	Actor_Type T26 Per
+T27	EVENT 617 625	to claim
+E13	EVENT:T27 
+A49	Class E13 I_Action
+A50	Pos E13 Verb
+T28	EVENT 626 635;642 649	the world ranking
+E14	EVENT:T28 
+A51	Class E14 Occurrence
+A52	Pos E14 Noun
+T29	EVENT 660 669	the Evian
+E15	EVENT:T29 
+A53	Class E15 Occurrence
+A54	Pos E15 Noun
+T30	EVENT 670 677	victory
+E16	EVENT:T30 
+A55	Class E16 Occurrence
+A56	Pos E16 Noun
+T31	EVENT 678 690	still leaves
+E17	EVENT:T31 
+A57	Class E17 State
+A58	Pos E17 Verb
+T32	ACTOR 691 694	her
+A59	Lexical_Head T32 Pronoun
+A60	Actor_Type T32 Per
+T33	ACTOR 698 702	No.2
+A61	Lexical_Head T33 Noun
+A62	Actor_Type T33 Other
+T34	ACTOR 636 641	No. 1
+A63	Lexical_Head T34 Noun
+A64	Actor_Type T34 Other
+T35	EVENT 703 709	behind
+E18	EVENT:T35 
+A65	Class E18 State
+A66	Pos E18 Preposition
+T36	ACTOR 710 721	South Korea
+A67	Lexical_Head T36 Noun
+A68	Actor_Type T36 Loc
+T37	ACTOR 724 734	Inbee Park
+A69	Lexical_Head T37 Noun
+A70	Actor_Type T37 Per
+T38	ACTOR 740 743	She
+A71	Lexical_Head T38 Pronoun
+A72	Actor_Type T38 Per
+T39	EVENT 744 754	also holds
+E19	EVENT:T39 
+A73	Class E19 State
+A74	Pos E19 Verb
+T40	EVENT 755 765	the record
+E20	EVENT:T40 
+A75	Class E20 State
+A76	Pos E20 Noun
+T41	ACTOR 769 788	the youngest winner
+A77	Lexical_Head T41 Noun
+A78	Actor_Type T41 Per
+T42	EVENT 792 805	the LPGA Tour
+E21	EVENT:T42 
+A79	Class E21 Occurrence
+A80	Pos E21 Noun
+T43	ACTOR 820 823	her
+A81	Lexical_Head T43 Pronoun
+A82	Actor_Type T43 Per
+T44	EVENT 824 833	nine wins
+E22	EVENT:T44 
+A83	Class E22 Occurrence
+A84	Pos E22 Noun
+T45	ACTOR 844 865	a 15-year-old amateur
+A85	Lexical_Head T45 Noun
+A86	Actor_Type T45 Per
+T46	EVENT 869 872;878 891	the Canadian Open
+E23	EVENT:T46 
+A87	Class E23 Occurrence
+A88	Pos E23 Noun
+T47	TIME_X3 873 877	2012
+A89	Time_Type T47 Date
+#3	AnnotatorNotes T47	value=2012-XX-XX
+T48	EVENT 807 816	the first
+E24	EVENT:T48 
+A90	Class E24 State
+A91	Pos E24 Adjective
+T49	EVENT 834 840	coming
+E25	EVENT:T49 
+A92	Class E25 State
+A93	Pos E25 Verb
+T50	ACTOR 1050 1052	Ko
+A94	Lexical_Head T50 Noun
+A95	Actor_Type T50 Per
+T51	ACTOR 1054 1057	who
+A96	Lexical_Head T51 Pronoun
+A97	Actor_Type T51 Per
+T52	EVENT 1058 1066	finished
+E26	EVENT:T52 
+A98	Class E26 Aspectual
+A99	Pos E26 Verb
+T53	EVENT 1067 1073	second
+E27	EVENT:T53 
+A100	Class E27 State
+A101	Pos E27 Adjective
+T54	EVENT 1077 1082	Evian
+E28	EVENT:T54 
+A102	Class E28 Occurrence
+A103	Pos E28 Noun
+T55	TIME_X3 1083 1096	two years ago
+A104	Time_Type T55 Date
+#4	AnnotatorNotes T55	value=2013-XX-XX
+T56	EVENT 1098 1110	was thrilled
+E29	EVENT:T56 
+A105	Class E29 I_State
+T57	EVENT 1111 1121	to achieve
+E30	EVENT:T57 
+A106	Class E30 Occurrence
+A107	Pos E30 Verb
+T58	ACTOR 1122 1125	her
+A108	Lexical_Head T58 Pronoun
+A109	Actor_Type T58 Per
+T59	ACTOR 1135 1154	a first major title
+A110	Lexical_Head T59 Noun
+A111	Actor_Type T59 Other
+T60	EVENT 1126 1131	dream
+E31	EVENT:T60 
+A112	Class E31 State
+A113	Pos E31 Noun
+R1	OBJ_REL_partOf Arg1:T2 Arg2:T1	
+T6	ACTOR 85 92	history
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Other
+R2	OBJ_REL_partOf Arg1:T4 Arg2:T6	
+R3	OBJ_REL_objIdentity Arg1:T8 Arg2:T2	
+R4	OBJ_REL_objIdentity Arg1:T10 Arg2:T8	
+R5	OBJ_REL_objIdentity Arg1:T18 Arg2:T8	
+R6	OBJ_REL_objIdentity Arg1:T24 Arg2:T18	
+R7	OBJ_REL_objIdentity Arg1:T26 Arg2:T24	
+R8	OBJ_REL_objIdentity Arg1:T32 Arg2:T26	
+R9	OBJ_REL_partOf Arg1:T37 Arg2:T36	
+R10	OBJ_REL_objIdentity Arg1:T38 Arg2:T32	
+R11	OBJ_REL_objIdentity Arg1:T41 Arg2:T38	
+R12	OBJ_REL_objIdentity Arg1:T43 Arg2:T38	
+R13	OBJ_REL_objIdentity Arg1:T45 Arg2:T43	
+R14	OBJ_REL_objIdentity Arg1:T51 Arg2:T50	
+R15	OBJ_REL_objIdentity Arg1:T50 Arg2:T45	
+R16	SEMROLE_agent Arg1:E1 Arg2:T2	
+R17	SEMROLE_theme Arg1:E1 Arg2:T4	
+R18	SEMROLE_theme Arg1:E2 Arg2:T6	
+R19	TLINK_isIncluded Arg1:E1 Arg2:T7	
+R20	SEMROLE_pivot Arg1:E4 Arg2:T8	
+R21	SEMROLE_theme Arg1:E4 Arg2:T10	
+R22	SEMROLE_setting Arg1:E4 Arg2:E5	
+R23	SEMROLE_manner Arg1:E4 Arg2:E6	
+R24	SEMROLE_setting Arg1:E6 Arg2:E7	
+R25	TLINK_isIncluded Arg1:E8 Arg2:T14	
+R26	SEMROLE_pivot Arg1:E9 Arg2:E8	
+T61	EVENT 261 277	the lowest score
+E3	EVENT:T61 
+A114	Class E3 Occurrence
+A115	Pos E3 Noun
+R27	SEMROLE_theme Arg1:E9 Arg2:E3	
+R28	TLINK_isIncluded Arg1:E3 Arg2:T17	
+R29	SEMROLE_agent Arg1:E10 Arg2:T18	
+R30	SEMROLE_theme Arg1:E10 Arg2:T20	
+R31	TLINK_isIncluded Arg1:E11 Arg2:T21	
+R32	SEMROLE_theme Arg1:E11 Arg2:T23	
+R33	SEMROLE_pivot Arg1:E11 Arg2:T24	
+R34	SEMROLE_pivot Arg1:E12 Arg2:T24	
+R35	SEMROLE_theme Arg1:E12 Arg2:T26	
+R36	SEMROLE_agent Arg1:E13 Arg2:T26	
+R37	SEMROLE_theme Arg1:E13 Arg2:T34	
+R38	SEMROLE_setting Arg1:E13 Arg2:E14	
+R39	SEMROLE_setting Arg1:E16 Arg2:E15	
+R40	SEMROLE_cause Arg1:E17 Arg2:E16	
+R41	SEMROLE_pivot Arg1:E17 Arg2:T32	
+R42	SEMROLE_theme Arg1:E17 Arg2:T33	
+R43	SEMROLE_pivot Arg1:E18 Arg2:T32	
+R44	SEMROLE_theme Arg1:E18 Arg2:T37	
+R45	SEMROLE_pivot Arg1:E19 Arg2:T38	
+R46	SEMROLE_theme Arg1:E19 Arg2:E20	
+R47	SEMROLE_theme Arg1:E20 Arg2:T41	
+R48	SEMROLE_setting Arg1:E20 Arg2:E21	
+R49	TLINK_identity Arg1:E24 Arg2:E20	
+R50	SEMROLE_agent Arg1:E22 Arg2:T43	
+R51	SEMROLE_pivot Arg1:E25 Arg2:E22	
+R52	SEMROLE_setting Arg1:E25 Arg2:E23	
+R53	SEMROLE_theme Arg1:E25 Arg2:T45	
+R54	TLINK_isIncluded Arg1:E23 Arg2:T47	
+R55	SEMROLE_agent Arg1:E26 Arg2:T51	
+R56	SEMROLE_theme Arg1:E26 Arg2:E27	
+R57	SEMROLE_setting Arg1:E26 Arg2:E28	
+R58	TLINK_isIncluded Arg1:E28 Arg2:T55	
+R59	SEMROLE_pivot Arg1:E29 Arg2:T51	
+R60	SEMROLE_theme Arg1:E29 Arg2:E30	
+R61	SUBORD_modal Arg1:E29 Arg2:E30	
+R62	SEMROLE_theme Arg1:E30 Arg2:E31	
+R63	SEMROLE_theme Arg1:E31 Arg2:T59	
+R64	SEMROLE_pivot Arg1:E31 Arg2:T58	
+T62	ACTOR 1955 1957	Ko
+A116	Lexical_Head T62 Noun
+A117	Actor_Type T62 Per
+T63	EVENT 1958 1965	started
+E32	EVENT:T63 
+A118	Class E32 Aspectual
+A119	Pos E32 Verb
+T64	EVENT 1966 1981	the final round
+E33	EVENT:T64 
+A120	Class E33 Occurrence
+A121	Pos E33 Noun
+T65	EVENT 1982 1998	two shots behind
+E34	EVENT:T65 
+A122	Class E34 State
+A123	Pos E34 Preposition
+T66	ACTOR 1999 2010	South Korea
+A124	Lexical_Head T66 Noun
+A125	Actor_Type T66 Loc
+T67	ACTOR 2013 2025	Mi-Hyang Lee
+A126	Lexical_Head T67 Noun
+A127	Actor_Type T67 Per
+T68	ACTOR 2027 2030	who
+A128	Lexical_Head T68 Pronoun
+A129	Actor_Type T68 Per
+T69	EVENT 2031 2039	finished
+E35	EVENT:T69 
+A130	Class E35 Aspectual
+A131	Pos E35 Verb
+T70	EVENT 2040 2052	joint fourth
+E36	EVENT:T70 
+A132	Class E36 Occurrence
+A133	Pos E36 Noun
+T71	ACTOR 2058 2062	a 74
+A134	Lexical_Head T71 Noun
+A135	Actor_Type T71 Other
+T72	EVENT 2068 2071	was
+E37	EVENT:T72 
+A136	Class E37 State
+A137	Pos E37 Verb
+T73	EVENT 2072 2084	three behind
+E38	EVENT:T73 
+A138	Class E38 Occurrence
+A139	Pos E38 Preposition
+T74	ACTOR 2085 2093	Thompson
+A140	Lexical_Head T74 Noun
+A141	Actor_Type T74 Per
+T75	EVENT 2100 2111	seven holes
+E39	EVENT:T75 
+A142	Class E39 Occurrence
+A143	Pos E39 Noun
+T76	ACTOR 2957 2959	My
+A144	Lexical_Head T76 Pronoun
+A145	Actor_Type T76 Per
+T77	EVENT 2970 2972	is
+E40	EVENT:T77 
+A146	Class E40 State
+A147	Pos E40 Verb
+T78	ACTOR 2960 2969	next goal
+A148	Lexical_Head T78 Noun
+A149	Actor_Type T78 Other
+T79	EVENT 2973 2985	the Olympics
+E41	EVENT:T79 
+A150	Class E41 Occurrence
+A151	Pos E41 Noun
+T80	ACTOR 2988 2991	she
+A152	Lexical_Head T80 Pronoun
+A153	Actor_Type T80 Per
+T81	EVENT 2992 2996	said
+E42	EVENT:T81 
+A154	Class E42 Reporting
+A155	Pos E42 Verb
+T82	EVENT 3003 3012	pocketing
+E43	EVENT:T82 
+A156	Class E43 Occurrence
+A157	Pos E43 Verb
+T83	ACTOR 3013 3036;3046 3052	the 430,000 ($A684,500) cheque
+A158	Lexical_Head T83 Noun
+A159	Actor_Type T83 Other
+T84	ACTOR 3037 3043	winner
+A160	Lexical_Head T84 Noun
+A161	Actor_Type T84 Per
+R65	OBJ_REL_partOf Arg1:T83 Arg2:T84	
+R66	SEMROLE_agent Arg1:E32 Arg2:T62	
+R67	OBJ_REL_objIdentity Arg1:T62 Arg2:T58	
+R68	SEMROLE_theme Arg1:E32 Arg2:E33	
+R69	SUBORD_evidential Arg1:E32 Arg2:E33	
+R70	SEMROLE_manner Arg1:E32 Arg2:E34	
+R71	OBJ_REL_partOf Arg1:T67 Arg2:T66	
+R72	OBJ_REL_objIdentity Arg1:T68 Arg2:T67	
+R73	SEMROLE_theme Arg1:E34 Arg2:T67	
+R74	SEMROLE_agent Arg1:E35 Arg2:T68	
+R75	SEMROLE_theme Arg1:E35 Arg2:E36	
+R76	SUBORD_evidential Arg1:E35 Arg2:E36	
+R77	SEMROLE_theme Arg1:E36 Arg2:T71	
+R78	SEMROLE_theme Arg1:E37 Arg2:E38	
+R79	SEMROLE_pivot Arg1:E37 Arg2:T62	
+R80	SEMROLE_theme Arg1:E38 Arg2:T74	
+R81	SEMROLE_setting Arg1:E37 Arg2:E39	
+R82	OBJ_REL_partOf Arg1:T78 Arg2:T76	
+R83	SEMROLE_pivot Arg1:E40 Arg2:T78	
+R84	SEMROLE_theme Arg1:E40 Arg2:E41	
+R85	OBJ_REL_objIdentity Arg1:T76 Arg2:T62	
+R86	OBJ_REL_objIdentity Arg1:T80 Arg2:T76	
+R87	SEMROLE_agent Arg1:E42 Arg2:T80	
+R88	SEMROLE_theme Arg1:E42 Arg2:E40	
+R89	SUBORD_evidential Arg1:E42 Arg2:E40	
+R90	SEMROLE_agent Arg1:E43 Arg2:T80	
+R91	SEMROLE_theme Arg1:E43 Arg2:T83	

@@ -1,0 +1,296 @@
+T1	EVENT 0 9	Inflation
+E1	EVENT:T1 
+A1	Class E1 State
+A2	Pos E1 Noun
+T2	ACTOR 13 19	Brazil
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Loc
+T3	EVENT 20 31	is expected
+E2	EVENT:T3 
+A5	Class E2 I_State
+A6	Pos E2 Verb
+T4	EVENT 32 39	to slow
+E3	EVENT:T4 
+A7	Class E3 State
+A8	Pos E3 Verb
+T5	ACTOR 48 79	the official 4.5 percent target
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Other
+T6	TIME_X3 87 98	end of 2016
+A11	Time_Type T6 Time
+#1	AnnotatorNotes T6	anchorTime=Publication_Time
+T7	ACTOR 100 111	the country
+A12	Lexical_Head T7 Noun
+A13	Actor_Type T7 Loc
+T8	ACTOR 114 126	central bank
+A14	Lexical_Head T8 Noun
+A15	Actor_Type T8 Org
+T9	EVENT 127 131	said
+E4	EVENT:T9 
+A16	Class E4 Reporting
+A17	Pos E4 Verb
+T10	TIME_X3 135 143	Thursday
+A18	Time_Type T10 Date
+#2	AnnotatorNotes T10	anchorTime=Publication_Time
+T11	EVENT 157 165	signaled
+E5	EVENT:T11 
+A19	Class E5 Occurrence
+A20	Pos E5 Verb
+T12	ACTOR 154 156	it
+A21	Lexical_Head T12 Pronoun
+A22	Actor_Type T12 Org
+T13	EVENT 188 198	may compel
+E6	EVENT:T13 
+A23	Class E6 I_Action
+A24	Pos E6 Verb
+T14	EVENT 202 218	to further raise
+E7	EVENT:T14 
+A25	Class E7 Occurrence
+A26	Pos E7 Verb
+T15	ACTOR 219 233	interest rates
+A27	Lexical_Head T15 Noun
+A28	Actor_Type T15 Other
+T16	EVENT 180 187	turmoil
+E8	EVENT:T16 
+A29	Class E8 State
+A30	Pos E8 Noun
+T17	ACTOR 173 179	market
+A31	Lexical_Head T17 Noun
+A32	Actor_Type T17 Other
+T18	ACTOR 239 255	The central bank
+A33	Lexical_Head T18 Noun
+A34	Actor_Type T18 Org
+R1	OBJ_REL_objIdentity Arg1:T7 Arg2:T2	
+R2	OBJ_REL_partOf Arg1:T8 Arg2:T7	
+R3	OBJ_REL_objIdentity Arg1:T12 Arg2:T8	
+R4	OBJ_REL_objIdentity Arg1:T18 Arg2:T8	
+T19	EVENT 256 260	kept
+E9	EVENT:T19 
+A35	Class E9 State
+A36	Pos E9 Verb
+T20	ACTOR 261 264	its
+A37	Lexical_Head T20 Pronoun
+A38	Actor_Type T20 Org
+R5	OBJ_REL_objIdentity Arg1:T20 Arg2:T18	
+T21	ACTOR 265 288	benchmark interest rate
+A39	Lexical_Head T21 Noun
+A40	Actor_Type T21 Other
+T22	EVENT 289 298	unchanged
+E10	EVENT:T22 
+A41	Class E10 State
+A42	Pos E10 Adjective
+T23	ACTOR 302 326	14.25 percent BRCBMP=ECI
+A43	Lexical_Head T23 Noun
+A44	Actor_Type T23 Other
+T24	EVENT 332 339	meeting
+E11	EVENT:T24 
+A45	Class E11 Occurrence
+A46	Pos E11 Noun
+T25	TIME_X3 340 349	last week
+A47	Time_Type T25 Date
+#3	AnnotatorNotes T25	anchorTime=Publication_Time
+T26	EVENT 351 358	halting
+E12	EVENT:T26 
+A48	Class E12 State
+A49	Pos E12 Verb
+T27	ACTOR 359 362	one
+A50	Lexical_Head T27 Noun
+A51	Actor_Type T27 Other
+T28	ACTOR 414 425	the economy
+A52	Lexical_Head T28 Noun
+A53	Actor_Type T28 Other
+T29	EVENT 426 431	sinks
+E13	EVENT:T29 
+A54	Class E13 Occurrence
+A55	Pos E13 Verb
+T30	EVENT 437 446	recession
+E14	EVENT:T30 
+A56	Class E14 State
+A57	Pos E14 Noun
+T31	ACTOR 366 375	the world
+A58	Lexical_Head T31 Noun
+A59	Actor_Type T31 Loc
+T32	EVENT 378 410	most aggressive rate-hike cycles
+E15	EVENT:T32 
+A60	Class E15 State
+A61	Pos E15 Noun
+T33	ACTOR 1428 1444	The central bank
+A62	Lexical_Head T33 Noun
+A63	Actor_Type T33 Org
+T34	EVENT 1450 1456	voiced
+E16	EVENT:T34 
+A64	Class E16 Reporting
+A65	Pos E16 Verb
+T35	EVENT 1457 1465	concerns
+E17	EVENT:T35 
+A66	Class E17 State
+A67	Pos E17 Noun
+T36	ACTOR 1471 1477	Brazil
+A68	Lexical_Head T36 Noun
+A69	Actor_Type T36 Org
+T37	ACTOR 1480 1495	public finances
+A70	Lexical_Head T37 Noun
+A71	Actor_Type T37 Other
+T38	EVENT 1497 1503	saying
+E18	EVENT:T38 
+A72	Class E18 Reporting
+A73	Pos E18 Verb
+T39	EVENT 1504 1513	austerity
+E19	EVENT:T39 
+A74	Class E19 State
+A75	Pos E19 Noun
+T40	EVENT 1514 1537	will likely take longer
+E20	EVENT:T40 
+A76	Class E20 State
+A77	Pos E20 Verb
+T41	EVENT 1538 1545	to help
+E21	EVENT:T41 
+A78	Class E21 I_Action
+A79	Pos E21 Verb
+T42	EVENT 1546 1550	curb
+E22	EVENT:T42 
+A80	Class E22 Occurrence
+A81	Pos E22 Verb
+T43	EVENT 1551 1560	inflation
+E23	EVENT:T43 
+A82	Class E23 State
+A83	Pos E23 Noun
+T44	ACTOR 1567 1585	key budget targets
+A84	Lexical_Head T44 Noun
+A85	Actor_Type T44 Other
+T45	EVENT 1586 1599	were loosened
+E24	EVENT:T45 
+A86	Class E24 State
+A87	Pos E24 Verb
+T46	ACTOR 485 493	the bank
+A88	Lexical_Head T46 Noun
+A89	Actor_Type T46 Org
+T47	ACTOR 499 502	its
+A90	Lexical_Head T47 Pronoun
+A91	Actor_Type T47 Org
+T48	EVENT 503 512	inflation
+E25	EVENT:T48 
+A92	Class E25 State
+A93	Pos E25 Noun
+T49	EVENT 513 521	forecast
+E26	EVENT:T49 
+A94	Class E26 Perception
+A95	Pos E26 Noun
+T50	TIME_X3 526 530	2016
+A96	Time_Type T50 Date
+#4	AnnotatorNotes T50	value=2016-XX-XX anchorTime=Publication_Time
+T51	EVENT 531 542	had dropped
+E27	EVENT:T51 
+A97	Class E27 Occurrence
+A98	Pos E27 Verb
+T52	EVENT 547 549	is
+E28	EVENT:T52 
+A99	Class E28 State
+A100	Pos E28 Verb
+T53	ACTOR 561 569	the bank
+A101	Lexical_Head T53 Pronoun
+A102	Actor_Type T53 Org
+T54	ACTOR 572 590	4.5 percent target
+A103	Lexical_Head T54 Noun
+A104	Actor_Type T54 Other
+T55	ACTOR 594 605	the economy
+A105	Lexical_Head T55 Noun
+A106	Actor_Type T55 Other
+T56	EVENT 606 612	slumps
+E29	EVENT:T56 
+A107	Class E29 Occurrence
+A108	Pos E29 Verb
+T57	ACTOR 1907 1915	the bank
+A109	Lexical_Head T57 Noun
+A110	Actor_Type T57 Org
+T58	EVENT 1918 1922	view
+E30	EVENT:T58 
+A111	Class E30 Perception
+A112	Pos E30 Noun
+T59	ACTOR 1924 1930	Brazil
+A113	Lexical_Head T59 Noun
+A114	Actor_Type T59 Org
+T60	EVENT 1933 1951	ongoing adjustment
+E31	EVENT:T60 
+A115	Class E31 State
+A116	Pos E31 Noun
+T61	EVENT 1952 1969	could take longer
+E32	EVENT:T61 
+A117	Class E32 State
+A118	Pos E32 Verb
+T62	EVENT 1974 1989	be more intense
+E33	EVENT:T62 
+A119	Class E33 State
+A120	Pos E33 Verb
+T63	EVENT 1995 2006	anticipated
+E34	EVENT:T63 
+A121	Class E34 State
+A122	Pos E34 Verb
+R6	OBJ_REL_objIdentity Arg1:T23 Arg2:T21	
+R7	OBJ_REL_partOf Arg1:T27 Arg2:T31	
+R8	OBJ_REL_objIdentity Arg1:T46 Arg2:T20	
+R9	OBJ_REL_objIdentity Arg1:T47 Arg2:T46	
+R10	OBJ_REL_objIdentity Arg1:T53 Arg2:T47	
+R11	OBJ_REL_partOf Arg1:T54 Arg2:T53	
+R12	OBJ_REL_objIdentity Arg1:T54 Arg2:T5	
+R13	OBJ_REL_objIdentity Arg1:T55 Arg2:T28	
+R14	OBJ_REL_objIdentity Arg1:T33 Arg2:T53	
+R15	OBJ_REL_partOf Arg1:T37 Arg2:T36	
+R16	OBJ_REL_objIdentity Arg1:T36 Arg2:T7	
+R17	OBJ_REL_objIdentity Arg1:T57 Arg2:T33	
+R18	OBJ_REL_objIdentity Arg1:T59 Arg2:T36	
+R19	SEMROLE_location Arg1:E1 Arg2:T2	
+R20	SUBORD_modal Arg1:E2 Arg2:E3	
+R21	SEMROLE_theme Arg1:E2 Arg2:E3	
+R22	SEMROLE_pivot Arg1:E2 Arg2:E1	
+R23	SEMROLE_goal Arg1:E3 Arg2:T5	
+R24	SEMROLE_agent Arg1:E4 Arg2:T8	
+R25	SEMROLE_theme Arg1:E4 Arg2:E2	
+R26	SUBORD_evidential Arg1:E4 Arg2:E2	
+R27	SEMROLE_agent Arg1:E5 Arg2:T12	
+R28	SEMROLE_theme Arg1:E5 Arg2:E6	
+R29	SUBORD_evidential Arg1:E5 Arg2:E6	
+R30	SEMROLE_source Arg1:E8 Arg2:T17	
+R31	SEMROLE_theme Arg1:E6 Arg2:E8	
+R33	SUBORD_modal Arg1:E6 Arg2:E7	
+R34	SEMROLE_theme Arg1:E6 Arg2:E7	
+R35	SEMROLE_goal Arg1:E6 Arg2:E1	
+R32	SEMROLE_goal Arg1:E7 Arg2:T15	
+R36	SEMROLE_pivot Arg1:E9 Arg2:T18	
+R37	SEMROLE_theme Arg1:E9 Arg2:E10	
+R38	SEMROLE_pivot Arg1:E10 Arg2:T21	
+R39	OBJ_REL_partOf Arg1:T21 Arg2:T20	
+R40	SEMROLE_theme Arg1:E9 Arg2:T23	
+R41	SEMROLE_setting Arg1:E9 Arg2:E11	
+R42	SEMROLE_pivot Arg1:E12 Arg2:T18	
+R43	SEMROLE_theme Arg1:E12 Arg2:E15	
+R44	SEMROLE_source Arg1:E15 Arg2:T31	
+R45	SEMROLE_theme Arg1:E13 Arg2:E14	
+R46	SEMROLE_patient Arg1:E13 Arg2:T28	
+T64	EVENT 494 498	said
+E35	EVENT:T64 
+A123	Class E35 Reporting
+A124	Pos E35 Verb
+R47	SEMROLE_agent Arg1:E35 Arg2:T46	
+R48	SUBORD_evidential Arg1:E35 Arg2:E27	
+R49	SEMROLE_theme Arg1:E35 Arg2:E27	
+R50	SEMROLE_theme Arg1:E26 Arg2:E25	
+R51	SEMROLE_source Arg1:E25 Arg2:T47	
+R52	SEMROLE_patient Arg1:E27 Arg2:E26	
+R53	SEMROLE_pivot Arg1:E28 Arg2:E26	
+R54	SEMROLE_theme Arg1:E28 Arg2:T54	
+R55	SEMROLE_patient Arg1:E29 Arg2:T55	
+R56	SEMROLE_agent Arg1:E16 Arg2:T33	
+R57	SEMROLE_theme Arg1:E16 Arg2:E17	
+R58	SUBORD_evidential Arg1:E16 Arg2:E17	
+R59	SEMROLE_theme Arg1:E17 Arg2:T37	
+R60	SEMROLE_agent Arg1:E18 Arg2:T33	
+R61	SEMROLE_theme Arg1:E18 Arg2:E20	
+R62	SUBORD_evidential Arg1:E18 Arg2:E20	
+R63	SEMROLE_pivot Arg1:E20 Arg2:E19	
+R64	SEMROLE_theme Arg1:E20 Arg2:E21	
+R65	SEMROLE_theme Arg1:E21 Arg2:E22	
+R66	SUBORD_modal Arg1:E21 Arg2:E22	
+R67	SEMROLE_patient Arg1:E22 Arg2:E23	
+R68	SEMROLE_reason Arg1:E20 Arg2:E24	
+R69	SEMROLE_pivot Arg1:E24 Arg2:T44	

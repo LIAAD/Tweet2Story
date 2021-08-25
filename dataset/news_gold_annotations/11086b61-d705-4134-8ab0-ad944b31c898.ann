@@ -1,0 +1,190 @@
+T1	EVENT 52 59	exports
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Noun
+T2	ACTOR 63 84	agricultural products
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Obj
+T3	EVENT 85 103	declined massively
+E2	EVENT:T3 
+A5	Class E2 Occurrence
+A6	Pos E2 Verb
+T4	TIME_X3 107 113	August
+A7	Time_Type T4 Date
+T5	ACTOR 38 49	South Korea
+A8	Lexical_Head T5 Noun
+A9	Actor_Type T5 Loc
+T6	ACTOR 26 36	government
+A10	Lexical_Head T6 Noun
+A11	Actor_Type T6 Org
+T7	ACTOR 22 25	its
+A12	Lexical_Head T7 Pronoun
+A13	Actor_Type T7 Loc
+T8	EVENT 117 124	opposed
+E3	EVENT:T8 
+A14	Class E3 State
+A15	Pos E3 Adjective
+T9	TIME_X3 128 137	last year
+A16	Time_Type T9 Time
+T10	ACTOR 162 166	food
+A17	Lexical_Head T10 Noun
+A18	Actor_Type T10 Obj
+T11	ACTOR 171 192	other farmed products
+A19	Lexical_Head T11 Noun
+A20	Actor_Type T11 Obj
+T12	EVENT 193 196	hit
+E4	EVENT:T12 
+A21	Class E4 Occurrence
+A22	Pos E4 Verb
+T13	ACTOR 197 213	USD457.6 million
+A23	Lexical_Head T13 Noun
+A24	Actor_Type T13 Other
+T14	TIME_X3 217 223	August
+A25	Time_Type T14 Date
+T15	ACTOR 227 238	9.3 percent
+A26	Lexical_Head T15 Noun
+A27	Actor_Type T15 Other
+T16	EVENT 239 243	fall
+E5	EVENT:T16 
+A28	Class E5 Occurrence
+A29	Pos E5 Noun
+T17	TIME_X3 249 279	the corresponded month in 2014
+A30	Time_Type T17 Date
+#1	AnnotatorNotes T17	value=2014-08-XX anchorTime=Publication_Time
+T18	EVENT 291 298	exports
+E6	EVENT:T18 
+A31	Class E6 Occurrence
+A32	Pos E6 Noun
+T19	ACTOR 302 307	China
+A33	Lexical_Head T19 Noun
+A34	Actor_Type T19 Loc
+T20	EVENT 308 312	were
+E7	EVENT:T20 
+A35	Class E7 State
+A36	Pos E7 Verb
+T21	EVENT 316 325	exception
+E8	EVENT:T21 
+A37	Class E8 State
+A38	Pos E8 Noun
+T22	ACTOR 336 346	the reason
+A39	Lexical_Head T22 Noun
+A40	Actor_Type T22 Other
+T23	EVENT 359 366	big cut
+E9	EVENT:T23 
+A41	Class E9 Occurrence
+A42	Pos E9 Noun
+T24	ACTOR 368 373	Japan
+A43	Lexical_Head T24 Noun
+A44	Actor_Type T24 Org
+T25	EVENT 374 386	was to blame
+E10	EVENT:T25 
+A45	Class E10 Occurrence
+A46	Pos E10 Verb
+T27	ACTOR 390 442	the Korean foodstuff world's single-largest importer
+A49	Lexical_Head T27 Noun
+A50	Actor_Type T27 Org
+T28	EVENT 443 452	witnessed
+E11	EVENT:T28 
+A51	Class E11 Occurrence
+A52	Pos E11 Verb
+T29	EVENT 455 467	huge decline
+E12	EVENT:T29 
+A53	Class E12 State
+A54	Pos E12 Noun
+T30	ACTOR 471 474	its
+A55	Lexical_Head T30 Noun
+A56	Actor_Type T30 Org
+T31	EVENT 475 493	received shipments
+E13	EVENT:T31 
+A57	Class E13 Occurrence
+A58	Pos E13 Noun
+T32	EVENT 498 508	Deliveries
+E14	EVENT:T32 
+A59	Class E14 Occurrence
+A60	Pos E14 Noun
+T33	ACTOR 512 517	Japan
+A61	Lexical_Head T33 Noun
+A62	Actor_Type T33 Loc
+T34	EVENT 518 525	dropped
+E15	EVENT:T34 
+A63	Class E15 Occurrence
+A64	Pos E15 Verb
+T35	ACTOR 526 536	16 percent
+A65	Lexical_Head T35 Noun
+A66	Actor_Type T35 Other
+T36	ACTOR 548 563	USD87.9 million
+A67	Lexical_Head T36 Noun
+A68	Actor_Type T36 Other
+T37	TIME_X3 567 582	the cited month
+A69	Time_Type T37 Date
+#2	AnnotatorNotes T37	value=2015-08-XX anchorTime=Publication_Time
+T38	EVENT 595 602	exports
+E16	EVENT:T38 
+A70	Class E16 Occurrence
+A71	Pos E16 Noun
+T39	ACTOR 590 594	Food
+A72	Lexical_Head T39 Noun
+A73	Actor_Type T39 Obj
+T40	ACTOR 606 611	Japan
+A74	Lexical_Head T40 Noun
+A75	Actor_Type T40 Loc
+T41	TIME_X3 615 637	the first eight months
+A76	Time_Type T41 Duration
+#3	AnnotatorNotes T41	value=P8M beginPoint=2015-01-XX endPoint=2015-08-XX anchorTime=Publication_Time
+T42	EVENT 638 646	stumbled
+E17	EVENT:T42 
+A77	Class E17 Occurrence
+A78	Pos E17 Verb
+T43	ACTOR 647 659	10.9 percent
+A79	Lexical_Head T43 Noun
+A80	Actor_Type T43 Other
+T44	TIME_X3 660 667	on-year
+A81	Time_Type T44 Duration
+#4	AnnotatorNotes T44	value=P1Y
+T45	TIME_X3 537 544	on-year
+A82	Time_Type T45 Duration
+#5	AnnotatorNotes T45	value=P1Y
+R1	OBJ_REL_objIdentity Arg1:T7 Arg2:T5	
+R2	OBJ_REL_partOf Arg1:T6 Arg2:T5	
+#6	AnnotatorNotes T4	2015-08-XX anchorTime=Publication_Time
+#7	AnnotatorNotes T9	2014-08-XX anchorTime=Publication_Time
+T46	EVENT 152 158	Cargos
+E18	EVENT:T46 
+A83	Class E18 Occurrence
+A84	Pos E18 Noun
+R3	OBJ_REL_memberOf Arg1:T10 Arg2:T2	
+R4	OBJ_REL_subSet Arg1:T11 Arg2:T2	
+R5	OBJ_REL_objIdentity Arg1:T30 Arg2:T27	
+R6	OBJ_REL_objIdentity Arg1:T33 Arg2:T24	
+R7	OBJ_REL_objIdentity Arg1:T40 Arg2:T33	
+R8	SEMROLE_initialLocation Arg1:E1 Arg2:T5	
+R9	SEMROLE_theme Arg1:E1 Arg2:T2	
+R10	SEMROLE_theme Arg1:E2 Arg2:E1	
+R11	TLINK_isIncluded Arg1:E2 Arg2:T4	
+R12	SEMROLE_setting Arg1:E2 Arg2:E3	
+R13	TLINK_isIncluded Arg1:E3 Arg2:T9	
+R14	SEMROLE_theme Arg1:E18 Arg2:T10	
+R15	SEMROLE_theme Arg1:E18 Arg2:T11	
+R16	SEMROLE_theme Arg1:E4 Arg2:E18	
+R17	SEMROLE_amount Arg1:E4 Arg2:T13	
+R18	SEMROLE_amount Arg1:E5 Arg2:T15	
+R19	TLINK_isIncluded Arg1:E5 Arg2:T17	
+R20	SEMROLE_finalLocation Arg1:E6 Arg2:T19	
+R21	SEMROLE_pivot Arg1:E7 Arg2:E6	
+R22	SEMROLE_theme Arg1:E7 Arg2:E8	
+R23	SEMROLE_reason Arg1:E9 Arg2:T22	
+R24	SEMROLE_patient Arg1:E10 Arg2:T24	
+R25	SEMROLE_agent Arg1:E11 Arg2:T27	
+R26	SEMROLE_theme Arg1:E11 Arg2:E12	
+R27	SEMROLE_theme Arg1:E12 Arg2:E13	
+R28	SEMROLE_source Arg1:E13 Arg2:T30	
+R29	SEMROLE_finalLocation Arg1:E14 Arg2:T33	
+R30	SEMROLE_theme Arg1:E15 Arg2:E14	
+R31	SEMROLE_amount Arg1:E15 Arg2:T35	
+R32	SEMROLE_goal Arg1:E15 Arg2:T36	
+R33	TLINK_isIncluded Arg1:E15 Arg2:T37	
+R34	SEMROLE_theme Arg1:E16 Arg2:T39	
+R35	SEMROLE_finalLocation Arg1:E16 Arg2:T40	
+R36	TLINK_during Arg1:E16 Arg2:T41	
+R37	SEMROLE_theme Arg1:E17 Arg2:E16	
+R38	SEMROLE_amount Arg1:E17 Arg2:T43	

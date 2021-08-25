@@ -1,0 +1,511 @@
+T1	ACTOR 0 15	A young Tibetan
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	ACTOR 16 19	who
+A3	Lexical_Head T2 Pronoun
+A4	Actor_Type T2 Per
+T3	EVENT 20 28	vanished
+E1	EVENT:T3 
+A5	Class E1 Occurrence
+A6	Pos E1 Verb
+T4	TIME_X3 29 44	two decades ago
+A7	Time_Type T4 Date
+#1	AnnotatorNotes T4	anchorTime=Publication_Time
+T5	ACTOR 51 53	he
+A8	Lexical_Head T5 Pronoun
+A9	Actor_Type T5 Per
+T6	EVENT 54 64	was chosen
+E2	EVENT:T6 
+A10	Class E2 Occurrence
+A11	Pos E2 Verb
+T7	ACTOR 68 82	the Dalai Lama
+A12	Lexical_Head T7 Noun
+A13	Actor_Type T7 Per
+T8	ACTOR 86 111	the second-highest figure
+A14	Lexical_Head T8 Noun
+A15	Actor_Type T8 Per
+T9	ACTOR 115 131	Tibetan Buddhism
+A16	Lexical_Head T9 Noun
+A17	Actor_Type T9 Other
+T10	EVENT 132 142	is "living
+E3	EVENT:T10 
+A18	Class E3 State
+A19	Pos E3 Verb
+T11	EVENT 143 156	a normal life
+E4	EVENT:T11 
+A20	Class E4 State
+A21	Pos E4 Noun
+T12	EVENT 162 175	does not want
+E5	EVENT:T12 
+A22	Class E5 I_State
+A23	Pos E5 Verb
+T13	EVENT 176 191	to be disturbed
+E6	EVENT:T13 
+A24	Class E6 State
+A25	Pos E6 Verb
+R1	SUBORD_modal Arg1:E5 Arg2:E6	
+T14	EVENT 219 223	said
+E7	EVENT:T14 
+A26	Class E7 Reporting
+A27	Pos E7 Verb
+T15	ACTOR 193 218	a senior Chinese official
+A28	Lexical_Head T15 Noun
+A29	Actor_Type T15 Per
+T16	TIME_X3 227 233	Sunday
+A30	Time_Type T16 Date
+#2	AnnotatorNotes T16	anchorTime=Publication_Time
+T17	ACTOR 884 886	He
+A31	Lexical_Head T17 Pronoun
+A32	Actor_Type T17 Per
+T18	EVENT 887 896	denounced
+E8	EVENT:T18 
+A33	Class E8 Reporting
+A34	Pos E8 Verb
+T19	ACTOR 897 911	the Dalai Lama
+A35	Lexical_Head T19 Noun
+A36	Actor_Type T19 Per
+T20	EVENT 916 925	declaring
+E9	EVENT:T20 
+A37	Class E9 Reporting
+A38	Pos E9 Verb
+T21	ACTOR 926 933	the boy
+A39	Lexical_Head T21 Noun
+A40	Actor_Type T21 Per
+T22	EVENT 941 954	reincarnation
+E10	EVENT:T22 
+A41	Class E10 State
+A42	Pos E10 Noun
+T23	ACTOR 958 974	the Panchen Lama
+A43	Lexical_Head T23 Noun
+A44	Actor_Type T23 Per
+T24	EVENT 976 982	saying
+E11	EVENT:T24 
+A45	Class E11 Reporting
+A46	Pos E11 Verb
+T25	EVENT 983 996	the selection
+E12	EVENT:T25 
+A47	Class E12 Occurrence
+A48	Pos E12 Noun
+T26	EVENT 998 1005	ignored
+E13	EVENT:T26 
+A49	Class E13 Occurrence
+A50	Pos E13 Verb
+T27	EVENT 1006 1024	historical customs
+E14	EVENT:T27 
+A51	Class E14 State
+A52	Pos E14 Noun
+T28	EVENT 1029 1038	destroyed
+E15	EVENT:T28 
+A53	Class E15 Occurrence
+A54	Pos E15 Verb
+T29	EVENT 1039 1056	religious rituals
+E16	EVENT:T29 
+A55	Class E16 Occurrence
+A56	Pos E16 Noun
+T30	ACTOR 1193 1220	the Chinese Communist Party
+A57	Lexical_Head T30 Noun
+A58	Actor_Type T30 Org
+T31	EVENT 1221 1240	has long maintained
+E17	EVENT:T31 
+A59	Class E17 State
+A60	Pos E17 Verb
+T32	ACTOR 1246 1266	Gendun Choekyi Nyima
+A61	Lexical_Head T32 Noun
+A62	Actor_Type T32 Per
+T33	EVENT 1267 1273	is not
+E18	EVENT:T33 
+A63	Class E18 State
+A64	Pos E18 Verb
+A65	Polarity E18 Neg
+T34	ACTOR 1274 1295	the real Panchen Lama
+A66	Lexical_Head T34 Noun
+A67	Actor_Type T34 Per
+T35	ACTOR 1360 1374	the government
+A68	Lexical_Head T35 Noun
+A69	Actor_Type T35 Org
+T36	EVENT 1375 1383	selected
+E19	EVENT:T36 
+A70	Class E19 Occurrence
+A71	Pos E19 Verb
+T37	ACTOR 1384 1398	Gyaltsen Norbu
+A72	Lexical_Head T37 Noun
+A73	Actor_Type T37 Per
+T38	ACTOR 1402 1423	the 11th Panchen Lama
+A74	Lexical_Head T38 Noun
+A75	Actor_Type T38 Per
+T39	TIME_X3 1300 1304	1995
+A76	Time_Type T39 Date
+#3	AnnotatorNotes T39	value=1995-XX-XX anchorTime=Publication_Time
+T40	EVENT 1315 1321	to win
+E20	EVENT:T40 
+A77	Class E20 State
+A78	Pos E20 Verb
+T41	EVENT 1311 1314	bid
+E21	EVENT:T41 
+A79	Class E21 State
+A80	Pos E21 Noun
+T42	ACTOR 1322 1332	the hearts
+A81	Lexical_Head T42 Noun
+A82	Actor_Type T42 Other
+T43	ACTOR 1337 1342	minds
+A83	Lexical_Head T43 Noun
+A84	Actor_Type T43 Other
+T44	ACTOR 1346 1358	the Tibetans
+A85	Lexical_Head T44 Noun
+A86	Actor_Type T44 Per
+T45	ACTOR 1425 1427	He
+A87	Lexical_Head T45 Pronoun
+A88	Actor_Type T45 Per
+T46	EVENT 1428 1438	is reviled
+E22	EVENT:T46 
+A89	Class E22 State
+A90	Pos E22 Verb
+T47	ACTOR 1442 1455	many Tibetans
+A91	Lexical_Head T47 Noun
+A92	Actor_Type T47 Per
+T48	EVENT 1459 1465	a fake
+E23	EVENT:T48 
+A93	Class E23 State
+A94	Pos E23 Noun
+T49	ACTOR 1470 1484	The Dalai Lama
+A95	Lexical_Head T49 Noun
+A96	Actor_Type T49 Per
+T50	ACTOR 1489 1494	China
+A97	Lexical_Head T50 Noun
+A98	Actor_Type T50 Org
+T51	EVENT 1495 1523	have repeatedly tussled over
+E24	EVENT:T51 
+A99	Class E24 Occurrence
+A100	Pos E24 Verb
+T52	ACTOR 1524 1527	who
+A101	Lexical_Head T52 Pronoun
+T53	EVENT 1528 1531	has
+E25	EVENT:T53 
+A102	Class E25 State
+A103	Pos E25 Verb
+T54	EVENT 1532 1547	final authority
+E26	EVENT:T54 
+A104	Class E26 State
+A105	Pos E26 Noun
+T55	EVENT 1551 1560	the issue
+E27	EVENT:T55 
+A106	Class E27 State
+A107	Pos E27 Noun
+T56	ACTOR 1579 1587	Tibetans
+A108	Lexical_Head T56 Noun
+A109	Actor_Type T56 Per
+T57	EVENT 1588 1592	fear
+E28	EVENT:T57 
+A110	Class E28 State
+A111	Pos E28 Verb
+T58	ACTOR 1598 1603	China
+A112	Lexical_Head T58 Noun
+A113	Actor_Type T58 Org
+T59	EVENT 1604 1612	will use
+E29	EVENT:T59 
+A114	Class E29 Occurrence
+A115	Pos E29 Verb
+T60	EVENT 1613 1622	the issue
+E30	EVENT:T60 
+A116	Class E30 State
+A117	Pos E30 Noun
+T61	EVENT 1564 1577	reincarnation
+E31	EVENT:T61 
+A118	Class E31 Occurrence
+A119	Pos E31 Noun
+T62	ACTOR 1626 1640	the Dalai Lama
+A120	Lexical_Head T62 Noun
+A121	Actor_Type T62 Per
+T63	EVENT 1643 1653	succession
+E32	EVENT:T63 
+A122	Class E32 State
+A123	Pos E32 Noun
+T64	EVENT 1654 1662	to split
+E33	EVENT:T64 
+A124	Class E33 Occurrence
+A125	Pos E33 Verb
+T65	ACTOR 1663 1679	Tibetan Buddhism
+A126	Lexical_Head T65 Noun
+A127	Actor_Type T65 Other
+T66	ACTOR 1686 1704	one new Dalai Lama
+A128	Lexical_Head T66 Noun
+A129	Actor_Type T66 Per
+T67	EVENT 1705 1710	named
+E34	EVENT:T67 
+A130	Class E34 Occurrence
+A131	Pos E34 Verb
+T68	ACTOR 1714 1720	exiles
+A132	Lexical_Head T68 Noun
+A133	Actor_Type T68 Per
+T69	ACTOR 1725 1728	one
+A134	Lexical_Head T69 Noun
+A135	Actor_Type T69 Per
+T70	ACTOR 1732 1746	the government
+A136	Lexical_Head T70 Noun
+A137	Actor_Type T70 Org
+T71	ACTOR 1753 1756	his
+A138	Lexical_Head T71 Pronoun
+A139	Actor_Type T71 Per
+T72	EVENT 1757 1762	death
+E35	EVENT:T72 
+A140	Class E35 Occurrence
+A141	Pos E35 Noun
+R2	OBJ_REL_refDisjunct Arg1:T69 Arg2:T66	
+T73	ACTOR 2340 2349	Activists
+A142	Lexical_Head T73 Noun
+A143	Actor_Type T73 Per
+T74	EVENT 2350 2353	say
+E36	EVENT:T74 
+A144	Class E36 Reporting
+A145	Pos E36 Verb
+T75	ACTOR 2354 2359	China
+A146	Lexical_Head T75 Noun
+A147	Actor_Type T75 Org
+T76	EVENT 2360 2379	has violently tried
+E37	EVENT:T76 
+A148	Class E37 I_Action
+A149	Pos E37 Verb
+T77	EVENT 2380 2392	to stamp out
+E38	EVENT:T77 
+A150	Class E38 Occurrence
+A151	Pos E38 Verb
+T78	EVENT 2393 2410	religious freedom
+E39	EVENT:T78 
+A152	Class E39 State
+A153	Pos E39 Noun
+T79	ACTOR 2415 2422	culture
+A154	Lexical_Head T79 Noun
+A155	Actor_Type T79 Other
+T80	ACTOR 2426 2431	Tibet
+A156	Lexical_Head T80 Noun
+A157	Actor_Type T80 Loc
+T81	ACTOR 2297 2311	Chinese troops
+A158	Lexical_Head T81 Noun
+A159	Actor_Type T81 Per
+T82	EVENT 2312 2319	marched
+E40	EVENT:T82 
+A160	Class E40 Occurrence
+A161	Pos E40 Verb
+T83	ACTOR 2325 2330	Tibet
+A162	Lexical_Head T83 Noun
+A163	Actor_Type T83 Loc
+T84	TIME_X3 2334 2338	1950
+A164	Time_Type T84 Date
+#4	AnnotatorNotes T84	value=1950-XX-XX anchorTime=Publication_Time
+R3	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+R4	OBJ_REL_objIdentity Arg1:T5 Arg2:T2	
+R5	OBJ_REL_objIdentity Arg1:T8 Arg2:T5	
+R6	OBJ_REL_partOf Arg1:T8 Arg2:T9	
+R7	OBJ_REL_partOf Arg1:T7 Arg2:T9	
+T85	ACTOR 733 746	Norbu Dunzhub
+A165	Lexical_Head T85 Noun
+A166	Actor_Type T85 Per
+R8	OBJ_REL_objIdentity Arg1:T85 Arg2:T15	
+T86	ACTOR 760 818	the Tibet Autonomous Region's United Front Work Department
+A167	Lexical_Head T86 Noun
+A168	Actor_Type T86 Org
+R9	OBJ_REL_partOf Arg1:T85 Arg2:T86	
+R10	OBJ_REL_objIdentity Arg1:T17 Arg2:T85	
+R11	OBJ_REL_objIdentity Arg1:T19 Arg2:T97	
+R12	OBJ_REL_objIdentity Arg1:T21 Arg2:T103	
+R13	OBJ_REL_objIdentity Arg1:T32 Arg2:T21	
+R14	OBJ_REL_partOf Arg1:T43 Arg2:T44	
+R15	OBJ_REL_partOf Arg1:T42 Arg2:T44	
+R16	OBJ_REL_objIdentity Arg1:T37 Arg2:T17	
+R17	OBJ_REL_objIdentity Arg1:T45 Arg2:T37	
+R18	OBJ_REL_partOf Arg1:T47 Arg2:T44	
+R19	OBJ_REL_objIdentity Arg1:T52 Arg2:T50	
+R20	OBJ_REL_objIdentity Arg1:T52 Arg2:T49	
+R21	OBJ_REL_objIdentity Arg1:T49 Arg2:T19	
+R22	OBJ_REL_objIdentity Arg1:T50 Arg2:T35	
+R23	OBJ_REL_objIdentity Arg1:T56 Arg2:T44	
+R24	OBJ_REL_objIdentity Arg1:T58 Arg2:T50	
+R25	OBJ_REL_objIdentity Arg1:T62 Arg2:T49	
+R26	OBJ_REL_objIdentity Arg1:T65 Arg2:T9	
+R27	OBJ_REL_objIdentity Arg1:T70 Arg2:T35	
+R28	OBJ_REL_objIdentity Arg1:T71 Arg2:T62	
+R29	SEMROLE_patient Arg1:E1 Arg2:T2	
+R30	SEMROLE_patient Arg1:E2 Arg2:T5	
+R31	SEMROLE_agent Arg1:E2 Arg2:T7	
+R32	SEMROLE_theme Arg1:E2 Arg2:T8	
+R33	SEMROLE_pivot Arg1:E3 Arg2:T5	
+R34	SEMROLE_theme Arg1:E3 Arg2:E4	
+R35	SEMROLE_pivot Arg1:E5 Arg2:T5	
+R36	SEMROLE_theme Arg1:E5 Arg2:E6	
+R37	SEMROLE_theme Arg1:E7 Arg2:E3	
+R38	SEMROLE_agent Arg1:E7 Arg2:T15	
+R39	SUBORD_evidential Arg1:E7 Arg2:E3	
+R40	SEMROLE_agent Arg1:E8 Arg2:T17	
+R41	SEMROLE_theme Arg1:E8 Arg2:T19	
+R42	SEMROLE_reason Arg1:E8 Arg2:E9	
+R43	SEMROLE_agent Arg1:E9 Arg2:T19	
+R44	SEMROLE_patient Arg1:E9 Arg2:T21	
+R45	SEMROLE_theme Arg1:E9 Arg2:E10	
+R46	SEMROLE_theme Arg1:E10 Arg2:T23	
+R47	SEMROLE_agent Arg1:E11 Arg2:T17	
+R48	SEMROLE_theme Arg1:E11 Arg2:E13	
+R49	SUBORD_evidential Arg1:E11 Arg2:E13	
+R50	SEMROLE_cause Arg1:E13 Arg2:E12	
+R51	SEMROLE_theme Arg1:E13 Arg2:E14	
+R52	SEMROLE_cause Arg1:E15 Arg2:E12	
+R53	SEMROLE_beneficiary Arg1:E15 Arg2:E16	
+R54	SEMROLE_pivot Arg1:E17 Arg2:T30	
+R55	SEMROLE_theme Arg1:E17 Arg2:E18	
+R56	SEMROLE_pivot Arg1:E18 Arg2:T32	
+R57	SEMROLE_theme Arg1:E18 Arg2:T34	
+R58	SEMROLE_source Arg1:E20 Arg2:E21	
+R59	SEMROLE_theme Arg1:E20 Arg2:T42	
+R60	SEMROLE_theme Arg1:E20 Arg2:T43	
+R61	SEMROLE_agent Arg1:E19 Arg2:T35	
+R62	SEMROLE_patient Arg1:E19 Arg2:T37	
+R63	SEMROLE_theme Arg1:E19 Arg2:T38	
+R64	SEMROLE_purpose Arg1:E19 Arg2:E20	
+R65	SEMROLE_pivot Arg1:E22 Arg2:T45	
+R66	SEMROLE_theme Arg1:E22 Arg2:E23	
+R67	SEMROLE_agent Arg1:E22 Arg2:T47	
+R68	SEMROLE_agent Arg1:E24 Arg2:T49	
+R69	SEMROLE_partner Arg1:E24 Arg2:T50	
+R70	SEMROLE_theme Arg1:E24 Arg2:E25	
+R71	SEMROLE_pivot Arg1:E25 Arg2:T52	
+R72	SEMROLE_theme Arg1:E25 Arg2:E26	
+R73	SEMROLE_theme Arg1:E26 Arg2:E27	
+R74	SEMROLE_theme Arg1:E27 Arg2:E31	
+R75	SEMROLE_pivot Arg1:E28 Arg2:T56	
+R76	SEMROLE_theme Arg1:E28 Arg2:E29	
+R77	SEMROLE_agent Arg1:E29 Arg2:T58	
+R78	SEMROLE_theme Arg1:E29 Arg2:E30	
+R79	SEMROLE_purpose Arg1:E29 Arg2:E33	
+R80	SEMROLE_theme Arg1:E30 Arg2:E32	
+R81	SEMROLE_pivot Arg1:E32 Arg2:T62	
+R82	SEMROLE_beneficiary Arg1:E33 Arg2:T65	
+R83	SEMROLE_patient Arg1:E34 Arg2:T66	
+R84	SEMROLE_agent Arg1:E34 Arg2:T68	
+R85	SEMROLE_agent Arg1:E34 Arg2:T70	
+R86	SEMROLE_patient Arg1:E34 Arg2:T69	
+R87	SEMROLE_patient Arg1:E35 Arg2:T71	
+R88	SEMROLE_agent Arg1:E40 Arg2:T81	
+R89	SEMROLE_finalLocation Arg1:E40 Arg2:T83	
+R90	TLINK_isIncluded Arg1:E40 Arg2:T84	
+R91	SEMROLE_agent Arg1:E36 Arg2:T73	
+R92	SEMROLE_theme Arg1:E36 Arg2:E37	
+R93	SUBORD_evidential Arg1:E36 Arg2:E37	
+R94	SEMROLE_agent Arg1:E37 Arg2:T75	
+R95	SEMROLE_theme Arg1:E37 Arg2:E38	
+R96	SUBORD_modal Arg1:E37 Arg2:E38	
+R97	SEMROLE_theme Arg1:E38 Arg2:E39	
+R98	SEMROLE_theme Arg1:E38 Arg2:T79	
+R99	SEMROLE_location Arg1:E38 Arg2:T80	
+T87	EVENT 250 253	are
+E41	EVENT:T87 
+A169	Class E41 State
+A170	Pos E41 Verb
+T88	EVENT 254 270	a rare admission
+E42	EVENT:T88 
+A171	Class E42 Reporting
+A172	Pos E42 Noun
+T89	EVENT 274 282	the fate
+E43	EVENT:T89 
+A173	Class E43 State
+A174	Pos E43 Noun
+T90	ACTOR 286 314	Gendun Choekyi Nyima, now 26
+A175	Lexical_Head T90 Noun
+A176	Actor_Type T90 Per
+T91	ACTOR 316 319	who
+A177	Lexical_Head T91 Pronoun
+A178	Actor_Type T91 Per
+T92	EVENT 320 323	was
+E44	EVENT:T92 
+A179	Class E44 State
+A180	Pos E44 Verb
+T93	ACTOR 324 337	six years old
+A181	Lexical_Head T93 Noun
+A182	Actor_Type T93 Other
+R100	OBJ_REL_objIdentity Arg1:T91 Arg2:T90	
+T94	ACTOR 343 345	he
+A183	Lexical_Head T94 Pronoun
+A184	Actor_Type T94 Per
+R101	OBJ_REL_objIdentity Arg1:T94 Arg2:T91	
+T95	EVENT 346 360	was taken away
+E45	EVENT:T95 
+A185	Class E45 Occurrence
+A186	Pos E45 Verb
+T96	EVENT 367 373	exiled
+E46	EVENT:T96 
+A187	Class E46 State
+A188	Pos E46 Adjective
+T97	ACTOR 374 405	spiritual leader the Dalai Lama
+A189	Lexical_Head T97 Noun
+A190	Actor_Type T97 Per
+T98	EVENT 406 411	named
+E47	EVENT:T98 
+A191	Class E47 Occurrence
+A192	Pos E47 Verb
+T99	ACTOR 412 415	him
+A193	Lexical_Head T99 Pronoun
+A194	Actor_Type T99 Per
+T100	ACTOR 419 435	the Panchen Lama
+A195	Lexical_Head T100 Noun
+A196	Actor_Type T100 Per
+T101	EVENT 238 249	The remarks
+E48	EVENT:T101 
+A197	Class E48 Reporting
+A198	Pos E48 Noun
+R102	OBJ_REL_objIdentity Arg1:T90 Arg2:T8	
+R103	OBJ_REL_objIdentity Arg1:T99 Arg2:T94	
+R104	OBJ_REL_objIdentity Arg1:T97 Arg2:T7	
+T102	EVENT 584 596	reincarnated
+E49	EVENT:T102 
+A199	Class E49 State
+A200	Pos E49 Noun
+T103	ACTOR 580 583;597 615	The child Panchen Lama
+A201	Lexical_Head T103 Noun
+A202	Actor_Type T103 Per
+T104	ACTOR 616 619	you
+A203	Lexical_Head T104 Pronoun
+A204	Actor_Type T104 Per
+T105	EVENT 620 629	mentioned
+E50	EVENT:T105 
+A205	Class E50 Reporting
+A206	Pos E50 Verb
+T106	EVENT 631 647	s being educated
+E51	EVENT:T106 
+A207	Class E51 State
+A208	Pos E51 Verb
+T107	EVENT 649 655	living
+E52	EVENT:T107 
+A209	Class E52 State
+A210	Pos E52 Verb
+T108	EVENT 656 669	a normal life
+E53	EVENT:T108 
+A211	Class E53 State
+A212	Pos E53 Noun
+T109	EVENT 671 691	growing up healthily
+E54	EVENT:T109 
+A213	Class E54 Occurrence
+A214	Pos E54 Verb
+T110	EVENT 696 709	does not wish
+E55	EVENT:T110 
+A215	Class E55 I_State
+A216	Pos E55 Verb
+T111	EVENT 710 725	to be disturbed
+E56	EVENT:T111 
+A217	Class E56 State
+A218	Pos E56 Verb
+T112	EVENT 728 732	said
+E57	EVENT:T112 
+A219	Class E57 Reporting
+A220	Pos E57 Verb
+R105	SEMROLE_pivot Arg1:T103 Arg2:E49	
+R106	OBJ_REL_objIdentity Arg1:T103 Arg2:T99	
+R107	SEMROLE_agent Arg1:E50 Arg2:T104	
+R108	SEMROLE_theme Arg1:E50 Arg2:T103	
+R109	SEMROLE_pivot Arg1:E51 Arg2:T103	
+R110	SEMROLE_pivot Arg1:E52 Arg2:T103	
+R111	SEMROLE_theme Arg1:E52 Arg2:E53	
+R112	SEMROLE_pivot Arg1:E54 Arg2:T103	
+R113	SEMROLE_pivot Arg1:E55 Arg2:T103	
+R114	SEMROLE_theme Arg1:E55 Arg2:E56	
+R115	SUBORD_modal Arg1:E55 Arg2:E56	
+R116	SEMROLE_theme Arg1:E57 Arg2:E51	
+R117	SEMROLE_agent Arg1:E57 Arg2:T85	
+R118	SUBORD_evidential Arg1:E57 Arg2:E51	

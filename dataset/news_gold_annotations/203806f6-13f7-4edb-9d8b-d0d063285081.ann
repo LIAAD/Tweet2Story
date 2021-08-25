@@ -1,0 +1,335 @@
+T1	ACTOR 2 9	England
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Org
+T2	EVENT 10 14	meet
+E1	EVENT:T2 
+A3	Class E1 Occurrence
+A4	Pos E1 Verb
+T3	ACTOR 15 19	Fiji
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Org
+T4	EVENT 23 35	opening game
+E2	EVENT:T4 
+A7	Class E2 Occurrence
+A8	Pos E2 Noun
+T5	ACTOR 39 48	World Cup
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Other
+T6	ACTOR 52 62	Twickenham
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Loc
+T7	TIME_X3 66 72	Friday
+A13	Time_Type T7 Date
+T8	ACTOR 79 88	Lancaster
+A14	Lexical_Head T8 Noun
+A15	Actor_Type T8 Per
+T9	EVENT 89 96	watched
+E3	EVENT:T9 
+A16	Class E3 Perception
+A17	Pos E3 Verb
+T10	ACTOR 100 108	Matawalu
+A18	Lexical_Head T10 Noun
+A19	Actor_Type T10 Per
+T11	EVENT 109 114	shone
+E4	EVENT:T11 
+A20	Class E4 State
+A21	Pos E4 Verb
+T12	ACTOR 118 122	Fiji
+A22	Lexical_Head T12 Noun
+A23	Actor_Type T12 Org
+T13	EVENT 123 130	victory
+E5	EVENT:T13 
+A24	Class E5 State
+A25	Pos E5 Noun
+T14	ACTOR 136 142	Canada
+A26	Lexical_Head T14 Noun
+A27	Actor_Type T14 Org
+T15	TIME_X3 143 153	this month
+A28	Time_Type T15 Time
+T16	ACTOR 154 158	Fiji
+A29	Lexical_Head T16 Noun
+A30	Actor_Type T16 Org
+T17	ACTOR 160 169	World Cup
+A31	Lexical_Head T17 Noun
+A32	Actor_Type T17 Other
+T18	ACTOR 170 187	quarter-finalists
+A33	Lexical_Head T18 Noun
+A34	Actor_Type T18 Other
+T19	TIME_X3 191 195	2007
+A35	Time_Type T19 Date
+#1	AnnotatorNotes T19	value=2007-XX-XX anchorTime=Publication_Time
+T20	EVENT 197 208	have warned
+E6	EVENT:T20 
+A36	Class E6 Reporting
+A37	Pos E6 Verb
+T21	ACTOR 209 216	England
+A38	Lexical_Head T21 Noun
+A39	Actor_Type T21 Org
+T22	ACTOR 222 226	they
+A40	Lexical_Head T22 Pronoun
+A41	Actor_Type T22 Org
+T23	EVENT 227 258	have never been better prepared
+E7	EVENT:T23 
+A42	Class E7 State
+A43	Pos E7 Verb
+A44	Polarity E7 Neg
+T24	EVENT 263 274	are capable
+E8	EVENT:T24 
+A45	Class E8 I_State
+A46	Pos E8 Verb
+T25	EVENT 278 290	bringing off
+E9	EVENT:T25 
+A47	Class E9 Occurrence
+A48	Pos E9 Verb
+T26	EVENT 295 308	biggest shock
+E10	EVENT:T26 
+A49	Class E10 State
+A50	Pos E10 Noun
+T27	EVENT 316 321	event
+E11	EVENT:T27 
+A51	Class E11 Occurrence
+A52	Pos E11 Noun
+T29	TIME_X3 335 347	Friday night
+A55	Time_Type T29 Date
+T30	EVENT 350 363	opening match
+E12	EVENT:T30 
+A56	Class E12 Occurrence
+A57	Pos E12 Noun
+T31	ACTOR 367 377	Twickenham
+A58	Lexical_Head T31 Noun
+A59	Actor_Type T31 Loc
+T32	ACTOR 382 389	England
+A60	Lexical_Head T32 Noun
+A61	Actor_Type T32 Org
+T33	EVENT 390 417	are overwhelming favourites
+E13	EVENT:T33 
+A62	Class E13 State
+A63	Pos E13 Verb
+T34	EVENT 418 426	to start
+E14	EVENT:T34 
+A64	Class E14 Aspectual
+A65	Pos E14 Verb
+T35	EVENT 431 441	tournament
+E15	EVENT:T35 
+A66	Class E15 Occurrence
+A67	Pos E15 Noun
+R1	ASPECT_initiates Arg1:E14 Arg2:E15	
+T36	ACTOR 442 446	they
+A68	Lexical_Head T36 Pronoun
+A69	Actor_Type T36 Org
+T37	EVENT 447 458	are hosting
+E16	EVENT:T37 
+A70	Class E16 State
+A71	Pos E16 Verb
+T38	EVENT 466 473	victory
+E17	EVENT:T38 
+A72	Class E17 State
+A73	Pos E17 Noun
+T39	ACTOR 478 482	Fiji
+A74	Lexical_Head T39 Noun
+A75	Actor_Type T39 Org
+T40	EVENT 483 495	are unbeaten
+E18	EVENT:T40 
+A76	Class E18 State
+A77	Pos E18 Verb
+T41	EVENT 509 524	narrowly losing
+E19	EVENT:T41 
+A78	Class E19 Occurrence
+A79	Pos E19 Verb
+T42	ACTOR 528 533	Wales
+A80	Lexical_Head T42 Noun
+A81	Actor_Type T42 Org
+T43	ACTOR 537 559	the Millennium Stadium
+A82	Lexical_Head T43 Noun
+A83	Actor_Type T43 Loc
+T44	TIME_X3 560 573	last November
+A84	Time_Type T44 Date
+T45	EVENT 578 588	have spent
+E20	EVENT:T45 
+A85	Class E20 State
+A86	Pos E20 Verb
+T46	ACTOR 603 607	camp
+A87	Lexical_Head T46 Noun
+A88	Actor_Type T46 Loc
+T47	EVENT 609 616	winning
+E21	EVENT:T47 
+A89	Class E21 Occurrence
+A90	Pos E21 Verb
+T48	ACTOR 617 640	the Pacific Nations Cup
+A91	Lexical_Head T48 Noun
+A92	Actor_Type T48 Other
+T49	EVENT 647 657	overcoming
+E22	EVENT:T49 
+A93	Class E22 Occurrence
+A94	Pos E22 Verb
+T50	ACTOR 658 663	Samoa
+A95	Lexical_Head T50 Noun
+A96	Actor_Type T50 Org
+T51	EVENT 671 676	final
+E23	EVENT:T51 
+A97	Class E23 Occurrence
+A98	Pos E23 Noun
+T52	ACTOR 1058 1066	Matawalu
+A99	Lexical_Head T52 Noun
+A100	Actor_Type T52 Per
+T53	EVENT 1067 1073	scored
+E24	EVENT:T53 
+A101	Class E24 I_Action
+A102	Pos E24 Verb
+T54	EVENT 1074 1083	two tries
+E25	EVENT:T54 
+A103	Class E25 Occurrence
+A104	Pos E25 Noun
+R2	SUBORD_modal Arg1:E24 Arg2:E25	
+T55	ACTOR 1087 1091	Fiji
+A105	Lexical_Head T55 Noun
+A106	Actor_Type T55 Org
+T56	EVENT 1094 1107	47-18 victory
+E26	EVENT:T56 
+A107	Class E26 State
+A108	Pos E26 Noun
+R3	SUBORD_modal Arg1:E8 Arg2:E9	
+T57	ACTOR 1116 1122	Canada
+A109	Lexical_Head T57 Noun
+A110	Actor_Type T57 Org
+T58	ACTOR 1126 1135	the Stoop
+A111	Lexical_Head T58 Noun
+A112	Actor_Type T58 Loc
+T59	TIME_X3 1136 1150	seven days ago
+A113	Time_Type T59 Date
+#2	AnnotatorNotes T59	anchorTime=Publication_Time
+#3	AnnotatorNotes T44	anchorTime=Publication_Time
+#4	AnnotatorNotes T7	anchorTime=Publication_Time
+#5	AnnotatorNotes T15	anchorTime=Publication_Time
+#6	AnnotatorNotes T29	anchorTime=Publication_Time
+T60	ACTOR 1164 1192	he watching Stuart Lancaster
+A114	Lexical_Head T60 Noun
+A115	Actor_Type T60 Per
+T61	EVENT 1194 1201	marking
+E27	EVENT:T61 
+A116	Class E27 Occurrence
+A117	Pos E27 Verb
+T62	EVENT 1202 1212	the second
+E28	EVENT:T62 
+A118	Class E28 Occurrence
+A119	Pos E28 Noun
+T63	EVENT 1220 1224	dive
+E29	EVENT:T63 
+A120	Class E29 State
+A121	Pos E29 Noun
+T64	ACTOR 1242 1254	Chris Ashton
+A122	Lexical_Head T64 Noun
+A123	Actor_Type T64 Per
+T65	ACTOR 1266 1273	England
+A124	Lexical_Head T65 Noun
+A125	Actor_Type T65 Org
+T66	ACTOR 1262 1265;1274 1284	the head coach
+A126	Lexical_Head T66 Noun
+A127	Actor_Type T66 Per
+T67	EVENT 1285 1288	saw
+E30	EVENT:T67 
+A128	Class E30 Perception
+A129	Pos E30 Verb
+T68	ACTOR 1289 1292	him
+A130	Lexical_Head T68 Pronoun
+A131	Actor_Type T68 Per
+T69	EVENT 1293 1308	being taken off
+E31	EVENT:T69 
+A132	Class E31 State
+A133	Pos E31 Verb
+T70	ACTOR 1316 1321	groin
+A134	Lexical_Head T70 Noun
+A135	Actor_Type T70 Other
+T71	EVENT 1322 1328	injury
+E32	EVENT:T71 
+A136	Class E32 State
+A137	Pos E32 Noun
+T72	EVENT 1334 1344	precaution
+E33	EVENT:T72 
+A138	Class E33 State
+A139	Pos E33 Noun
+R4	OBJ_REL_objIdentity Arg1:T12 Arg2:T3	
+R5	OBJ_REL_partOf Arg1:T10 Arg2:T12	
+R6	OBJ_REL_objIdentity Arg1:T16 Arg2:T12	
+R7	OBJ_REL_objIdentity Arg1:T17 Arg2:T5	
+R8	OBJ_REL_objIdentity Arg1:T21 Arg2:T1	
+R9	OBJ_REL_objIdentity Arg1:T18 Arg2:T16	
+R10	OBJ_REL_objIdentity Arg1:T22 Arg2:T18	
+R11	OBJ_REL_objIdentity Arg1:T31 Arg2:T6	
+R12	OBJ_REL_objIdentity Arg1:T32 Arg2:T21	
+R13	OBJ_REL_objIdentity Arg1:T36 Arg2:T32	
+R14	OBJ_REL_objIdentity Arg1:T39 Arg2:T22	
+R15	OBJ_REL_objIdentity Arg1:T60 Arg2:T8	
+R16	OBJ_REL_partOf Arg1:T66 Arg2:T65	
+R17	OBJ_REL_objIdentity Arg1:T66 Arg2:T60	
+R18	OBJ_REL_objIdentity Arg1:T68 Arg2:T52	
+R19	OBJ_REL_partOf Arg1:T70 Arg2:T68	
+R20	OBJ_REL_objIdentity Arg1:T65 Arg2:T36	
+R21	OBJ_REL_partOf Arg1:T52 Arg2:T55	
+R22	OBJ_REL_objIdentity Arg1:T55 Arg2:T39	
+T73	ACTOR 589 599	the summer
+A140	Lexical_Head T73 Noun
+A141	Actor_Type T73 Other
+R23	SEMROLE_agent Arg1:E1 Arg2:T1	
+R24	SEMROLE_patient Arg1:E1 Arg2:T3	
+R25	SEMROLE_setting Arg1:E1 Arg2:E2	
+R26	OBJ_REL_partOf Arg1:T18 Arg2:T17	
+R27	SEMROLE_theme Arg1:E2 Arg2:T5	
+R28	SEMROLE_location Arg1:E1 Arg2:T6	
+R29	SEMROLE_agent Arg1:E3 Arg2:T8	
+R30	SUBORD_evidential Arg1:E3 Arg2:E4	
+R31	SEMROLE_theme Arg1:E3 Arg2:E4	
+R32	SEMROLE_pivot Arg1:E4 Arg2:T10	
+R33	SEMROLE_theme Arg1:E4 Arg2:E5	
+R34	SEMROLE_pivot Arg1:E5 Arg2:T12	
+R35	SEMROLE_beneficiary Arg1:E5 Arg2:T14	
+R36	SEMROLE_agent Arg1:E6 Arg2:T18	
+R37	SEMROLE_theme Arg1:E6 Arg2:E7	
+R38	SUBORD_evidential Arg1:E6 Arg2:E7	
+R39	SEMROLE_patient Arg1:E6 Arg2:T21	
+R40	SEMROLE_pivot Arg1:E7 Arg2:T22	
+R41	SEMROLE_pivot Arg1:E8 Arg2:T22	
+R42	SEMROLE_theme Arg1:E8 Arg2:E9	
+R43	SEMROLE_theme Arg1:E9 Arg2:E10	
+R44	SEMROLE_setting Arg1:E10 Arg2:E34	
+R46	SEMROLE_setting Arg1:E9 Arg2:E12	
+R47	SEMROLE_location Arg1:E12 Arg2:T31	
+R48	SEMROLE_pivot Arg1:E13 Arg2:T32	
+R49	SEMROLE_theme Arg1:E13 Arg2:E14	
+R50	SEMROLE_theme Arg1:E14 Arg2:E15	
+R51	SEMROLE_pivot Arg1:E16 Arg2:T36	
+R52	SEMROLE_theme Arg1:E16 Arg2:E15	
+R53	SEMROLE_manner Arg1:E14 Arg2:E17	
+R54	SEMROLE_pivot Arg1:E18 Arg2:T39	
+R55	SEMROLE_patient Arg1:E19 Arg2:T39	
+R56	SEMROLE_beneficiary Arg1:E19 Arg2:T42	
+R57	SEMROLE_location Arg1:E19 Arg2:T43	
+R58	SEMROLE_pivot Arg1:E20 Arg2:T39	
+R59	SEMROLE_location Arg1:E20 Arg2:T46	
+R60	SEMROLE_theme Arg1:E20 Arg2:T73	
+R61	SEMROLE_agent Arg1:E21 Arg2:T39	
+R62	SEMROLE_theme Arg1:E21 Arg2:T48	
+R63	SEMROLE_agent Arg1:E22 Arg2:T39	
+R64	SEMROLE_patient Arg1:E22 Arg2:T50	
+R65	SEMROLE_setting Arg1:E22 Arg2:E23	
+R66	SEMROLE_agent Arg1:E24 Arg2:T52	
+R67	SEMROLE_theme Arg1:E24 Arg2:E25	
+R68	SEMROLE_setting Arg1:E24 Arg2:E26	
+R69	SEMROLE_pivot Arg1:E26 Arg2:T55	
+R70	SEMROLE_beneficiary Arg1:E26 Arg2:T57	
+R71	SEMROLE_location Arg1:E26 Arg2:T58	
+R72	SEMROLE_agent Arg1:E27 Arg2:T52	
+R73	SEMROLE_theme Arg1:E27 Arg2:E28	
+R74	SEMROLE_manner Arg1:E27 Arg2:E29	
+R75	SEMROLE_agent Arg1:E30 Arg2:T66	
+R76	SEMROLE_theme Arg1:E30 Arg2:E31	
+R77	SUBORD_evidential Arg1:E30 Arg2:E31	
+R78	SEMROLE_pivot Arg1:E31 Arg2:T68	
+R79	SEMROLE_theme Arg1:E32 Arg2:T70	
+R80	SEMROLE_purpose Arg1:E31 Arg2:E33	
+R81	SEMROLE_reason Arg1:E31 Arg2:E32	
+T28	EVENT 324 331	history
+E34	EVENT:T28 
+A53	Class E34 State
+A54	Pos E34 Noun
+R45	SEMROLE_theme Arg1:E34 Arg2:E11	

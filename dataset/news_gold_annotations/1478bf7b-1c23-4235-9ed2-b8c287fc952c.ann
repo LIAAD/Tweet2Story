@@ -1,0 +1,38 @@
+T1	ACTOR 0 13	Inox Wind Ltd
+T2	EVENT 15 25	Has bagged
+T3	EVENT 29 34	order
+T4	ACTOR 70 76	Lahori
+T5	ACTOR 81 108	the state of Madhya Pradesh
+R1	OBJ_REL_partOf Arg1:T4 Arg2:T5	
+T6	ACTOR 114 126	Ostro Energy
+T7	ACTOR 133 145	Ostro Energy
+T8	ACTOR 158 163	Actis
+T9	ACTOR 41 47	100 MW
+T10	EVENT 48 66	wind power project
+T11	EVENT 128 132	Says
+T12	EVENT 146 154	is baked
+T13	ACTOR 165 212	a global pan-emerging maket private equity frim
+T14	ACTOR 218 226	$7.6 bln
+T15	EVENT 236 252	under management
+T16	ACTOR 230 235	funds
+R2	SEMROLE_agent	Arg1:E1	Arg2:T1
+R3	SEMROLE_theme	Arg1:E1	Arg2:E2
+R4	SLINK_intensional Arg1:T3 Arg2:T10	
+R5	SEMROLE_amount	Arg1:E3	Arg2:T9
+R6	SEMROLE_location	Arg1:E1	Arg2:T4
+R7	SEMROLE_theme	Arg1:E2	Arg2:E3
+R8	SEMROLE_agent	Arg1:E3	Arg2:T6
+R9	SEMROLE_agent	Arg1:E4	Arg2:T1
+R10	SLINK_evidential Arg1:T11 Arg2:T12	
+R11	SEMROLE_theme	Arg1:E4	Arg2:E5
+R12	SEMROLE_pivot	Arg1:E5	Arg2:T7
+R13	SEMROLE_agent	Arg1:E5	Arg2:T8
+R14	OBJ_REL_objIdentity Arg1:T13 Arg2:T8	
+R15	SEMROLE_theme	Arg1:E6	Arg2:T16
+R16	SEMROLE_amount	Arg1:E6	Arg2:T14
+E1	EVENT:T2
+E2	EVENT:T3
+E3	EVENT:T10
+E4	EVENT:T11
+E5	EVENT:T12
+E6	EVENT:T15

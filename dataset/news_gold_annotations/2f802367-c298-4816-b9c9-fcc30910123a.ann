@@ -1,0 +1,360 @@
+T1	ACTOR 29 40	Trevor Noah
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	EVENT 41 51	takes over
+E1	EVENT:T2 
+A3	Class E1 Occurrence
+A4	Pos E1 Verb
+T3	ACTOR 52 55	one
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Other
+T4	ACTOR 59 62;81 86	the shows
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Other
+T5	ACTOR 90 92	TV
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Other
+T6	ACTOR 98 101	one
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Per
+T7	ACTOR 105 107	TV
+A13	Lexical_Head T7 Noun
+A14	Actor_Type T7 Other
+T8	ACTOR 123 128	hosts
+A15	Lexical_Head T8 Noun
+A16	Actor_Type T8 Per
+T9	EVENT 110 122	most beloved
+E2	EVENT:T9 
+A17	Class E2 State
+A18	Pos E2 Adjective
+T10	ACTOR 130 132	he
+A19	Lexical_Head T10 Pronoun
+A20	Actor_Type T10 Per
+T11	EVENT 133 142	s getting
+E3	EVENT:T11 
+A21	Class E3 State
+A22	Pos E3 Verb
+T12	EVENT 151 159	practice
+E4	EVENT:T12 
+A23	Class E4 State
+A24	Pos E4 Noun
+T13	ACTOR 165 203	The 31-year-old South African comedian
+A25	Lexical_Head T13 Noun
+A26	Actor_Type T13 Per
+T14	EVENT 204 212	has held
+E5	EVENT:T14 
+A27	Class E5 State
+A28	Pos E5 Verb
+T15	ACTOR 213 232	several tests shows
+A29	Lexical_Head T15 Noun
+A30	Actor_Type T15 Other
+T16	TIME_X3 236 245	September
+A31	Time_Type T16 Date
+T17	ACTOR 251 254	his
+A32	Lexical_Head T17 Pronoun
+A33	Actor_Type T17 Per
+T18	ACTOR 255 259	last
+A34	Lexical_Head T18 Pronoun
+A35	Actor_Type T18 Other
+T19	EVENT 260 272	taking place
+E6	EVENT:T19 
+A36	Class E6 State
+A37	Pos E6 Verb
+T20	TIME_X3 276 290	Thursday night
+A38	Time_Type T20 Date
+T21	ACTOR 302 315	the test show
+A39	Lexical_Head T21 Noun
+A40	Actor_Type T21 Other
+T22	EVENT 316 330	will never air
+E7	EVENT:T22 
+A41	Class E7 Occurrence
+A42	Pos E7 Verb
+A43	Polarity E7 Neg
+T23	ACTOR 332 334	it
+A44	Lexical_Head T23 Pronoun
+A45	Actor_Type T23 Other
+T24	EVENT 335 342	allowed
+E8	EVENT:T24 
+A46	Class E8 State
+A47	Pos E8 Verb
+T25	ACTOR 343 347	Noah
+A48	Lexical_Head T25 Noun
+A49	Actor_Type T25 Per
+T26	ACTOR 352 355	his
+A50	Lexical_Head T26 Pronoun
+A51	Actor_Type T26 Per
+T27	ACTOR 369 374	staff
+A52	Lexical_Head T27 Noun
+A53	Actor_Type T27 Per
+T28	EVENT 375 387	to get ready
+E9	EVENT:T28 
+A54	Class E9 Occurrence
+A55	Pos E9 Verb
+T29	TIME_X3 395 402	Monday’
+T30	EVENT 404 413	big debut
+E10	EVENT:T30 
+A56	Class E10 Occurrence
+A57	Pos E10 Noun
+T31	ACTOR 357 367	Daily Show
+A58	Lexical_Head T31 Noun
+A59	Actor_Type T31 Other
+T32	EVENT 419 430	To kick off
+E11	EVENT:T32 
+A60	Class E11 Occurrence
+A61	Pos E11 Verb
+T33	ACTOR 431 439	the show
+A62	Lexical_Head T33 Noun
+A63	Actor_Type T33 Other
+T34	ACTOR 441 445	Noah
+A64	Lexical_Head T34 Noun
+A65	Actor_Type T34 Per
+T35	EVENT 446 461	didn’t scribble
+E12	EVENT:T35 
+A66	Class E12 Occurrence
+A67	Pos E12 Verb
+T36	ACTOR 465 468	his
+A68	Lexical_Head T36 Pronoun
+A69	Actor_Type T36 Per
+T37	ACTOR 469 475	script
+A70	Lexical_Head T37 Noun
+A71	Actor_Type T37 Other
+T38	ACTOR 481 492	Jon Stewart
+A72	Lexical_Head T38 Noun
+A73	Actor_Type T38 Per
+T39	EVENT 494 502	choosing
+E13	EVENT:T39 
+A74	Class E13 I_Action
+A75	Pos E13 Verb
+T40	EVENT 511 530	to calmly introduce
+E14	EVENT:T40 
+A76	Class E14 Occurrence
+A77	Pos E14 Verb
+R1	SUBORD_modal Arg1:E13 Arg2:E14	
+T41	ACTOR 532 539	himself
+A78	Lexical_Head T41 Pronoun
+A79	Actor_Type T41 Per
+T42	EVENT 549 552	was
+E15	EVENT:T42 
+A80	Class E15 State
+A81	Pos E15 Verb
+T43	ACTOR 553 556	his
+A82	Lexical_Head T43 Pronoun
+A83	Actor_Type T43 Per
+T44	ACTOR 546 548	it
+A84	Lexical_Head T44 Pronoun
+A85	Actor_Type T44 Other
+T45	EVENT 557 579	actual first broadcast
+E16	EVENT:T45 
+A86	Class E16 State
+A87	Pos E16 Noun
+T49	TIME_X3 2332 2338	Monday
+A94	Time_Type T49 Date
+T50	ACTOR 2339 2343	Noah
+A95	Lexical_Head T50 Noun
+A96	Actor_Type T50 Per
+T51	EVENT 2344 2347	has
+E19	EVENT:T51 
+A97	Class E19 State
+A98	Pos E19 Verb
+T52	EVENT 2348 2374	the almost impossible task
+E20	EVENT:T52 
+A99	Class E20 Occurrence
+A100	Pos E20 Noun
+T53	EVENT 2378 2387	replacing
+E21	EVENT:T53 
+A101	Class E21 Occurrence
+A102	Pos E21 Verb
+T54	ACTOR 2388 2395	Stewart
+A103	Lexical_Head T54 Noun
+A104	Actor_Type T54 Per
+T55	ACTOR 2408 2428	an entertaining host
+A105	Lexical_Head T55 Noun
+A106	Actor_Type T55 Per
+T56	ACTOR 2437 2453	a news commenter
+A107	Lexical_Head T56 Noun
+A108	Actor_Type T56 Per
+T57	ACTOR 2458 2476	millions of people
+A109	Lexical_Head T57 Noun
+A110	Actor_Type T57 Per
+T58	ACTOR 1110 1115	Noah’
+A111	Lexical_Head T58 Noun
+A112	Actor_Type T58 Per
+T59	EVENT 1131 1138	touched
+E22	EVENT:T59 
+A113	Class E22 Occurrence
+A114	Pos E22 Verb
+T60	EVENT 1117 1130	first segment
+E23	EVENT:T60 
+A115	Class E23 Occurrence
+A116	Pos E23 Noun
+T61	ACTOR 1142 1154	Pope Francis
+A117	Lexical_Head T61 Noun
+A118	Actor_Type T61 Per
+T62	ACTOR 1156 1160	U.S.
+A119	Lexical_Head T62 Noun
+A120	Actor_Type T62 Loc
+T63	EVENT 1161 1165	trip
+E24	EVENT:T63 
+A121	Class E24 Occurrence
+A122	Pos E24 Noun
+T64	EVENT 1170 1178	included
+E25	EVENT:T64 
+A123	Class E25 Occurrence
+A124	Pos E25 Verb
+T65	ACTOR 1179 1217	long-time correspondent Jordan Klepper
+A125	Lexical_Head T65 Noun
+A126	Actor_Type T65 Per
+T66	ACTOR 1219 1222	who
+A127	Lexical_Head T66 Pronoun
+A128	Actor_Type T66 Per
+T67	EVENT 1223 1243	tried unsuccessfully
+E26	EVENT:T67 
+A129	Class E26 I_Action
+A130	Pos E26 Verb
+T68	EVENT 1247 1251	turn
+E27	EVENT:T68 
+A131	Class E27 Occurrence
+A132	Pos E27 Verb
+T69	EVENT 1252 1261	attention
+E28	EVENT:T69 
+A133	Class E28 State
+A134	Pos E28 Noun
+T70	ACTOR 1265 1270	China
+A135	Lexical_Head T70 Noun
+A136	Actor_Type T70 Loc
+T71	ACTOR 1273 1293	President Xi Jinping
+A137	Lexical_Head T71 Noun
+A138	Actor_Type T71 Per
+T72	ACTOR 1295 1298	who
+A139	Lexical_Head T72 Pronoun
+A140	Actor_Type T72 Per
+T73	EVENT 1299 1306	is also
+E29	EVENT:T73 
+A141	Class E29 State
+A142	Pos E29 Verb
+T74	ACTOR 1310 1317	the U.S
+A143	Lexical_Head T74 Noun
+A144	Actor_Type T74 Loc
+T75	ACTOR 1323 1348	The rebooted “Daily Show”
+A145	Lexical_Head T75 Noun
+A146	Actor_Type T75 Other
+T76	EVENT 1354 1364	introduced
+E30	EVENT:T76 
+A147	Class E30 Occurrence
+A148	Pos E30 Verb
+T77	ACTOR 1365 1387	two new correspondents
+A149	Lexical_Head T77 Noun
+A150	Actor_Type T77 Per
+T78	ACTOR 1391 1403	Ronny Chieng
+A151	Lexical_Head T78 Noun
+A152	Actor_Type T78 Per
+T79	ACTOR 1408 1419	Roy Wood Jr
+A153	Lexical_Head T79 Noun
+A154	Actor_Type T79 Per
+T80	ACTOR 2060 2072	The hundreds
+A155	Lexical_Head T80 Noun
+A156	Actor_Type T80 Per
+T81	TIME_X3 2076 2084	Thursday
+A157	Time_Type T81 Date
+T82	ACTOR 2087 2095	audience
+A158	Lexical_Head T82 Noun
+A159	Actor_Type T82 Per
+T83	EVENT 2096 2108	were treated
+E31	EVENT:T83 
+A160	Class E31 Occurrence
+A161	Pos E31 Verb
+T84	ACTOR 2112 2128	a brand new host
+A162	Lexical_Head T84 Noun
+A163	Actor_Type T84 Per
+T85	ACTOR 2140 2155	a brand new set
+A164	Lexical_Head T85 Noun
+A165	Actor_Type T85 Other
+T86	EVENT 63 80	most recognizable
+E32	EVENT:T86 
+A166	Class E32 State
+A167	Pos E32 Adjective
+R2	OBJ_REL_partOf Arg1:T3 Arg2:T4	
+R3	OBJ_REL_partOf Arg1:T4 Arg2:T5	
+R4	OBJ_REL_partOf Arg1:T6 Arg2:T8	
+R5	OBJ_REL_partOf Arg1:T8 Arg2:T7	
+R6	OBJ_REL_objIdentity Arg1:T10 Arg2:T1	
+R7	OBJ_REL_objIdentity Arg1:T13 Arg2:T10	
+R8	OBJ_REL_objIdentity Arg1:T17 Arg2:T13	
+R9	OBJ_REL_partOf Arg1:T18 Arg2:T15	
+R10	OBJ_REL_objIdentity Arg1:T21 Arg2:T18	
+R11	OBJ_REL_objIdentity Arg1:T23 Arg2:T21	
+R12	OBJ_REL_objIdentity Arg1:T25 Arg2:T17	
+R13	OBJ_REL_objIdentity Arg1:T26 Arg2:T25	
+R14	OBJ_REL_partOf Arg1:T27 Arg2:T31	
+R15	OBJ_REL_objIdentity Arg1:T33 Arg2:T31	
+R16	OBJ_REL_objIdentity Arg1:T34 Arg2:T26	
+R17	OBJ_REL_objIdentity Arg1:T36 Arg2:T34	
+R18	OBJ_REL_partOf Arg1:T37 Arg2:T36	
+R19	OBJ_REL_objIdentity Arg1:T41 Arg2:T36	
+R20	OBJ_REL_objIdentity Arg1:T44 Arg2:T33	
+R21	OBJ_REL_objIdentity Arg1:T43 Arg2:T41	
+R22	OBJ_REL_objIdentity Arg1:T58 Arg2:T43	
+R23	OBJ_REL_objIdentity Arg1:T66 Arg2:T65	
+R24	OBJ_REL_partOf Arg1:T71 Arg2:T70	
+R25	OBJ_REL_objIdentity Arg1:T72 Arg2:T71	
+R26	OBJ_REL_objIdentity Arg1:T74 Arg2:T62	
+R27	OBJ_REL_objIdentity Arg1:T75 Arg2:T44	
+R28	OBJ_REL_memberOf Arg1:T78 Arg2:T77	
+R29	OBJ_REL_memberOf Arg1:T79 Arg2:T77	
+R30	OBJ_REL_objIdentity Arg1:T82 Arg2:T80	
+R31	OBJ_REL_objIdentity Arg1:T84 Arg2:T58	
+R32	OBJ_REL_objIdentity Arg1:T50 Arg2:T84	
+R33	OBJ_REL_objIdentity Arg1:T54 Arg2:T38	
+R34	OBJ_REL_objIdentity Arg1:T55 Arg2:T54	
+R35	OBJ_REL_objIdentity Arg1:T56 Arg2:T54	
+R36	SEMROLE_agent Arg1:E1 Arg2:T1	
+R37	SEMROLE_theme Arg1:E1 Arg2:T3	
+R38	SEMROLE_pivot Arg1:T4 Arg2:E32	
+R39	SEMROLE_pivot Arg1:E2 Arg2:T8	
+R40	SEMROLE_agent Arg1:E3 Arg2:T10	
+R41	SEMROLE_theme Arg1:E3 Arg2:E4	
+R42	SEMROLE_pivot Arg1:E5 Arg2:T13	
+R43	SEMROLE_theme Arg1:E5 Arg2:T15	
+R44	TLINK_isIncluded Arg1:E5 Arg2:T16	
+R45	SEMROLE_theme Arg1:E6 Arg2:T18	
+R46	TLINK_isIncluded Arg1:E6 Arg2:T20	
+R47	SEMROLE_theme Arg1:E7 Arg2:T21	
+R48	SEMROLE_pivot Arg1:E8 Arg2:T23	
+R49	SEMROLE_beneficiary Arg1:E8 Arg2:T25	
+R50	SEMROLE_theme Arg1:E8 Arg2:E9	
+R51	SEMROLE_beneficiary Arg1:E8 Arg2:T27	
+R52	TLINK_isIncluded Arg1:E10 Arg2:T29	
+R53	SEMROLE_purpose Arg1:E9 Arg2:E10	
+R54	SEMROLE_theme Arg1:E11 Arg2:T33	
+R55	SEMROLE_agent Arg1:E11 Arg2:T34	
+R56	SEMROLE_agent Arg1:E12 Arg2:T34	
+R57	SEMROLE_theme Arg1:E12 Arg2:T37	
+R58	SEMROLE_agent Arg1:E13 Arg2:T36	
+R59	SEMROLE_theme Arg1:E13 Arg2:E14	
+R60	SEMROLE_theme Arg1:E14 Arg2:T41	
+R61	SEMROLE_pivot Arg1:E15 Arg2:T44	
+R62	SEMROLE_theme Arg1:E15 Arg2:E16	
+R63	SEMROLE_pivot Arg1:E16 Arg2:T43	
+R64	SEMROLE_agent Arg1:E23 Arg2:T58	
+R65	SEMROLE_theme Arg1:E22 Arg2:E23	
+R66	SEMROLE_theme Arg1:E22 Arg2:E24	
+R67	SEMROLE_agent Arg1:E24 Arg2:T61	
+R68	SEMROLE_location Arg1:E24 Arg2:T62	
+R69	SEMROLE_theme Arg1:E25 Arg2:E23	
+R70	SEMROLE_patient Arg1:E25 Arg2:T65	
+R71	SEMROLE_pivot Arg1:E26 Arg2:T66	
+R72	SUBORD_modal Arg1:E26 Arg2:E27	
+R73	SEMROLE_theme Arg1:E26 Arg2:E27	
+R74	SEMROLE_theme Arg1:E27 Arg2:E28	
+R75	SEMROLE_goal Arg1:E27 Arg2:T71	
+R76	SEMROLE_pivot Arg1:E29 Arg2:T72	
+R77	SEMROLE_location Arg1:E29 Arg2:T74	
+R78	SEMROLE_theme Arg1:E30 Arg2:T75	
+R79	SEMROLE_patient Arg1:E30 Arg2:T77	
+R80	SEMROLE_patient Arg1:E31 Arg2:T80	
+R81	SEMROLE_theme Arg1:E31 Arg2:T84	
+R82	SEMROLE_theme Arg1:E31 Arg2:T85	
+R83	SEMROLE_pivot Arg1:E19 Arg2:T50	
+R84	SEMROLE_theme Arg1:E19 Arg2:E20	
+R85	SEMROLE_theme Arg1:E20 Arg2:E21	
+R86	SEMROLE_patient Arg1:E21 Arg2:T54	

@@ -1,0 +1,150 @@
+T1	ACTOR 0 4	NASA
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Org
+T2	EVENT 5 18	has announced
+E1	EVENT:T2 
+A3	Class E1 Reporting
+A4	Pos E1 Verb
+T3	ACTOR 19 21	it
+A5	Lexical_Head T3 Pronoun
+A6	Actor_Type T3 Org
+T4	EVENT 22 31	has found
+E2	EVENT:T4 
+A7	Class E2 Perception
+A8	Pos E2 Verb
+T5	EVENT 32 37	signs
+E3	EVENT:T5 
+A9	Class E3 State
+A10	Pos E3 Noun
+T6	ACTOR 41 46	water
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Other
+T7	ACTOR 50 54	Mars
+A13	Lexical_Head T7 Noun
+A14	Actor_Type T7 Loc
+T8	ACTOR 73 77	NASA
+A15	Lexical_Head T8 Noun
+A16	Actor_Type T8 Org
+T9	EVENT 80 92	announcement
+E4	EVENT:T9 
+A17	Class E4 Reporting
+A18	Pos E4 Noun
+T10	EVENT 98 107	there are
+E5	EVENT:T10 
+A19	Class E5 State
+A20	Pos E5 Verb
+T11	EVENT 108 113	signs
+E6	EVENT:T11 
+A21	Class E6 State
+A22	Pos E6 Noun
+T12	ACTOR 117 122	water
+A23	Lexical_Head T12 Noun
+A24	Actor_Type T12 Other
+T13	ACTOR 126 130	Mars
+A25	Lexical_Head T13 Noun
+A26	Actor_Type T13 Loc
+T14	EVENT 131 140	may spark
+E7	EVENT:T14 
+A27	Class E7 Occurrence
+A28	Pos E7 Verb
+T15	EVENT 141 157	renewed interest
+E8	EVENT:T15 
+A29	Class E8 State
+A30	Pos E8 Noun
+T16	ACTOR 161 180	an Antarctic region
+A31	Lexical_Head T16 Noun
+A32	Actor_Type T16 Loc
+T17	EVENT 181 191	considered
+E9	EVENT:T17 
+A33	Class E9 State
+A34	Pos E9 Verb
+T18	ACTOR 192 195;209 223	the place on earth
+A35	Lexical_Head T18 Noun
+A36	Actor_Type T18 Loc
+T19	ACTOR 227 241	the Red Planet
+A37	Lexical_Head T19 Noun
+A38	Actor_Type T19 Loc
+T20	ACTOR 248 267	University of Otago
+A39	Lexical_Head T20 Noun
+A40	Actor_Type T20 Org
+T21	ACTOR 268 288	geography department
+A41	Lexical_Head T21 Noun
+A42	Actor_Type T21 Org
+T22	ACTOR 289 309	head Sean Fitzsimons
+A43	Lexical_Head T22 Noun
+A44	Actor_Type T22 Per
+T23	EVENT 310 314	said
+E10	EVENT:T23 
+A45	Class E10 Reporting
+A46	Pos E10 Verb
+T24	EVENT 319 331	announcement
+E11	EVENT:T24 
+A47	Class E11 Reporting
+A48	Pos E11 Noun
+T25	EVENT 332 354	could potentially lead
+E12	EVENT:T25 
+A49	Class E12 Occurrence
+A50	Pos E12 Verb
+T26	EVENT 358 371	more interest
+E13	EVENT:T26 
+A51	Class E13 State
+A52	Pos E13 Noun
+T27	ACTOR 375 384	Antarctic
+A53	Lexical_Head T27 Noun
+A54	Actor_Type T27 Loc
+T28	EVENT 385 393	research
+E14	EVENT:T28 
+A55	Class E14 State
+A56	Pos E14 Noun
+T29	EVENT 405 417	similarities
+E15	EVENT:T29 
+A57	Class E15 State
+A58	Pos E15 Noun
+T30	ACTOR 426 430	Mars
+A59	Lexical_Head T30 Noun
+A60	Actor_Type T30 Loc
+T31	ACTOR 435 445	Antarctica
+A61	Lexical_Head T31 Noun
+A62	Actor_Type T31 Loc
+R1	OBJ_REL_objIdentity Arg1:T3 Arg2:T1	
+R2	OBJ_REL_objIdentity Arg1:T8 Arg2:T1	
+R3	OBJ_REL_objIdentity Arg1:T12 Arg2:T6	
+R4	OBJ_REL_objIdentity Arg1:T13 Arg2:T7	
+R5	OBJ_REL_objIdentity Arg1:T18 Arg2:T16	
+R6	OBJ_REL_objIdentity Arg1:T19 Arg2:T13	
+R7	OBJ_REL_partOf Arg1:T21 Arg2:T20	
+R8	OBJ_REL_partOf Arg1:T22 Arg2:T21	
+R9	OBJ_REL_objIdentity Arg1:T30 Arg2:T19	
+R10	OBJ_REL_objIdentity Arg1:T31 Arg2:T27	
+R11	OBJ_REL_objIdentity Arg1:T27 Arg2:T18	
+R12	SEMROLE_agent Arg1:E1 Arg2:T1	
+R13	SEMROLE_theme Arg1:E1 Arg2:E2	
+R14	SEMROLE_agent Arg1:E2 Arg2:T3	
+R15	SEMROLE_theme Arg1:E2 Arg2:E3	
+R16	SEMROLE_theme Arg1:E3 Arg2:T6	
+R17	SEMROLE_location Arg1:E2 Arg2:T7	
+R18	SEMROLE_agent Arg1:E4 Arg2:T8	
+R19	SEMROLE_theme Arg1:E4 Arg2:E5	
+R20	SEMROLE_theme Arg1:E5 Arg2:E6	
+R21	SEMROLE_theme Arg1:E6 Arg2:T12	
+R22	SEMROLE_location Arg1:E5 Arg2:T13	
+R23	SEMROLE_cause Arg1:E7 Arg2:E4	
+R24	SEMROLE_theme Arg1:E7 Arg2:E8	
+R25	SEMROLE_theme Arg1:E8 Arg2:T16	
+R26	SEMROLE_pivot Arg1:E9 Arg2:T16	
+R27	SEMROLE_theme Arg1:E9 Arg2:E16	
+R28	SEMROLE_agent Arg1:E10 Arg2:T22	
+R29	SEMROLE_theme Arg1:E10 Arg2:E12	
+R30	SEMROLE_cause Arg1:E12 Arg2:E11	
+R31	SEMROLE_theme Arg1:E12 Arg2:E13	
+R32	SEMROLE_theme Arg1:E13 Arg2:E14	
+R33	SEMROLE_theme Arg1:E14 Arg2:T27	
+R34	SEMROLE_reason Arg1:E12 Arg2:E15	
+R35	SEMROLE_pivot Arg1:E15 Arg2:T30	
+R36	SEMROLE_partner Arg1:E15 Arg2:T31	
+T32	EVENT 196 208	most similar
+E16	EVENT:T32 
+A63	Class E16 State
+A64	Pos E16 Adjective
+R37	SEMROLE_pivot Arg1:E16 Arg2:T18	
+R38	SEMROLE_partner Arg1:E16 Arg2:T19	

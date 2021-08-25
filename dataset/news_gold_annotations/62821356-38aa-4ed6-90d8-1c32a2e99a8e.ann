@@ -1,0 +1,339 @@
+T1	EVENT 1764 1775	an incident
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Verb
+T2	ACTOR 1795 1803	migrants
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Per
+T3	EVENT 1804 1813	attempted
+E2	EVENT:T3 
+A5	Class E2 I_Action
+A6	Pos E2 Verb
+T4	EVENT 1814 1822	to storm
+E3	EVENT:T4 
+A7	Class E3 Occurrence
+A8	Pos E3 Verb
+T5	ACTOR 1823 1830	a train
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Obj
+T6	TIME_X3 1831 1840	this week
+A11	Time_Type T6 Date
+#1	AnnotatorNotes T6	anchorTime=Publication_Time
+T7	EVENT 1841 1847	pulled
+E4	EVENT:T7 
+A12	Class E4 State
+A13	Pos E4 Verb
+T8	ACTOR 1851 1863	a locomotive
+A14	Lexical_Head T8 Noun
+A15	Actor_Type T8 Obj
+T9	EVENT 1864 1871	painted
+E5	EVENT:T9 
+A16	Class E5 State
+A17	Pos E5 Verb
+T10	ACTOR 1877 1883	images
+A18	Lexical_Head T10 Noun
+A19	Actor_Type T10 Other
+T11	ACTOR 1887 1899	East Germans
+A20	Lexical_Head T11 Noun
+A21	Actor_Type T11 Per
+T12	EVENT 1900 1908	escaping
+E6	EVENT:T12 
+A22	Class E6 Occurrence
+A23	Pos E6 Verb
+T13	ACTOR 1913 1920	Hungary
+A24	Lexical_Head T13 Noun
+A25	Actor_Type T13 Loc
+T14	TIME_X3 1924 1928	1989
+A26	Time_Type T14 Date
+#2	AnnotatorNotes T14	value=1989-XX-XX
+T15	ACTOR 1934 1942	Budapest
+A27	Lexical_Head T15 Noun
+A28	Actor_Type T15 Org
+T16	EVENT 1943 1953	broke with
+E7	EVENT:T16 
+A29	Class E7 Occurrence
+A30	Pos E7 Verb
+T17	ACTOR 1954 1957	its
+A31	Lexical_Head T17 Pronoun
+A32	Actor_Type T17 Loc
+T18	ACTOR 1958 1964	allies
+A33	Lexical_Head T18 Noun
+A34	Actor_Type T18 Other
+T19	EVENT 1969 1975	opened
+E8	EVENT:T19 
+A35	Class E8 Occurrence
+A36	Pos E8 Verb
+T20	ACTOR 1976 1994	the 'Iron Curtain'
+A37	Lexical_Head T20 Noun
+A38	Actor_Type T20 Other
+T21	EVENT 1995 2001	to let
+E9	EVENT:T21 
+A39	Class E9 I_Action
+A40	Pos E9 Verb
+T22	ACTOR 2002 2009	Germans
+A41	Lexical_Head T22 Noun
+A42	Actor_Type T22 Per
+T23	EVENT 2010 2014	flee
+E10	EVENT:T23 
+A43	Class E10 Occurrence
+A44	Pos E10 Verb
+T24	ACTOR 2018 2026	the West
+A45	Lexical_Head T24 Noun
+A46	Actor_Type T24 Loc
+T25	EVENT 2032 2038	Hoping
+E11	EVENT:T25 
+A47	Class E11 I_State
+A48	Pos E11 Verb
+T26	EVENT 2039 2048	to remind
+E12	EVENT:T26 
+A49	Class E12 Occurrence
+A50	Pos E12 Verb
+T27	ACTOR 2049 2059	Hungarians
+A51	Lexical_Head T27 Noun
+A52	Actor_Type T27 Per
+T28	ACTOR 2063 2068	their
+A53	Lexical_Head T28 Pronoun
+A54	Actor_Type T28 Per
+T29	EVENT 2069 2077	own past
+E13	EVENT:T29 
+A55	Class E13 State
+A56	Pos E13 Noun
+T30	ACTOR 2079 2102	a spoof political party
+A57	Lexical_Head T30 Noun
+A58	Actor_Type T30 Org
+T31	EVENT 2103 2110	erected
+E14	EVENT:T31 
+A59	Class E14 Occurrence
+A60	Pos E14 Verb
+T32	ACTOR 2111 2122	a billboard
+A61	Lexical_Head T32 Noun
+A62	Actor_Type T32 Obj
+T33	ACTOR 2126 2132	Vienna
+A63	Lexical_Head T33 Noun
+A64	Actor_Type T33 Loc
+T34	EVENT 2134 2142	thanking
+E15	EVENT:T34 
+A65	Class E15 Occurrence
+A66	Pos E15 Verb
+T35	ACTOR 2143 2152	Austrians
+A67	Lexical_Head T35 Noun
+A68	Actor_Type T35 Per
+T36	EVENT 2157 2168	not closing
+E16	EVENT:T36 
+A69	Class E16 Occurrence
+A70	Pos E16 Verb
+A71	Polarity E16 Neg
+T37	ACTOR 2169 2179	the border
+A72	Lexical_Head T37 Noun
+A73	Actor_Type T37 Other
+T38	TIME_X3 2183 2187	1956
+A74	Time_Type T38 Date
+#3	AnnotatorNotes T38	value=1956-XX-XX
+T39	ACTOR 2194 2208	nearly 200,000
+A75	Lexical_Head T39 Noun
+A76	Actor_Type T39 Per
+T40	EVENT 2209 2213	fled
+E17	EVENT:T40 
+A77	Class E17 Occurrence
+A78	Pos E17 Verb
+T41	ACTOR 2217 2228	the Soviets
+A79	Lexical_Head T41 Noun
+A80	Actor_Type T41 Per
+T42	EVENT 2229 2237	put down
+E18	EVENT:T42 
+A81	Class E18 Occurrence
+A82	Pos E18 Verb
+T43	EVENT 2238 2249	an uprising
+E19	EVENT:T43 
+A83	Class E19 Occurrence
+A84	Pos E19 Noun
+T44	TIME_X3 3099 3110	On Saturday
+A85	Time_Type T44 Date
+#4	AnnotatorNotes T44	anchorTime=Publication_Time
+T45	ACTOR 3112 3125	the underpass
+A86	Lexical_Head T45 Noun
+A87	Actor_Type T45 Loc
+T46	EVENT 3126 3146	was far less crowded
+E20	EVENT:T46 
+A88	Class E20 State
+A89	Pos E20 Verb
+T47	ACTOR 3153 3174	Hungarian authorities
+A90	Lexical_Head T47 Noun
+A91	Actor_Type T47 Org
+T48	EVENT 3175 3183	provided
+E21	EVENT:T48 
+A92	Class E21 Occurrence
+A93	Pos E21 Verb
+T49	ACTOR 3184 3189	buses
+A94	Lexical_Head T49 Noun
+A95	Actor_Type T49 Obj
+T50	EVENT 3190 3197	to take
+E22	EVENT:T50 
+A96	Class E22 Occurrence
+A97	Pos E22 Verb
+T51	ACTOR 3198 3217	some 4,500 migrants
+A98	Lexical_Head T51 Noun
+A99	Actor_Type T51 Per
+T52	ACTOR 3221 3240	the Austrian border
+A100	Lexical_Head T52 Noun
+A101	Actor_Type T52 Loc
+T53	EVENT 3241 3252	to continue
+E23	EVENT:T53 
+A102	Class E23 Aspectual
+A103	Pos E23 Verb
+T54	ACTOR 3253 3258	their
+A104	Lexical_Head T54 Pronoun
+A105	Actor_Type T54 Per
+T55	EVENT 3259 3263	trek
+E24	EVENT:T55 
+A106	Class E24 Occurrence
+A107	Pos E24 Noun
+T56	ACTOR 3272 3279	Germany
+A108	Lexical_Head T56 Noun
+A109	Actor_Type T56 Loc
+T57	ACTOR 3288 3297	thousands
+A110	Lexical_Head T57 Noun
+A111	Actor_Type T57 Per
+T58	EVENT 3298 3304	remain
+E25	EVENT:T58 
+A112	Class E25 State
+A113	Pos E25 Verb
+T59	ACTOR 3308 3321	holding areas
+A114	Lexical_Head T59 Noun
+A115	Actor_Type T59 Loc
+T60	ACTOR 3322 3340	around the country
+A116	Lexical_Head T60 Noun
+A117	Actor_Type T60 Loc
+T61	EVENT 3345 3357	some reports
+E26	EVENT:T61 
+A118	Class E26 Reporting
+A119	Pos E26 Noun
+T62	EVENT 3358 3361	say
+E27	EVENT:T62 
+A120	Class E27 Reporting
+A121	Pos E27 Verb
+T63	ACTOR 3362 3374	around 5,000
+A122	Lexical_Head T63 Noun
+A123	Actor_Type T63 Per
+T64	ACTOR 3382 3389	Hungary
+A124	Lexical_Head T64 Noun
+A125	Actor_Type T64 Loc
+T65	ACTOR 3392 3407	southern border
+A126	Lexical_Head T65 Noun
+A127	Actor_Type T65 Loc
+R1	OBJ_REL_partOf Arg1:T65 Arg2:T64	
+T66	EVENT 3409 3417	expected
+E28	EVENT:T66 
+A128	Class E28 I_State
+A129	Pos E28 Verb
+T67	EVENT 3418 3426	to enter
+E29	EVENT:T67 
+A130	Class E29 Occurrence
+A131	Pos E29 Verb
+T68	TIME_X3 3427 3443	over the weekend
+A132	Time_Type T68 Date
+#5	AnnotatorNotes T68	anchorTime=Publication_Time
+T69	EVENT 1776 1780	rich
+E30	EVENT:T69 
+A133	Class E30 State
+A134	Pos E30 Adjective
+T70	EVENT 1784 1793	symbolism
+E31	EVENT:T70 
+A135	Class E31 State
+A136	Pos E31 Noun
+R2	OBJ_REL_partOf Arg1:T8 Arg2:T5	
+R3	OBJ_REL_partOf Arg1:T11 Arg2:T10	
+R4	OBJ_REL_partOf Arg1:T15 Arg2:T13	
+R5	OBJ_REL_objIdentity Arg1:T17 Arg2:T15	
+R6	OBJ_REL_partOf Arg1:T18 Arg2:T17	
+R7	OBJ_REL_objIdentity Arg1:T22 Arg2:T11	
+R9	OBJ_REL_objIdentity Arg1:T28 Arg2:T27	
+R10	OBJ_REL_partOf Arg1:T30 Arg2:T28	
+R11	OBJ_REL_objIdentity Arg1:T52 Arg2:T37	
+R12	OBJ_REL_partOf Arg1:T39 Arg2:T27	
+R13	OBJ_REL_partOf Arg1:T47 Arg2:T13	
+R15	OBJ_REL_partOf Arg1:T51 Arg2:T2	
+R16	OBJ_REL_objIdentity Arg1:T54 Arg2:T51	
+R17	OBJ_REL_refDisjunct Arg1:T57 Arg2:T54	
+R18	OBJ_REL_partOf Arg1:T59 Arg2:T60	
+R19	OBJ_REL_objIdentity Arg1:T60 Arg2:T56	
+R20	OBJ_REL_partOf Arg1:T63 Arg2:T57	
+R21	OBJ_REL_objIdentity Arg1:T64 Arg2:T13	
+R22	SEMROLE_pivot Arg1:E30 Arg2:E1	
+R23	SEMROLE_theme Arg1:E30 Arg2:E31	
+R24	SEMROLE_agent Arg1:E2 Arg2:T2	
+R25	SUBORD_modal Arg1:E2 Arg2:E3	
+R26	SEMROLE_theme Arg1:E2 Arg2:E3	
+R27	SEMROLE_theme Arg1:E3 Arg2:T5	
+R28	TLINK_isIncluded Arg1:E3 Arg2:T6	
+R29	SEMROLE_pivot Arg1:E4 Arg2:T5	
+R30	SEMROLE_theme Arg1:E4 Arg2:T8	
+R31	SEMROLE_pivot Arg1:E5 Arg2:T8	
+R32	SEMROLE_theme Arg1:E5 Arg2:T10	
+R8	OBJ_REL_partOf Arg1:T27 Arg2:T13	
+R14	SEMROLE_agent Arg1:E6 Arg2:T11	
+T71	EVENT 1909 1912	via
+E32	EVENT:T71 
+A137	Class E32 State
+A138	Pos E32 Preposition
+R33	SEMROLE_manner Arg1:E6 Arg2:E32	
+R34	SEMROLE_theme Arg1:E32 Arg2:T13	
+R35	TLINK_isIncluded Arg1:E6 Arg2:T14	
+R36	SEMROLE_agent Arg1:E7 Arg2:T15	
+R37	SEMROLE_goal Arg1:E7 Arg2:T18	
+R38	SEMROLE_agent Arg1:E8 Arg2:T15	
+R39	SEMROLE_theme Arg1:E8 Arg2:T20	
+R40	SEMROLE_purpose Arg1:E8 Arg2:E9	
+R41	SUBORD_modal Arg1:E9 Arg2:E10	
+R42	SEMROLE_theme Arg1:E9 Arg2:E10	
+R43	SEMROLE_agent Arg1:E10 Arg2:T22	
+R44	SEMROLE_agent Arg1:E9 Arg2:T15	
+R45	SEMROLE_finalLocation Arg1:E10 Arg2:T24	
+R46	SUBORD_modal Arg1:E11 Arg2:E12	
+R47	SEMROLE_theme Arg1:E11 Arg2:E12	
+R48	SEMROLE_goal Arg1:E12 Arg2:T27	
+R49	SEMROLE_theme Arg1:E12 Arg2:E13	
+R50	SEMROLE_pivot Arg1:E13 Arg2:T28	
+R51	SEMROLE_pivot Arg1:E11 Arg2:T30	
+R52	SEMROLE_agent Arg1:E14 Arg2:T30	
+R53	SEMROLE_theme Arg1:E14 Arg2:T32	
+R54	SEMROLE_location Arg1:E14 Arg2:T33	
+R55	SEMROLE_source Arg1:E15 Arg2:T32	
+R56	SEMROLE_agent Arg1:E15 Arg2:T30	
+R57	SEMROLE_goal Arg1:E15 Arg2:T35	
+R58	SEMROLE_theme Arg1:E15 Arg2:E16	
+R59	SEMROLE_theme Arg1:E16 Arg2:T37	
+R60	SEMROLE_agent Arg1:E16 Arg2:T35	
+R61	TLINK_isIncluded Arg1:E16 Arg2:T38	
+R62	SEMROLE_agent Arg1:E17 Arg2:T39	
+R63	SEMROLE_agent Arg1:E18 Arg2:T41	
+R64	SEMROLE_theme Arg1:E18 Arg2:E19	
+R65	SEMROLE_setting Arg1:E17 Arg2:E19	
+R66	TLINK_isIncluded Arg1:E20 Arg2:T44	
+R67	SEMROLE_pivot Arg1:E20 Arg2:T45	
+R68	SEMROLE_reason Arg1:E20 Arg2:E21	
+R69	SEMROLE_agent Arg1:E21 Arg2:T47	
+R70	SEMROLE_theme Arg1:E21 Arg2:T49	
+R71	SEMROLE_instrument Arg1:E22 Arg2:T49	
+R72	SEMROLE_patient Arg1:E22 Arg2:T51	
+R73	SEMROLE_finalLocation Arg1:E22 Arg2:T52	
+R74	SEMROLE_purpose Arg1:E22 Arg2:E23	
+R75	SEMROLE_theme Arg1:E23 Arg2:E24	
+R76	ASPECT_continues Arg1:E23 Arg2:E24	
+R77	SEMROLE_agent Arg1:E24 Arg2:T54	
+R78	SEMROLE_finalLocation Arg1:E24 Arg2:T56	
+R79	SEMROLE_pivot Arg1:E25 Arg2:T57	
+R80	SEMROLE_location Arg1:E25 Arg2:T59	
+R81	SEMROLE_source Arg1:E27 Arg2:E26	
+T72	EVENT 3375 3378	are
+E33	EVENT:T72 
+A139	Class E33 State
+A140	Pos E33 Verb
+R82	SEMROLE_theme Arg1:E27 Arg2:E33	
+R83	SUBORD_evidential Arg1:E27 Arg2:E33	
+R84	SEMROLE_pivot Arg1:E33 Arg2:T63	
+R85	SEMROLE_location Arg1:E33 Arg2:T65	
+R86	SEMROLE_theme Arg1:E28 Arg2:E29	
+R87	SUBORD_evidential Arg1:E28 Arg2:E29	
+R88	SEMROLE_pivot Arg1:E28 Arg2:T63	
+R89	TLINK_during Arg1:E29 Arg2:T68	

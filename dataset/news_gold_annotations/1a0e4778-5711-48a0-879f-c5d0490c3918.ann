@@ -1,0 +1,89 @@
+T1	EVENT 16 26	has passed
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Verb
+T2	EVENT 29 44	bipartisan bill
+E2	EVENT:T2 
+A3	Class E2 State
+A4	Pos E2 Noun
+T3	EVENT 50 63	would require
+E3	EVENT:T3 
+A5	Class E3 State
+A6	Pos E3 Verb
+T4	EVENT 93 103	to account
+E4	EVENT:T4 
+A7	Class E4 State
+A8	Pos E4 Verb
+T5	EVENT 108 118	tax breaks
+E5	EVENT:T5 
+A9	Class E5 Occurrence
+A10	Pos E5 Noun
+T6	EVENT 136 144	included
+E6	EVENT:T6 
+A11	Class E6 State
+A12	Pos E6 Verb
+T7	EVENT 148 165	major settlements
+E7	EVENT:T7 
+A13	Class E7 Occurrence
+A14	Pos E7 Noun
+T8	EVENT 176 198	are publicly announced
+E8	EVENT:T8 
+A15	Class E8 Occurrence
+A16	Pos E8 Verb
+T9	EVENT 234 237	say
+E9	EVENT:T9 
+A17	Class E9 Reporting
+A18	Pos E9 Verb
+T10	EVENT 238 250	will enhance
+E10	EVENT:T10 
+A19	Class E10 Occurrence
+A20	Pos E10 Verb
+T11	EVENT 251 266	public scrutiny
+E11	EVENT:T11 
+A21	Class E11 Occurrence
+A22	Pos E11 Noun
+T12	EVENT 274 279	deals
+E12	EVENT:T12 
+A23	Class E12 State
+A24	Pos E12 Noun
+T13	ACTOR 64 92	federal enforcement agencies
+A25	Lexical_Head T13 Noun
+A26	Actor_Type T13 Org
+T14	EVENT 122 135	other credits
+E13	EVENT:T14 
+A27	Class E13 Occurrence
+A28	Pos E13 Noun
+T15	ACTOR 0 15	The U.S. Senate
+A29	Lexical_Head T15 Noun
+A30	Actor_Type T15 Org
+T16	ACTOR 226 233	backers
+A31	Lexical_Head T16 Noun
+A32	Actor_Type T16 Per
+T17	EVENT 219 223	bill
+E14	EVENT:T17 
+A33	Class E14 State
+A34	Pos E14 Noun
+T18	ACTOR 200 209	a measure
+A35	Lexical_Head T18 Noun
+A36	Actor_Type T18 Other
+R1	SEMROLE_agent Arg1:E1 Arg2:T15	
+R2	SEMROLE_theme Arg1:E1 Arg2:E2	
+R3	SEMROLE_cause Arg1:E3 Arg2:E2	
+R4	SEMROLE_theme Arg1:E3 Arg2:E4	
+R5	SEMROLE_agent Arg1:E4 Arg2:T13	
+R6	SEMROLE_theme Arg1:E4 Arg2:E5	
+R7	SEMROLE_theme Arg1:E4 Arg2:E13	
+R8	SEMROLE_pivot Arg1:E6 Arg2:E13	
+R9	SEMROLE_pivot Arg1:E6 Arg2:E5	
+R10	SEMROLE_setting Arg1:E6 Arg2:E7	
+T19	ACTOR 171 175	they
+A37	Lexical_Head T19 Pronoun
+A38	Actor_Type T19 Per
+R11	SEMROLE_patient Arg1:E8 Arg2:T19	
+R12	SEMROLE_theme Arg1:E9 Arg2:E10	
+R13	SEMROLE_agent Arg1:E9 Arg2:T16	
+R14	SEMROLE_theme Arg1:E10 Arg2:E11	
+R15	SEMROLE_cause Arg1:E10 Arg2:T18	
+R16	SEMROLE_theme Arg1:E11 Arg2:E12	
+R17	SEMROLE_agent Arg1:E14 Arg2:T16	
+R18	SUBORD_evidential Arg1:E9 Arg2:E10	

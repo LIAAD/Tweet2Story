@@ -1,0 +1,140 @@
+T1	ACTOR 18 39	the last iOS 9.1 beta
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Other
+T2	EVENT 40 52	was released
+E1	EVENT:T2 
+A3	Class E1 Occurrence
+A4	Pos E1 Verb
+T3	ACTOR 54 59	Apple
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Org
+T4	EVENT 60 63;68 74	has posted
+E2	EVENT:T4 
+A7	Class E2 Occurrence
+A8	Pos E2 Verb
+T5	TIME_X3 64 67	now
+A9	Time_Type T5 Time
+A10	FunctionInDocument T5 Publication_Time
+T6	ACTOR 75 98	a third beta of iOS 9.1
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Other
+T7	EVENT 103 113	registered
+E3	EVENT:T7 
+A13	Class E3 State
+A14	Pos E3 Verb
+T9	ACTOR 114 128	iOS developers
+A17	Lexical_Head T9 Noun
+A18	Actor_Type T9 Per
+T10	ACTOR 138 152	the prior beta
+A19	Lexical_Head T10 Noun
+A20	Actor_Type T10 Other
+T11	ACTOR 154 161	iOS 9.1
+A21	Lexical_Head T11 Noun
+A22	Actor_Type T11 Other
+T13	EVENT 170 193	to be primarily focused
+E5	EVENT:T13 
+A25	Class E5 State
+A26	Pos E5 Verb
+T14	EVENT 197 203	adding
+E6	EVENT:T14 
+A27	Class E6 Occurrence
+A28	Pos E6 Verb
+T15	EVENT 204 232	developer-level enhancements
+E7	EVENT:T15 
+A29	Class E7 Occurrence
+A30	Pos E7 Noun
+T16	ACTOR 237 250	the iPhone 6s
+A31	Lexical_Head T16 Noun
+A32	Actor_Type T16 Obj
+T17	ACTOR 255 269	iPhone 6s Plus
+A33	Lexical_Head T17 Noun
+A34	Actor_Type T17 Obj
+T18	EVENT 292 300	3D Touch
+E8	EVENT:T18 
+A35	Class E8 State
+A36	Pos E8 Noun
+T19	EVENT 305 316	Live Photos
+E9	EVENT:T19 
+A37	Class E9 State
+A38	Pos E9 Noun
+T20	ACTOR 275 283	features
+A39	Lexical_Head T20 Noun
+A40	Actor_Type T20 Other
+T21	ACTOR 318 334	This latest beta
+A41	Lexical_Head T21 Noun
+A42	Actor_Type T21 Other
+T22	EVENT 335 342	focuses
+E10	EVENT:T22 
+A43	Class E10 State
+A44	Pos E10 Verb
+T23	EVENT 353 359	fixing
+E11	EVENT:T23 
+A45	Class E11 Occurrence
+A46	Pos E11 Verb
+T24	EVENT 372 378	issues
+E12	EVENT:T24 
+A47	Class E12 State
+A48	Pos E12 Noun
+T25	ACTOR 384 398	the prior beta
+A49	Lexical_Head T25 Noun
+A50	Actor_Type T25 Other
+T26	EVENT 400 410	Registered
+E13	EVENT:T26 
+A51	Class E13 State
+A52	Pos E13 Verb
+T28	ACTOR 411 425	iOS developers
+A55	Lexical_Head T28 Noun
+A56	Actor_Type T28 Per
+T29	EVENT 426 438	can download
+E14	EVENT:T29 
+A57	Class E14 State
+A58	Pos E14 Verb
+T30	ACTOR 439 455	the iOS 9.1 beta
+A59	Lexical_Head T30 Noun
+A60	Actor_Type T30 Other
+T31	ACTOR 461 466	Apple
+A61	Lexical_Head T31 Noun
+A62	Actor_Type T31 Org
+T32	ACTOR 469 483	Developer site
+A63	Lexical_Head T32 Noun
+A64	Actor_Type T32 Other
+T33	TIME_X3 5 17	a week after
+A65	Time_Type T33 Date
+R1	OBJ_REL_partOf Arg1:T1 Arg2:T3	
+R2	OBJ_REL_objIdentity Arg1:T10 Arg2:T1	
+R3	OBJ_REL_refDisjunct Arg1:T6 Arg2:T1	
+R4	OBJ_REL_objIdentity Arg1:T11 Arg2:T10	
+R5	OBJ_REL_objIdentity Arg1:T21 Arg2:T6	
+R6	OBJ_REL_refDisjunct Arg1:T25 Arg2:T21	
+R7	OBJ_REL_objIdentity Arg1:T25 Arg2:T11	
+R8	OBJ_REL_objIdentity Arg1:T28 Arg2:T9	
+R9	OBJ_REL_objIdentity Arg1:T30 Arg2:T25	
+R10	OBJ_REL_partOf Arg1:T32 Arg2:T31	
+R11	OBJ_REL_partOf Arg1:T28 Arg2:T31	
+R12	SEMROLE_patient Arg1:E1 Arg2:T1	
+R13	SEMROLE_agent Arg1:E2 Arg2:T3	
+R14	SEMROLE_theme Arg1:E2 Arg2:T6	
+R15	SEMROLE_pivot Arg1:E3 Arg2:T9	
+R16	SEMROLE_goal Arg1:E2 Arg2:T9	
+T8	EVENT 162 169	appears
+E4	EVENT:T8 
+A15	Class E4 I_State
+A16	Pos E4 Verb
+R17	SEMROLE_theme Arg1:E4 Arg2:E5	
+R18	SEMROLE_pivot Arg1:E4 Arg2:T11	
+R19	SEMROLE_theme Arg1:E5 Arg2:E6	
+R20	SEMROLE_theme Arg1:E6 Arg2:E7	
+R21	SEMROLE_goal Arg1:E7 Arg2:T16	
+R22	SEMROLE_goal Arg1:E7 Arg2:T17	
+R23	SEMROLE_pivot Arg1:E5 Arg2:T11	
+R24	SEMROLE_theme Arg1:E7 Arg2:T20	
+R25	SEMROLE_theme Arg1:E8 Arg2:T20	
+R26	SEMROLE_theme Arg1:E9 Arg2:T20	
+R27	SEMROLE_pivot Arg1:E10 Arg2:T21	
+R28	SEMROLE_theme Arg1:E10 Arg2:E11	
+R29	SEMROLE_theme Arg1:E11 Arg2:E12	
+R30	SEMROLE_source Arg1:E12 Arg2:T25	
+R31	SEMROLE_pivot Arg1:E13 Arg2:T28	
+R32	SEMROLE_pivot Arg1:E14 Arg2:T28	
+R33	SEMROLE_theme Arg1:E14 Arg2:T30	
+R34	SEMROLE_source Arg1:E14 Arg2:T32	

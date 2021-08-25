@@ -1,0 +1,282 @@
+T1	ACTOR 0 20	Floyd Mayweather Jr.
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	EVENT 21 34	is considered
+E1	EVENT:T2 
+A3	Class E1 State
+A4	Pos E1 Verb
+T3	ACTOR 35 38	one
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Per
+T4	ACTOR 42 61	the greatest boxers
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Per
+T5	ACTOR 209 221	Carter Evans
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Per
+T6	ACTOR 79 81	it
+A11	Lexical_Head T6 Pronoun
+T7	EVENT 82 92	looks like
+E2	EVENT:T7 
+A12	Class E2 State
+A13	Pos E2 Verb
+T8	ACTOR 93 96	his
+A14	Lexical_Head T8 Pronoun
+A15	Actor_Type T8 Per
+T9	ACTOR 126 128	He
+A16	Lexical_Head T9 Pronoun
+A17	Actor_Type T9 Per
+T10	ACTOR 398 400	he
+A18	Lexical_Head T10 Pronoun
+A19	Actor_Type T10 Per
+T11	ACTOR 416 418	he
+A20	Lexical_Head T11 Pronoun
+A21	Actor_Type T11 Per
+T12	EVENT 97 103	career
+E3	EVENT:T12 
+A22	Class E3 State
+A23	Pos E3 Noun
+T13	EVENT 104 122	is just about over
+E4	EVENT:T13 
+A24	Class E4 State
+A25	Pos E4 Verb
+T14	EVENT 129 136	insists
+E5	EVENT:T14 
+A26	Class E5 Occurrence
+A27	Pos E5 Verb
+T15	TIME_X3 137 151	Saturday night
+A28	Time_Type T15 Date
+T16	EVENT 154 159	fight
+E6	EVENT:T16 
+A29	Class E6 Occurrence
+A30	Pos E6 Noun
+T17	ACTOR 163 172	Las Vegas
+A31	Lexical_Head T17 Noun
+A32	Actor_Type T17 Loc
+T18	EVENT 173 180	will be
+E7	EVENT:T18 
+A33	Class E7 State
+A34	Pos E7 Verb
+T19	ACTOR 181 184	his
+A35	Lexical_Head T19 Pronoun
+A36	Actor_Type T19 Per
+T20	EVENT 185 189	last
+E8	EVENT:T20 
+A37	Class E8 State
+A38	Pos E8 Adjective
+T21	ACTOR 199 207	CBS News
+A39	Lexical_Head T21 Noun
+A40	Actor_Type T21 Org
+T22	EVENT 222 229	reports
+E9	EVENT:T22 
+A41	Class E9 Reporting
+A42	Pos E9 Verb
+T23	ACTOR 231 233	it
+A43	Lexical_Head T23 Pronoun
+T24	EVENT 234 247	seems strange
+E10	EVENT:T24 
+A44	Class E10 State
+A45	Pos E10 Verb
+T25	ACTOR 253 255	it
+A46	Lexical_Head T25 Pronoun
+T26	EVENT 256 265	s drawing
+E11	EVENT:T26 
+A47	Class E11 State
+A48	Pos E11 Verb
+T27	EVENT 269 285	little attention
+E12	EVENT:T27 
+A49	Class E12 State
+A50	Pos E12 Noun
+T28	TIME_X3 291 305	Saturday night
+A51	Time_Type T28 Date
+T29	EVENT 306 314	could be
+E13	EVENT:T29 
+A52	Class E13 Occurrence
+A53	Pos E13 Verb
+T31	ACTOR 329 348	the fighting public
+A54	Lexical_Head T31 Noun
+A55	Actor_Type T31 Per
+T32	EVENT 349 352	has
+E14	EVENT:T32 
+A56	Class E14 State
+A57	Pos E14 Verb
+T33	EVENT 353 362	to listen
+E15	EVENT:T33 
+A58	Class E15 Perception
+A59	Pos E15 Verb
+T34	ACTOR 366 376	Mayweather
+A60	Lexical_Head T34 Noun
+A61	Actor_Type T34 Per
+T35	EVENT 377 387	brag about
+E16	EVENT:T35 
+A62	Class E16 Occurrence
+A63	Pos E16 Verb
+T36	EVENT 388 397	how great
+E17	EVENT:T36 
+A64	Class E17 State
+A65	Pos E17 Adjective
+T37	EVENT 401 403	is
+E18	EVENT:T37 
+A66	Class E18 State
+A67	Pos E18 Verb
+T38	EVENT 419 424	makes
+E19	EVENT:T38 
+A68	Class E19 Occurrence
+A69	Pos E19 Verb
+T39	EVENT 407 415	how much
+E20	EVENT:T39 
+A70	Class E20 State
+T40	ACTOR 434 467	the flamboyant "Money" Mayweather
+A71	Lexical_Head T40 Noun
+A72	Actor_Type T40 Per
+T41	EVENT 468 479	was looking
+E21	EVENT:T41 
+A73	Class E21 I_Action
+A74	Pos E21 Verb
+T42	EVENT 480 489	to go out
+E22	EVENT:T42 
+A75	Class E22 Occurrence
+A76	Pos E22 Verb
+T43	EVENT 495 501	a bang
+E23	EVENT:T43 
+A77	Class E23 State
+A78	Pos E23 Noun
+T44	EVENT 503 513	this fight
+E24	EVENT:T44 
+A79	Class E24 Occurrence
+A80	Pos E24 Noun
+T45	EVENT 514 526	doesn't seem
+E25	EVENT:T45 
+A81	Class E25 State
+A82	Pos E25 Verb
+T46	EVENT 527 534	to pack
+E26	EVENT:T46 
+A83	Class E26 Occurrence
+A84	Pos E26 Verb
+T47	EVENT 535 553	as much of a punch
+E27	EVENT:T47 
+A85	Class E27 Occurrence
+A86	Pos E27 Noun
+T48	TIME_X3 565 577	Friday night
+A87	Time_Type T48 Date
+T49	ACTOR 579 586	tickets
+A88	Lexical_Head T49 Noun
+A89	Actor_Type T49 Other
+T50	TIME_X3 591 604	Saturday nigh
+A90	Time_Type T50 Date
+T51	EVENT 608 613	fight
+E28	EVENT:T51 
+A91	Class E28 Occurrence
+A92	Pos E28 Noun
+T52	ACTOR 619 630	Andre Berto
+A93	Lexical_Head T52 Noun
+A94	Actor_Type T52 Per
+T53	EVENT 631 651	were still available
+E29	EVENT:T53 
+A95	Class E29 State
+A96	Pos E29 Verb
+T54	ACTOR 657 677	pay-per-view numbers
+A97	Lexical_Head T54 Noun
+A98	Actor_Type T54 Other
+T55	EVENT 678 690	are way down
+E30	EVENT:T55 
+A99	Class E30 State
+A100	Pos E30 Verb
+T56	EVENT 1207 1224	Good fight or not
+E31	EVENT:T56 
+A101	Class E31 Occurrence
+A102	Pos E31 Noun
+T57	EVENT 1226 1231	a win
+E32	EVENT:T57 
+A103	Class E32 Occurrence
+A104	Pos E32 Noun
+T58	TIME_X3 1232 1240	Saturday
+A105	Time_Type T58 Date
+T59	EVENT 1241 1251	would make
+E33	EVENT:T59 
+A106	Class E33 Occurrence
+A107	Pos E33 Verb
+T60	ACTOR 1252 1262	Mayweather
+A108	Lexical_Head T60 Noun
+A109	Actor_Type T60 Per
+T61	EVENT 1269 1274	tying
+E34	EVENT:T61 
+A110	Class E34 State
+A111	Pos E34 Verb
+T62	ACTOR 1263 1267	49-0
+A112	Lexical_Head T62 Noun
+A113	Actor_Type T62 Other
+T63	ACTOR 1275 1289	Rocky Marciano
+A114	Lexical_Head T63 Noun
+A115	Actor_Type T63 Per
+T64	EVENT 1292 1309	undefeated record
+E35	EVENT:T64 
+A116	Class E35 State
+A117	Pos E35 Noun
+R1	OBJ_REL_objIdentity Arg1:T3 Arg2:T1	
+R2	OBJ_REL_partOf Arg1:T3 Arg2:T4	
+R3	OBJ_REL_objIdentity Arg1:T8 Arg2:T3	
+R4	OBJ_REL_objIdentity Arg1:T9 Arg2:T8	
+R5	OBJ_REL_objIdentity Arg1:T19 Arg2:T9	
+R6	OBJ_REL_partOf Arg1:T5 Arg2:T21	
+R7	OBJ_REL_objIdentity Arg1:T34 Arg2:T19	
+R8	OBJ_REL_objIdentity Arg1:T10 Arg2:T34	
+R9	OBJ_REL_objIdentity Arg1:T11 Arg2:T10	
+R10	OBJ_REL_objIdentity Arg1:T40 Arg2:T11	
+R11	OBJ_REL_objIdentity Arg1:T60 Arg2:T40	
+R12	SEMROLE_theme Arg1:E1 Arg2:T1	
+R13	SEMROLE_theme Arg1:E1 Arg2:T3	
+R14	SEMROLE_pivot Arg1:E2 Arg2:T6	
+R15	SEMROLE_theme Arg1:E2 Arg2:E3	
+R16	SEMROLE_pivot Arg1:E3 Arg2:T8	
+R17	SEMROLE_pivot Arg1:E4 Arg2:E3	
+R18	SEMROLE_agent Arg1:E5 Arg2:T9	
+R19	SEMROLE_theme Arg1:E5 Arg2:E7	
+R20	TLINK_isIncluded Arg1:E6 Arg2:T15	
+R21	SEMROLE_pivot Arg1:E7 Arg2:E6	
+R22	SEMROLE_location Arg1:E6 Arg2:T17	
+R23	SEMROLE_theme Arg1:E7 Arg2:E8	
+R24	SEMROLE_pivot Arg1:E8 Arg2:T19	
+R25	SEMROLE_pivot Arg1:E10 Arg2:T23	
+R26	SEMROLE_agent Arg1:E9 Arg2:T5	
+R27	SEMROLE_theme Arg1:E9 Arg2:E10	
+R28	SUBORD_evidential Arg1:E9 Arg2:E10	
+R29	SEMROLE_theme Arg1:E10 Arg2:E11	
+R30	SEMROLE_pivot Arg1:E11 Arg2:T25	
+R31	SEMROLE_theme Arg1:E11 Arg2:E12	
+R32	TLINK_isIncluded Arg1:E13 Arg2:T28	
+T30	EVENT 315 328	the last time
+E36	EVENT:T30 
+A118	Class E36 State
+A119	Pos E36 Noun
+R33	SEMROLE_theme Arg1:E13 Arg2:E36	
+R34	SEMROLE_theme Arg1:E36 Arg2:E14	
+R35	SEMROLE_pivot Arg1:E14 Arg2:T31	
+R36	SEMROLE_theme Arg1:E14 Arg2:E15	
+R37	SEMROLE_theme Arg1:E15 Arg2:T34	
+R38	SEMROLE_agent Arg1:E16 Arg2:T34	
+R39	SEMROLE_theme Arg1:E16 Arg2:E17	
+R40	SEMROLE_theme Arg1:E16 Arg2:E20	
+R41	SEMROLE_pivot Arg1:E18 Arg2:T10	
+R42	SEMROLE_attribute Arg1:E18 Arg2:E17	
+R43	SEMROLE_agent Arg1:E19 Arg2:T11	
+R44	SEMROLE_amount Arg1:E19 Arg2:E20	
+R45	SEMROLE_agent Arg1:E21 Arg2:T40	
+R46	SEMROLE_theme Arg1:E21 Arg2:E22	
+R47	SUBORD_evidential Arg1:E21 Arg2:E22	
+R48	SEMROLE_manner Arg1:E22 Arg2:E23	
+R49	SEMROLE_pivot Arg1:E25 Arg2:E24	
+R50	SEMROLE_theme Arg1:E25 Arg2:E26	
+R51	SEMROLE_theme Arg1:E26 Arg2:E27	
+R52	TLINK_isIncluded Arg1:E28 Arg2:T50	
+R53	SEMROLE_theme Arg1:E28 Arg2:T49	
+R54	SEMROLE_pivot Arg1:E29 Arg2:T49	
+R55	SEMROLE_partner Arg1:E28 Arg2:T52	
+R56	SEMROLE_pivot Arg1:E30 Arg2:T54	
+R57	TLINK_isIncluded Arg1:E32 Arg2:T58	
+R58	SEMROLE_cause Arg1:E33 Arg2:E32	
+R59	SEMROLE_theme Arg1:E33 Arg2:E34	
+R60	SEMROLE_pivot Arg1:E34 Arg2:T60	
+R61	SEMROLE_amount Arg1:E34 Arg2:T62	
+R62	SEMROLE_theme Arg1:E34 Arg2:E35	
+R63	SEMROLE_pivot Arg1:E35 Arg2:T63	

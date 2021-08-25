@@ -1,0 +1,38 @@
+T1	ACTOR 0 34	Delta State Governor Ifeanyi Okowa
+T2	EVENT 35 45	has called
+T3	ACTOR 49 62	oil companies
+T4	EVENT 63 72	operating
+T5	ACTOR 76 85	the state
+T6	EVENT 86 95	to create
+T7	EVENT 96 106	employment
+T8	ACTOR 111 121	the people
+T9	EVENT 158 181	sustainable cooperation
+T10	EVENT 186 207	conducive environment
+T11	EVENT 209 217	Speaking
+T12	TIME 221 227	Monday
+T13	ACTOR 231 236	Asaba
+T14	ACTOR 260 284	AGIP Oil Company Limited
+T15	ACTOR 131 147	host communities
+T16	EVENT 151 157	foster
+R1	OBJ_REL_partOf Arg1:T8 Arg2:T15	
+R2	OBJ_REL_partOf Arg1:T15 Arg2:T5	
+R3	SEMROLE_agent	Arg1:E1	Arg2:T1
+R4	SEMROLE_goal	Arg1:E1	Arg2:T3
+R5	SEMROLE_agent	Arg1:E2	Arg2:T3
+R6	SEMROLE_location	Arg1:E2	Arg2:T5
+R7	SEMROLE_agent	Arg1:E3	Arg2:T3
+R8	SLINK_intensional Arg1:T6 Arg2:T7	
+R9	SEMROLE_theme	Arg1:E3	Arg2:E4
+R10	SEMROLE_beneficiary	Arg1:E4	Arg2:T8
+R11	SEMROLE_theme	Arg1:E8	Arg2:E5
+R12	SEMROLE_theme	Arg1:E8	Arg2:E6
+R13	SEMROLE_purpose	Arg1:E4	Arg2:E8
+R14	SEMROLE_cause	Arg1:E8	Arg2:E4
+E1	EVENT:T2
+E2	EVENT:T4
+E3	EVENT:T6
+E4	EVENT:T7
+E5	EVENT:T9
+E6	EVENT:T10
+E7	EVENT:T11
+E8	EVENT:T16

@@ -1,0 +1,321 @@
+T1	ACTOR 74 108	the newly coiffured Lewis Hamilton
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	ACTOR 209 224	the race winner
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Per
+T3	EVENT 271 285	had no inkling
+E1	EVENT:T3 
+A5	Class E1 State
+A6	Pos E1 Verb
+T4	ACTOR 268 270	he
+A7	Lexical_Head T4 Pronoun
+A8	Actor_Type T4 Per
+T5	EVENT 289 304	the controversy
+E2	EVENT:T5 
+A9	Class E2 State
+A10	Pos E2 Noun
+T6	EVENT 311 325	would threaten
+E3	EVENT:T6 
+A11	Class E3 Occurrence
+A12	Pos E3 Verb
+T7	ACTOR 326 329	his
+A13	Lexical_Head T7 Pronoun
+A14	Actor_Type T7 Per
+T8	EVENT 330 337	victory
+E4	EVENT:T8 
+A15	Class E4 Occurrence
+A16	Pos E4 Noun
+T9	ACTOR 342 345	his
+A17	Lexical_Head T9 Pronoun
+A18	Actor_Type T9 Per
+T10	ACTOR 346 359	Mercedes team
+A19	Lexical_Head T10 Noun
+A20	Actor_Type T10 Org
+T11	EVENT 360 387	was put under investigation
+E5	EVENT:T11 
+A21	Class E5 Occurrence
+A22	Pos E5 Verb
+T12	ACTOR 391 403	the stewards
+A23	Lexical_Head T12 Noun
+A24	Actor_Type T12 Per
+T13	EVENT 409 420	accusations
+E6	EVENT:T13 
+A25	Class E6 Occurrence
+A26	Pos E6 Noun
+T14	ACTOR 427 430	one
+A27	Lexical_Head T14 Noun
+A28	Actor_Type T14 Obj
+T15	ACTOR 434 437	his
+A29	Lexical_Head T15 Pronoun
+A30	Actor_Type T15 Per
+T16	ACTOR 438 443	tyres
+A31	Lexical_Head T16 Noun
+A32	Actor_Type T16 Obj
+R1	OBJ_REL_partOf Arg1:T14 Arg2:T16	
+T17	EVENT 444 447	was
+E7	EVENT:T17 
+A33	Class E7 State
+A34	Pos E7 Verb
+T18	EVENT 448 462	under-inflated
+E8	EVENT:T18 
+A35	Class E8 State
+A36	Pos E8 Adjective
+T19	EVENT 471 492	an extraordinary move
+E9	EVENT:T19 
+A37	Class E9 Occurrence
+A38	Pos E9 Noun
+T20	ACTOR 502 521	the national anthem
+A39	Lexical_Head T20 Noun
+A40	Actor_Type T20 Other
+T21	EVENT 522 538	was being played
+E10	EVENT:T21 
+A41	Class E10 Occurrence
+A42	Pos E10 Verb
+T22	ACTOR 539 546	the FIA
+A43	Lexical_Head T22 Noun
+A44	Actor_Type T22 Org
+T23	EVENT 547 553	issued
+E11	EVENT:T23 
+A45	Class E11 Occurrence
+A46	Pos E11 Verb
+T24	EVENT 554 571	a press statement
+E12	EVENT:T24 
+A47	Class E12 Reporting
+A48	Pos E12 Noun
+T25	EVENT 572 579	calling
+E13	EVENT:T25 
+A49	Class E13 Occurrence
+A50	Pos E13 Verb
+T26	ACTOR 584 585;595 609	a representative
+A51	Lexical_Head T26 Noun
+A52	Actor_Type T26 Per
+T27	ACTOR 586 594	Mercedes
+A53	Lexical_Head T27 Noun
+A54	Actor_Type T27 Org
+T28	EVENT 610 615	to go
+E14	EVENT:T28 
+A55	Class E14 Occurrence
+A56	Pos E14 Verb
+T29	ACTOR 619 631	the stewards
+A57	Lexical_Head T29 Noun
+A58	Actor_Type T29 Per
+T30	ACTOR 633 641	Mercedes
+A59	Lexical_Head T30 Noun
+A60	Actor_Type T30 Org
+T31	ACTOR 642 671	technical director Paddy Lowe
+A61	Lexical_Head T31 Noun
+A62	Actor_Type T31 Per
+T33	EVENT 672 683	admitted to
+E15	EVENT:T33 
+A65	Class E15 Occurrence
+A66	Pos E15 Verb
+T34	EVENT 684 698	being confused
+E16	EVENT:T34 
+A67	Class E16 State
+A68	Pos E16 Verb
+T35	EVENT 2218 2232	having debated
+E17	EVENT:T35 
+A69	Class E17 Occurrence
+A70	Pos E17 Verb
+T36	EVENT 2233 2243	the matter
+E18	EVENT:T36 
+A71	Class E18 Occurrence
+A72	Pos E18 Noun
+T37	ACTOR 2259 2267	Mercedes
+A73	Lexical_Head T37 Noun
+A74	Actor_Type T37 Org
+T38	ACTOR 2272 2279	Pirelli
+A75	Lexical_Head T38 Noun
+A76	Actor_Type T38 Org
+T39	ACTOR 2280 2289	engineers
+A77	Lexical_Head T39 Noun
+A78	Actor_Type T39 Per
+T40	ACTOR 2291 2303	the stewards
+A79	Lexical_Head T40 Noun
+A80	Actor_Type T40 Per
+T41	ACTOR 2305 2308	who
+A81	Lexical_Head T41 Pronoun
+A82	Actor_Type T41 Per
+T42	EVENT 2309 2317	included
+E19	EVENT:T42 
+A83	Class E19 State
+A84	Pos E19 Verb
+T43	ACTOR 2318 2363	former Indianapolis 500 winner Danny Sullivan
+A85	Lexical_Head T43 Noun
+A86	Actor_Type T43 Per
+T44	EVENT 2365 2372	decided
+E20	EVENT:T44 
+A87	Class E20 I_Action
+A88	Pos E20 Verb
+T45	EVENT 2391 2403	was required
+E21	EVENT:T45 
+A89	Class E21 State
+A90	Pos E21 Verb
+T46	EVENT 2373 2390	no further action
+E22	EVENT:T46 
+A91	Class E22 Occurrence
+A92	Pos E22 Noun
+T47	ACTOR 755 768	manufacturers
+A93	Lexical_Head T47 Noun
+A94	Actor_Type T47 Per
+T48	ACTOR 769 776	Pirelli
+A95	Lexical_Head T48 Noun
+A96	Actor_Type T48 Org
+T49	EVENT 777 790	have mandated
+E23	EVENT:T49 
+A97	Pos E23 Verb
+A98	Class E23 Occurrence
+T50	EVENT 791 809;815 823	a minimum starting pressure
+E24	EVENT:T50 
+A99	Class E24 State
+A100	Pos E24 Noun
+T51	ACTOR 810 814	tyre
+A101	Lexical_Head T51 Noun
+A102	Actor_Type T51 Obj
+T52	ACTOR 827 835	19.5 psi
+A103	Lexical_Head T52 Noun
+A104	Actor_Type T52 Other
+T53	EVENT 841 855	safety measure
+E25	EVENT:T53 
+A105	Class E25 Occurrence
+A106	Pos E25 Noun
+T54	EVENT 857 867	The report
+E26	EVENT:T54 
+A107	Class E26 Reporting
+A108	Pos E26 Noun
+T55	EVENT 868 874	stated
+E27	EVENT:T55 
+A109	Class E27 Reporting
+A110	Pos E27 Verb
+T56	ACTOR 880 906	the left-hand rear Pirelli
+A111	Lexical_Head T56 Noun
+A112	Actor_Type T56 Obj
+T57	ACTOR 910 918	Hamilton
+A113	Lexical_Head T57 Noun
+A114	Actor_Type T57 Per
+T58	ACTOR 921 929	Mercedes
+A115	Lexical_Head T58 Noun
+A116	Actor_Type T58 Obj
+R2	OBJ_REL_partOf Arg1:T58 Arg2:T57	
+T59	EVENT 930 938	had been
+E28	EVENT:T59 
+A117	Class E28 State
+A118	Pos E28 Verb
+T60	EVENT 947 965	below that minimum
+E29	EVENT:T60 
+A119	Class E29 State
+A120	Pos E29 Preposition
+T61	ACTOR 939 946	0.3 psi
+A121	Lexical_Head T61 Noun
+A122	Actor_Type T61 Other
+T62	EVENT 971 979	measured
+E30	EVENT:T62 
+A123	Class E30 Occurrence
+A124	Pos E30 Verb
+T63	ACTOR 983 991	the grid
+A125	Lexical_Head T63 Noun
+A126	Actor_Type T63 Loc
+T64	ACTOR 999 1021	team-mate Nico Rosberg
+A127	Lexical_Head T64 Noun
+A128	Actor_Type T64 Per
+T65	EVENT 1022 1025	had
+E31	EVENT:T65 
+A129	Class E31 State
+A130	Pos E31 Verb
+T66	ACTOR 1026 1034	one tyre
+A131	Lexical_Head T66 Noun
+A132	Actor_Type T66 Obj
+T67	ACTOR 1035 1042	1.1 psi
+A133	Lexical_Head T67 Noun
+A134	Actor_Type T67 Other
+T68	EVENT 1043 1048	below
+E32	EVENT:T68 
+A135	Class E32 State
+A136	Pos E32 Preposition
+R3	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+R4	OBJ_REL_objIdentity Arg1:T4 Arg2:T2	
+R5	OBJ_REL_objIdentity Arg1:T7 Arg2:T4	
+R6	OBJ_REL_objIdentity Arg1:T9 Arg2:T7	
+R7	OBJ_REL_partOf Arg1:T9 Arg2:T10	
+R8	OBJ_REL_objIdentity Arg1:T15 Arg2:T9	
+R9	OBJ_REL_partOf Arg1:T16 Arg2:T15	
+R10	OBJ_REL_partOf Arg1:T12 Arg2:T22	
+R11	OBJ_REL_partOf Arg1:T26 Arg2:T27	
+R12	OBJ_REL_objIdentity Arg1:T29 Arg2:T12	
+R13	OBJ_REL_partOf Arg1:T31 Arg2:T30	
+T32	ACTOR 710 718	the tyre
+A63	Lexical_Head T32 Noun
+A64	Actor_Type T32 Obj
+T69	EVENT 719 725	dramas
+E33	EVENT:T69 
+A137	Class E33 State
+A138	Pos E33 Noun
+T70	ACTOR 729 736	Belgium
+A139	Lexical_Head T70 Noun
+A140	Actor_Type T70 Loc
+T71	EVENT 740 753	the last race
+E34	EVENT:T71 
+A141	Class E34 Occurrence
+A142	Pos E34 Noun
+R14	OBJ_REL_partOf Arg1:T47 Arg2:T48	
+R15	OBJ_REL_partOf Arg1:T56 Arg2:T58	
+R16	OBJ_REL_objIdentity Arg1:T57 Arg2:T15	
+R17	OBJ_REL_objIdentity Arg1:T37 Arg2:T30	
+R18	OBJ_REL_objIdentity Arg1:T38 Arg2:T48	
+R19	OBJ_REL_partOf Arg1:T39 Arg2:T38	
+R20	OBJ_REL_partOf Arg1:T39 Arg2:T37	
+R21	OBJ_REL_objIdentity Arg1:T41 Arg2:T40	
+R22	OBJ_REL_objIdentity Arg1:T40 Arg2:T29	
+R23	OBJ_REL_memberOf Arg1:T43 Arg2:T41	
+R24	SEMROLE_pivot Arg1:E1 Arg2:T4	
+R25	SEMROLE_theme Arg1:E1 Arg2:E2	
+R26	SEMROLE_theme Arg1:E3 Arg2:E4	
+R27	SEMROLE_cause Arg1:E3 Arg2:E2	
+R28	SEMROLE_patient Arg1:E4 Arg2:T7	
+R29	SEMROLE_patient Arg1:E5 Arg2:T10	
+R30	SEMROLE_agent Arg1:E5 Arg2:T12	
+R31	SEMROLE_reason Arg1:E5 Arg2:E6	
+R32	SEMROLE_theme Arg1:E6 Arg2:E7	
+R33	SEMROLE_pivot Arg1:E7 Arg2:T16	
+R34	SEMROLE_manner Arg1:E7 Arg2:E8	
+R35	SEMROLE_patient Arg1:E10 Arg2:T20	
+R36	SEMROLE_agent Arg1:E9 Arg2:T22	
+R37	SEMROLE_agent Arg1:E11 Arg2:T22	
+R38	SEMROLE_theme Arg1:E11 Arg2:E12	
+R39	SEMROLE_cause Arg1:E13 Arg2:E12	
+R40	SEMROLE_goal Arg1:E13 Arg2:T26	
+R41	SEMROLE_theme Arg1:E13 Arg2:E14	
+R42	SEMROLE_goal Arg1:E14 Arg2:T29	
+R43	SEMROLE_agent Arg1:E14 Arg2:T26	
+R44	SEMROLE_agent Arg1:E15 Arg2:T31	
+R45	SEMROLE_theme Arg1:E15 Arg2:E16	
+R46	SEMROLE_theme Arg1:E33 Arg2:T32	
+R47	SEMROLE_location Arg1:E33 Arg2:T70	
+R48	SEMROLE_setting Arg1:E33 Arg2:E34	
+R49	SEMROLE_agent Arg1:E23 Arg2:T47	
+R50	SEMROLE_theme Arg1:E23 Arg2:E24	
+R51	SEMROLE_theme Arg1:E24 Arg2:T51	
+R52	SEMROLE_amount Arg1:E24 Arg2:T52	
+R53	SEMROLE_reason Arg1:E24 Arg2:E25	
+R54	SEMROLE_source Arg1:E27 Arg2:E26	
+R55	SEMROLE_theme Arg1:E27 Arg2:E28	
+R56	SUBORD_evidential Arg1:E27 Arg2:E28	
+R57	SEMROLE_theme Arg1:E28 Arg2:T56	
+R58	SEMROLE_amount Arg1:E28 Arg2:T61	
+R59	SEMROLE_manner Arg1:E28 Arg2:E29	
+R60	SEMROLE_patient Arg1:E30 Arg2:T56	
+R61	SEMROLE_location Arg1:E30 Arg2:T63	
+R62	SEMROLE_pivot Arg1:E31 Arg2:T64	
+R63	SEMROLE_theme Arg1:E31 Arg2:T66	
+R64	SEMROLE_amount Arg1:E32 Arg2:T67	
+R65	SEMROLE_pivot Arg1:E32 Arg2:T66	
+R66	SEMROLE_theme Arg1:E17 Arg2:E18	
+R67	SEMROLE_partner Arg1:E17 Arg2:T39	
+R68	SEMROLE_agent Arg1:E17 Arg2:T40	
+R69	SEMROLE_pivot Arg1:E19 Arg2:T41	
+R70	SEMROLE_theme Arg1:E19 Arg2:T43	
+R71	SEMROLE_agent Arg1:E20 Arg2:T40	
+R72	SEMROLE_theme Arg1:E20 Arg2:E21	
+R73	SUBORD_modal Arg1:E20 Arg2:E21	
+R74	SEMROLE_theme Arg1:E21 Arg2:E22	

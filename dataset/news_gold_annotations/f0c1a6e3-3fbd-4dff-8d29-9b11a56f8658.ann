@@ -1,0 +1,141 @@
+T1	TIME_X3 204 218	Thursday night
+A1	Time_Type T1 Date
+T2	ACTOR 243 263	New England Patriots
+A2	Lexical_Head T2 Noun
+A3	Actor_Type T2 Org
+T3	ACTOR 264 283	stud Rob Gronkowski
+A4	Lexical_Head T3 Noun
+A5	Actor_Type T3 Per
+R1	OBJ_REL_partOf Arg1:T3 Arg2:T2	
+T4	EVENT 284 291	hauling
+E1	EVENT:T4 
+A6	Class E1 Occurrence
+A7	Pos E1 Verb
+T5	EVENT 295 315	three scoring passes
+E2	EVENT:T5 
+A8	Class E2 Occurrence
+A9	Pos E2 Noun
+T6	ACTOR 321 330	Tom Brady
+A10	Lexical_Head T6 Noun
+A11	Actor_Type T6 Per
+T7	EVENT 340 349	continued
+E3	EVENT:T7 
+A12	Class E3 Aspectual
+A13	Pos E3 Verb
+T8	TIME_X3 355 361	Sunday
+A14	Time_Type T8 Date
+T9	EVENT 435 442	starred
+E4	EVENT:T9 
+A16	Pos E4 Verb
+A15	Class E4 State
+T10	EVENT 460 474	fantasy season
+E5	EVENT:T10 
+A17	Class E5 State
+A18	Pos E5 Noun
+T11	EVENT 476 484	Entering
+E6	EVENT:T11 
+A19	Class E6 Occurrence
+A20	Pos E6 Verb
+T12	ACTOR 485 504	the New York Giants
+A21	Lexical_Head T12 Noun
+A22	Actor_Type T12 Org
+T13	ACTOR 507 521	Dallas Cowboys
+A23	Lexical_Head T13 Noun
+A24	Actor_Type T13 Org
+T14	TIME_X3 530 542	Sunday night
+A25	Time_Type T14 Date
+T15	EVENT 544 554	there were
+E7	EVENT:T15 
+A26	Class E7 State
+A27	Pos E7 Verb
+T16	ACTOR 555 582	eight flex-eligible players
+A28	Lexical_Head T16 Noun
+A29	Actor_Type T16 Per
+T17	ACTOR 594 610	non-quarterbacks
+A30	Lexical_Head T17 Noun
+A31	Actor_Type T17 Per
+T18	EVENT 586 593	meaning
+E8	EVENT:T18 
+A32	Class E8 State
+A33	Pos E8 Verb
+T19	ACTOR 614 617	who
+A34	Lexical_Head T19 Pronoun
+A35	Actor_Type T19 Per
+T20	EVENT 618 624	scored
+E9	EVENT:T20 
+A36	Class E9 Occurrence
+A37	Pos E9 Verb
+T21	EVENT 625 644	multiple touchdowns
+E10	EVENT:T21 
+A38	Class E10 Occurrence
+A39	Pos E10 Noun
+T22	ACTOR 650 654	half
+A40	Lexical_Head T22 Noun
+A41	Actor_Type T22 Per
+T23	ACTOR 658 662	them
+A42	Lexical_Head T23 Pronoun
+A43	Actor_Type T23 Per
+R2	OBJ_REL_partOf Arg1:T22 Arg2:T23	
+R3	OBJ_REL_objIdentity Arg1:T23 Arg2:T19	
+R4	OBJ_REL_objIdentity Arg1:T19 Arg2:T17	
+R5	OBJ_REL_objIdentity Arg1:T17 Arg2:T16	
+T24	EVENT 663 667	play
+E11	EVENT:T24 
+A44	Class E11 State
+A45	Pos E11 Verb
+T25	EVENT 684 691	is rare
+E12	EVENT:T25 
+A46	Class E12 State
+A47	Pos E12 Verb
+T26	EVENT 696 705	promising
+E13	EVENT:T26 
+A48	Class E13 State
+A49	Pos E13 Verb
+T27	ACTOR 195 197	It
+A50	Lexical_Head T27 Pronoun
+A51	Actor_Type T27 Other
+T28	EVENT 198 203	began
+E14	EVENT:T28 
+A52	Class E14 Aspectual
+A53	Pos E14 Verb
+T29	EVENT 222 237	little surprise
+E15	EVENT:T29 
+A54	Class E15 State
+A55	Pos E15 Noun
+T30	ACTOR 412 434	the tight end position
+A56	Lexical_Head T30 Noun
+A57	Actor_Type T30 Other
+T31	ACTOR 668 677	tight end
+A58	Lexical_Head T31 Noun
+A59	Actor_Type T31 Other
+T32	ACTOR 366 408	the oft-overlooked, non-Gronkowski options
+A60	Lexical_Head T32 Noun
+A61	Actor_Type T32 Per
+T33	ACTOR 679 683	This
+A62	Lexical_Head T33 Pronoun
+A63	Actor_Type T33 Other
+R6	SEMROLE_agent Arg1:E1 Arg2:T3	
+R7	SEMROLE_setting Arg1:E1 Arg2:E2	
+R8	SEMROLE_agent Arg1:E2 Arg2:T6	
+R9	SEMROLE_theme Arg1:E14 Arg2:T27	
+R10	SEMROLE_manner Arg1:E14 Arg2:E15	
+R11	SEMROLE_setting Arg1:E4 Arg2:E5	
+R12	SEMROLE_agent Arg1:E4 Arg2:T32	
+R13	OBJ_REL_partOf Arg1:T6 Arg2:T32	
+R14	SEMROLE_theme Arg1:E3 Arg2:T27	
+T34	EVENT 522 526	tilt
+E16	EVENT:T34 
+A64	Class E16 State
+A65	Pos E16 Noun
+R15	SEMROLE_agent Arg1:E6 Arg2:T16	
+R16	SEMROLE_theme Arg1:E6 Arg2:E16	
+R17	SEMROLE_pivot Arg1:E7 Arg2:T16	
+R18	SEMROLE_theme Arg1:E8 Arg2:T17	
+R19	SEMROLE_agent Arg1:E9 Arg2:T19	
+R20	SEMROLE_theme Arg1:E9 Arg2:E10	
+R21	SEMROLE_agent Arg1:E11 Arg2:T22	
+R22	SEMROLE_manner Arg1:E11 Arg2:T31	
+R23	SEMROLE_theme Arg1:E12 Arg2:T33	
+R24	SEMROLE_theme Arg1:E13 Arg2:T33	
+R25	SEMROLE_pivot Arg1:E16 Arg2:T12	
+R26	SEMROLE_pivot Arg1:E16 Arg2:T13	

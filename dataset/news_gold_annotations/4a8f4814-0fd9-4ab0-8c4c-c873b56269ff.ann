@@ -1,0 +1,229 @@
+T1	EVENT 71 77	laughs
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Verb
+T2	EVENT 102 106	game
+E2	EVENT:T2 
+A3	Class E2 Occurrence
+A4	Pos E2 Noun
+T3	TIME_X3 140 155	August 14, 2015
+A5	Time_Type T3 Date
+#1	AnnotatorNotes T3	value=2015-08-14 anchorTime=Publication_Time
+T4	EVENT 268 272	game
+E3	EVENT:T4 
+A6	Class E3 Occurrence
+A7	Pos E3 Noun
+T5	TIME_X3 303 309	Sunday
+A8	Time_Type T5 Date
+#2	AnnotatorNotes T5	anchorTime=Publication_Time
+T6	EVENT 316 320	made
+E4	EVENT:T6 
+A9	Class E4 Occurrence
+A10	Pos E4 Verb
+T7	EVENT 323 332	statement
+E5	EVENT:T7 
+A11	Class E5 Reporting
+A12	Pos E5 Noun
+T8	EVENT 348 353	named
+E6	EVENT:T8 
+A13	Class E6 Occurrence
+A14	Pos E6 Verb
+T9	EVENT 398 402	game
+E7	EVENT:T9 
+A15	Class E7 Occurrence
+A16	Pos E7 Noun
+T10	EVENT 409 416	attempt
+E8	EVENT:T10 
+A17	Class E8 Occurrence
+A18	Pos E8 Noun
+T11	EVENT 417 424	to show
+E9	EVENT:T11 
+A19	Class E9 Occurrence
+A20	Pos E9 Verb
+T12	EVENT 439 450	're missing
+E10	EVENT:T12 
+A21	Class E10 State
+A22	Pos E10 Verb
+T13	EVENT 476 480	were
+E11	EVENT:T13 
+A23	Class E11 State
+A24	Pos E11 Verb
+T14	EVENT 585 591	seemed
+E12	EVENT:T14 
+A25	Class E12 State
+A26	Pos E12 Verb
+T16	EVENT 560 584	extra form of motivation
+E14	EVENT:T16 
+A29	Class E14 Occurrence
+A30	Pos E14 Noun
+T17	EVENT 622 633	first drive
+E15	EVENT:T17 
+A31	Class E15 State
+A32	Pos E15 Noun
+T18	EVENT 641 645	game
+E16	EVENT:T18 
+A33	Class E16 Occurrence
+A34	Pos E16 Noun
+T19	EVENT 652 658	caught
+E17	EVENT:T19 
+A35	Class E17 Occurrence
+A36	Pos E17 Verb
+T20	EVENT 724 728	sent
+E18	EVENT:T20 
+A37	Class E18 Occurrence
+A38	Pos E18 Verb
+T21	EVENT 731 740	statement
+E19	EVENT:T21 
+A39	Class E19 Reporting
+A40	Pos E19 Noun
+T22	ACTOR 30 49	Head coach Rex Ryan
+A41	Lexical_Head T22 Noun
+A42	Actor_Type T22 Per
+T23	ACTOR 53 70	the Buffalo Bills
+A43	Lexical_Head T23 Noun
+A44	Actor_Type T23 Org
+T24	ACTOR 83 90	players
+A45	Lexical_Head T24 Noun
+A46	Actor_Type T24 Per
+T25	ACTOR 115 136	the Carolina Panthers
+A47	Lexical_Head T25 Noun
+A48	Actor_Type T25 Org
+T26	ACTOR 159 179	Ralph Wilson Stadium
+A49	Lexical_Head T26 Noun
+A50	Actor_Type T26 Loc
+T27	ACTOR 183 195	Orchard Park
+A51	Lexical_Head T27 Noun
+A52	Actor_Type T27 Loc
+T28	ACTOR 197 205	New York
+A53	Lexical_Head T28 Noun
+A54	Actor_Type T28 Loc
+T29	ACTOR 242 260	the Buffalo Bills'
+A55	Lexical_Head T29 Noun
+A56	Actor_Type T29 Org
+T30	ACTOR 281 299	the Miami Dolphins
+A57	Lexical_Head T30 Noun
+A58	Actor_Type T30 Org
+T31	ACTOR 345 347	He
+A59	Lexical_Head T31 Pronoun
+A60	Actor_Type T31 Per
+T32	ACTOR 354 374	four former Dolphins
+A61	Lexical_Head T32 Noun
+A62	Actor_Type T32 Per
+T33	ACTOR 378 386	captains
+A63	Lexical_Head T33 Noun
+A64	Actor_Type T33 Per
+T34	ACTOR 425 430	Miami
+A65	Lexical_Head T34 Noun
+A66	Actor_Type T34 Org
+T35	ACTOR 431 434	who
+A67	Lexical_Head T35 Pronoun
+A68	Actor_Type T35 Per
+T36	ACTOR 435 439	they
+A69	Lexical_Head T36 Pronoun
+A70	Actor_Type T36 Org
+T37	ACTOR 457 475	Those four players
+A71	Lexical_Head T37 Noun
+A72	Actor_Type T37 Per
+T38	ACTOR 481 493	Charles Clay
+A73	Lexical_Head T38 Noun
+A74	Actor_Type T38 Per
+T39	ACTOR 495 511	Richie Incognito
+A75	Lexical_Head T39 Noun
+A76	Actor_Type T39 Per
+T40	ACTOR 513 527	Marcus Thigpen
+A77	Lexical_Head T40 Noun
+A78	Actor_Type T40 Per
+T41	ACTOR 533 546	Dan Carpenter
+A79	Lexical_Head T41 Noun
+A80	Actor_Type T41 Per
+T42	ACTOR 553 557	Ryan
+A81	Lexical_Head T42 Noun
+A82	Actor_Type T42 Per
+T43	ACTOR 612 620	he Bills
+A83	Lexical_Head T43 Noun
+A84	Actor_Type T43 Org
+T44	ACTOR 647 651	Clay
+A85	Lexical_Head T44 Noun
+A86	Actor_Type T44 Per
+T45	EVENT 691 700	touchdown
+E20	EVENT:T45 
+A87	Class E20 Occurrence
+A88	Pos E20 Noun
+T46	EVENT 660 684	hree passes for 58 yards
+E21	EVENT:T46 
+A89	Class E21 Occurrence
+A90	Pos E21 Noun
+T47	ACTOR 719 723	Clay
+A91	Lexical_Head T47 Noun
+A92	Actor_Type T47 Per
+T48	ACTOR 744 747	his
+A93	Lexical_Head T48 Pronoun
+A94	Actor_Type T48 Per
+T49	ACTOR 748 759	former team
+A95	Lexical_Head T49 Noun
+A96	Actor_Type T49 Org
+R1	OBJ_REL_partOf Arg1:T22 Arg2:T23	
+R2	OBJ_REL_partOf Arg1:T24 Arg2:T23	
+R3	OBJ_REL_partOf Arg1:T26 Arg2:T27	
+R4	OBJ_REL_partOf Arg1:T27 Arg2:T28	
+R5	OBJ_REL_objIdentity Arg1:T29 Arg2:T23	
+T50	ACTOR 311 315	Ryan
+A97	Lexical_Head T50 Noun
+A98	Actor_Type T50 Per
+R6	OBJ_REL_objIdentity Arg1:T50 Arg2:T22	
+R7	OBJ_REL_objIdentity Arg1:T31 Arg2:T50	
+R8	OBJ_REL_objIdentity Arg1:T33 Arg2:T32	
+R9	OBJ_REL_objIdentity Arg1:T34 Arg2:T30	
+R10	OBJ_REL_objIdentity Arg1:T35 Arg2:T33	
+R11	OBJ_REL_objIdentity Arg1:T36 Arg2:T34	
+R12	OBJ_REL_objIdentity Arg1:T37 Arg2:T35	
+R13	OBJ_REL_partOf Arg1:T38 Arg2:T37	
+R14	OBJ_REL_partOf Arg1:T39 Arg2:T37	
+R15	OBJ_REL_partOf Arg1:T40 Arg2:T37	
+R16	OBJ_REL_partOf Arg1:T41 Arg2:T37	
+R17	OBJ_REL_objIdentity Arg1:T42 Arg2:T31	
+R18	OBJ_REL_objIdentity Arg1:T43 Arg2:T29	
+R19	OBJ_REL_objIdentity Arg1:T44 Arg2:T38	
+R20	OBJ_REL_objIdentity Arg1:T47 Arg2:T44	
+R21	OBJ_REL_objIdentity Arg1:T48 Arg2:T47	
+R22	SEMROLE_agent Arg1:E1 Arg2:T22	
+R23	SEMROLE_partner Arg1:E1 Arg2:T24	
+R24	SEMROLE_setting Arg1:E1 Arg2:E2	
+R25	SEMROLE_goal Arg1:E2 Arg2:T25	
+R26	TLINK_isIncluded Arg1:E2 Arg2:T3	
+R27	SEMROLE_location Arg1:E2 Arg2:T26	
+R28	SEMROLE_agent Arg1:E3 Arg2:T29	
+R29	SEMROLE_goal Arg1:E3 Arg2:T30	
+R30	SEMROLE_agent Arg1:E4 Arg2:T50	
+R31	SEMROLE_theme Arg1:E4 Arg2:E5	
+R32	SEMROLE_agent Arg1:E6 Arg2:T31	
+R33	SEMROLE_patient Arg1:E6 Arg2:T32	
+R34	SEMROLE_theme Arg1:E6 Arg2:T33	
+R35	SEMROLE_setting Arg1:E6 Arg2:E7	
+R36	SEMROLE_theme Arg1:E8 Arg2:E9	
+R37	SEMROLE_purpose Arg1:E6 Arg2:E8	
+R38	SEMROLE_goal Arg1:E9 Arg2:T34	
+R39	SEMROLE_theme Arg1:E9 Arg2:T35	
+R40	SEMROLE_pivot Arg1:E10 Arg2:T36	
+R41	SEMROLE_theme Arg1:E10 Arg2:T35	
+R42	SEMROLE_theme Arg1:E11 Arg2:T37	
+R43	SEMROLE_pivot Arg1:E11 Arg2:T38	
+R44	SEMROLE_pivot Arg1:E11 Arg2:T39	
+R45	SEMROLE_pivot Arg1:E11 Arg2:T40	
+R46	SEMROLE_pivot Arg1:E11 Arg2:T41	
+R47	SEMROLE_agent Arg1:E14 Arg2:T42	
+R48	SEMROLE_pivot Arg1:E12 Arg2:E14	
+T15	EVENT 592 606	to have worked
+E13	EVENT:T15 
+A27	Class E13 Occurrence
+A28	Pos E13 Verb
+R49	SEMROLE_theme Arg1:E12 Arg2:E13	
+R51	SEMROLE_theme Arg1:E15 Arg2:E16	
+R50	SEMROLE_agent Arg1:E15 Arg2:T43	
+R52	SEMROLE_agent Arg1:E17 Arg2:T44	
+R53	SEMROLE_theme Arg1:E17 Arg2:E21	
+R54	SEMROLE_theme Arg1:E17 Arg2:E20	
+R55	SEMROLE_agent Arg1:E18 Arg2:T47	
+R56	SEMROLE_theme Arg1:E18 Arg2:E19	
+R57	OBJ_REL_partOf Arg1:T48 Arg2:T49	
+R58	SEMROLE_goal Arg1:E19 Arg2:T49	

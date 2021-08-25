@@ -1,0 +1,285 @@
+T1	ACTOR 81 89	Juventus
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Org
+T2	ACTOR 110 123	Bayern Munich
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Org
+T3	ACTOR 124 140	star Mario Gotze
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Per
+T4	ACTOR 144 154	Paul Pogba
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Per
+T5	ACTOR 161 168	Chelsea
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Org
+T6	ACTOR 175 182	Chelsea
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Org
+T7	ACTOR 226 231	Pogba
+A13	Lexical_Head T7 Noun
+A14	Actor_Type T7 Per
+T8	TIME_X3 232 243	this summer
+A15	Time_Type T8 Date
+T9	ACTOR 297 301	Juve
+A16	Lexical_Head T9 Noun
+A17	Actor_Type T9 Org
+T10	ACTOR 320 325	Pogba
+A18	Lexical_Head T10 Noun
+A19	Actor_Type T10 Per
+T11	ACTOR 363 385	World Cup winner Gotze
+A20	Lexical_Head T11 Noun
+A21	Actor_Type T11 Per
+T12	ACTOR 411 416	Spain
+A22	Lexical_Head T12 Noun
+A23	Actor_Type T12 Loc
+T13	ACTOR 423 448	The Germany international
+A24	Lexical_Head T13 Noun
+A25	Actor_Type T13 Per
+T14	ACTOR 469 475	Bayern
+A26	Lexical_Head T14 Noun
+A27	Actor_Type T14 Org
+T15	ACTOR 509 530	manager Pep Guardiola
+A28	Lexical_Head T15 Noun
+A29	Actor_Type T15 Per
+T16	ACTOR 536 545	Liverpool
+A30	Lexical_Head T16 Noun
+A31	Actor_Type T16 Org
+T17	ACTOR 590 598	AC Milan
+A32	Lexical_Head T17 Noun
+A33	Actor_Type T17 Org
+T18	ACTOR 599 616	star Jeremy Menez
+A34	Lexical_Head T18 Noun
+A35	Actor_Type T18 Per
+T19	ACTOR 647 652	Spain
+A36	Lexical_Head T19 Noun
+A37	Actor_Type T19 Loc
+T20	ACTOR 655 660	Milan
+A38	Lexical_Head T20 Noun
+A39	Actor_Type T20 Org
+T21	ACTOR 678 689	Lucas Leiva
+A40	Lexical_Head T21 Noun
+A41	Actor_Type T21 Per
+T22	ACTOR 705 710	Menez
+A42	Lexical_Head T22 Noun
+A43	Actor_Type T22 Per
+T23	ACTOR 727 737	Both sides
+A44	Lexical_Head T23 Noun
+A45	Actor_Type T23 Org
+T25	TIME_X3 817 824	January
+A48	Time_Type T25 Date
+#1	AnnotatorNotes T25	value=XXXX-01-XX
+T26	ACTOR 847 864	Manchester United
+A49	Lexical_Head T26 Noun
+A50	Actor_Type T26 Org
+T27	ACTOR 865 884	keeper David De Gea
+A51	Lexical_Head T27 Noun
+A52	Actor_Type T27 Per
+T28	TIME_X3 902 911	four-year
+A53	Time_Type T28 Duration
+#2	AnnotatorNotes T28	value=P4Y
+T29	ACTOR 936 948	Old Trafford
+A54	Lexical_Head T29 Noun
+A55	Actor_Type T29 Loc
+R1	OBJ_REL_partOf Arg1:T3 Arg2:T2	
+R2	OBJ_REL_partOf Arg1:T4 Arg2:T1	
+R3	OBJ_REL_objIdentity Arg1:T6 Arg2:T5	
+R4	OBJ_REL_objIdentity Arg1:T9 Arg2:T1	
+R5	OBJ_REL_objIdentity Arg1:T10 Arg2:T7	
+R6	OBJ_REL_objIdentity Arg1:T11 Arg2:T3	
+R7	OBJ_REL_objIdentity Arg1:T13 Arg2:T11	
+R8	OBJ_REL_objIdentity Arg1:T14 Arg2:T2	
+R9	OBJ_REL_partOf Arg1:T15 Arg2:T14	
+R10	OBJ_REL_partOf Arg1:T18 Arg2:T17	
+R11	OBJ_REL_objIdentity Arg1:T19 Arg2:T12	
+R12	OBJ_REL_objIdentity Arg1:T20 Arg2:T17	
+R13	OBJ_REL_objIdentity Arg1:T22 Arg2:T18	
+R14	OBJ_REL_partOf Arg1:T21 Arg2:T16	
+R15	OBJ_REL_partOf Arg1:T27 Arg2:T26	
+R16	OBJ_REL_partOf Arg1:T29 Arg2:T26	
+T30	EVENT 90 101	are looking
+E1	EVENT:T30 
+A56	Class E1 Perception
+A57	Pos E1 Verb
+T31	EVENT 102 109	to land
+E2	EVENT:T31 
+A58	Class E2 Occurrence
+A59	Pos E2 Verb
+T32	EVENT 155 160	joins
+E3	EVENT:T32 
+A60	Class E3 Occurrence
+A61	Pos E3 Verb
+T33	EVENT 183 205	were repeatedly linked
+E4	EVENT:T33 
+A62	Class E4 Occurrence
+A63	Pos E4 Verb
+T34	EVENT 211 217	a move
+E5	EVENT:T34 
+A64	Class E5 Occurrence
+A65	Pos E5 Noun
+T35	EVENT 218 225	to sign
+E6	EVENT:T35 
+A66	Class E6 Occurrence
+A67	Pos E6 Verb
+T36	EVENT 253 259	a deal
+E7	EVENT:T36 
+A68	Class E7 Occurrence
+A69	Pos E7 Noun
+T37	EVENT 260 266	failed
+E8	EVENT:T37 
+A70	Class E8 State
+A71	Pos E8 Verb
+T38	EVENT 267 281	to materialise
+E9	EVENT:T38 
+A72	Class E9 Occurrence
+A73	Pos E9 Verb
+T39	EVENT 302 315	are preparing
+E10	EVENT:T39 
+A74	Class E10 State
+A75	Pos E10 Verb
+T40	EVENT 328 337	departure
+E11	EVENT:T40 
+A76	Class E11 Occurrence
+A77	Pos E11 Noun
+T41	EVENT 341 347	eyeing
+E12	EVENT:T41 
+A78	Class E12 Perception
+A79	Pos E12 Verb
+T42	EVENT 348 354	a move
+E13	EVENT:T42 
+A80	Class E13 Occurrence
+A81	Pos E13 Noun
+T43	EVENT 355 362	to sign
+E14	EVENT:T43 
+A82	Class E14 Occurrence
+A83	Pos E14 Verb
+T44	EVENT 400 407	reports
+E15	EVENT:T44 
+A84	Class E15 Reporting
+A85	Pos E15 Noun
+T45	EVENT 449 459	could look
+E16	EVENT:T45 
+A86	Class E16 I_State
+A87	Pos E16 Verb
+T46	EVENT 482 503	falling out of favour
+E17	EVENT:T46 
+A88	Class E17 Occurrence
+A89	Pos E17 Verb
+T47	EVENT 572 581	swap deal
+E18	EVENT:T47 
+A90	Class E18 Occurrence
+A91	Pos E18 Noun
+T48	EVENT 582 589	to land
+E19	EVENT:T48 
+A92	Class E19 Occurrence
+A93	Pos E19 Verb
+T49	EVENT 546 560	are looking at
+E20	EVENT:T49 
+A94	Class E20 I_State
+A95	Pos E20 Verb
+T50	EVENT 561 569	securing
+E21	EVENT:T50 
+A96	Class E21 Occurrence
+A97	Pos E21 Verb
+T51	EVENT 460 468	to leave
+E22	EVENT:T51 
+A98	Class E22 Occurrence
+A99	Pos E22 Verb
+T52	EVENT 661 669	are keen
+E23	EVENT:T52 
+A100	Class E23 State
+A101	Pos E23 Verb
+T53	EVENT 670 677	to sign
+E24	EVENT:T53 
+A102	Class E24 Occurrence
+A103	Pos E24 Verb
+T54	EVENT 694 704	will offer
+E25	EVENT:T54 
+A104	Class E25 Occurrence
+A105	Pos E25 Verb
+T55	EVENT 738 746	are said
+E26	EVENT:T55 
+A106	Class E26 State
+A107	Pos E26 Verb
+T56	EVENT 747 758	to be close
+E27	EVENT:T56 
+A108	Class E27 State
+A109	Pos E27 Verb
+T24	EVENT 762 776	agreeing terms
+E28	EVENT:T24 
+A46	Class E28 State
+A47	Pos E28 Noun
+T57	EVENT 785 790	deals
+E29	EVENT:T57 
+A110	Class E29 Occurrence
+A111	Pos E29 Noun
+T58	EVENT 791 809	could be completed
+E30	EVENT:T58 
+A112	Class E30 Occurrence
+A113	Pos E30 Verb
+T59	EVENT 825 840	transfer window
+E31	EVENT:T59 
+A114	Class E31 State
+A115	Pos E31 Noun
+T60	EVENT 885 895	has signed
+E32	EVENT:T60 
+A116	Class E32 Occurrence
+A117	Pos E32 Verb
+T61	EVENT 912 932	£200,000-a-week deal
+E33	EVENT:T61 
+A118	Class E33 Occurrence
+A119	Pos E33 Noun
+R17	SEMROLE_agent Arg1:E1 Arg2:T1	
+R18	SEMROLE_theme Arg1:E1 Arg2:E2	
+R19	SEMROLE_patient Arg1:E2 Arg2:T3	
+R20	SEMROLE_agent Arg1:E3 Arg2:T4	
+R21	SEMROLE_beneficiary Arg1:E3 Arg2:T5	
+R22	SEMROLE_patient Arg1:E4 Arg2:T6	
+R23	SEMROLE_theme Arg1:E4 Arg2:E5	
+R24	SEMROLE_purpose Arg1:E5 Arg2:E6	
+R25	SEMROLE_patient Arg1:E6 Arg2:T7	
+R26	TLINK_isIncluded Arg1:E6 Arg2:T8	
+R27	SEMROLE_theme Arg1:E8 Arg2:E9	
+R28	SEMROLE_pivot Arg1:E8 Arg2:E7	
+R29	SEMROLE_pivot Arg1:E10 Arg2:T9	
+R30	SEMROLE_theme Arg1:E10 Arg2:E11	
+R31	SEMROLE_patient Arg1:E11 Arg2:T10	
+R32	SEMROLE_manner Arg1:E10 Arg2:E12	
+R33	SEMROLE_theme Arg1:E12 Arg2:E13	
+R34	SEMROLE_purpose Arg1:E13 Arg2:E14	
+R35	SEMROLE_patient Arg1:E14 Arg2:T11	
+R36	SEMROLE_location Arg1:E15 Arg2:T12	
+R37	SEMROLE_pivot Arg1:E16 Arg2:T13	
+R38	SEMROLE_theme Arg1:E16 Arg2:E22	
+R39	SEMROLE_source Arg1:E22 Arg2:T14	
+R40	SEMROLE_reason Arg1:E22 Arg2:E17	
+R41	SEMROLE_patient Arg1:E17 Arg2:T13	
+R42	SEMROLE_theme Arg1:E17 Arg2:T15	
+R43	SEMROLE_pivot Arg1:E20 Arg2:T16	
+R44	SEMROLE_theme Arg1:E20 Arg2:E21	
+R45	SEMROLE_theme Arg1:E21 Arg2:E18	
+R46	SEMROLE_purpose Arg1:E18 Arg2:E19	
+R47	SEMROLE_source Arg1:E19 Arg2:T17	
+R48	SEMROLE_patient Arg1:E19 Arg2:T18	
+R49	SEMROLE_source Arg1:E2 Arg2:T2	
+R50	SEMROLE_pivot Arg1:E23 Arg2:T20	
+T62	EVENT 636 643	reports
+E34	EVENT:T62 
+A120	Class E34 Reporting
+A121	Pos E34 Noun
+R51	SEMROLE_location Arg1:E34 Arg2:T19	
+R52	SEMROLE_theme Arg1:E23 Arg2:E24	
+R53	SEMROLE_patient Arg1:E24 Arg2:T21	
+R54	SEMROLE_agent Arg1:E25 Arg2:T20	
+R55	SEMROLE_patient Arg1:E25 Arg2:T22	
+R56	OBJ_REL_memberOf Arg1:T23 Arg2:T20	
+R57	OBJ_REL_memberOf Arg1:T23 Arg2:T21	
+R58	SEMROLE_pivot Arg1:E26 Arg2:T23	
+R59	SEMROLE_theme Arg1:E26 Arg2:E27	
+R60	SEMROLE_theme Arg1:E27 Arg2:E28	
+R61	SEMROLE_theme Arg1:E30 Arg2:E29	
+R62	SEMROLE_setting Arg1:E30 Arg2:E31	
+R63	TLINK_isIncluded Arg1:E31 Arg2:T25	
+R64	SEMROLE_agent Arg1:E32 Arg2:T27	
+R65	SEMROLE_theme Arg1:E32 Arg2:E33	
+R66	SEMROLE_location Arg1:E32 Arg2:T29	

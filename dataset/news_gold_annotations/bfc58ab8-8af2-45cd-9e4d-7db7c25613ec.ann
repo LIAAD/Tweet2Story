@@ -1,0 +1,168 @@
+T1	ACTOR 38 82	Republican presidential hopeful Donald Trump
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	EVENT 83 90	was met
+E1	EVENT:T2 
+A3	Class E1 Occurrence
+A4	Pos E1 Verb
+T3	ACTOR 98 111	raucous crowd
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Per
+T4	ACTOR 115 125	protesters
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Per
+T5	TIME_X3 126 133	Tuesday
+A9	Time_Type T5 Date
+#1	AnnotatorNotes T5	anchorTime=Publication_Time
+T6	ACTOR 137 139	he
+A10	Lexical_Head T6 Pronoun
+A11	Actor_Type T6 Per
+T7	EVENT 140 149	delivered
+E2	EVENT:T7 
+A12	Class E2 Occurrence
+A13	Pos E2 Verb
+T8	EVENT 150 181	another round of harsh rhetoric
+E3	EVENT:T8 
+A14	Class E3 Reporting
+A15	Pos E3 Noun
+T9	EVENT 185 204	illegal immigration
+E4	EVENT:T9 
+A16	Class E4 State
+A17	Pos E4 Noun
+T10	ACTOR 214 224	California
+A18	Lexical_Head T10 Noun
+A19	Actor_Type T10 Loc
+T11	EVENT 225 238	campaign stop
+E5	EVENT:T11 
+A20	Class E5 Occurrence
+A21	Pos E5 Noun
+T12	ACTOR 245 250	Trump
+A22	Lexical_Head T12 Noun
+A23	Actor_Type T12 Per
+T13	EVENT 253 259	speech
+E6	EVENT:T13 
+A24	Class E6 Reporting
+A25	Pos E6 Noun
+T14	EVENT 271 285	decommissioned
+E7	EVENT:T14 
+A26	Class E7 State
+A27	Pos E7 Adjective
+T15	ACTOR 260 266	aboard
+A28	Lexical_Head T15 Noun
+A29	Actor_Type T15 Loc
+T16	ACTOR 286 294	USS Iowa
+A30	Lexical_Head T16 Noun
+A31	Actor_Type T16 Obj
+T17	EVENT 295 301	lacked
+E8	EVENT:T17 
+A32	Class E8 Occurrence
+A33	Pos E8 Verb
+T18	ACTOR 302 305	his
+A34	Lexical_Head T18 Pronoun
+A35	Actor_Type T18 Per
+T19	EVENT 306 317	usual flair
+E9	EVENT:T19 
+A36	Class E9 State
+A37	Pos E9 Noun
+T20	ACTOR 321 345	a few hundred protesters
+A38	Lexical_Head T20 Noun
+A39	Actor_Type T20 Per
+T21	EVENT 357 364	chanted
+E10	EVENT:T21 
+A40	Class E10 Occurrence
+A41	Pos E10 Verb
+T22	EVENT 365 370	"dump
+E11	EVENT:T22 
+A42	Class E11 Occurrence
+A43	Pos E11 Verb
+T23	ACTOR 371 376	Trump
+A44	Lexical_Head T23 Noun
+A45	Actor_Type T23 Per
+T24	EVENT 389 402	overshadowing
+E12	EVENT:T24 
+A46	Class E12 Occurrence
+A47	Pos E12 Verb
+T25	EVENT 403 415	the applause
+E13	EVENT:T25 
+A48	Class E13 State
+A49	Pos E13 Noun
+T26	ACTOR 421 438	the 850 attendees
+A50	Lexical_Head T26 Noun
+A51	Actor_Type T26 Per
+T27	ACTOR 1147 1152	Trump
+A52	Lexical_Head T27 Noun
+A53	Actor_Type T27 Per
+T28	EVENT 1155 1162	remarks
+E14	EVENT:T28 
+A54	Class E14 Occurrence
+A55	Pos E14 Noun
+T29	EVENT 1163 1173	came ahead
+E15	EVENT:T29 
+A56	Class E15 Occurrence
+A57	Pos E15 Verb
+T30	EVENT 1177 1204	the much-anticipated debate
+E16	EVENT:T30 
+A58	Class E16 Occurrence
+A59	Pos E16 Noun
+T31	TIME_X3 1205 1220	Wednesday night
+A60	Time_Type T31 Date
+#2	AnnotatorNotes T31	anchorTime=Publication_Time
+T32	ACTOR 1224 1227	CNN
+A61	Lexical_Head T32 Noun
+A62	Actor_Type T32 Org
+T33	EVENT 1235 1256	foreign policy issues
+E17	EVENT:T33 
+A63	Class E17 State
+A64	Pos E17 Noun
+T34	EVENT 1257 1267	are likely
+E18	EVENT:T34 
+A65	Class E18 State
+A66	Pos E18 Verb
+T35	EVENT 1268 1275	to take
+E19	EVENT:T35 
+A67	Class E19 Occurrence
+A68	Pos E19 Verb
+T36	ACTOR 1276 1289	the forefront
+A69	Lexical_Head T36 Noun
+A70	Actor_Type T36 Other
+R1	OBJ_REL_objIdentity Arg1:T4 Arg2:T3	
+R2	OBJ_REL_objIdentity Arg1:T6 Arg2:T1	
+R3	OBJ_REL_objIdentity Arg1:T12 Arg2:T6	
+R4	OBJ_REL_objIdentity Arg1:T16 Arg2:T15	
+R5	OBJ_REL_objIdentity Arg1:T18 Arg2:T12	
+R6	OBJ_REL_objIdentity Arg1:T20 Arg2:T4	
+T37	ACTOR 351 356	signs
+A71	Lexical_Head T37 Noun
+A72	Actor_Type T37 Obj
+R7	OBJ_REL_objIdentity Arg1:T23 Arg2:T12	
+R8	OBJ_REL_objIdentity Arg1:T27 Arg2:T23	
+R9	SEMROLE_patient Arg1:E1 Arg2:T1	
+R10	SEMROLE_agent Arg1:E1 Arg2:T3	
+R11	TLINK_isIncluded Arg1:E1 Arg2:T5	
+R12	SEMROLE_agent Arg1:E2 Arg2:T6	
+R13	SEMROLE_theme Arg1:E2 Arg2:E3	
+R14	SEMROLE_theme Arg1:E3 Arg2:E4	
+R15	SEMROLE_setting Arg1:E1 Arg2:E5	
+R16	SEMROLE_location Arg1:E5 Arg2:T10	
+R17	SEMROLE_agent Arg1:E6 Arg2:T12	
+R18	SEMROLE_location Arg1:E6 Arg2:T15	
+R19	SEMROLE_attribute Arg1:E7 Arg2:T16	
+R20	SEMROLE_theme Arg1:E8 Arg2:E6	
+R21	SEMROLE_attribute Arg1:E8 Arg2:E9	
+R22	SEMROLE_agent Arg1:E10 Arg2:T20	
+R23	SEMROLE_theme Arg1:E10 Arg2:E11	
+R24	SUBORD_evidential Arg1:E10 Arg2:E11	
+R25	SEMROLE_patient Arg1:E11 Arg2:T23	
+R26	SEMROLE_instrument Arg1:E10 Arg2:T37	
+R27	SEMROLE_agent Arg1:E12 Arg2:T20	
+R28	SEMROLE_theme Arg1:E12 Arg2:E13	
+R29	SEMROLE_pivot Arg1:E13 Arg2:T26	
+R30	SEMROLE_agent Arg1:E14 Arg2:T27	
+R31	SEMROLE_theme Arg1:E15 Arg2:E14	
+R32	SEMROLE_setting Arg1:E15 Arg2:E16	
+R33	TLINK_isIncluded Arg1:E16 Arg2:T31	
+R34	SEMROLE_location Arg1:E16 Arg2:T32	
+R35	SEMROLE_pivot Arg1:E18 Arg2:E17	
+R36	SEMROLE_theme Arg1:E18 Arg2:E19	
+R37	SEMROLE_theme Arg1:E19 Arg2:T36	
+R38	SEMROLE_setting Arg1:E17 Arg2:E16	

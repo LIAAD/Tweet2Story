@@ -1,0 +1,132 @@
+T1	EVENT 32 38	oppose
+T2	EVENT 80 90	could mean
+T3	EVENT 95 105	demolition
+T4	EVENT 167 170	lie
+T5	EVENT 188 196	proposed
+T6	EVENT 223 233	have taken
+T7	EVENT 240 245	fight
+T8	EVENT 315 325	could have
+T9	EVENT 343 365	compulsorily purchased
+T10	EVENT 370 380	demolition
+T11	EVENT 385 396	retaliation
+T12	EVENT 402 410	targeted
+T13	EVENT 462 468	laying
+T14	EVENT 642 661	could be demolished
+T15	EVENT 687 695	to build
+T16	EVENT 727 732	stunt
+T17	EVENT 733 737	came
+T18	EVENT 768 774	backed
+T19	EVENT 808 827	is being considered
+T20	EVENT 871 879	targeted
+T21	EVENT 1596 1600	said
+T22	EVENT 1604 1615	had created
+T23	EVENT 1629 1632	had
+T24	EVENT 1669 1677	included
+T25	EVENT 1723 1739	noise insulation
+T26	EVENT 1744 1764	compulsory purchases
+T27	ACTOR 0 14	Many residents
+T28	ACTOR 18 31	Harmondsworth
+T29	ACTOR 39 53	a third runway
+T30	ACTOR 57 73	Heathrow Airport
+T31	ACTOR 109 120	the village
+T32	ACTOR 123 134	Home-owners
+T33	ACTOR 138 149	west London
+T34	ACTOR 150 155	whose
+T35	ACTOR 156 166	properties
+T36	ACTOR 174 182	the path
+T37	ACTOR 197 209	third runway
+T38	ACTOR 214 222	Heathrow
+T39	ACTOR 234 239	their
+T40	ACTOR 249 259	the people
+T41	EVENT 263 269	charge
+T42	ACTOR 271 285	Some residents
+T43	ACTOR 289 302	Harmondsworth
+T44	ACTOR 304 314	Hillingdon
+T45	ACTOR 326 331	their
+T46	ACTOR 332 342	properties
+T47	ACTOR 397 401	they
+T48	ACTOR 411 423	the director
+T49	ACTOR 427 451	corporate responsibility
+T50	ACTOR 453 458	house
+T51	ACTOR 469 491	a giant plastic runway
+T52	ACTOR 499 502	his
+T53	ACTOR 503 508	drive
+T54	ACTOR 610 618	Veronica
+T55	ACTOR 623 634	Phil Rumsey
+T56	ACTOR 636 641	house
+T57	ACTOR 665 679	the government
+T58	EVENT 680 686	decide
+R1	SLINK_intensional Arg1:T58 Arg2:T15	
+T59	ACTOR 696 710	a third runway
+T60	ACTOR 712 726	The protestors
+T61	ACTOR 744 767	the Airports Commission
+T62	ACTOR 775 789	a third runway
+T63	ACTOR 793 801	Heathrow
+T64	ACTOR 802 807	which
+T65	ACTOR 831 845	the government
+T66	ACTOR 856 865	The group
+T67	ACTOR 880 892	the property
+T68	ACTOR 896 907	the airport
+T69	ACTOR 909 942	chief executive John Holland-Kaye
+T70	ACTOR 1579 1595	Heathrow Airport
+T71	ACTOR 1616 1622	a plan
+T72	ACTOR 1623 1628	which
+T73	ACTOR 1633 1652	the local community
+T74	ACTOR 1656 1659	its
+T75	ACTOR 1660 1664	core
+T76	ACTOR 1678 1700	a compensation package
+T77	ACTOR 1704 1718	more than £1bn
+R2	OBJ_REL_partOf Arg1:T27 Arg2:T28	
+R3	OBJ_REL_objIdentity Arg1:T31 Arg2:T28	
+R4	OBJ_REL_objIdentity Arg1:T32 Arg2:T27	
+R5	OBJ_REL_partOf Arg1:T32 Arg2:T33	
+R6	OBJ_REL_partOf Arg1:T28 Arg2:T33	
+R7	OBJ_REL_partOf Arg1:T35 Arg2:T34	
+R8	OBJ_REL_objIdentity Arg1:T34 Arg2:T32	
+R9	OBJ_REL_objIdentity Arg1:T38 Arg2:T30	
+R10	OBJ_REL_objIdentity Arg1:T39 Arg2:T32	
+R11	OBJ_REL_partOf Arg1:T42 Arg2:T43	
+R12	OBJ_REL_partOf Arg1:T43 Arg2:T44	
+R13	OBJ_REL_objIdentity Arg1:T42 Arg2:T27	
+R14	OBJ_REL_objIdentity Arg1:T45 Arg2:T42	
+R15	OBJ_REL_partOf Arg1:T46 Arg2:T45	
+R16	OBJ_REL_objIdentity Arg1:T46 Arg2:T35	
+R17	OBJ_REL_objIdentity Arg1:T47 Arg2:T45	
+R18	OBJ_REL_partOf Arg1:T50 Arg2:T48	
+R19	OBJ_REL_partOf Arg1:T48 Arg2:T49	
+R20	OBJ_REL_objIdentity Arg1:T52 Arg2:T48	
+R21	OBJ_REL_partOf Arg1:T53 Arg2:T50	
+R22	OBJ_REL_partOf Arg1:T56 Arg2:T55	
+R23	OBJ_REL_partOf Arg1:T56 Arg2:T54	
+R24	OBJ_REL_objIdentity Arg1:T59 Arg2:T37	
+R25	OBJ_REL_objIdentity Arg1:T37 Arg2:T29	
+R26	OBJ_REL_objIdentity Arg1:T60 Arg2:T47	
+R27	OBJ_REL_objIdentity Arg1:T62 Arg2:T37	
+E1	EVENT:T1
+E2	EVENT:T2
+E3	EVENT:T3
+E4	EVENT:T4
+E5	EVENT:T5
+E6	EVENT:T6
+E7	EVENT:T7
+E8	EVENT:T8
+E9	EVENT:T9
+E10	EVENT:T10
+E11	EVENT:T11
+E12	EVENT:T12
+E13	EVENT:T13
+E14	EVENT:T14
+E15	EVENT:T15
+E16	EVENT:T16
+E17	EVENT:T17
+E18	EVENT:T18
+E19	EVENT:T19
+E20	EVENT:T20
+E21	EVENT:T21
+E22	EVENT:T22
+E23	EVENT:T23
+E24	EVENT:T24
+E25	EVENT:T25
+E26	EVENT:T26
+E27	EVENT:T41
+E28	EVENT:T58

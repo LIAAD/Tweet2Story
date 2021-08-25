@@ -1,0 +1,35 @@
+T1	ACTOR 191 210	A 91-year-old woman
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	ACTOR 211 214	who
+A3	Lexical_Head T2 Pronoun
+A4	Actor_Type T2 Per
+R1	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+T3	EVENT 215 221	worked
+E1	EVENT:T3 
+A5	Class E1 Occurrence
+A6	Pos E1 Verb
+T4	ACTOR 225 234	Auschwitz
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Loc
+T5	EVENT 235 251	has been accused
+E2	EVENT:T5 
+A9	Class E2 Occurrence
+A10	Pos E2 Verb
+T6	EVENT 255 265	complicity
+E3	EVENT:T6 
+A11	Class E3 State
+A12	Pos E3 Noun
+T7	EVENT 273 280	murders
+E4	EVENT:T7 
+A13	Class E4 Occurrence
+A14	Pos E4 Noun
+T8	ACTOR 284 305	at least 260,000 Jews
+A15	Lexical_Head T8 Noun
+A16	Actor_Type T8 Per
+R2	SEMROLE_agent Arg1:E1 Arg2:T2	
+R3	SEMROLE_location Arg1:E1 Arg2:T4	
+R4	SEMROLE_agent Arg1:E2 Arg2:T2	
+R5	SEMROLE_theme Arg1:E2 Arg2:E3	
+R6	SEMROLE_setting Arg1:E3 Arg2:E4	
+R7	SEMROLE_patient Arg1:E4 Arg2:T8	

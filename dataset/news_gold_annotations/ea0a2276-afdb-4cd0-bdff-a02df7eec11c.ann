@@ -1,0 +1,182 @@
+T1	ACTOR 3 21	military officials
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	ACTOR 0 2	US
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Loc
+T3	EVENT 22 36	have rewritten
+E1	EVENT:T3 
+A5	Class E1 Occurrence
+A6	Pos E1 Verb
+T4	EVENT 37 57	intelligence reports
+E2	EVENT:T4 
+A7	Class E2 Reporting
+A8	Pos E2 Noun
+T5	EVENT 58 65	to give
+E3	EVENT:T5 
+A9	Class E3 Occurrence
+A10	Pos E3 Verb
+T6	EVENT 66 94	a more optimistic assessment
+E4	EVENT:T6 
+A11	Class E4 Occurrence
+A12	Pos E4 Noun
+T7	ACTOR 98 104	the US
+A13	Lexical_Head T7 Noun
+A14	Actor_Type T7 Loc
+T8	EVENT 105 108	led
+E5	EVENT:T8 
+A15	Class E5 State
+A16	Pos E5 Verb
+T9	EVENT 109 125	campaign against
+E6	EVENT:T9 
+A17	Class E6 Occurrence
+A18	Pos E6 Noun
+T10	ACTOR 126 149	the Islamic State group
+A19	Lexical_Head T10 Noun
+A20	Actor_Type T10 Org
+T11	ACTOR 154 162	al Qaeda
+A21	Lexical_Head T11 Noun
+A22	Actor_Type T11 Org
+T12	ACTOR 165 171	branch
+A23	Lexical_Head T12 Noun
+A24	Actor_Type T12 Org
+T13	ACTOR 175 180	Syria
+A25	Lexical_Head T13 Noun
+A26	Actor_Type T13 Loc
+T14	ACTOR 182 197	the Daily Beast
+A27	Lexical_Head T14 Noun
+A28	Actor_Type T14 Org
+T15	EVENT 198 206	reported
+E7	EVENT:T15 
+A29	Class E7 Reporting
+A30	Pos E7 Verb
+T16	TIME_X3 210 219	Wednesday
+A31	Time_Type T16 Date
+#1	AnnotatorNotes T16	anchorTime=Publication_Time
+T17	TIME_X3 227 237	Last month
+A32	Time_Type T17 Date
+#2	AnnotatorNotes T17	anchorTime=Publication_Time
+T18	ACTOR 239 251	the Pentagon
+A33	Lexical_Head T18 Noun
+A34	Actor_Type T18 Org
+T19	ACTOR 254 271	inspector general
+A35	Lexical_Head T19 Noun
+A36	Actor_Type T19 Per
+T20	EVENT 272 280	launched
+E8	EVENT:T20 
+A37	Class E8 Occurrence
+A38	Pos E8 Verb
+T21	EVENT 281 288	a probe
+E9	EVENT:T21 
+A39	Class E9 Occurrence
+A40	Pos E9 Noun
+T22	ACTOR 295 324	at least one civilian analyst
+A41	Lexical_Head T22 Noun
+A42	Actor_Type T22 Per
+T23	ACTOR 328 359	the Defense Intelligence Agency
+A43	Lexical_Head T23 Noun
+A44	Actor_Type T23 Org
+T24	EVENT 360 364	said
+E10	EVENT:T24 
+A45	Class E10 Reporting
+A46	Pos E10 Verb
+T25	ACTOR 365 367	he
+A47	Lexical_Head T25 Pronoun
+A48	Actor_Type T25 Per
+T26	EVENT 368 380	had evidence
+E11	EVENT:T26 
+A49	Class E11 State
+A50	Pos E11 Verb
+T27	ACTOR 386 404	US Central Command
+A51	Lexical_Head T27 Noun
+A52	Actor_Type T27 Org
+T28	ACTOR 405 414	officials
+A53	Lexical_Head T28 Noun
+A54	Actor_Type T28 Per
+T29	EVENT 415 429	were reworking
+E12	EVENT:T29 
+A55	Class E12 Occurrence
+A56	Pos E12 Verb
+T30	EVENT 430 461	intelligence report conclusions
+E13	EVENT:T30 
+A57	Class E13 Reporting
+A58	Pos E13 Noun
+T31	EVENT 462 470	prepared
+E14	EVENT:T31 
+A59	Class E14 Occurrence
+A60	Pos E14 Verb
+T32	ACTOR 475 497	President Barack Obama
+A61	Lexical_Head T32 Noun
+A62	Actor_Type T32 Per
+T33	ACTOR 502 520	other policymakers
+A63	Lexical_Head T33 Noun
+A64	Actor_Type T33 Per
+T34	ACTOR 532 557	unnamed defense officials
+A65	Lexical_Head T34 Noun
+A66	Actor_Type T34 Per
+T35	EVENT 558 562	told
+E15	EVENT:T35 
+A67	Class E15 Reporting
+A68	Pos E15 Verb
+T36	ACTOR 563 591	the online news organization
+A69	Lexical_Head T36 Noun
+A70	Actor_Type T36 Org
+T37	ACTOR 597 609;626 647	more than 50 intelligence analysts
+A71	Lexical_Head T37 Noun
+A72	Actor_Type T37 Per
+T38	ACTOR 610 625	Central Command
+A73	Lexical_Head T38 Noun
+A74	Actor_Type T38 Org
+R1	OBJ_REL_partOf Arg1:T37 Arg2:T38	
+T39	EVENT 648 672	have complained formally
+E16	EVENT:T39 
+A75	Class E16 Occurrence
+A76	Pos E16 Verb
+T40	EVENT 678 691	their reports
+E17	EVENT:T40 
+A77	Class E17 Reporting
+A78	Pos E17 Noun
+T41	EVENT 692 720	were altered inappropriately
+E18	EVENT:T41 
+A79	Class E18 Occurrence
+A80	Pos E18 Verb
+R2	OBJ_REL_partOf Arg1:T1 Arg2:T2	
+R3	OBJ_REL_objIdentity Arg1:T7 Arg2:T2	
+R4	OBJ_REL_partOf Arg1:T12 Arg2:T11	
+R5	OBJ_REL_partOf Arg1:T19 Arg2:T18	
+R6	OBJ_REL_partOf Arg1:T22 Arg2:T23	
+R7	OBJ_REL_objIdentity Arg1:T25 Arg2:T22	
+R8	OBJ_REL_partOf Arg1:T28 Arg2:T27	
+R9	OBJ_REL_objIdentity Arg1:T36 Arg2:T14	
+R10	SEMROLE_agent Arg1:E1 Arg2:T1	
+R11	SEMROLE_theme Arg1:E1 Arg2:E2	
+R12	SEMROLE_purpose Arg1:E1 Arg2:E3	
+R13	SEMROLE_theme Arg1:E3 Arg2:E4	
+R14	SEMROLE_goal Arg1:E4 Arg2:E6	
+R15	SEMROLE_goal Arg1:E6 Arg2:T10	
+R16	SEMROLE_goal Arg1:E6 Arg2:T12	
+R17	OBJ_REL_partOf Arg1:T12 Arg2:T13	
+R18	SEMROLE_pivot Arg1:E5 Arg2:T7	
+R19	SEMROLE_theme Arg1:E5 Arg2:E6	
+R20	SEMROLE_agent Arg1:E7 Arg2:T14	
+R21	TLINK_isIncluded Arg1:E7 Arg2:T16	
+R22	SEMROLE_theme Arg1:E7 Arg2:E1	
+R23	SUBORD_evidential Arg1:E7 Arg2:E1	
+R24	SEMROLE_agent Arg1:E8 Arg2:T19	
+R25	SEMROLE_theme Arg1:E8 Arg2:E9	
+R26	SEMROLE_agent Arg1:E10 Arg2:T22	
+R27	SEMROLE_theme Arg1:E10 Arg2:E11	
+R28	SUBORD_evidential Arg1:E10 Arg2:E11	
+R29	SEMROLE_pivot Arg1:E11 Arg2:T25	
+R30	SEMROLE_theme Arg1:E11 Arg2:E12	
+R31	SEMROLE_agent Arg1:E12 Arg2:T28	
+R32	SEMROLE_theme Arg1:E12 Arg2:E13	
+R33	SEMROLE_beneficiary Arg1:E14 Arg2:T32	
+R34	SEMROLE_theme Arg1:E14 Arg2:E13	
+R35	SEMROLE_beneficiary Arg1:E14 Arg2:T33	
+R36	SEMROLE_agent Arg1:E15 Arg2:T34	
+R37	SEMROLE_goal Arg1:E15 Arg2:T36	
+R38	SEMROLE_theme Arg1:E15 Arg2:E16	
+R39	SEMROLE_agent Arg1:E16 Arg2:T37	
+R40	SEMROLE_theme Arg1:E16 Arg2:E18	
+R41	SEMROLE_patient Arg1:E18 Arg2:E17	

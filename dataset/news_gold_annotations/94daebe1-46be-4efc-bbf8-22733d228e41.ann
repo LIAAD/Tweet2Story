@@ -1,0 +1,565 @@
+T1	EVENT 41 54	arrived early
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Verb
+T2	TIME_X3 58 67	Wednesday
+A3	Time_Type T2 Date
+T3	ACTOR 73 79	Serbia
+A4	Lexical_Head T3 Noun
+A5	Actor_Type T3 Loc
+T4	EVENT 15 28	first busload
+E2	EVENT:T4 
+A6	Class E2 State
+A7	Pos E2 Noun
+T5	ACTOR 32 40	migrants
+A8	Lexical_Head T5 Noun
+A9	Actor_Type T5 Per
+T6	ACTOR 82 88	border
+A10	Lexical_Head T6 Noun
+A11	Actor_Type T6 Loc
+R1	OBJ_REL_partOf Arg1:T6 Arg2:T3	
+T7	ACTOR 94 96	EU
+A12	Lexical_Head T7 Noun
+A13	Actor_Type T7 Org
+T8	ACTOR 97 103	member
+A14	Lexical_Head T8 Noun
+A15	Actor_Type T8 Per
+T9	ACTOR 104 111	Croatia
+A16	Lexical_Head T9 Noun
+A17	Actor_Type T9 Loc
+T10	EVENT 112 118	hoping
+E3	EVENT:T10 
+A18	Class E3 I_State
+A19	Pos E3 Verb
+T11	EVENT 119 132	to circumvent
+E4	EVENT:T11 
+A20	Class E4 Occurrence
+A21	Pos E4 Verb
+T12	ACTOR 135 151	razor-wire fence
+A22	Lexical_Head T12 Noun
+A23	Actor_Type T12 Other
+T13	EVENT 152 159	erected
+E5	EVENT:T13 
+A24	Class E5 Occurrence
+A25	Pos E5 Verb
+T14	ACTOR 163 170	Hungary
+A26	Lexical_Head T14 Noun
+A27	Actor_Type T14 Loc
+T15	ACTOR 175 182	Germany
+A28	Lexical_Head T15 Noun
+A29	Actor_Type T15 Loc
+T16	ACTOR 185 198	Angela Merkel
+A30	Lexical_Head T16 Noun
+A31	Actor_Type T16 Per
+T17	EVENT 199 209	called for
+E6	EVENT:T17 
+A32	Class E6 Occurrence
+A33	Pos E6 Verb
+T18	ACTOR 213 215	EU
+A34	Lexical_Head T18 Noun
+A35	Actor_Type T18 Org
+T19	EVENT 216 222	summit
+E7	EVENT:T19 
+A36	Class E7 Occurrence
+A37	Pos E7 Noun
+T20	ACTOR 226 237	the refugee
+A38	Lexical_Head T20 Noun
+A39	Actor_Type T20 Per
+T21	EVENT 238 244	crisis
+E8	EVENT:T21 
+A40	Class E8 State
+A41	Pos E8 Noun
+T22	ACTOR 252 270	The group of 30-40
+A42	Lexical_Head T22 Noun
+A43	Actor_Type T22 Per
+T23	EVENT 278 284	Syrian
+E9	EVENT:T23 
+A44	Class E9 State
+A45	Pos E9 Adjective
+T24	EVENT 288 294	Afghan
+E10	EVENT:T24 
+A46	Class E10 State
+A47	Pos E10 Adjective
+T25	ACTOR 295 303	migrants
+A48	Lexical_Head T25 Noun
+A49	Actor_Type T25 Per
+T26	EVENT 304 315	disembarked
+E11	EVENT:T26 
+A50	Class E11 Occurrence
+A51	Pos E11 Verb
+T27	ACTOR 319 337	the Serbian border
+A52	Lexical_Head T27 Noun
+A53	Actor_Type T27 Loc
+T28	EVENT 356 376	an overnight journey
+E12	EVENT:T28 
+A54	Class E12 Occurrence
+A55	Pos E12 Noun
+T29	ACTOR 338 349	town of Sid
+A56	Lexical_Head T29 Noun
+A57	Actor_Type T29 Loc
+T30	ACTOR 382 403	the Macedonian border
+A58	Lexical_Head T30 Noun
+A59	Actor_Type T30 Loc
+T31	ACTOR 407 414	Presevo
+A60	Lexical_Head T31 Noun
+A61	Actor_Type T31 Loc
+T32	ACTOR 416 455	500 kilometres (300 miles) to the south
+A62	Lexical_Head T32 Noun
+A63	Actor_Type T32 Loc
+T33	ACTOR 659 689	Hundreds more desperate people
+A64	Lexical_Head T33 Noun
+A65	Actor_Type T33 Per
+T34	ACTOR 798 809	the migrant
+A66	Lexical_Head T34 Noun
+A67	Actor_Type T34 Per
+T35	ACTOR 857 897	conservative Prime Minister Viktor Orban
+A68	Lexical_Head T35 Noun
+A69	Actor_Type T35 Per
+T36	ACTOR 1988 2009	minister for refugees
+A70	Lexical_Head T36 Noun
+A71	Actor_Type T36 Per
+T38	ACTOR 2011 2027	Aleksandar Vulin
+A74	Lexical_Head T38 Noun
+A75	Actor_Type T38 Per
+T39	ACTOR 2079 2084	women
+A76	Lexical_Head T39 Noun
+A77	Actor_Type T39 Per
+T40	ACTOR 2089 2097	children
+A78	Lexical_Head T40 Noun
+A79	Actor_Type T40 Per
+T41	ACTOR 2153 2163	100 people
+A80	Lexical_Head T41 Noun
+A81	Actor_Type T41 Per
+T42	ACTOR 4200 4216	European leaders
+A82	Lexical_Head T42 Noun
+A83	Actor_Type T42 Per
+T43	ACTOR 4270 4277	migrant
+A84	Lexical_Head T43 Noun
+A85	Actor_Type T43 Per
+T44	ACTOR 4417 4428	22 refugees
+A86	Lexical_Head T44 Noun
+A87	Actor_Type T44 Per
+T45	ACTOR 4441 4454	four children
+A88	Lexical_Head T45 Noun
+A89	Actor_Type T45 Per
+T46	ACTOR 4459 4467	11 women
+A90	Lexical_Head T46 Noun
+A91	Actor_Type T46 Per
+T47	ACTOR 4506 4537	more than half a million people
+A92	Lexical_Head T47 Noun
+A93	Actor_Type T47 Per
+T48	EVENT 690 702	were trapped
+E13	EVENT:T48 
+A94	Class E13 State
+A95	Pos E13 Verb
+T49	EVENT 720 735	hastily erected
+E14	EVENT:T49 
+A96	Class E14 Occurrence
+A97	Pos E14 Verb
+T50	EVENT 1611 1622	are part of
+E15	EVENT:T50 
+A98	Class E15 State
+A99	Pos E15 Verb
+T51	EVENT 1698 1710	have entered
+E16	EVENT:T51 
+A100	Class E16 Occurrence
+A101	Pos E16 Verb
+T52	EVENT 1743 1753	travelling
+E17	EVENT:T52 
+A102	Class E17 Occurrence
+A103	Pos E17 Verb
+T53	EVENT 1770 1780	transiting
+E18	EVENT:T53 
+A104	Class E18 Occurrence
+A105	Pos E18 Verb
+T54	EVENT 1835 1844	headed on
+E19	EVENT:T54 
+A106	Class E19 Occurrence
+A107	Pos E19 Verb
+T55	EVENT 2029 2034	urged
+E20	EVENT:T55 
+A108	Class E20 Occurrence
+A109	Pos E20 Verb
+T56	EVENT 2043 2052	to reopen
+E21	EVENT:T56 
+A110	Class E21 Occurrence
+A111	Pos E21 Verb
+T57	EVENT 2164 2176	were waiting
+E22	EVENT:T57 
+A112	Class E22 State
+A113	Pos E22 Verb
+T58	EVENT 2194 2203	to reopen
+E23	EVENT:T58 
+A114	Class E23 Occurrence
+A115	Pos E23 Verb
+T59	EVENT 4217 4230	squabbled ove
+E24	EVENT:T59 
+A116	Class E24 Occurrence
+A117	Pos E24 Verb
+T60	EVENT 4232 4245	how to manage
+E25	EVENT:T60 
+A118	Class E25 Occurrence
+A119	Pos E25 Verb
+T61	EVENT 4355 4362	claimed
+E26	EVENT:T61 
+A120	Class E26 Occurrence
+A121	Pos E26 Verb
+T62	EVENT 4410 4416	killed
+E27	EVENT:T62 
+A122	Class E27 Occurrence
+A123	Pos E27 Verb
+T63	EVENT 4473 4482	had tried
+E28	EVENT:T63 
+A124	Class E28 I_Action
+A125	Pos E28 Verb
+T64	EVENT 4483 4491	to reach
+E29	EVENT:T64 
+A126	Class E29 Occurrence
+A127	Pos E29 Verb
+T65	EVENT 4538 4550	have arrived
+E30	EVENT:T65 
+A128	Class E30 Occurrence
+A129	Pos E30 Verb
+T66	EVENT 4561 4568	to seek
+E31	EVENT:T66 
+A130	Class E31 Occurrence
+A131	Pos E31 Verb
+T67	ACTOR 710 719	the fence
+A132	Lexical_Head T67 Noun
+A133	Actor_Type T67 Other
+R2	SUBORD_modal Arg1:E28 Arg2:E29	
+T68	ACTOR 739 746	Hungary
+A134	Lexical_Head T68 Noun
+A135	Actor_Type T68 Org
+T69	ACTOR 753 756	its
+A136	Lexical_Head T69 Pronoun
+A137	Actor_Type T69 Org
+T70	ACTOR 757 763	border
+A138	Lexical_Head T70 Noun
+A139	Actor_Type T70 Loc
+R3	OBJ_REL_partOf Arg1:T70 Arg2:T69	
+T71	ACTOR 769 775	Serbia
+A140	Lexical_Head T71 Noun
+A141	Actor_Type T71 Loc
+T72	EVENT 779 789	an attempt
+E32	EVENT:T72 
+A142	Class E32 I_State
+A143	Pos E32 Noun
+T73	EVENT 790 797	to stop
+E33	EVENT:T73 
+A144	Class E33 State
+A145	Pos E33 Verb
+T74	EVENT 810 814	flow
+E34	EVENT:T74 
+A146	Class E34 State
+A147	Pos E34 Noun
+T75	ACTOR 823 839	Balkan countries
+A148	Lexical_Head T75 Noun
+A149	Actor_Type T75 Loc
+T76	ACTOR 847 855	Hungary'
+A150	Lexical_Head T76 Noun
+A151	Actor_Type T76 Org
+T78	EVENT 898 911	has announced
+E35	EVENT:T78 
+A154	Class E35 Reporting
+A155	Pos E35 Verb
+T79	EVENT 912 917	plans
+E36	EVENT:T79 
+A156	Class E36 State
+A157	Pos E36 Noun
+R4	SUBORD_evidential Arg1:E35 Arg2:E36	
+T81	ACTOR 943 946	its
+A160	Lexical_Head T81 Pronoun
+A161	Actor_Type T81 Org
+T82	ACTOR 947 955	frontier
+A162	Lexical_Head T82 Noun
+A163	Actor_Type T82 Loc
+T83	ACTOR 961 968	Romania
+A164	Lexical_Head T83 Noun
+A165	Actor_Type T83 Loc
+T84	EVENT 1584 1610	The controversial measures
+E37	EVENT:T84 
+A166	Class E37 State
+A167	Pos E37 Noun
+T85	ACTOR 1623 1628	Orban
+A168	Lexical_Head T85 Noun
+A169	Actor_Type T85 Per
+T86	EVENT 1631 1639	strategy
+E38	EVENT:T86 
+A170	Class E38 State
+A171	Pos E38 Noun
+T87	EVENT 1640 1647	to stem
+E39	EVENT:T87 
+A172	Class E39 State
+A173	Pos E39 Verb
+T88	EVENT 1648 1656	the flow
+E40	EVENT:T88 
+A174	Class E40 State
+A175	Pos E40 Noun
+T89	ACTOR 1660 1668	migrants
+A176	Lexical_Head T89 Noun
+A177	Actor_Type T89 Per
+T90	ACTOR 1672 1689	more than 200,000
+A178	Lexical_Head T90 Noun
+A179	Actor_Type T90 Per
+T91	ACTOR 1693 1697	whom
+A180	Lexical_Head T91 Pronoun
+A181	Actor_Type T91 Per
+T92	ACTOR 1711 1714	his
+A182	Lexical_Head T92 Pronoun
+A183	Actor_Type T92 Per
+T93	ACTOR 1715 1722	country
+A184	Lexical_Head T93 Noun
+A185	Actor_Type T93 Org
+T94	TIME_X3 1730 1739	this year
+A186	Time_Type T94 Date
+#1	AnnotatorNotes T94	anchorTime=Publication_Time
+T95	ACTOR 1759 1765	Greece
+A187	Lexical_Head T95 Noun
+A188	Actor_Type T95 Loc
+T96	ACTOR 1789 1808	the western Balkans
+A189	Lexical_Head T96 Noun
+A190	Actor_Type T96 Loc
+T97	ACTOR 1813 1820	Hungary
+A191	Lexical_Head T97 Noun
+A192	Actor_Type T97 Loc
+T98	ACTOR 1822 1834	most of them
+A193	Lexical_Head T98 Pronoun
+A194	Actor_Type T98 Per
+T99	ACTOR 1845 1856	via Austria
+A195	Lexical_Head T99 Noun
+A196	Actor_Type T99 Loc
+T100	ACTOR 1860 1867	Germany
+A197	Lexical_Head T100 Noun
+A198	Actor_Type T100 Loc
+T101	ACTOR 1969 1985	The Balkan state
+A199	Lexical_Head T101 Noun
+A200	Actor_Type T101 Org
+T102	ACTOR 2035 2042	Hungary
+A201	Lexical_Head T102 Noun
+A202	Actor_Type T102 Org
+T103	ACTOR 2053 2056	its
+A203	Lexical_Head T103 Pronoun
+A204	Actor_Type T103 Org
+T104	ACTOR 2057 2063	border
+A205	Lexical_Head T104 Noun
+A206	Actor_Type T104 Loc
+T105	EVENT 2100 2108	speaking
+E41	EVENT:T105 
+A207	Class E41 Reporting
+A208	Pos E41 Verb
+T106	ACTOR 2112 2115	AFP
+A209	Lexical_Head T106 Noun
+A210	Actor_Type T106 Org
+T107	ACTOR 2119 2138	the Horgos crossing
+A211	Lexical_Head T107 Noun
+A212	Actor_Type T107 Loc
+T108	ACTOR 2181 2193	the frontier
+A213	Lexical_Head T108 Noun
+A214	Actor_Type T108 Loc
+T109	ACTOR 4246 4259	the continent
+A215	Lexical_Head T109 Noun
+A216	Actor_Type T109 Loc
+T110	EVENT 4262 4269;4285 4303	biggest since World War II
+E42	EVENT:T110 
+A217	Class E42 State
+A218	Pos E42 Adjective
+T111	EVENT 4278 4284	influx
+E43	EVENT:T111 
+A219	Class E43 State
+A220	Pos E43 Noun
+T113	EVENT 4305 4315	the exodus
+E45	EVENT:T113 
+A223	Class E45 State
+A224	Pos E45 Noun
+T114	ACTOR 4321 4354	war-torn Middle Eastern countries
+A225	Lexical_Head T114 Noun
+A226	Actor_Type T114 Loc
+T115	EVENT 4363 4373	more lives
+E46	EVENT:T115 
+A227	Class E46 State
+A228	Pos E46 Noun
+T116	EVENT 4381 4398	Another shipwreck
+E47	EVENT:T116 
+A229	Class E47 Occurrence
+A230	Pos E47 Noun
+T117	ACTOR 4403 4409	Turkey
+A231	Lexical_Head T117 Noun
+A232	Actor_Type T117 Loc
+T118	ACTOR 4436 4440	them
+A233	Lexical_Head T118 Pronoun
+A234	Actor_Type T118 Per
+T119	ACTOR 4492 4498	Europe
+A235	Lexical_Head T119 Noun
+A236	Actor_Type T119 Loc
+T120	TIME_X3 4551 4560	this year
+A237	Time_Type T120 Date
+#2	AnnotatorNotes T120	anchorTime=Publication_Time
+R5	OBJ_REL_partOf Arg1:T8 Arg2:T7	
+R6	OBJ_REL_objIdentity Arg1:T9 Arg2:T8	
+R7	OBJ_REL_partOf Arg1:T16 Arg2:T15	
+R8	OBJ_REL_objIdentity Arg1:T18 Arg2:T7	
+R9	OBJ_REL_partOf Arg1:T5 Arg2:T20	
+R10	OBJ_REL_objIdentity Arg1:T22 Arg2:T5	
+R11	OBJ_REL_objIdentity Arg1:T25 Arg2:T22	
+R12	OBJ_REL_objIdentity Arg1:T27 Arg2:T6	
+R13	OBJ_REL_partOf Arg1:T29 Arg2:T27	
+R14	OBJ_REL_objIdentity Arg1:T31 Arg2:T30	
+R15	OBJ_REL_objIdentity Arg1:T32 Arg2:T31	
+R16	OBJ_REL_objIdentity Arg1:T67 Arg2:T12	
+R17	OBJ_REL_objIdentity Arg1:T68 Arg2:T14	
+R18	OBJ_REL_objIdentity Arg1:T69 Arg2:T68	
+R19	OBJ_REL_objIdentity Arg1:T71 Arg2:T3	
+R20	OBJ_REL_partOf Arg1:T70 Arg2:T71	
+R21	OBJ_REL_objIdentity Arg1:T34 Arg2:T20	
+R22	OBJ_REL_objIdentity Arg1:T76 Arg2:T69	
+R23	OBJ_REL_partOf Arg1:T35 Arg2:T76	
+R24	OBJ_REL_objIdentity Arg1:T81 Arg2:T76	
+R25	OBJ_REL_partOf Arg1:T82 Arg2:T81	
+R26	OBJ_REL_partOf Arg1:T82 Arg2:T83	
+R27	OBJ_REL_objIdentity Arg1:T85 Arg2:T35	
+R28	OBJ_REL_objIdentity Arg1:T91 Arg2:T89	
+R29	OBJ_REL_partOf Arg1:T90 Arg2:T91	
+R30	OBJ_REL_objIdentity Arg1:T89 Arg2:T34	
+R31	OBJ_REL_objIdentity Arg1:T92 Arg2:T85	
+R32	OBJ_REL_partOf Arg1:T92 Arg2:T93	
+R33	OBJ_REL_objIdentity Arg1:T97 Arg2:T93	
+R34	OBJ_REL_objIdentity Arg1:T100 Arg2:T15	
+R35	OBJ_REL_objIdentity Arg1:T96 Arg2:T75	
+R36	OBJ_REL_objIdentity Arg1:T98 Arg2:T90	
+R37	OBJ_REL_objIdentity Arg1:T101 Arg2:T96	
+R38	OBJ_REL_partOf Arg1:T36 Arg2:T101	
+R39	OBJ_REL_objIdentity Arg1:T38 Arg2:T36	
+R40	OBJ_REL_objIdentity Arg1:T102 Arg2:T97	
+R41	OBJ_REL_objIdentity Arg1:T103 Arg2:T102	
+R42	OBJ_REL_partOf Arg1:T104 Arg2:T103	
+R43	OBJ_REL_partOf Arg1:T39 Arg2:T89	
+R44	OBJ_REL_partOf Arg1:T40 Arg2:T89	
+R45	OBJ_REL_partOf Arg1:T41 Arg2:T89	
+R46	OBJ_REL_objIdentity Arg1:T108 Arg2:T107	
+R47	OBJ_REL_partOf Arg1:T38 Arg2:T42	
+R48	OBJ_REL_partOf Arg1:T85 Arg2:T42	
+R49	OBJ_REL_objIdentity Arg1:T119 Arg2:T109	
+R50	OBJ_REL_objIdentity Arg1:T43 Arg2:T89	
+R51	OBJ_REL_partOf Arg1:T44 Arg2:T43	
+R52	OBJ_REL_partOf Arg1:T117 Arg2:T119	
+R53	OBJ_REL_partOf Arg1:T117 Arg2:T114	
+R54	OBJ_REL_refDisjunct Arg1:T119 Arg2:T114	
+R55	OBJ_REL_partOf Arg1:T47 Arg2:T43	
+R56	OBJ_REL_objIdentity Arg1:T118 Arg2:T44	
+R57	OBJ_REL_partOf Arg1:T45 Arg2:T44	
+R58	OBJ_REL_partOf Arg1:T46 Arg2:T44	
+T37	ACTOR 4469 4472	who
+A72	Lexical_Head T37 Pronoun
+A73	Actor_Type T37 Per
+R59	OBJ_REL_objIdentity Arg1:T37 Arg2:T44	
+T77	EVENT 4569 4579	safe haven
+E48	EVENT:T77 
+A152	Class E48 State
+A153	Pos E48 Noun
+R60	OBJ_REL_partOf Arg1:T101 Arg2:T119	
+R61	OBJ_REL_partOf Arg1:T102 Arg2:T119	
+R62	OBJ_REL_partOf Arg1:T100 Arg2:T119	
+R63	OBJ_REL_partOf Arg1:T99 Arg2:T119	
+R64	OBJ_REL_partOf Arg1:T95 Arg2:T119	
+R65	OBJ_REL_partOf Arg1:T9 Arg2:T119	
+R66	OBJ_REL_partOf Arg1:T30 Arg2:T119	
+R67	OBJ_REL_partOf Arg1:T71 Arg2:T119	
+R68	SEMROLE_pivot Arg1:E2 Arg2:T5	
+R69	SEMROLE_theme Arg1:E1 Arg2:E2	
+R70	TLINK_isIncluded Arg1:E1 Arg2:T2	
+R71	SEMROLE_location Arg1:E1 Arg2:T3	
+R72	SEMROLE_pivot Arg1:E3 Arg2:E2	
+R73	SEMROLE_theme Arg1:E3 Arg2:E4	
+R74	SUBORD_modal Arg1:E3 Arg2:E4	
+R75	SEMROLE_theme Arg1:E4 Arg2:T12	
+R76	SEMROLE_result Arg1:E5 Arg2:T12	
+R77	SEMROLE_agent Arg1:E5 Arg2:T14	
+R78	SEMROLE_agent Arg1:E6 Arg2:T16	
+R79	SEMROLE_theme Arg1:E6 Arg2:E7	
+R80	SEMROLE_agent Arg1:E7 Arg2:T18	
+R81	SEMROLE_reason Arg1:E7 Arg2:E8	
+R82	SEMROLE_pivot Arg1:E8 Arg2:T20	
+R83	SEMROLE_attribute Arg1:E10 Arg2:T25	
+R84	SEMROLE_attribute Arg1:E9 Arg2:T25	
+R85	SEMROLE_agent Arg1:E11 Arg2:T25	
+R86	SEMROLE_location Arg1:E11 Arg2:T27	
+R87	SEMROLE_agent Arg1:E12 Arg2:T25	
+R88	SEMROLE_initialLocation Arg1:E12 Arg2:T30	
+R89	SEMROLE_finalLocation Arg1:E12 Arg2:T27	
+R90	SEMROLE_setting Arg1:E11 Arg2:E12	
+R91	SEMROLE_pivot Arg1:E13 Arg2:T33	
+R92	SEMROLE_location Arg1:E13 Arg2:T67	
+R93	SEMROLE_result Arg1:E14 Arg2:T67	
+R94	SEMROLE_agent Arg1:E14 Arg2:T68	
+R95	SEMROLE_location Arg1:E14 Arg2:T70	
+R96	SEMROLE_purpose Arg1:E14 Arg2:E32	
+R97	SUBORD_modal Arg1:E32 Arg2:E33	
+R98	SEMROLE_theme Arg1:E32 Arg2:E33	
+R99	SEMROLE_theme Arg1:E33 Arg2:E34	
+R100	SEMROLE_pivot Arg1:E34 Arg2:T34	
+R101	SEMROLE_location Arg1:E34 Arg2:T75	
+R102	SEMROLE_agent Arg1:E35 Arg2:T35	
+R103	SEMROLE_theme Arg1:E35 Arg2:E36	
+T80	EVENT 922 939	a similar barrier
+E49	EVENT:T80 
+A158	Class E49 State
+A159	Pos E49 Noun
+R104	SEMROLE_purpose Arg1:E36 Arg2:E49	
+R105	SEMROLE_location Arg1:E49 Arg2:T82	
+R106	SEMROLE_pivot Arg1:E15 Arg2:E37	
+R107	SEMROLE_theme Arg1:E15 Arg2:E38	
+R108	SEMROLE_pivot Arg1:E38 Arg2:T85	
+R109	SEMROLE_purpose Arg1:E38 Arg2:E39	
+R110	SEMROLE_theme Arg1:E39 Arg2:E40	
+R111	SEMROLE_theme Arg1:E40 Arg2:T89	
+R112	SEMROLE_agent Arg1:E16 Arg2:T90	
+R113	SEMROLE_location Arg1:E16 Arg2:T93	
+R114	TLINK_isIncluded Arg1:E16 Arg2:T94	
+R115	SEMROLE_agent Arg1:E17 Arg2:T89	
+R116	SEMROLE_initialLocation Arg1:E17 Arg2:T95	
+R117	SEMROLE_agent Arg1:E18 Arg2:T89	
+R118	SEMROLE_theme Arg1:E18 Arg2:T96	
+R119	SEMROLE_theme Arg1:E18 Arg2:T97	
+R120	SEMROLE_agent Arg1:E19 Arg2:T98	
+R121	SEMROLE_manner Arg1:E19 Arg2:T99	
+R122	SEMROLE_finalLocation Arg1:E19 Arg2:T100	
+R123	SEMROLE_agent Arg1:E20 Arg2:T38	
+R124	SEMROLE_goal Arg1:E20 Arg2:T102	
+R125	SEMROLE_theme Arg1:E20 Arg2:E21	
+R126	SEMROLE_agent Arg1:E21 Arg2:T102	
+R127	SEMROLE_theme Arg1:E21 Arg2:T104	
+R128	SEMROLE_goal Arg1:E21 Arg2:T39	
+R129	SEMROLE_goal Arg1:E21 Arg2:T40	
+R130	SEMROLE_agent Arg1:E41 Arg2:T38	
+R131	SEMROLE_goal Arg1:E41 Arg2:T106	
+R132	SEMROLE_location Arg1:E41 Arg2:T107	
+R133	SEMROLE_pivot Arg1:E22 Arg2:T41	
+R134	SEMROLE_location Arg1:E22 Arg2:T107	
+R135	SEMROLE_theme Arg1:E22 Arg2:E23	
+R136	SEMROLE_patient Arg1:E23 Arg2:T108	
+R137	SEMROLE_agent Arg1:E24 Arg2:T42	
+R138	SEMROLE_theme Arg1:E24 Arg2:E25	
+R139	SEMROLE_theme Arg1:E25 Arg2:E43	
+R140	SEMROLE_pivot Arg1:E43 Arg2:T43	
+R141	SEMROLE_location Arg1:E43 Arg2:T109	
+R142	SEMROLE_attribute Arg1:E43 Arg2:E42	
+R143	TLINK_identity Arg1:E45 Arg2:E43	
+R144	SEMROLE_theme Arg1:E26 Arg2:E46	
+R145	SEMROLE_initialLocation Arg1:E45 Arg2:T114	
+R146	SEMROLE_cause Arg1:E26 Arg2:E45	
+R147	SEMROLE_location Arg1:E47 Arg2:T117	
+R148	SEMROLE_cause Arg1:E27 Arg2:E47	
+R149	SEMROLE_patient Arg1:E27 Arg2:T44	
+R150	SEMROLE_agent Arg1:E28 Arg2:T37	
+R151	SEMROLE_theme Arg1:E28 Arg2:E29	
+R152	SEMROLE_finalLocation Arg1:E29 Arg2:T119	
+T112	ACTOR 4500 4505	where
+A221	Lexical_Head T112 Pronoun
+A222	Actor_Type T112 Loc
+R153	OBJ_REL_objIdentity Arg1:T112 Arg2:T119	
+R154	SEMROLE_agent Arg1:E30 Arg2:T47	
+R155	SEMROLE_location Arg1:E30 Arg2:T112	
+R156	TLINK_isIncluded Arg1:E30 Arg2:T120	
+R157	SEMROLE_purpose Arg1:E30 Arg2:E31	
+R158	SEMROLE_theme Arg1:E31 Arg2:E48	

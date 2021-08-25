@@ -1,0 +1,446 @@
+T1	EVENT 437 446	The death
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Noun
+T2	ACTOR 450 479	Lt. Charles Joseph Gliniewicz
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Per
+T3	EVENT 550 556	marked
+E2	EVENT:T3 
+A5	Class E2 Occurrence
+A6	Pos E2 Verb
+T4	EVENT 557 582	the fourth fatal shooting
+E3	EVENT:T4 
+A7	Class E3 Occurrence
+A8	Pos E3 Noun
+T5	ACTOR 586 611	a law enforcement officer
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Per
+T6	ACTOR 615 626	the country
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Loc
+T7	TIME_X3 630 648	the past two weeks
+A13	Time_Type T7 Duration
+#1	AnnotatorNotes T7	value=P2W anchorTime=Publication_Time
+T8	ACTOR 659 677	the overall number
+A14	Lexical_Head T8 Noun
+A15	Actor_Type T8 Other
+T9	EVENT 681 695	on-duty deaths
+E4	EVENT:T9 
+A16	Class E4 Occurrence
+A17	Pos E4 Noun
+T10	EVENT 696 703	is down
+E5	EVENT:T10 
+A18	Class E5 State
+A19	Pos E5 Verb
+T11	TIME_X3 704 718	from last year
+A20	Time_Type T11 Duration
+#2	AnnotatorNotes T11	value=P1Y anchorTime=Publication_Time
+T12	EVENT 732 740	killings
+E6	EVENT:T12 
+A21	Class E6 Occurrence
+A22	Pos E6 Noun
+T13	EVENT 720 728	the rash
+E7	EVENT:T13 
+A23	Class E7 Occurrence
+A24	Pos E7 Noun
+T14	EVENT 741 751	is fueling
+E8	EVENT:T14 
+A25	Class E8 State
+A26	Pos E8 Verb
+T15	EVENT 752 764	a new debate
+E9	EVENT:T15 
+A27	Class E9 Occurrence
+A28	Pos E9 Noun
+T16	EVENT 770 779	the risks
+E10	EVENT:T16 
+A29	Class E10 Occurrence
+A30	Pos E10 Noun
+T17	EVENT 783 788	being
+E11	EVENT:T17 
+A31	Class E11 State
+A32	Pos E11 Verb
+T18	ACTOR 789 805	a police officer
+A33	Lexical_Head T18 Noun
+A34	Actor_Type T18 Per
+T19	EVENT 809 860	the post-Ferguson era of anti-police demonstrations
+E12	EVENT:T19 
+A35	Class E12 Occurrence
+A36	Pos E12 Noun
+T21	TIME_X3 1704 1713	This week
+A39	Time_Type T21 Date
+T22	ACTOR 1715 1745	Attorney General Loretta Lynch
+A40	Lexical_Head T22 Noun
+A41	Actor_Type T22 Per
+T23	EVENT 1746 1755	addressed
+E14	EVENT:T23 
+A42	Class E14 Reporting
+A43	Pos E14 Verb
+T24	EVENT 1756 1765	the spate
+E15	EVENT:T24 
+A44	Class E15 Occurrence
+A45	Pos E15 Noun
+T25	EVENT 1769 1777	killings
+E16	EVENT:T25 
+A46	Class E16 Occurrence
+A47	Pos E16 Noun
+T26	EVENT 1781 1798	a news conference
+E17	EVENT:T26 
+A48	Class E17 Occurrence
+A49	Pos E17 Noun
+T27	ACTOR 1802 1812	Washington
+A50	Lexical_Head T27 Noun
+A51	Actor_Type T27 Loc
+T28	ACTOR 1314 1334	many police officers
+A52	Lexical_Head T28 Noun
+A53	Actor_Type T28 Per
+T29	EVENT 1335 1339	feel
+E18	EVENT:T29 
+A54	Class E18 I_State
+A55	Pos E18 Verb
+T30	EVENT 1340 1352	under attack
+E19	EVENT:T30 
+A56	Class E19 Occurrence
+A57	Pos E19 Noun
+T31	ACTOR 1372 1386	Darren Goforth
+A58	Lexical_Head T31 Noun
+A59	Actor_Type T31 Per
+T32	ACTOR 1388 1389;1400 1406	a deputy
+A60	Lexical_Head T32 Noun
+A61	Actor_Type T32 Per
+T33	ACTOR 1410 1423	Harris County
+A62	Lexical_Head T33 Noun
+A63	Actor_Type T33 Loc
+T34	EVENT 1425 1440	was gunned down
+E20	EVENT:T34 
+A64	Class E20 Occurrence
+A65	Pos E20 Verb
+T35	EVENT 1447 1454	pumping
+E21	EVENT:T35 
+A66	Class E21 Occurrence
+A67	Pos E21 Verb
+T36	ACTOR 1455 1458	gas
+A68	Lexical_Head T36 Noun
+A69	Actor_Type T36 Obj
+T37	TIME_X3 1459 1470	last Friday
+A70	Time_Type T37 Date
+#3	AnnotatorNotes T37	anchorTime=Publication_Time
+T38	ACTOR 1390 1397	sheriff
+A71	Lexical_Head T38 Noun
+A72	Actor_Type T38 Per
+R1	OBJ_REL_partOf Arg1:T32 Arg2:T38	
+T39	ACTOR 1829 1839	Gliniewicz
+A73	Lexical_Head T39 Noun
+A74	Actor_Type T39 Per
+T40	ACTOR 1844 1851	Goforth
+A75	Lexical_Head T40 Noun
+A76	Actor_Type T40 Per
+T41	ACTOR 1853 1865	two officers
+A77	Lexical_Head T41 Noun
+A78	Actor_Type T41 Per
+T42	EVENT 1866 1877	were killed
+E22	EVENT:T42 
+A79	Class E22 Occurrence
+A80	Pos E22 Verb
+T43	TIME_X3 1878 1887	last week
+A81	Time_Type T43 Date
+#4	AnnotatorNotes T43	anchorTime=Publication_Time
+T44	ACTOR 1891 1900	Louisiana
+A82	Lexical_Head T44 Noun
+A83	Actor_Type T44 Loc
+T45	TIME_X3 2404 2413	This year
+A84	Time_Type T45 Date
+#5	AnnotatorNotes T45	anchorTime=Publication_Time
+T46	ACTOR 2415 2433	26 police officers
+A85	Lexical_Head T46 Noun
+A86	Actor_Type T46 Per
+T47	EVENT 2434 2450	have been killed
+E23	EVENT:T47 
+A87	Class E23 Occurrence
+A88	Pos E23 Verb
+T48	ACTOR 2454 2462	firearms
+A89	Lexical_Head T48 Noun
+A90	Actor_Type T48 Obj
+T49	EVENT 2464 2473	including
+E24	EVENT:T49 
+A91	Class E24 State
+A92	Pos E24 Verb
+T50	ACTOR 2474 2477	two
+A93	Lexical_Head T50 Noun
+A94	Actor_Type T50 Per
+R2	OBJ_REL_partOf Arg1:T50 Arg2:T46	
+T51	EVENT 2481 2499	training accidents
+E25	EVENT:T51 
+A95	Class E25 Occurrence
+A96	Pos E25 Noun
+T52	EVENT 2575 2592	the second-lowest
+E26	EVENT:T52 
+A97	Class E26 State
+A98	Pos E26 Adjective
+T53	ACTOR 2593 2599	number
+A99	Lexical_Head T53 Noun
+A100	Actor_Type T53 Other
+T54	TIME_X3 2603 2622	the past five years
+A101	Time_Type T54 Duration
+#6	AnnotatorNotes T54	value=P5Y anchorTime=Publication_Time
+T55	EVENT 2572 2574	is
+E27	EVENT:T55 
+A102	Class E27 State
+A103	Pos E27 Verb
+T56	ACTOR 2567 2571	That
+A104	Lexical_Head T56 Pronoun
+A105	Actor_Type T56 Other
+T57	ACTOR 2652 2674	the number of officers
+A106	Lexical_Head T57 Noun
+A107	Actor_Type T57 Per
+T59	EVENT 2675 2681	killed
+E28	EVENT:T59 
+A110	Class E28 Occurrence
+A111	Pos E28 Verb
+T60	EVENT 2682 2703	has declined steadily
+E29	EVENT:T60 
+A112	Class E29 Occurrence
+A113	Pos E29 Verb
+T61	EVENT 2710 2717	peaking
+E30	EVENT:T61 
+A114	Class E30 Occurrence
+A115	Pos E30 Verb
+T62	TIME_X3 2721 2725	1975
+A116	Time_Type T62 Date
+#7	AnnotatorNotes T62	value=1975-XX-XX
+T63	EVENT 2640 2646	noting
+E31	EVENT:T63 
+A117	Class E31 Reporting
+A118	Pos E31 Verb
+T64	EVENT 2634 2638	says
+E32	EVENT:T64 
+A119	Class E32 Reporting
+A120	Pos E32 Verb
+T65	ACTOR 2624 2633	the group
+A121	Lexical_Head T65 Noun
+A122	Actor_Type T65 Org
+T66	EVENT 2501 2513	according to
+E33	EVENT:T66 
+A123	Class E33 Reporting
+A124	Pos E33 Verb
+T67	ACTOR 2514 2565	the National Law Enforcement Officers Memorial Fund
+A125	Lexical_Head T67 Noun
+A126	Actor_Type T67 Org
+T68	EVENT 4037 4059	There is no indication
+E34	EVENT:T68 
+A127	Class E34 State
+A128	Pos E34 Verb
+T69	EVENT 4065 4069	race
+E35	EVENT:T69 
+A129	Class E35 State
+A130	Pos E35 Noun
+T70	EVENT 4073 4094	anti-police sentiment
+E36	EVENT:T70 
+A131	Class E36 State
+A132	Pos E36 Noun
+T71	EVENT 4095 4108	played a role
+E37	EVENT:T71 
+A133	Class E37 Occurrence
+A134	Pos E37 Verb
+T72	EVENT 4112 4123	the killing
+E38	EVENT:T72 
+A135	Class E38 Occurrence
+A136	Pos E38 Noun
+T73	ACTOR 4125 4139	Gliniewicz, 52
+A137	Lexical_Head T73 Noun
+A138	Actor_Type T73 Per
+T74	EVENT 4141 4144	was
+E39	EVENT:T74 
+A139	Class E39 State
+A140	Pos E39 Verb
+T75	ACTOR 4145 4162	a 30-year veteran
+A141	Lexical_Head T75 Noun
+A142	Actor_Type T75 Per
+T76	ACTOR 4163 4166	who
+A143	Lexical_Head T76 Pronoun
+A144	Actor_Type T76 Per
+T77	EVENT 4167 4184	was due to retire
+E40	EVENT:T77 
+A145	Class E40 State
+A146	Pos E40 Verb
+T78	TIME_X3 4188 4208	the end of September
+A147	Time_Type T78 Date
+T79	ACTOR 4581 4587	Police
+A148	Lexical_Head T79 Noun
+A149	Actor_Type T79 Org
+T80	EVENT 4588 4592	said
+E41	EVENT:T80 
+A150	Class E41 Reporting
+A151	Pos E41 Verb
+T81	ACTOR 4593 4597	they
+A152	Lexical_Head T81 Noun
+A153	Actor_Type T81 Per
+T82	EVENT 4598 4611	have not made
+E42	EVENT:T82 
+A154	Class E42 I_Action
+A155	Pos E42 Verb
+A156	Polarity E42 Neg
+T83	EVENT 4612 4623	any arrests
+E43	EVENT:T83 
+A157	Class E43 Occurrence
+A158	Pos E43 Verb
+T84	EVENT 4629 4640	the manhunt
+E44	EVENT:T84 
+A159	Class E44 Occurrence
+A160	Pos E44 Noun
+T85	EVENT 4641 4654	is continuing
+E45	EVENT:T85 
+A161	Class E45 Aspectual
+A162	Pos E45 Verb
+T86	TIME_X3 539 549	on Tuesday
+A163	Time_Type T86 Date
+#8	AnnotatorNotes T86	anchorTime=Publication_Time
+R3	OBJ_REL_objIdentity Arg1:T5 Arg2:T2	
+R4	OBJ_REL_objIdentity Arg1:T18 Arg2:T5	
+R5	OBJ_REL_partOf Arg1:T18 Arg2:T28	
+R6	OBJ_REL_objIdentity Arg1:T31 Arg2:T32	
+R7	OBJ_REL_partOf Arg1:T27 Arg2:T6	
+R8	OBJ_REL_objIdentity Arg1:T40 Arg2:T31	
+R9	OBJ_REL_objIdentity Arg1:T39 Arg2:T2	
+R10	OBJ_REL_partOf Arg1:T44 Arg2:T6	
+R11	OBJ_REL_objIdentity Arg1:T56 Arg2:T53	
+R12	OBJ_REL_objIdentity Arg1:T65 Arg2:T67	
+R13	OBJ_REL_objIdentity Arg1:T76 Arg2:T75	
+R14	OBJ_REL_objIdentity Arg1:T75 Arg2:T73	
+R15	OBJ_REL_objIdentity Arg1:T73 Arg2:T39	
+R16	OBJ_REL_partOf Arg1:T81 Arg2:T79	
+R17	SEMROLE_patient Arg1:E1 Arg2:T2	
+R18	TLINK_isIncluded Arg1:E1 Arg2:T86	
+R19	SEMROLE_cause Arg1:E2 Arg2:E1	
+R20	SEMROLE_theme Arg1:E2 Arg2:E3	
+R21	SEMROLE_patient Arg1:E3 Arg2:T5	
+R22	SEMROLE_location Arg1:E3 Arg2:T6	
+R23	TLINK_during Arg1:E3 Arg2:T7	
+R24	SEMROLE_amount Arg1:E4 Arg2:T8	
+R25	SEMROLE_pivot Arg1:E5 Arg2:E4	
+R26	TLINK_isIncluded Arg1:E5 Arg2:T11	
+R27	SEMROLE_theme Arg1:E7 Arg2:E6	
+R28	SEMROLE_pivot Arg1:E8 Arg2:E7	
+R29	SEMROLE_theme Arg1:E8 Arg2:E9	
+R30	SEMROLE_theme Arg1:E9 Arg2:E10	
+R31	SEMROLE_theme Arg1:E10 Arg2:E11	
+R32	SEMROLE_pivot Arg1:E11 Arg2:T18	
+R33	SEMROLE_setting Arg1:E11 Arg2:E12	
+R34	SEMROLE_pivot Arg1:E18 Arg2:T28	
+R35	SEMROLE_theme Arg1:E18 Arg2:E19	
+R36	SUBORD_modal Arg1:E18 Arg2:E19	
+R37	OBJ_REL_partOf Arg1:T32 Arg2:T33	
+R38	SEMROLE_patient Arg1:E20 Arg2:T32	
+R39	SEMROLE_setting Arg1:E20 Arg2:E21	
+R40	SEMROLE_agent Arg1:E21 Arg2:T32	
+R41	SEMROLE_theme Arg1:E21 Arg2:T36	
+R42	TLINK_isIncluded Arg1:E20 Arg2:T37	
+R43	TLINK_isIncluded Arg1:E14 Arg2:T21	
+R44	SEMROLE_agent Arg1:E14 Arg2:T22	
+R45	SEMROLE_theme Arg1:E14 Arg2:E15	
+R46	SUBORD_evidential Arg1:E14 Arg2:E15	
+R47	SEMROLE_theme Arg1:E15 Arg2:E16	
+R48	SEMROLE_setting Arg1:E14 Arg2:E17	
+R49	SEMROLE_location Arg1:E17 Arg2:T27	
+R50	SEMROLE_patient Arg1:E22 Arg2:T39	
+R51	SEMROLE_patient Arg1:E22 Arg2:T40	
+R52	SEMROLE_patient Arg1:E22 Arg2:T41	
+R53	SEMROLE_location Arg1:E22 Arg2:T44	
+R54	TLINK_isIncluded Arg1:E22 Arg2:T43	
+R55	TLINK_isIncluded Arg1:E23 Arg2:T45	
+R56	SEMROLE_patient Arg1:E23 Arg2:T46	
+R57	SEMROLE_instrument Arg1:E23 Arg2:T48	
+R59	SEMROLE_theme Arg1:E24 Arg2:T50	
+R58	SEMROLE_setting Arg1:E24 Arg2:E25	
+R60	SEMROLE_pivot Arg1:E24 Arg2:T46	
+R61	SEMROLE_pivot Arg1:E33 Arg2:T67	
+R62	SEMROLE_theme Arg1:E33 Arg2:E23	
+R63	SUBORD_evidential Arg1:E33 Arg2:E23	
+R64	SEMROLE_theme Arg1:E27 Arg2:T56	
+R65	SEMROLE_attribute Arg1:E27 Arg2:E26	
+R66	SEMROLE_theme Arg1:E26 Arg2:T53	
+R67	TLINK_isIncluded Arg1:E27 Arg2:T54	
+R68	SEMROLE_agent Arg1:E32 Arg2:T65	
+R69	SEMROLE_theme Arg1:E32 Arg2:E27	
+R70	SUBORD_evidential Arg1:E32 Arg2:E27	
+R71	SEMROLE_theme Arg1:E31 Arg2:E29	
+R72	SUBORD_evidential Arg1:E31 Arg2:E29	
+R73	SEMROLE_agent Arg1:E31 Arg2:T65	
+R74	SEMROLE_theme Arg1:E29 Arg2:T57	
+R75	SEMROLE_patient Arg1:E28 Arg2:T57	
+R76	TLINK_isIncluded Arg1:E30 Arg2:T62	
+R77	SEMROLE_theme Arg1:E30 Arg2:T57	
+R78	SEMROLE_pivot Arg1:E37 Arg2:E35	
+R79	SEMROLE_pivot Arg1:E37 Arg2:E36	
+R80	SEMROLE_setting Arg1:E37 Arg2:E38	
+R81	SEMROLE_theme Arg1:E34 Arg2:E37	
+R82	SEMROLE_pivot Arg1:E39 Arg2:T73	
+R83	SEMROLE_theme Arg1:E39 Arg2:T75	
+R84	SEMROLE_pivot Arg1:E40 Arg2:T76	
+R85	TLINK_isIncluded Arg1:E40 Arg2:T78	
+R86	SEMROLE_agent Arg1:E41 Arg2:T79	
+R87	SEMROLE_theme Arg1:E41 Arg2:E42	
+R88	SUBORD_evidential Arg1:E41 Arg2:E42	
+R89	SEMROLE_agent Arg1:E42 Arg2:T81	
+R90	SEMROLE_theme Arg1:E42 Arg2:E43	
+R91	SUBORD_modal Arg1:E42 Arg2:E43	
+R92	SEMROLE_theme Arg1:E41 Arg2:E45	
+R93	SUBORD_evidential Arg1:E41 Arg2:E45	
+R94	SEMROLE_theme Arg1:E45 Arg2:E44	
+R95	ASPECT_continues Arg1:E45 Arg2:E44	
+T20	ACTOR 4415 4421	Dozens
+A37	Lexical_Head T20 Noun
+A38	Actor_Type T20 Other
+T58	EVENT 4425 4438	heavily armed
+E13	EVENT:T58 
+A108	Class E13 State
+A109	Pos E13 Adjective
+T87	ACTOR 4439 4447	officers
+A164	Lexical_Head T87 Noun
+A165	Actor_Type T87 Per
+T88	EVENT 4448 4462	quickly joined
+E46	EVENT:T88 
+A166	Class E46 Occurrence
+A167	Pos E46 Verb
+T89	ACTOR 4463 4474	helicopters
+A168	Lexical_Head T89 Noun
+A169	Actor_Type T89 Obj
+T90	ACTOR 4479 4490	search dogs
+A170	Lexical_Head T90 Noun
+A171	Actor_Type T90 Ani
+T91	EVENT 4494 4503	a manhunt
+E47	EVENT:T91 
+A172	Class E47 Occurrence
+A173	Pos E47 Noun
+T92	ACTOR 4508 4520	the suspects
+A174	Lexical_Head T92 Noun
+A175	Actor_Type T92 Per
+T93	ACTOR 4522 4525	who
+A176	Lexical_Head T93 Pronoun
+A177	Actor_Type T93 Per
+T94	EVENT 4526 4540	were described
+E48	EVENT:T94 
+A178	Class E48 Occurrence
+A179	Pos E48 Verb
+T95	ACTOR 4544 4553	three men
+A180	Lexical_Head T95 Noun
+A181	Actor_Type T95 Per
+T96	ACTOR 4556 4565	two white
+A182	Lexical_Head T96 Noun
+A183	Actor_Type T96 Per
+T97	ACTOR 4570 4579	one black
+A184	Lexical_Head T97 Noun
+A185	Actor_Type T97 Per
+R96	OBJ_REL_objIdentity Arg1:T87 Arg2:T20	
+R97	OBJ_REL_objIdentity Arg1:T93 Arg2:T92	
+R98	OBJ_REL_objIdentity Arg1:T95 Arg2:T93	
+R99	OBJ_REL_subSet Arg1:T96 Arg2:T95	
+R100	OBJ_REL_memberOf Arg1:T97 Arg2:T95	
+R101	SEMROLE_attribute Arg1:E13 Arg2:T87	
+R102	SEMROLE_agent Arg1:E46 Arg2:T87	
+R103	SEMROLE_theme Arg1:E46 Arg2:T89	
+R104	SEMROLE_theme Arg1:E46 Arg2:T90	
+R105	SEMROLE_setting Arg1:E46 Arg2:E47	
+R106	SEMROLE_theme Arg1:E47 Arg2:T92	
+R107	SEMROLE_patient Arg1:E48 Arg2:T93	
+R108	SEMROLE_theme Arg1:E48 Arg2:T95	

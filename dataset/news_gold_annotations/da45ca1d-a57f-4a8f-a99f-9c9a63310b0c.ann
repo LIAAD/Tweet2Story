@@ -1,0 +1,275 @@
+T1	ACTOR 0 26	The last Labour government
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Org
+T2	EVENT 27 47	shamefully neglected
+E1	EVENT:T2 
+A3	Class E1 Occurrence
+A4	Pos E1 Verb
+T3	EVENT 77 87	would help
+E2	EVENT:T3 
+A5	Class E2 I_Action
+A6	Pos E2 Verb
+T4	EVENT 95 111	self-sufficiency
+E3	EVENT:T4 
+A7	Class E3 State
+A8	Pos E3 Noun
+T5	EVENT 116 120	meet
+E4	EVENT:T5 
+A9	Class E4 Occurrence
+A10	Pos E4 Verb
+T6	EVENT 144 158	nuclear energy
+E5	EVENT:T6 
+A11	Class E5 State
+A12	Pos E5 Noun
+T7	ACTOR 121 142	low carbon objectives
+A13	Lexical_Head T7 Noun
+A14	Actor_Type T7 Other
+T8	ACTOR 48 62	the one source
+A15	Lexical_Head T8 Noun
+A16	Actor_Type T8 Other
+T9	EVENT 66 71	power
+E6	EVENT:T9 
+A17	Class E6 State
+A18	Pos E6 Noun
+T10	EVENT 655 666	The project
+E7	EVENT:T10 
+A19	Class E7 Occurrence
+A20	Pos E7 Noun
+T11	EVENT 667 685	is being developed
+E8	EVENT:T11 
+A21	Class E8 State
+A22	Pos E8 Verb
+T12	ACTOR 689 739	the indebted state-owned French energy company EDF
+A23	Lexical_Head T12 Noun
+A24	Actor_Type T12 Org
+T13	ACTOR 746 755	a reactor
+A25	Lexical_Head T13 Noun
+A26	Actor_Type T13 Obj
+T14	EVENT 756 760	made
+E9	EVENT:T14 
+A27	Class E9 Occurrence
+A28	Pos E9 Verb
+T15	ACTOR 764 779	Areva of France
+A29	Lexical_Head T15 Noun
+A30	Actor_Type T15 Org
+T16	EVENT 843 861	investment finance
+E10	EVENT:T16 
+A31	Class E10 State
+A32	Pos E10 Noun
+T17	EVENT 862 877	partly provided
+E11	EVENT:T17 
+A33	Class E11 Occurrence
+A34	Pos E11 Verb
+T18	ACTOR 881 886	China
+A35	Lexical_Head T18 Noun
+A36	Actor_Type T18 Loc
+T19	ACTOR 315 328	The Coalition
+A37	Lexical_Head T19 Noun
+A38	Actor_Type T19 Org
+T20	ACTOR 338 345	Lib Dem
+A39	Lexical_Head T20 Noun
+A40	Actor_Type T20 Org
+T21	EVENT 346 356	objections
+E12	EVENT:T21 
+A41	Class E12 State
+A42	Pos E12 Noun
+T22	EVENT 364 372	mattered
+E13	EVENT:T22 
+A43	Class E13 State
+A44	Pos E13 Verb
+T23	ACTOR 380 384	they
+A45	Lexical_Head T23 Pronoun
+A46	Actor_Type T23 Org
+T24	EVENT 385 388	ran
+E14	EVENT:T24 
+A47	Class E14 State
+A48	Pos E14 Verb
+T25	ACTOR 389 410	the Energy Department
+A49	Lexical_Head T25 Noun
+A50	Actor_Type T25 Org
+T26	EVENT 412 416;420 425	kept alive
+E15	EVENT:T26 
+A51	Class E15 State
+A52	Pos E15 Verb
+T27	EVENT 430 436	agreed
+E16	EVENT:T27 
+A53	Class E16 I_Action
+A54	Pos E16 Verb
+T28	EVENT 437 445	to build
+E17	EVENT:T28 
+A55	Class E17 Occurrence
+A56	Pos E17 Verb
+T29	ACTOR 446 467	the first new reactor
+A57	Lexical_Head T29 Noun
+A58	Actor_Type T29 Obj
+T30	TIME_X3 468 480	for 30 years
+A59	Time_Type T30 Duration
+#1	AnnotatorNotes T30	value=P30Y
+T31	ACTOR 484 497	Hinkley Point
+A60	Lexical_Head T31 Noun
+A61	Actor_Type T31 Loc
+T32	ACTOR 501 509	Somerset
+A62	Lexical_Head T32 Noun
+A63	Actor_Type T32 Loc
+T33	ACTOR 1413 1415	it
+A64	Lexical_Head T33 Pronoun
+A65	Actor_Type T33 Other
+T34	EVENT 1416 1423	appears
+E18	EVENT:T34 
+A66	Class E18 State
+A67	Pos E18 Verb
+T35	ACTOR 1424 1438	the Government
+A68	Lexical_Head T35 Noun
+A69	Actor_Type T35 Org
+T36	EVENT 1439 1456	remains committed
+E19	EVENT:T36 
+A70	Class E19 State
+A71	Pos E19 Verb
+T37	ACTOR 1460 1475	Hinkley Point C
+A72	Lexical_Head T37 Noun
+A73	Actor_Type T37 Loc
+T38	ACTOR 1481 1494	David Cameron
+A74	Lexical_Head T38 Noun
+A75	Actor_Type T38 Per
+T39	EVENT 1495 1506	is expected
+E20	EVENT:T39 
+A76	Class E20 I_State
+A77	Pos E20 Verb
+T40	EVENT 1507 1514	to sign
+E21	EVENT:T40 
+A78	Class E21 Occurrence
+A79	Pos E21 Verb
+T41	EVENT 1515 1531	a financial deal
+E22	EVENT:T41 
+A80	Class E22 Occurrence
+A81	Pos E22 Noun
+T42	ACTOR 1537 1549	President Xi
+A82	Lexical_Head T42 Noun
+A83	Actor_Type T42 Per
+T43	ACTOR 1553 1558	China
+A84	Lexical_Head T43 Noun
+A85	Actor_Type T43 Loc
+T44	EVENT 1559 1565	visits
+E23	EVENT:T44 
+A86	Class E23 Occurrence
+A87	Pos E23 Verb
+T45	ACTOR 1566 1572	the UK
+A88	Lexical_Head T45 Noun
+A89	Actor_Type T45 Loc
+T46	TIME_X3 1573 1583	next month
+A90	Time_Type T46 Date
+#2	AnnotatorNotes T46	anchorTime=Publication_Time
+T47	ACTOR 170 172	it
+A91	Lexical_Head T47 Pronoun
+A92	Actor_Type T47 Other
+T48	EVENT 173 185	was too late
+E24	EVENT:T48 
+A93	Class E24 State
+A94	Pos E24 Verb
+T49	ACTOR 198 210	the industry
+A95	Lexical_Head T49 Noun
+A96	Actor_Type T49 Org
+T50	EVENT 213 222	expertise
+E25	EVENT:T50 
+A97	Class E25 State
+A98	Pos E25 Noun
+T51	EVENT 223 236	had been lost
+E26	EVENT:T51 
+A99	Class E26 Occurrence
+A100	Pos E26 Verb
+T52	ACTOR 241 247	Labour
+A101	Lexical_Head T52 Noun
+A102	Actor_Type T52 Org
+T53	ACTOR 248 257	ministers
+A103	Lexical_Head T53 Noun
+A104	Actor_Type T53 Per
+T54	EVENT 258 265	realise
+E27	EVENT:T54 
+A105	Class E27 State
+A106	Pos E27 Verb
+T55	EVENT 272 277	folly
+E28	EVENT:T55 
+A107	Class E28 State
+A108	Pos E28 Noun
+T56	ACTOR 266 271	their
+A109	Lexical_Head T56 Pronoun
+A110	Actor_Type T56 Per
+T57	EVENT 282 285	try
+E29	EVENT:T57 
+A111	Class E29 I_Action
+A112	Pos E29 Verb
+T58	EVENT 286 299	to reactivate
+E30	EVENT:T58 
+A113	Class E30 Occurrence
+A114	Pos E30 Verb
+T59	ACTOR 300 313	the programme
+A115	Lexical_Head T59 Noun
+A116	Actor_Type T59 Other
+R1	OBJ_REL_partOf Arg1:T53 Arg2:T52	
+R2	OBJ_REL_objIdentity Arg1:T52 Arg2:T1	
+R3	OBJ_REL_objIdentity Arg1:T56 Arg2:T53	
+R4	OBJ_REL_objIdentity Arg1:T23 Arg2:T20	
+R5	OBJ_REL_partOf Arg1:T31 Arg2:T32	
+R6	OBJ_REL_objIdentity Arg1:T13 Arg2:T29	
+R7	OBJ_REL_objIdentity Arg1:T37 Arg2:T31	
+R8	OBJ_REL_objIdentity Arg1:T35 Arg2:T1	
+R9	OBJ_REL_partOf Arg1:T38 Arg2:T35	
+R10	OBJ_REL_partOf Arg1:T42 Arg2:T43	
+R11	OBJ_REL_partOf Arg1:T32 Arg2:T45	
+R12	SEMROLE_agent Arg1:E1 Arg2:T1	
+R13	SEMROLE_theme Arg1:E1 Arg2:T8	
+R14	SEMROLE_theme Arg1:E6 Arg2:T8	
+R15	SEMROLE_source Arg1:E2 Arg2:T8	
+T60	EVENT 88 94	create
+E31	EVENT:T60 
+A117	Class E31 Occurrence
+A118	Pos E31 Verb
+R16	SEMROLE_theme Arg1:E2 Arg2:E31	
+R17	SEMROLE_theme Arg1:E2 Arg2:E4	
+R18	SEMROLE_theme Arg1:E31 Arg2:E3	
+R19	SEMROLE_goal Arg1:E4 Arg2:T7	
+R21	SEMROLE_theme Arg1:E24 Arg2:T47	
+R22	SEMROLE_source Arg1:E25 Arg2:T49	
+R20	SEMROLE_theme Arg1:E1 Arg2:E5	
+R23	SEMROLE_pivot Arg1:E26 Arg2:E25	
+R24	SEMROLE_pivot Arg1:E27 Arg2:T53	
+R25	SEMROLE_theme Arg1:E27 Arg2:E28	
+R26	SEMROLE_pivot Arg1:E28 Arg2:T56	
+R27	SEMROLE_agent Arg1:E29 Arg2:T53	
+R28	SEMROLE_theme Arg1:E29 Arg2:E30	
+R29	SUBORD_modal Arg1:E29 Arg2:E30	
+R30	SEMROLE_theme Arg1:E30 Arg2:T59	
+R31	SEMROLE_pivot Arg1:E12 Arg2:T20	
+R32	SEMROLE_theme Arg1:E13 Arg2:E12	
+R33	SEMROLE_reason Arg1:E13 Arg2:E14	
+R34	SEMROLE_agent Arg1:E14 Arg2:T23	
+R35	SEMROLE_theme Arg1:E14 Arg2:T25	
+R36	SEMROLE_pivot Arg1:E15 Arg2:T19	
+T61	ACTOR 417 419	it
+A119	Lexical_Head T61 Pronoun
+A120	Actor_Type T61 Other
+R37	SEMROLE_theme Arg1:E15 Arg2:T61	
+R38	SEMROLE_agent Arg1:E16 Arg2:T19	
+R39	SEMROLE_theme Arg1:E16 Arg2:E17	
+R40	SUBORD_modal Arg1:E16 Arg2:E17	
+R41	SEMROLE_theme Arg1:E17 Arg2:T29	
+R42	SEMROLE_location Arg1:E17 Arg2:T31	
+R43	SEMROLE_theme Arg1:E8 Arg2:E7	
+R44	SEMROLE_pivot Arg1:E8 Arg2:T12	
+R45	SEMROLE_manner Arg1:E8 Arg2:E9	
+R46	SEMROLE_theme Arg1:E9 Arg2:T13	
+R47	SEMROLE_agent Arg1:E9 Arg2:T15	
+R48	SEMROLE_manner Arg1:E8 Arg2:E10	
+R49	SEMROLE_theme Arg1:E11 Arg2:E10	
+R50	SEMROLE_agent Arg1:E11 Arg2:T18	
+R51	SEMROLE_theme Arg1:E18 Arg2:T33	
+R52	SEMROLE_theme Arg1:E18 Arg2:E19	
+R53	SEMROLE_pivot Arg1:E19 Arg2:T35	
+R54	SEMROLE_theme Arg1:E19 Arg2:T37	
+R55	SEMROLE_pivot Arg1:E20 Arg2:T38	
+R56	SEMROLE_theme Arg1:E20 Arg2:E21	
+R57	SUBORD_modal Arg1:E20 Arg2:E21	
+R58	SEMROLE_theme Arg1:E21 Arg2:E22	
+R59	SEMROLE_agent Arg1:E23 Arg2:T42	
+R60	SEMROLE_location Arg1:E23 Arg2:T45	
+R61	TLINK_isIncluded Arg1:E23 Arg2:T46	

@@ -1,0 +1,386 @@
+T1	EVENT 2 15	State funeral
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Noun
+T2	ACTOR 20 31	Thomas Kent
+A3	Lexical_Head T2 Noun
+A4	Actor_Type T2 Per
+T3	ACTOR 33 36	who
+A5	Lexical_Head T3 Pronoun
+A6	Actor_Type T3 Per
+T4	EVENT 37 49	was executed
+E2	EVENT:T4 
+A7	Class E2 Occurrence
+A8	Pos E2 Verb
+T6	EVENT 64 82	1916 Easter Rising
+E4	EVENT:T6 
+A11	Class E4 State
+A12	Pos E4 Noun
+T7	EVENT 84 96	will be held
+E5	EVENT:T7 
+A13	Class E5 State
+A14	Pos E5 Verb
+T8	ACTOR 100 104	Cork
+A15	Lexical_Head T8 Noun
+A16	Actor_Type T8 Loc
+T9	TIME_X3 105 113	tomorrow
+A17	Time_Type T9 Date
+T10	ACTOR 120 123	His
+A18	Lexical_Head T10 Pronoun
+A19	Actor_Type T10 Per
+T11	EVENT 132 147	will be brought
+E6	EVENT:T11 
+A20	Class E6 Occurrence
+A21	Pos E6 Verb
+T12	ACTOR 151 179	St Michael's Garrison Church
+A22	Lexical_Head T12 Noun
+A23	Actor_Type T12 Loc
+T13	ACTOR 183 199	Collins Barracks
+A24	Lexical_Head T13 Noun
+A25	Actor_Type T13 Loc
+T14	TIME_X3 203 215	3.45pm today
+A26	Time_Type T14 Time
+T15	EVENT 223 237	prayer service
+E7	EVENT:T15 
+A27	Class E7 Occurrence
+A28	Pos E7 Noun
+T16	EVENT 282 285	was
+E8	EVENT:T16 
+A29	Class E8 State
+A30	Pos E8 Verb
+T17	ACTOR 286 289	one
+A31	Lexical_Head T17 Noun
+A32	Actor_Type T17 Per
+T18	ACTOR 293 303	the 16 men
+A33	Lexical_Head T18 Noun
+A34	Actor_Type T18 Per
+T19	EVENT 304 312	executed
+E9	EVENT:T19 
+A35	Class E9 Occurrence
+A36	Pos E9 Verb
+T20	EVENT 320 329	aftermath
+E10	EVENT:T20 
+A37	Class E10 State
+A38	Pos E10 Noun
+T21	EVENT 337 343	Rising
+E11	EVENT:T21 
+A39	Class E11 Occurrence
+A40	Pos E11 Noun
+T22	ACTOR 348 351	one
+A41	Lexical_Head T22 Noun
+A42	Actor_Type T22 Per
+T23	ACTOR 360 363	two
+A43	Lexical_Head T23 Noun
+A44	Actor_Type T23 Per
+T24	EVENT 364 372	executed
+E12	EVENT:T24 
+A45	Class E12 Occurrence
+A46	Pos E12 Verb
+T25	ACTOR 373 387	outside Dublin
+A47	Lexical_Head T25 Noun
+A48	Actor_Type T25 Loc
+T26	ACTOR 389 398	the other
+A49	Lexical_Head T26 Noun
+A50	Actor_Type T26 Per
+T27	EVENT 399 404	being
+E13	EVENT:T27 
+A51	Class E13 State
+A52	Pos E13 Verb
+T28	ACTOR 405 419	Roger Casement
+A53	Lexical_Head T28 Noun
+A54	Actor_Type T28 Per
+T29	ACTOR 421 424	who
+A55	Lexical_Head T29 Pronoun
+A56	Actor_Type T29 Per
+T30	EVENT 425 435	was hanged
+E14	EVENT:T30 
+A57	Class E14 Occurrence
+A58	Pos E14 Verb
+T31	ACTOR 439 445	London
+A59	Lexical_Head T31 Noun
+A60	Actor_Type T31 Loc
+T32	ACTOR 124 131	remains
+A61	Lexical_Head T32 Noun
+A62	Actor_Type T32 Other
+T33	ACTOR 452 456	Kent
+A63	Lexical_Head T33 Noun
+A64	Actor_Type T33 Per
+T34	EVENT 457 460	was
+E15	EVENT:T34 
+A65	Class E15 State
+A66	Pos E15 Verb
+T35	ACTOR 486 506	the Irish Volunteers
+A67	Lexical_Head T35 Noun
+A68	Actor_Type T35 Org
+T36	EVENT 511 523	was arrested
+E16	EVENT:T36 
+A69	Class E16 Occurrence
+A70	Pos E16 Verb
+T38	EVENT 537 545	incident
+E18	EVENT:T38 
+A73	Class E18 Occurrence
+A74	Pos E18 Noun
+T39	ACTOR 549 552	his
+A75	Lexical_Head T39 Pronoun
+A76	Actor_Type T39 Per
+T40	ACTOR 553 569	Castlelyons home
+A77	Lexical_Head T40 Noun
+A78	Actor_Type T40 Loc
+T41	ACTOR 580 606	a Royal Irish Constabulary
+A79	Lexical_Head T41 Noun
+A80	Actor_Type T41 Org
+T42	ACTOR 607 614	officer
+A81	Lexical_Head T42 Noun
+A82	Actor_Type T42 Per
+T43	EVENT 615 625	was killed
+E19	EVENT:T43 
+A83	Class E19 Occurrence
+A84	Pos E19 Verb
+T44	ACTOR 630 636	Thomas
+A85	Lexical_Head T44 Noun
+A86	Actor_Type T44 Per
+T45	ACTOR 638 653	brother Richard
+A87	Lexical_Head T45 Noun
+A88	Actor_Type T45 Per
+T46	EVENT 654 673	was fatally injured
+E20	EVENT:T46 
+A89	Class E20 Occurrence
+A90	Pos E20 Verb
+T47	ACTOR 680 700	Taoiseach Enda Kenny
+A91	Lexical_Head T47 Noun
+A92	Actor_Type T47 Per
+T48	EVENT 701 708	offered
+E21	EVENT:T48 
+A93	Class E21 I_Action
+A94	Pos E21 Verb
+T49	EVENT 711 724	State funeral
+E22	EVENT:T49 
+A95	Class E22 Occurrence
+A96	Pos E22 Verb
+T50	ACTOR 728 743	the Kent family
+A97	Lexical_Head T50 Noun
+A98	Actor_Type T50 Per
+T51	TIME_X3 744 761	earlier this year
+A99	Time_Type T51 Date
+T52	ACTOR 766 776	the family
+A100	Lexical_Head T52 Noun
+A101	Actor_Type T52 Per
+T53	EVENT 777 785	accepted
+E23	EVENT:T53 
+A102	Class E23 Occurrence
+A103	Pos E23 Verb
+T54	ACTOR 792 796	Kent
+A104	Lexical_Head T54 Noun
+A105	Actor_Type T54 Per
+T55	ACTOR 799 806	remains
+A106	Lexical_Head T55 Noun
+A107	Actor_Type T55 Other
+T56	EVENT 807 819	were exhumed
+E24	EVENT:T56 
+A108	Class E24 Occurrence
+A109	Pos E24 Verb
+T57	ACTOR 823 834	Cork Prison
+A110	Lexical_Head T57 Noun
+A111	Actor_Type T57 Loc
+T58	TIME_X3 838 842	June
+A112	Time_Type T58 Date
+T59	ACTOR 860 863	His
+A113	Lexical_Head T59 Pronoun
+A114	Actor_Type T59 Per
+T60	ACTOR 864 871	remains
+A115	Lexical_Head T60 Noun
+A116	Actor_Type T60 Other
+T61	EVENT 872 882	will leave
+E25	EVENT:T61 
+A117	Class E25 Occurrence
+A118	Pos E25 Verb
+T62	ACTOR 883 899	Collins Barracks
+A119	Lexical_Head T62 Noun
+A120	Actor_Type T62 Loc
+T63	TIME_X3 903 916	12pm tomorrow
+A121	Time_Type T63 Time
+T64	EVENT 922 949	full military accompaniment
+E26	EVENT:T64 
+A122	Class E26 State
+A123	Pos E26 Noun
+T65	ACTOR 953 964	Cork Prison
+A124	Lexical_Head T65 Noun
+A125	Actor_Type T65 Loc
+T66	EVENT 973 995	formal removal service
+E27	EVENT:T66 
+A126	Class E27 Occurrence
+A127	Pos E27 Noun
+T67	EVENT 1002 1015	There will be
+E28	EVENT:T67 
+A128	Class E28 State
+A129	Pos E28 Verb
+T68	EVENT 1018 1039	short private service
+E29	EVENT:T68 
+A130	Class E29 Occurrence
+A131	Pos E29 Noun
+T69	EVENT 1099 1106	Cortege
+E30	EVENT:T69 
+A132	Class E30 Occurrence
+A133	Pos E30 Noun
+T70	EVENT 1107 1111;1117 1123	will depart
+E31	EVENT:T70 
+A134	Class E31 Occurrence
+A135	Pos E31 Verb
+T71	ACTOR 1128 1148	St Nicholas’s Church
+A136	Lexical_Head T71 Noun
+A137	Actor_Type T71 Loc
+T72	ACTOR 1150 1161	Castlelyons
+A138	Lexical_Head T72 Noun
+A139	Actor_Type T72 Loc
+T73	TIME_X3 1165 1172	12.45pm
+A140	Time_Type T73 Time
+T74	ACTOR 1178 1182	Kent
+A141	Lexical_Head T74 Noun
+A142	Actor_Type T74 Per
+T75	EVENT 1183 1202	will be re-interred
+E32	EVENT:T75 
+A143	Class E32 Occurrence
+A144	Pos E32 Verb
+T76	ACTOR 1208 1211	his
+A145	Lexical_Head T76 Pronoun
+A146	Actor_Type T76 Per
+T77	ACTOR 1212 1220	brothers
+A147	Lexical_Head T77 Noun
+A148	Actor_Type T77 Per
+T78	ACTOR 1224 1242	St Nicholas Church
+A149	Lexical_Head T78 Noun
+A150	Actor_Type T78 Loc
+T79	EVENT 1261 1268	funeral
+E33	EVENT:T79 
+A151	Class E33 Occurrence
+A152	Pos E33 Verb
+T80	TIME_X3 1250 1258	tomorrow
+A153	Time_Type T80 Date
+#1	AnnotatorNotes T80	anchorTime=Publication_Time
+T81	EVENT 1298 1314	will be attended
+E34	EVENT:T81 
+A154	Class E34 State
+A155	Pos E34 Verb
+T82	ACTOR 1318 1345	President Michael D Higgins
+A156	Lexical_Head T82 Noun
+A157	Actor_Type T82 Per
+T83	ACTOR 1347 1367	Taoiseach Enda Kenny
+A158	Lexical_Head T83 Noun
+A159	Actor_Type T83 Per
+T84	ACTOR 1372 1392	Tánaiste Joan Burton
+A160	Lexical_Head T84 Noun
+A161	Actor_Type T84 Per
+T85	EVENT 1285 1297	requiem mass
+E35	EVENT:T85 
+A162	Class E35 Occurrence
+A163	Pos E35 Noun
+T86	ACTOR 1399 1407	Mr Kenny
+A164	Lexical_Head T86 Noun
+A165	Actor_Type T86 Per
+T87	EVENT 1425 1442	Graveside Oration
+E36	EVENT:T87 
+A166	Class E36 Occurrence
+A167	Pos E36 Noun
+T88	EVENT 1408 1420	will deliver
+E37	EVENT:T88 
+A168	Class E37 Occurrence
+A169	Pos E37 Verb
+T91	ACTOR 463 482	prominent organiser
+A173	Lexical_Head T91 Noun
+A174	Actor_Type T91 Per
+R1	OBJ_REL_objIdentity Arg1:T3 Arg2:T2	
+R2	OBJ_REL_partOf Arg1:T32 Arg2:T10	
+R3	OBJ_REL_objIdentity Arg1:T10 Arg2:T3	
+R4	OBJ_REL_partOf Arg1:T12 Arg2:T13	
+R5	OBJ_REL_partOf Arg1:T17 Arg2:T18	
+T92	ACTOR 277 281	Kent
+A175	Lexical_Head T92 Noun
+A176	Actor_Type T92 Per
+R6	OBJ_REL_objIdentity Arg1:T92 Arg2:T10	
+R7	OBJ_REL_objIdentity Arg1:T17 Arg2:T92	
+R8	OBJ_REL_objIdentity Arg1:T22 Arg2:T17	
+R9	OBJ_REL_partOf Arg1:T22 Arg2:T23	
+R10	OBJ_REL_partOf Arg1:T26 Arg2:T23	
+R11	OBJ_REL_objIdentity Arg1:T28 Arg2:T26	
+R12	OBJ_REL_objIdentity Arg1:T29 Arg2:T28	
+R13	OBJ_REL_objIdentity Arg1:T91 Arg2:T33	
+R14	OBJ_REL_partOf Arg1:T91 Arg2:T35	
+R15	OBJ_REL_objIdentity Arg1:T39 Arg2:T91	
+R16	OBJ_REL_partOf Arg1:T42 Arg2:T41	
+R17	OBJ_REL_partOf Arg1:T45 Arg2:T44	
+R18	OBJ_REL_objIdentity Arg1:T44 Arg2:T39	
+R19	OBJ_REL_partOf Arg1:T40 Arg2:T39	
+R20	OBJ_REL_objIdentity Arg1:T52 Arg2:T50	
+R21	OBJ_REL_objIdentity Arg1:T54 Arg2:T44	
+R22	OBJ_REL_partOf Arg1:T55 Arg2:T54	
+R23	OBJ_REL_partOf Arg1:T57 Arg2:T8	
+R24	OBJ_REL_objIdentity Arg1:T59 Arg2:T54	
+R25	OBJ_REL_partOf Arg1:T60 Arg2:T59	
+R26	OBJ_REL_objIdentity Arg1:T60 Arg2:T55	
+R27	OBJ_REL_objIdentity Arg1:T62 Arg2:T13	
+R28	OBJ_REL_objIdentity Arg1:T65 Arg2:T57	
+T93	ACTOR 1040 1046	inside
+A177	Lexical_Head T93 Pronoun
+A178	Actor_Type T93 Loc
+R29	OBJ_REL_objIdentity Arg1:T93 Arg2:T65	
+R30	OBJ_REL_partOf Arg1:T71 Arg2:T72	
+R31	OBJ_REL_objIdentity Arg1:T74 Arg2:T59	
+R32	OBJ_REL_objIdentity Arg1:T76 Arg2:T74	
+R33	OBJ_REL_partOf Arg1:T77 Arg2:T76	
+R34	OBJ_REL_objIdentity Arg1:T78 Arg2:T71	
+R35	OBJ_REL_objIdentity Arg1:T83 Arg2:T47	
+R36	OBJ_REL_objIdentity Arg1:T86 Arg2:T83	
+R37	SEMROLE_beneficiary Arg1:E1 Arg2:T2	
+R38	SEMROLE_patient Arg1:E2 Arg2:T3	
+R39	SEMROLE_setting Arg1:E2 Arg2:E4	
+R40	SEMROLE_pivot Arg1:E5 Arg2:E1	
+R41	SEMROLE_location Arg1:E5 Arg2:T8	
+R42	SEMROLE_patient Arg1:E6 Arg2:T32	
+R43	SEMROLE_finalLocation Arg1:E6 Arg2:T12	
+R44	SEMROLE_purpose Arg1:E6 Arg2:E7	
+R45	SEMROLE_pivot Arg1:E8 Arg2:T92	
+R46	SEMROLE_theme Arg1:E8 Arg2:T17	
+R47	SEMROLE_patient Arg1:E9 Arg2:T18	
+R48	SEMROLE_setting Arg1:E9 Arg2:E10	
+R49	SEMROLE_theme Arg1:E10 Arg2:E11	
+R50	SEMROLE_patient Arg1:E12 Arg2:T23	
+R51	SEMROLE_location Arg1:E12 Arg2:T25	
+R52	SEMROLE_pivot Arg1:E13 Arg2:T26	
+R53	SEMROLE_theme Arg1:E13 Arg2:T28	
+R54	SEMROLE_patient Arg1:E14 Arg2:T29	
+R55	SEMROLE_location Arg1:E14 Arg2:T31	
+R56	SEMROLE_pivot Arg1:E15 Arg2:T33	
+R57	SEMROLE_theme Arg1:E15 Arg2:T91	
+R58	SEMROLE_patient Arg1:E16 Arg2:T33	
+R59	SEMROLE_reason Arg1:E16 Arg2:E18	
+R60	SEMROLE_location Arg1:E18 Arg2:T40	
+R61	SEMROLE_patient Arg1:E19 Arg2:T42	
+R62	SEMROLE_patient Arg1:E20 Arg2:T45	
+R63	SEMROLE_setting Arg1:E19 Arg2:E18	
+R64	SEMROLE_setting Arg1:E20 Arg2:E18	
+R65	SEMROLE_agent Arg1:E21 Arg2:T47	
+R66	SEMROLE_theme Arg1:E21 Arg2:E22	
+R67	SEMROLE_goal Arg1:E21 Arg2:T50	
+R68	SEMROLE_agent Arg1:E23 Arg2:T52	
+R69	SEMROLE_patient Arg1:E24 Arg2:T55	
+R70	SEMROLE_location Arg1:E24 Arg2:T57	
+R71	SEMROLE_patient Arg1:E25 Arg2:T60	
+R72	SEMROLE_initialLocation Arg1:E25 Arg2:T62	
+R73	SEMROLE_manner Arg1:E25 Arg2:E26	
+R74	SEMROLE_finalLocation Arg1:E25 Arg2:T65	
+R75	SEMROLE_purpose Arg1:E25 Arg2:E27	
+R76	SEMROLE_theme Arg1:E28 Arg2:E29	
+R77	SEMROLE_location Arg1:E28 Arg2:T93	
+R78	SEMROLE_theme Arg1:E31 Arg2:E30	
+R79	SEMROLE_finalLocation Arg1:E31 Arg2:T71	
+R80	SEMROLE_patient Arg1:E32 Arg2:T74	
+R81	SEMROLE_location Arg1:E32 Arg2:T78	
+R82	SEMROLE_partner Arg1:E32 Arg2:T77	
+R83	SEMROLE_setting Arg1:E32 Arg2:E33	
+R84	TLINK_isIncluded Arg1:E33 Arg2:T80	
+R85	SEMROLE_theme Arg1:E34 Arg2:E35	
+R86	SEMROLE_pivot Arg1:E34 Arg2:T82	
+R87	SEMROLE_pivot Arg1:E34 Arg2:T83	
+R88	SEMROLE_pivot Arg1:E34 Arg2:T84	
+R89	SEMROLE_agent Arg1:E37 Arg2:T86	
+R90	SEMROLE_theme Arg1:E37 Arg2:E36	

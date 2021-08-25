@@ -1,0 +1,346 @@
+T1	ACTOR 0 11	Mr. Revilla
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+T2	ACTOR 14 18	camp
+A3	Lexical_Head T2 Noun
+T3	EVENT 19 24	filed
+E1	EVENT:T3 
+A5	Class E1 Occurrence
+A6	Pos E1 Verb
+T4	ACTOR 27 40	66-page brief
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Other
+T5	ACTOR 48 57	the court
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Org
+T6	EVENT 60 74	First Division
+E2	EVENT:T6 
+A11	Class E2 Occurrence
+A12	Pos E2 Noun
+T7	EVENT 88 93	start
+E3	EVENT:T7 
+A13	Class E3 Aspectual
+A14	Pos E3 Noun
+T8	EVENT 101 106	trial
+E4	EVENT:T8 
+A15	Class E4 Occurrence
+A16	Pos E4 Noun
+T9	EVENT 107 113	proper
+E5	EVENT:T9 
+A17	Class E5 State
+A18	Pos E5 Adjective
+T10	EVENT 122 127	cases
+E6	EVENT:T10 
+A19	Class E6 Occurrence
+A20	Pos E6 Noun
+T11	ACTOR 136 139	him
+A21	Lexical_Head T11 Pronoun
+A22	Actor_Type T11 Per
+T12	ACTOR 141 146	which
+A23	Lexical_Head T12 Noun
+A24	Actor_Type T12 Other
+T13	EVENT 147 152	lists
+E7	EVENT:T13 
+A25	Class E7 Occurrence
+A26	Pos E7 Verb
+T14	ACTOR 153 162	the names
+A27	Lexical_Head T14 Noun
+A28	Actor_Type T14 Other
+T15	ACTOR 166 172	people
+A29	Lexical_Head T15 Noun
+A30	Actor_Type T15 Per
+T16	ACTOR 173 175	he
+A31	Lexical_Head T16 Pronoun
+A32	Actor_Type T16 Per
+R1	OBJ_REL_objIdentity Arg1:T16 Arg2:T11	
+R2	OBJ_REL_objIdentity Arg1:T11 Arg2:T1	
+T17	EVENT 176 181	wants
+E8	EVENT:T17 
+A33	Class E8 State
+A34	Pos E8 Verb
+T18	EVENT 182 190	summoned
+E9	EVENT:T18 
+A35	Class E9 State
+A36	Pos E9 Verb
+T19	ACTOR 194 199	court
+A37	Lexical_Head T19 Noun
+A38	Actor_Type T19 Org
+T20	ACTOR 211 222	the defense
+A39	Lexical_Head T20 Noun
+A40	Actor_Type T20 Per
+T21	ACTOR 225 234	witnesses
+A41	Lexical_Head T21 Noun
+A42	Actor_Type T21 Per
+T22	ACTOR 239 250	The senator
+A43	Lexical_Head T22 Noun
+A44	Actor_Type T22 Per
+T23	EVENT 251 272	is currently detained
+E10	EVENT:T23 
+A45	Class E10 State
+A46	Pos E10 Verb
+T24	ACTOR 276 323	the Philippine National Police Custodial Center
+A47	Lexical_Head T24 Noun
+A48	Actor_Type T24 Org
+T25	ACTOR 327 337	Camp Crame
+A49	Lexical_Head T25 Noun
+A50	Actor_Type T25 Loc
+T26	ACTOR 339 350	Quezon City
+A51	Lexical_Head T26 Noun
+A52	Actor_Type T26 Loc
+T27	ACTOR 355 357	he
+A53	Lexical_Head T27 Pronoun
+A54	Actor_Type T27 Per
+T28	EVENT 358 363	faces
+E11	EVENT:T28 
+A55	Class E11 State
+A56	Pos E11 Verb
+T29	EVENT 364 371	plunder
+E12	EVENT:T29 
+A57	Class E12 State
+A58	Pos E12 Noun
+T30	EVENT 376 389	graft charges
+E13	EVENT:T30 
+A59	Class E13 State
+A60	Pos E13 Noun
+T31	EVENT 394 412	the alleged misuse
+E14	EVENT:T31 
+A61	Class E14 Occurrence
+A62	Pos E14 Noun
+T32	ACTOR 416 419	his
+A63	Lexical_Head T32 Pronoun
+A64	Actor_Type T32 Per
+T33	ACTOR 420 463	Priority Development Assistance Fund (PDAF)
+A65	Lexical_Head T33 Noun
+A66	Actor_Type T33 Other
+T34	ACTOR 468 470	He
+A67	Lexical_Head T34 Pronoun
+A68	Actor_Type T34 Per
+T35	EVENT 471 481	is accused
+E15	EVENT:T35 
+A69	Class E15 State
+A70	Pos E15 Verb
+T36	EVENT 485 495	channeling
+E16	EVENT:T36 
+A71	Class E16 Occurrence
+A72	Pos E16 Verb
+T37	ACTOR 496 499	his
+A73	Lexical_Head T37 Pronoun
+A74	Actor_Type T37 Per
+T38	ACTOR 500 504	PDAF
+A75	Lexical_Head T38 Noun
+A76	Actor_Type T38 Other
+T39	ACTOR 508 541	bogus nongovernment organizations
+A77	Lexical_Head T39 Noun
+A78	Actor_Type T39 Org
+T40	EVENT 542 551	amounting
+E17	EVENT:T40 
+A79	Class E17 State
+A80	Pos E17 Verb
+T41	ACTOR 555 567	P517 million
+A81	Lexical_Head T41 Noun
+A82	Actor_Type T41 Obj
+T42	ACTOR 575 577	he
+A83	Lexical_Head T42 Pronoun
+A84	Actor_Type T42 Per
+T43	EVENT 578 596	allegedly pocketed
+E18	EVENT:T43 
+A85	Class E18 Occurrence
+A86	Pos E18 Verb
+T44	EVENT 597 606	kickbacks
+E19	EVENT:T44 
+A87	Class E19 Occurrence
+A88	Pos E19 Noun
+T45	EVENT 607 616	amounting
+E20	EVENT:T45 
+A89	Class E20 State
+A90	Pos E20 Verb
+T46	ACTOR 620 634	P224.5 million
+A91	Lexical_Head T46 Noun
+A92	Actor_Type T46 Obj
+T47	TIME_X3 635 652	from 2004 to 2010
+A93	Time_Type T47 Duration
+#1	AnnotatorNotes T47	value=P6Y beginPoint=2004 endPoint=2010
+T48	ACTOR 1417 1428	Mr. Revilla
+A94	Lexical_Head T48 Noun
+A95	Actor_Type T48 Per
+T49	ACTOR 1430 1433	who
+A96	Lexical_Head T49 Pronoun
+A97	Actor_Type T49 Per
+T50	EVENT 1434 1442	has been
+E21	EVENT:T50 
+A98	Class E21 State
+A99	Pos E21 Verb
+T51	ACTOR 1446 1450	jail
+A100	Lexical_Head T51 Noun
+A101	Actor_Type T51 Loc
+T52	TIME_X3 1451 1471	since June last year
+A102	Time_Type T52 Duration
+#2	AnnotatorNotes T52	value=PXM 
+T53	EVENT 1480 1487	charges
+E22	EVENT:T53 
+A103	Class E22 State
+A104	Pos E22 Noun
+T54	EVENT 1494 1498	said
+E23	EVENT:T54 
+A105	Class E23 Reporting
+A106	Pos E23 Verb
+T55	ACTOR 1499 1501	he
+A107	Lexical_Head T55 Pronoun
+A108	Actor_Type T55 Per
+T56	EVENT 1502 1512	would take
+E24	EVENT:T56 
+A109	Class E24 Occurrence
+A110	Pos E24 Verb
+T57	ACTOR 1513 1530	the witness stand
+A111	Lexical_Head T57 Noun
+A112	Actor_Type T57 Loc
+T58	ACTOR 1531 1538	himself
+A113	Lexical_Head T58 Pronoun
+A114	Actor_Type T58 Per
+R3	OBJ_REL_objIdentity Arg1:T20 Arg2:T16	
+R4	OBJ_REL_partOf Arg1:T21 Arg2:T20	
+R5	OBJ_REL_objIdentity Arg1:T22 Arg2:T16	
+R6	OBJ_REL_partOf Arg1:T24 Arg2:T25	
+R7	OBJ_REL_partOf Arg1:T25 Arg2:T26	
+R8	OBJ_REL_objIdentity Arg1:T27 Arg2:T22	
+R9	OBJ_REL_objIdentity Arg1:T32 Arg2:T27	
+R10	OBJ_REL_objIdentity Arg1:T34 Arg2:T32	
+R11	OBJ_REL_objIdentity Arg1:T37 Arg2:T34	
+R12	OBJ_REL_objIdentity Arg1:T38 Arg2:T33	
+R13	OBJ_REL_objIdentity Arg1:T42 Arg2:T37	
+R14	OBJ_REL_objIdentity Arg1:T48 Arg2:T42	
+R15	OBJ_REL_objIdentity Arg1:T49 Arg2:T48	
+R16	OBJ_REL_objIdentity Arg1:T51 Arg2:T24	
+R17	OBJ_REL_objIdentity Arg1:T55 Arg2:T49	
+R18	OBJ_REL_objIdentity Arg1:T58 Arg2:T55	
+T59	ACTOR 1742 1758	All these people
+A115	Lexical_Head T59 Noun
+A116	Actor_Type T59 Per
+T60	ACTOR 1760 1763	his
+A117	Lexical_Head T60 Pronoun
+A118	Actor_Type T60 Per
+T61	ACTOR 1764 1771	lawyers
+A119	Lexical_Head T61 Noun
+A120	Actor_Type T61 Per
+T62	EVENT 1772 1776	said
+E25	EVENT:T62 
+A121	Class E25 Reporting
+A122	Pos E25 Verb
+T63	EVENT 1778 1789	would speak
+E26	EVENT:T63 
+A123	Class E26 Occurrence
+A124	Pos E26 Verb
+T64	EVENT 1790 1798	to prove
+E27	EVENT:T64 
+A125	Class E27 State
+A126	Pos E27 Verb
+T65	ACTOR 1804 1815	the senator
+A127	Lexical_Head T65 Noun
+A128	Actor_Type T65 Per
+T68	ACTOR 1937 1939	He
+A133	Lexical_Head T68 Noun
+A134	Actor_Type T68 Per
+T66	EVENT 1816 1828	never signed
+E28	EVENT:T66 
+A129	Class E28 Occurrence
+A130	Pos E28 Verb
+A131	Polarity E28 Neg
+T67	EVENT 1833 1850	project proposals
+E29	EVENT:T67 
+A132	Class E29 State
+A135	Pos E29 Noun
+T69	EVENT 1878 1900	accomplishment reports
+E30	EVENT:T69 
+A136	Class E30 Reporting
+A137	Pos E30 Noun
+T70	ACTOR 1852 1873	list of beneficiaries
+A138	Lexical_Head T70 Noun
+A139	Actor_Type T70 Other
+T71	EVENT 1906 1909	led
+E31	EVENT:T71 
+A140	Class E31 Occurrence
+A141	Pos E31 Verb
+T72	EVENT 1917 1924;1930 1935	illegal deals
+E32	EVENT:T72 
+A142	Class E32 State
+A143	Pos E32 Noun
+T73	ACTOR 1925 1929	PDAF
+A144	Lexical_Head T73 Noun
+A145	Actor_Type T73 Other
+T74	EVENT 1945 1951	denied
+E33	EVENT:T74 
+A146	Class E33 I_State
+A147	Pos E33 Verb
+T75	EVENT 1952 1966	profiting from
+E34	EVENT:T75 
+A148	Class E34 Occurrence
+A149	Pos E34 Verb
+T76	EVENT 1971 1986	supposed scheme
+E35	EVENT:T76 
+A150	Class E35 Occurrence
+A151	Pos E35 Noun
+R19	OBJ_REL_objIdentity Arg1:T60 Arg2:T58	
+R20	OBJ_REL_partOf Arg1:T61 Arg2:T60	
+R21	OBJ_REL_objIdentity Arg1:T59 Arg2:T15	
+R22	OBJ_REL_objIdentity Arg1:T65 Arg2:T60	
+R23	OBJ_REL_objIdentity Arg1:T73 Arg2:T38	
+R24	OBJ_REL_objIdentity Arg1:T68 Arg2:T65	
+R25	SEMROLE_agent Arg1:E1 Arg2:T2	
+R26	SEMROLE_theme Arg1:E1 Arg2:T4	
+R27	SEMROLE_agent Arg1:E2 Arg2:T5	
+R28	ASPECT_initiates Arg1:E3 Arg2:E4	
+R29	SEMROLE_theme Arg1:E3 Arg2:E4	
+R30	SEMROLE_pivot Arg1:E5 Arg2:E4	
+R31	SEMROLE_theme Arg1:E5 Arg2:E6	
+R32	SEMROLE_beneficiary Arg1:E6 Arg2:T11	
+R33	OBJ_REL_objIdentity Arg1:T12 Arg2:T4	
+R34	SEMROLE_cause Arg1:T14 Arg2:E7	
+R35	OBJ_REL_partOf Arg1:T14 Arg2:T15	
+R36	SEMROLE_pivot Arg1:E8 Arg2:T16	
+R37	SEMROLE_theme Arg1:E8 Arg2:E9	
+R38	SEMROLE_location Arg1:E9 Arg2:T19	
+R39	SEMROLE_pivot Arg1:E10 Arg2:T22	
+R40	SEMROLE_location Arg1:E10 Arg2:T24	
+R41	SEMROLE_pivot Arg1:E11 Arg2:T27	
+R42	SEMROLE_theme Arg1:E11 Arg2:E12	
+R43	SEMROLE_theme Arg1:E11 Arg2:E13	
+R44	SEMROLE_reason Arg1:E11 Arg2:E14	
+R45	SEMROLE_agent Arg1:E14 Arg2:T27	
+R46	SEMROLE_theme Arg1:E14 Arg2:T33	
+R47	SEMROLE_pivot Arg1:E15 Arg2:T34	
+R48	SEMROLE_theme Arg1:E15 Arg2:E16	
+R49	SEMROLE_theme Arg1:E16 Arg2:T38	
+R50	SEMROLE_goal Arg1:E16 Arg2:T39	
+R51	SEMROLE_amount Arg1:E17 Arg2:T41	
+R52	SEMROLE_pivot Arg1:E17 Arg2:E16	
+R53	SEMROLE_agent Arg1:E18 Arg2:T42	
+R54	SEMROLE_theme Arg1:E18 Arg2:E19	
+R55	SEMROLE_amount Arg1:E20 Arg2:T46	
+R56	SEMROLE_pivot Arg1:E20 Arg2:E19	
+R57	SEMROLE_pivot Arg1:E21 Arg2:T49	
+R58	SEMROLE_location Arg1:E21 Arg2:T51	
+R59	SEMROLE_reason Arg1:E21 Arg2:E22	
+R60	SEMROLE_agent Arg1:E23 Arg2:T49	
+R61	SEMROLE_theme Arg1:E23 Arg2:E24	
+R62	SUBORD_evidential Arg1:E23 Arg2:E24	
+R63	SEMROLE_agent Arg1:E24 Arg2:T55	
+R64	SEMROLE_theme Arg1:E24 Arg2:T57	
+R65	SEMROLE_agent Arg1:E25 Arg2:T61	
+R66	SEMROLE_theme Arg1:E25 Arg2:E26	
+R67	SUBORD_evidential Arg1:E25 Arg2:E26	
+R68	SEMROLE_agent Arg1:E26 Arg2:T59	
+R69	SEMROLE_purpose Arg1:E26 Arg2:E27	
+R70	SEMROLE_theme Arg1:E27 Arg2:E28	
+R71	SEMROLE_agent Arg1:E28 Arg2:T65	
+R72	SEMROLE_theme Arg1:E28 Arg2:E29	
+R73	SEMROLE_theme Arg1:E28 Arg2:T70	
+R74	SEMROLE_theme Arg1:E28 Arg2:E30	
+R75	SEMROLE_cause Arg1:E31 Arg2:E29	
+R76	SEMROLE_cause Arg1:E31 Arg2:T70	
+R77	SEMROLE_cause Arg1:E31 Arg2:E30	
+R78	SEMROLE_result Arg1:E31 Arg2:E32	
+R79	SEMROLE_theme Arg1:E32 Arg2:T73	
+R80	SEMROLE_pivot Arg1:E33 Arg2:T68	
+R81	SEMROLE_theme Arg1:E33 Arg2:E34	
+R82	SUBORD_modal Arg1:E33 Arg2:E34	
+R83	SEMROLE_theme Arg1:E34 Arg2:E35	

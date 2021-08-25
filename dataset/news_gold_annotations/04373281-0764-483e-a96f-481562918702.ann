@@ -1,0 +1,70 @@
+T1	EVENT 8 13	opens
+E1	EVENT:T1 
+A1	Class E1 Occurrence
+A2	Pos E1 Verb
+T2	EVENT 21 37	nightmarish look
+E2	EVENT:T2 
+A3	Class E2 Occurrence
+A4	Pos E2 Noun
+T3	EVENT 41 51	the battle
+E3	EVENT:T3 
+A5	Class E3 Occurrence
+A6	Pos E3 Verb
+T6	EVENT 142 150	tracking
+E6	EVENT:T6 
+A11	Class E6 Occurrence
+A12	Pos E6 Verb
+T7	EVENT 162 177	kidnapping case
+E7	EVENT:T7 
+A13	Class E7 Occurrence
+A14	Pos E7 Noun
+T8	EVENT 227 231	make
+E8	EVENT:T8 
+A15	Class E8 State
+A16	Pos E8 Verb
+T9	EVENT 236 254	horrific discovery
+E9	EVENT:T9 
+A17	Class E9 Occurrence
+A18	Pos E9 Noun
+T5	ACTOR 89 109	Mexican drug cartels
+A9	Lexical_Head T5 Noun
+A10	Actor_Type T5 Org
+T10	ACTOR 116 134	the Arizona border
+A19	Lexical_Head T10 Noun
+A20	Actor_Type T10 Loc
+T11	ACTOR 60 64	U.S.
+A21	Lexical_Head T11 Noun
+A22	Actor_Type T11 Loc
+T12	ACTOR 65 80	law enforcement
+A23	Lexical_Head T12 Noun
+A24	Actor_Type T12 Org
+T4	ACTOR 151 156	leads
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Other
+T13	ACTOR 179 213	FBI agent Kate Macer (Emily Blunt)
+A25	Lexical_Head T13 Noun
+A26	Actor_Type T13 Per
+T14	ACTOR 218 221	her
+A27	Lexical_Head T14 Pronoun
+A28	Actor_Type T14 Per
+T15	ACTOR 222 226	team
+A29	Lexical_Head T15 Noun
+A30	Actor_Type T15 Per
+T16	ACTOR 0 7	Sicario
+A31	Lexical_Head T16 Noun
+A32	Actor_Type T16 Other
+R1	OBJ_REL_partOf Arg1:T12 Arg2:T11	
+R2	SEMROLE_patient Arg1:E1 Arg2:T16	
+R3	SEMROLE_manner Arg1:E1 Arg2:E2	
+R4	SEMROLE_theme Arg1:E2 Arg2:E3	
+R5	SEMROLE_agent Arg1:E3 Arg2:T12	
+R6	SEMROLE_partner Arg1:E3 Arg2:T5	
+R7	SEMROLE_location Arg1:E3 Arg2:T10	
+R8	SEMROLE_theme Arg1:E6 Arg2:T4	
+R9	SEMROLE_agent Arg1:E6 Arg2:T13	
+R10	OBJ_REL_objIdentity Arg1:T14 Arg2:T13	
+R11	OBJ_REL_partOf Arg1:T14 Arg2:T15	
+R12	SEMROLE_setting Arg1:E6 Arg2:E7	
+R13	SEMROLE_agent Arg1:E8 Arg2:T13	
+R14	SEMROLE_agent Arg1:E8 Arg2:T15	
+R15	SEMROLE_theme Arg1:E8 Arg2:E9	

@@ -1,0 +1,212 @@
+T1	ACTOR 270 275	Apple
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Org
+T2	EVENT 276 288	has unveiled
+E1	EVENT:T2 
+A3	Class E1 Occurrence
+A4	Pos E1 Verb
+T3	ACTOR 289 300	new iPhones
+A5	Lexical_Head T3 Noun
+A6	Actor_Type T3 Obj
+T4	ACTOR 311 329;337 345	an updated version Apple TV
+A7	Lexical_Head T4 Noun
+A8	Actor_Type T4 Other
+T5	ACTOR 333 336	its
+A9	Lexical_Head T5 Pronoun
+A10	Actor_Type T5 Org
+R1	OBJ_REL_objIdentity Arg1:T5 Arg2:T1	
+T6	ACTOR 352 364	an app store
+A11	Lexical_Head T6 Noun
+A12	Actor_Type T6 Other
+T7	EVENT 371 387	voice-controlled
+E2	EVENT:T7 
+A13	Class E2 State
+A14	Pos E2 Noun
+T8	ACTOR 388 402	remote control
+A15	Lexical_Head T8 Noun
+A16	Actor_Type T8 Other
+T9	ACTOR 415 435	a 12.9-inch iPad Pro
+A17	Lexical_Head T9 Noun
+A18	Actor_Type T9 Obj
+T10	EVENT 439 452	a media event
+E3	EVENT:T10 
+A19	Class E3 Occurrence
+A20	Pos E3 Noun
+T11	ACTOR 456 469	San Francisco
+A21	Lexical_Head T11 Noun
+A22	Actor_Type T11 Loc
+T12	EVENT 491 497	called
+E4	EVENT:T12 
+A23	Class E4 State
+A24	Pos E4 Verb
+T13	ACTOR 498 507	iPhone 6s
+A25	Lexical_Head T13 Noun
+A26	Actor_Type T13 Obj
+T14	ACTOR 512 519	6s Plus
+A27	Lexical_Head T14 Noun
+A28	Actor_Type T14 Obj
+T15	ACTOR 475 489	The new phones
+A29	Lexical_Head T15 Noun
+A30	Actor_Type T15 Obj
+T16	EVENT 527 536	look like
+E5	EVENT:T16 
+A31	Class E5 State
+A32	Pos E5 Verb
+T17	ACTOR 537 542	their
+A33	Lexical_Head T17 Pronoun
+A34	Actor_Type T17 Obj
+T18	ACTOR 543 555	predecessors
+A35	Lexical_Head T18 Noun
+A36	Actor_Type T18 Obj
+T19	EVENT 561 568	debuted
+E6	EVENT:T19 
+A37	Class E6 Occurrence
+A38	Pos E6 Verb
+T20	TIME_X3 569 578	last year
+A39	Time_Type T20 Date
+T21	EVENT 580 583	add
+E7	EVENT:T21 
+A40	Class E7 State
+A41	Pos E7 Verb
+T22	EVENT 587 595	improved
+E8	EVENT:T22 
+A42	Class E8 Occurrence
+A43	Pos E8 Verb
+T23	ACTOR 596 602	camera
+A44	Lexical_Head T23 Noun
+A45	Actor_Type T23 Other
+T24	EVENT 604 612	speedier
+E9	EVENT:T24 
+A46	Class E9 State
+A47	Pos E9 Adjective
+T25	ACTOR 613 622	processor
+A48	Lexical_Head T25 Noun
+A49	Actor_Type T25 Obj
+T26	ACTOR 627 640	a new feature
+A50	Lexical_Head T26 Noun
+A51	Actor_Type T26 Other
+T27	EVENT 641 647	called
+E10	EVENT:T27 
+A52	Class E10 State
+A53	Pos E10 Verb
+T28	ACTOR 648 656	3D Touch
+A54	Lexical_Head T28 Noun
+A55	Actor_Type T28 Other
+T29	EVENT 662 666	lets
+E11	EVENT:T29 
+A56	Class E11 State
+A57	Pos E11 Verb
+T30	ACTOR 667 672	users
+A58	Lexical_Head T30 Noun
+A59	Actor_Type T30 Per
+T31	EVENT 673 677	make
+E12	EVENT:T31 
+A60	Class E12 Occurrence
+A61	Pos E12 Verb
+T32	EVENT 678 696	different commands
+E13	EVENT:T32 
+A62	Pos E13 Noun
+T33	EVENT 701 706	reach
+E14	EVENT:T33 
+A63	Class E14 Occurrence
+A64	Pos E14 Verb
+T34	ACTOR 707 716	shortcuts
+A65	Lexical_Head T34 Noun
+A66	Actor_Type T34 Other
+T35	ACTOR 721 726	menus
+A67	Lexical_Head T35 Noun
+A68	Actor_Type T35 Other
+T36	EVENT 730 743	pressing down
+E15	EVENT:T36 
+A69	Class E15 Occurrence
+A70	Pos E15 Verb
+T37	EVENT 744 750	harder
+E16	EVENT:T37 
+A71	Class E16 Occurrence
+A72	Pos E16 Adjective
+T38	EVENT 754 760	softer
+E17	EVENT:T38 
+A73	Class E17 Occurrence
+A74	Pos E17 Adjective
+T39	ACTOR 764 774	the screen
+A75	Lexical_Head T39 Noun
+A76	Actor_Type T39 Other
+T40	ACTOR 776 788	The handsets
+A77	Lexical_Head T40 Noun
+A78	Actor_Type T40 Other
+T41	EVENT 789 793	come
+E18	EVENT:T41 
+A79	Class E18 State
+A80	Pos E18 Verb
+T42	ACTOR 797 809	four colours
+A81	Lexical_Head T42 Noun
+A82	Actor_Type T42 Other
+T43	EVENT 812 818	silver
+E19	EVENT:T43 
+A83	Class E19 State
+A84	Pos E19 Adjective
+T44	EVENT 820 824	gray
+E20	EVENT:T44 
+A85	Class E20 State
+A86	Pos E20 Adjective
+T45	EVENT 826 830	gold
+E21	EVENT:T45 
+A87	Class E21 State
+A88	Pos E21 Adjective
+T46	EVENT 835 844	rose gold
+E22	EVENT:T46 
+A89	Class E22 State
+A90	Pos E22 Adjective
+R3	OBJ_REL_partOf Arg1:T4 Arg2:T5	
+R5	OBJ_REL_partOf Arg1:T6 Arg2:T4	
+R6	OBJ_REL_partOf Arg1:T8 Arg2:T4	
+R4	OBJ_REL_objIdentity Arg1:T15 Arg2:T3	
+R7	OBJ_REL_memberOf Arg1:T13 Arg2:T15	
+R8	OBJ_REL_memberOf Arg1:T14 Arg2:T15	
+R10	OBJ_REL_partOf Arg1:T18 Arg2:T17	
+R11	OBJ_REL_partOf Arg1:T23 Arg2:T15	
+R12	OBJ_REL_partOf Arg1:T25 Arg2:T15	
+R13	OBJ_REL_partOf Arg1:T26 Arg2:T15	
+R14	OBJ_REL_partOf Arg1:T39 Arg2:T15	
+R15	OBJ_REL_objIdentity Arg1:T40 Arg2:T15	
+R16	SEMROLE_agent Arg1:E1 Arg2:T1	
+R17	SEMROLE_theme Arg1:E1 Arg2:T3	
+R18	SEMROLE_theme Arg1:E1 Arg2:T4	
+R19	SEMROLE_theme Arg1:E1 Arg2:T9	
+R20	SEMROLE_setting Arg1:E1 Arg2:E3	
+R21	SEMROLE_location Arg1:E3 Arg2:T11	
+R22	SEMROLE_pivot Arg1:E2 Arg2:T8	
+R2	OBJ_REL_objIdentity Arg1:T17 Arg2:T15	
+R9	SEMROLE_pivot Arg1:E4 Arg2:T15	
+R23	SEMROLE_theme Arg1:E4 Arg2:T13	
+R24	SEMROLE_theme Arg1:E4 Arg2:T14	
+R25	SEMROLE_pivot Arg1:E5 Arg2:T15	
+R26	SEMROLE_theme Arg1:E5 Arg2:T18	
+R27	SEMROLE_patient Arg1:E6 Arg2:T18	
+R28	TLINK_isIncluded Arg1:E6 Arg2:T20	
+R29	SEMROLE_pivot Arg1:E7 Arg2:T15	
+R30	SEMROLE_theme Arg1:E7 Arg2:T23	
+R31	SEMROLE_attribute Arg1:E8 Arg2:T23	
+R32	SEMROLE_theme Arg1:E7 Arg2:T25	
+R33	SEMROLE_attribute Arg1:E9 Arg2:T25	
+R34	SEMROLE_theme Arg1:E7 Arg2:T26	
+R35	SEMROLE_pivot Arg1:E10 Arg2:T26	
+R36	SEMROLE_theme Arg1:E10 Arg2:T28	
+R37	SEMROLE_pivot Arg1:E11 Arg2:T26	
+R38	SEMROLE_goal Arg1:E11 Arg2:T30	
+R39	SEMROLE_agent Arg1:E12 Arg2:T30	
+R40	SEMROLE_theme Arg1:E12 Arg2:E13	
+A91	Class E13 Occurrence
+R41	SEMROLE_agent Arg1:E14 Arg2:T30	
+R42	SEMROLE_theme Arg1:E14 Arg2:T34	
+R43	SEMROLE_theme Arg1:E14 Arg2:T35	
+R44	SEMROLE_manner Arg1:E14 Arg2:E15	
+R45	SEMROLE_manner Arg1:E15 Arg2:E16	
+R46	SEMROLE_manner Arg1:E15 Arg2:E17	
+R47	SEMROLE_theme Arg1:E15 Arg2:T39	
+R48	SEMROLE_pivot Arg1:E18 Arg2:T40	
+R49	SEMROLE_attribute Arg1:E18 Arg2:T42	
+R50	SEMROLE_pivot Arg1:E19 Arg2:T42	
+R51	SEMROLE_pivot Arg1:E20 Arg2:T42	
+R52	SEMROLE_pivot Arg1:E21 Arg2:T42	
+R53	SEMROLE_pivot Arg1:E22 Arg2:T42	
