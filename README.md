@@ -11,6 +11,8 @@ Taking this into account, this repository provides **two** things:
 * [The Tweet2Story framework.](#how-to-use-tweet2story)
 * [The news articles annotated by the expert linguist (gold annotations).](#gold-annotation-dataset)
 
+Lastly, this repository also contains the current version of the short paper about the Tweet2Story framework that will be submitted to the [ECIR 2022](https://ecir2022.org/).
+
 
 
 ## How to use Tweet2Story
