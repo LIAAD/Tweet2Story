@@ -1,0 +1,350 @@
+T1	ACTOR 0 7 ts fred
+
+A1	Lexical_Head T1 Noun
+
+A2	Individuation T1 Individual
+
+A3	Actor_Type T1 Per
+
+A4	Involvement T1 1
+
+T2	ACTOR 54 72 cape verde islands
+
+A5	Lexical_Head T2 Noun
+
+A6	Individuation T2 Individual
+
+A7	Actor_Type T2 Loc
+
+A8	Involvement T2 1
+
+T3	ACTOR 104 120 eastern atlantic
+
+A9	Lexical_Head T3 Noun
+
+A10	Individuation T3 Individual
+
+A11	Actor_Type T3 Loc
+
+A12	Involvement T3 1
+
+T4	ACTOR 122 131 t s grace
+
+A13	Lexical_Head T4 Noun
+
+A14	Individuation T4 Individual
+
+A15	Actor_Type T4 Obj
+
+A16	Involvement T4 1
+
+T5	ACTOR 154 160 50 mph
+
+A17	Lexical_Head T5 Noun
+
+A18	Individuation T5 Individual
+
+A19	Actor_Type T5 Other
+
+A20	Involvement T5 1
+
+T6	ACTOR 277 283 58 mph
+
+A21	Lexical_Head T6 Noun
+
+A22	Individuation T6 Individual
+
+A23	Actor_Type T6 Other
+
+A24	Involvement T6 1
+
+T7	ACTOR 347 355 antilles
+
+A25	Lexical_Head T7 Noun
+
+A26	Individuation T7 Individual
+
+A27	Actor_Type T7 Loc
+
+A28	Involvement T7 1
+
+T8	ACTOR 357 362 grace
+
+A29	Lexical_Head T8 Noun
+
+A30	Individuation T8 Individual
+
+A31	Actor_Type T8 Org
+
+A32	Involvement T8 1
+
+T9	ACTOR 436 444 antilles
+
+A33	Lexical_Head T9 Noun
+
+A34	Individuation T9 Individual
+
+A35	Actor_Type T9 Loc
+
+A36	Involvement T9 1
+
+T10	ACTOR 31 33 it
+
+A37	Lexical_Head T10 Pronoun
+
+A38	Individuation T10 Individual
+
+A39	Actor_Type T10 Other
+
+A40	Involvement T10 1
+
+T11	ACTOR 74 94 tropical storm grace
+
+A41	Lexical_Head T11 Pronoun
+
+A42	Individuation T11 Individual
+
+A43	Actor_Type T11 Other
+
+A44	Involvement T11 1
+
+T12	ACTOR 175 185 the system
+
+A45	Lexical_Head T12 Pronoun
+
+A46	Individuation T12 Individual
+
+A47	Actor_Type T12 Other
+
+A48	Involvement T12 1
+
+T13	ACTOR 234 254 tropical storm grace
+
+A49	Lexical_Head T13 Pronoun
+
+A50	Individuation T13 Individual
+
+A51	Actor_Type T13 Other
+
+A52	Involvement T13 1
+
+T14	ACTOR 285 305 tropical storm grace
+
+A53	Lexical_Head T14 Pronoun
+
+A54	Individuation T14 Individual
+
+A55	Actor_Type T14 Other
+
+A56	Involvement T14 1
+
+T15	ACTOR 336 355 the lesser antilles
+
+A57	Lexical_Head T15 Pronoun
+
+A58	Individuation T15 Individual
+
+A59	Actor_Type T15 Other
+
+A60	Involvement T15 1
+
+T16	ACTOR 425 444 the lesser antilles
+
+A61	Lexical_Head T16 Pronoun
+
+A62	Individuation T16 Individual
+
+A63	Actor_Type T16 Other
+
+A64	Involvement T16 1
+
+T17	ACTOR 149 166 with 50 mph winds
+
+A65	Lexical_Head T17 Noun
+
+A66	Individuation T17 Individual
+
+A67	Actor_Type T17 Other
+
+A68	Involvement T17 1
+
+T18	ACTOR 167 174 however
+
+A69	Lexical_Head T18 Noun
+
+A70	Individuation T18 Individual
+
+A71	Actor_Type T18 Other
+
+A72	Involvement T18 1
+
+T19	ACTOR 208 232 in the extended forecast
+
+A73	Lexical_Head T19 Noun
+
+A74	Individuation T19 Individual
+
+A75	Actor_Type T19 Other
+
+A76	Involvement T19 1
+
+T20	ACTOR 383 406 to a tropical rainstorm
+
+A77	Lexical_Head T20 Noun
+
+A78	Individuation T20 Individual
+
+A79	Actor_Type T20 Other
+
+A80	Involvement T20 1
+
+T21	ACTOR 407 415 prior to
+
+A81	Lexical_Head T21 Noun
+
+A82	Individuation T21 Individual
+
+A83	Actor_Type T21 Other
+
+A84	Involvement T21 1
+
+T22	EVENT 8 39 continues to weaken as it moves
+
+E1	EVENT:T22
+
+A85	Class E1 Occurrence
+
+A86	Tense E1 Pres
+
+A87	Polarity E1 Pos
+
+A88	Factuality E1 Factual
+
+T23	EVENT 89 94 grace
+
+E2	EVENT:T23
+
+A89	Class E2 Occurrence
+
+A90	Tense E2 Pres
+
+A91	Polarity E2 Pos
+
+A92	Factuality E2 Factual
+
+T24	EVENT 132 148 is strengthening
+
+E3	EVENT:T24
+
+A93	Class E3 Occurrence
+
+A94	Tense E3 Pres
+
+A95	Polarity E3 Pos
+
+A96	Factuality E3 Factual
+
+T25	EVENT 186 207 is expected to weaken
+
+E4	EVENT:T25
+
+A97	Class E4 Occurrence
+
+A98	Tense E4 Pres
+
+A99	Polarity E4 Pos
+
+A100	Factuality E4 Factual
+
+T26	EVENT 255 262 packing
+
+E5	EVENT:T26
+
+A101	Class E5 Occurrence
+
+A102	Tense E5 Pres
+
+A103	Polarity E5 Pos
+
+A104	Factuality E5 Factual
+
+T27	EVENT 306 327 will likely dissipate
+
+E6	EVENT:T27
+
+A105	Class E6 Occurrence
+
+A106	Tense E6 Pres
+
+A107	Polarity E6 Pos
+
+A108	Factuality E6 Factual
+
+T28	EVENT 363 382 is likely to weaken
+
+E7	EVENT:T28
+
+A109	Class E7 Occurrence
+
+A110	Tense E7 Pres
+
+A111	Polarity E7 Pos
+
+A112	Factuality E7 Factual
+
+T29	EVENT 416 424 reaching
+
+E8	EVENT:T29
+
+A113	Class E8 Occurrence
+
+A114	Tense E8 Pres
+
+A115	Polarity E8 Pos
+
+A116	Factuality E8 Factual
+
+R1	OBJ_REL_objIdentity Arg1:T1 Arg2:T10
+
+R2	OBJ_REL_objIdentity Arg1:T11 Arg2:T4
+
+R3	OBJ_REL_objIdentity Arg1:T4 Arg2:T12
+
+R4	OBJ_REL_objIdentity Arg1:T12 Arg2:T13
+
+R5	OBJ_REL_objIdentity Arg1:T13 Arg2:T14
+
+R6	OBJ_REL_objIdentity Arg1:T14 Arg2:T8
+
+R7	OBJ_REL_objIdentity Arg1:T15 Arg2:T16
+
+R8	SEMROLE_theme Arg1:E1 Arg2:T1
+
+R9	SEMROLE_path Arg1:E1 Arg2:T2
+
+R10	SEMROLE_theme Arg1:E2 Arg2:T11
+
+R11	SEMROLE_theme Arg1:E3 Arg2:T3
+
+R12	SEMROLE_manner Arg1:E3 Arg2:T17
+
+R13	SEMROLE_theme Arg1:E4 Arg2:T12
+
+R14	SEMROLE_location Arg1:E4 Arg2:T19
+
+R15	SEMROLE_theme Arg1:E5 Arg2:T13
+
+R16	SEMROLE_theme Arg1:E5 Arg2:T6
+
+R17	SEMROLE_theme Arg1:E6 Arg2:T14
+
+R18	SEMROLE_location Arg1:E6 Arg2:T7
+
+R19	SEMROLE_theme Arg1:E7 Arg2:T8
+
+R20	SEMROLE_theme Arg1:E7 Arg2:T20
+
+R21	SEMROLE_time Arg1:E8 Arg2:T21
+
+R22	SEMROLE_theme Arg1:E8 Arg2:T9
+

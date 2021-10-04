@@ -17,7 +17,84 @@ Lastly, this repository also contains the current version of the short paper abo
 
 ## How to use Tweet2Story
 
-Placeholder
+This framework extracts the narrative of any document in a text file (.txt) from the directory _"Data/input_files"_ into an annotation file (.ann) to the _"Data/auto_ann"_ directory.
+
+### Tweet2Story structure
+
+This framework follows a structure developed together with Pedro Mota (<up201805248@up.pt>) for the [Text2Story](https://text2story.inesctec.pt/) project.
+
+```
+.
+│   README.md
+|   env.yml
+│   requirements.txt
+|
+└──Tweet2Story
+    └──Text2Story
+        └──core
+        │   │   annotator.py (META-annotator)
+        │   │   entity_structures.py (ActorEntity, TimexEntity and EventEntity classes)
+        │   |   exceptions.py (Exceptions raised by the package)
+        │   |   link_structures.py (TemporalLink, AspectualLink, SubordinationLink, SemanticRoleLink and ObjectalLink classes)
+        │   |   narrative.py (Narrative class)
+        │   |   utils.py (Utility functions)
+        │   
+        └───annotators (tools supported by the package to do the extractions)
+        |   |   ALLENNLP
+        |   |   NLTK
+        |   │   PY_HEIDELTIME
+        |   |   SPACY
+        |   |   SPARKNLP
+    
+    └── Data
+          └──auto_ann (Directory where the narratives are extracted to)
+          |  |  GraceStormNarrative.ann (example annotation file)
+          |
+          └───input_files (Directory where the input files for Tweet2Story need to be)
+          |  |  GraceStormTweets.txt (example tweets text file)
+
+```
+
+### Usage
+
+Create a virtual environment to run the tool.
+
+```bash
+conda env create -f env.yml
+conda activate t2s
+pip install --user -r requirements.txt
+```
+
+Basic usage of Tweet2Story:
+1. Store a .txt file with the tweets on the _"Data/input_files/"_ directory;
+2. ```bash
+    cd Tweet2Story
+    python -m text2story "GraceStormTweets.txt" -o "GraceStormNarrative.ann"
+   ```
+
+The framework is computationally intensive, therefore it takes **~5 minutes** to extract a narrative.<br>
+The file with the narrative in the form of annotation (.ann) is store in the *"Data/auto_ann/"* directory.
+
+### Known bug
+
+In this release, the program does not exit after finishing extracting and exporting the narrative.
+So when you see this after running the program:
+
+![](known-bug.PNG)
+
+It means Tweet2Story has finished its job, and you can **manually** terminate the process (using CTRL+C for example). If more than 7-8 minutes have passed after the execution of the program, it most likely already finish. You can check the _"Data/auto_ann/"_ directory to confirm if the narrative has already been extracted.<br>
+
+**Do not be alarmed by the large amount of command line output, the program is functioning normally.**
+
+### Narrative Visualization
+
+At this point, the narrative visualization through knowledge graphs is not implemented in this framework automatically.
+**However**, you can check some knowledge graphs of narratives extracted from Tweet2Story on the [Brat2Viz page](https://nabu.dcc.fc.up.pt/brat2viz).
+
+The full integration of the Brat2Viz knowledge graphs are a future direction for this tools.
+An example of how the knowledge graph for the example in this repository turned out is shown below.
+
+![](grace-storm-kg.PNG)
 
 ## Gold annotations dataset
 
