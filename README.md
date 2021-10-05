@@ -9,7 +9,7 @@ The tool was tested on a certain set of tweets retrieved from the [Signal1M-twee
 Taking this into account, this repository provides **three** things:
 
 * [The Tweet2Story framework.](#how-to-use-tweet2story)
-* [The evaluation of the framework as an OpenIE tool]()
+* [The evaluation of the framework as an OpenIE tool](#evaluation-as-openie-tool)
 * [The news articles annotated by the expert linguist (gold annotations).](#gold-annotation-dataset)
 
 Lastly, this repository also contains the current version of the short paper about the Tweet2Story framework that will be submitted to the [ECIR 2022](https://ecir2022.org/).
