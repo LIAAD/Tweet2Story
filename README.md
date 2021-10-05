@@ -73,7 +73,19 @@ Basic usage of Tweet2Story:
    ```
 
 The framework is computationally intensive, therefore it takes **~5 minutes** to extract a narrative.<br>
-The file with the narrative in the form of annotation (.ann) is store in the *"Data/auto_ann/"* directory.
+The file with the narrative in the form of annotation (.ann) is stored in the *"Data/auto_ann/"* directory.
+
+### Input File Format
+
+The input file must be stored in the *"Data/input_files/"* directory. Each tweet must be separated by a new line.
+
+The lines below are an example of an input file, which is stored in the *input_files* directory with the name *GraceStormTweets.txt*:
+
+``````
+grace is likely to weaken to a tropical rainstorm prior to reaching the lesser antilles.
+tropical storm grace packing wind gusts of 58 mph.
+tropical storm grace will likely dissipate east of the lesser antilles.
+``````
 
 ### Known bug
 
@@ -140,7 +152,13 @@ Note: You will need to have a Twitter API token and a Twitter API secret to be a
 
 
 
-### Contact
+## Acknowledgements
+
+Special thanks to both my master thesis supervisors: professor Ricardo Campos and professor Alípio Jorge.
+
+A big thanks to my colleague Pedro Mota for helping with the structure of the framework. And a word of thanks and appreciation to Inês Cantante for providing the annotations of the news articles in the gold annotations dataset.
+
+## Contact
 
 For further information related to this dataset please contact Vasco Campos using the e-mail address <vasco.m.campos@inesctec.pt>.
 
