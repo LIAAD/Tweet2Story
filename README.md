@@ -6,6 +6,9 @@
 
 The tool was tested on a certain set of tweets retrieved from the [Signal1M-tweetir](https://research.signal-ai.com/datasets/signal1m-tweetir.html) dataset. This dataset consists on sets of tweets about an event **linked** to a news article about the same event. The tests consisted on empirical evaluation and on comparing the narrative from the tweets - extracted with Tweet2Story - with the narrative from the news article - annotated by an expert linguist.
 
+To add some consistency to the evaluation, we tested its performance as an OpenIE (Open Information Extraction) tool.
+We perform this evaluation using [CaRB](https://aclanthology.org/D19-1651/) and test the Tweet2Story framework against state-of-the-art OpenIE tools.
+
 Taking this into account, this repository provides **three** things:
 
 * [The Tweet2Story framework.](#how-to-use-tweet2story)
