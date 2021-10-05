@@ -58,7 +58,7 @@ This framework follows a structure developed together with Pedro Mota (<up201805
 
 ```
 
-### Usage
+### <a id="t2s-usage"></a>Usage
 
 -----
 
@@ -136,9 +136,10 @@ In this repository, we use the CaRB tool stored in the *"evaluation/"* directory
 -----
 
 **If you want to run Tweet2Story on the CaRB data you can follow these steps, but be warned that it takes around 7~10 minutes to run:**
-1. Go to evaluation directory - `cd evaluation`
-2. `python create_carb_output.py`
-3. The output is stored in *evaluation/CaRB/system_outputs/test/tweet2story_output.txt*.
+1. Make sure you have the virtual environment required to use [Tweet2Story](#t2s-usage).
+2. Go to evaluation directory - `cd evaluation`
+3. `python create_carb_output.py`
+4. The output is stored in *evaluation/CaRB/system_outputs/test/tweet2story_output.txt*.
 
 **If you want you can skip this step, we already provide the output file.**
 We suggest using the virtual environment created to run the Tweet2Story framework to run this script.
