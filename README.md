@@ -6,9 +6,10 @@
 
 The tool was tested on a certain set of tweets retrieved from the [Signal1M-tweetir](https://research.signal-ai.com/datasets/signal1m-tweetir.html) dataset. This dataset consists on sets of tweets about an event **linked** to a news article about the same event. The tests consisted on empirical evaluation and on comparing the narrative from the tweets - extracted with Tweet2Story - with the narrative from the news article - annotated by an expert linguist.
 
-Taking this into account, this repository provides **two** things:
+Taking this into account, this repository provides **three** things:
 
 * [The Tweet2Story framework.](#how-to-use-tweet2story)
+* [The evaluation of the framework as an OpenIE tool]()
 * [The news articles annotated by the expert linguist (gold annotations).](#gold-annotation-dataset)
 
 Lastly, this repository also contains the current version of the short paper about the Tweet2Story framework that will be submitted to the [ECIR 2022](https://ecir2022.org/).
@@ -17,9 +18,13 @@ Lastly, this repository also contains the current version of the short paper abo
 
 ## How to use Tweet2Story
 
+------
+
 This framework extracts the narrative of any document in a text file (.txt) from the directory _"Data/input_files"_ into an annotation file (.ann) to the _"Data/auto_ann"_ directory.
 
 ### Tweet2Story structure
+
+-------
 
 This framework follows a structure developed together with Pedro Mota (<up201805248@up.pt>) for the [Text2Story](https://text2story.inesctec.pt/) project.
 
@@ -57,6 +62,8 @@ This framework follows a structure developed together with Pedro Mota (<up201805
 
 ### Usage
 
+-----
+
 Create a virtual environment to run the tool.
 
 ```bash
@@ -77,6 +84,8 @@ The file with the narrative in the form of annotation (.ann) is stored in the *"
 
 ### Input File Format
 
+-----
+
 The input file must be stored in the *"Data/input_files/"* directory. Each tweet must be separated by a new line.
 
 The lines below are an example of an input file, which is stored in the *input_files* directory with the name *GraceStormTweets.txt*:
@@ -89,6 +98,8 @@ tropical storm grace will likely dissipate east of the lesser antilles.
 
 ### Known bug
 
+-----
+
 In this release, the program does not exit after finishing extracting and exporting the narrative.
 So when you see this after running the program:
 
@@ -100,6 +111,8 @@ It means Tweet2Story has finished its job, and you can **manually** terminate th
 
 ### Narrative Visualization
 
+-----
+
 At this point, the narrative visualization through knowledge graphs is not implemented in this framework automatically.
 **However**, you can check some knowledge graphs of narratives extracted from Tweet2Story on the [Brat2Viz page](https://nabu.dcc.fc.up.pt/brat2viz).
 
@@ -107,6 +120,59 @@ The full integration of the Brat2Viz knowledge graphs are a future direction for
 An example of how the knowledge graph for the example in this repository turned out is shown below.
 
 ![](grace-storm-kg.PNG)
+
+## Evaluation as OpenIE tool
+
+-----
+
+To perform an evaluation against other state-of-the art tools, we took advantage of a pre-existing benchmark framework to evaluate OpenIE tools - [CaRB](https://aclanthology.org/D19-1651/).
+
+First, we ran Tweet2Story over the CaRB data, which created the results of the tool on this benchmark.
+They are stored in *"CaRB/system_outputs/test/tweet2story_output.txt"*. 
+Using this output, we can run the [CaRB evaluator](https://github.com/dair-iitd/CaRB) released under an MIT license.
+
+In this repository, we use the CaRB tool stored in the *"evaluation/"* directory to calculate the precision and recall of Tweet2Story as an OpenIE tool and plot a PR-curve that shows that performance.
+
+### Usage
+
+-----
+
+**To run the CaRB evaluator, we suggest you create a new python virtual environment.**
+Some packages have conflicting dependencies with Tweet2Story and can cause errors with the CaRB evaluator.
+
+Follow these steps to evaluate Tweet2Story:
+1. Go to the CaRB directory - `cd evaluation/CaRB`
+2. Create a new virtual environment and install the requirements - `pip install -r requirements.txt`
+3. ```bash
+   python carb.py --gold=data/gold/test.tsv --out=dump/Tweet2Story.dat --tabbed=system_outputs/test/tweet2story_output.txt
+   ```
+
+This evaluates Tweet2Story against the gold dataset of CaRB and stores the results in *Tweet2Story.dat*.
+
+Lastly, we create a PR-curve that showcases the results against other tools. 
+The results for each tool are stored in the *dump/* directory. 
+Follow these steps to create the curve:
+
+1. Follow the previous steps to create the *Tweet2Story.dat* file.
+2. From the *CaRB/* directory run:
+```bash
+python pr_plot.py --in=dump/ --out=graphs/Tweet2Story.png
+```
+
+### Results
+
+-----
+
+In case you can't, or you do not want to create a new environment and run the CaRB evaluation tool, this repository already contains the results produced by it.
+
+The Tweet2Story results file is stored in *evaluation/CaRB/dump/Tweet2Story.dat*.
+The PR-curve can be is stored in *evaluation/CaRB/graphs/Tweet2Story.png* and looks like this:
+
+![](evaluation/CaRB/graphs/Tweet2Story.png)
+
+-----
+
+**For more information on the CaRB tool you can check out the author's [README](evaluation/CaRB/README.md), as well as their [paper](https://aclanthology.org/D19-1651/) and [repository](https://github.com/dair-iitd/CaRB).**
 
 ## Gold annotations dataset
 
