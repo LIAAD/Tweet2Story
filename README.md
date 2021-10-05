@@ -10,11 +10,9 @@ Taking this into account, this repository provides **three** things:
 
 * [The Tweet2Story framework.](#how-to-use-tweet2story)
 * [The evaluation of the framework as an OpenIE tool](#evaluation-as-openie-tool)
-* [The news articles annotated by the expert linguist (gold annotations).](#gold-annotation-dataset)
+* [The news articles annotated by the expert linguist (gold annotations).](#gold-annotations-dataset)
 
 Lastly, this repository also contains the current version of the short paper about the Tweet2Story framework that will be submitted to the [ECIR 2022](https://ecir2022.org/).
-
-
 
 ## How to use Tweet2Story
 
@@ -127,7 +125,7 @@ An example of how the knowledge graph for the example in this repository turned 
 
 To perform an evaluation against other state-of-the art tools, we took advantage of a pre-existing benchmark framework to evaluate OpenIE tools - [CaRB](https://aclanthology.org/D19-1651/).
 
-First, we ran Tweet2Story over the CaRB data, which created the results of the tool on this benchmark.
+First, we ran Tweet2Story over the CaRB data, which created the results of the tool on this benchmark (extracted the triples from the CaRB gold dataset).
 They are stored in *"CaRB/system_outputs/test/tweet2story_output.txt"*. 
 Using this output, we can run the [CaRB evaluator](https://github.com/dair-iitd/CaRB) released under an MIT license.
 
@@ -136,6 +134,14 @@ In this repository, we use the CaRB tool stored in the *"evaluation/"* directory
 ### Usage
 
 -----
+
+**If you want to run Tweet2Story on the CaRB data you can follow these steps, but be warned that it takes around 7~10 minutes to run:**
+1. Go to evaluation directory - `cd evaluation`
+2. `python create_carb_output.py`
+3. The output is stored in *evaluation/CaRB/system_outputs/test/tweet2story_output.txt*.
+
+**If you want you can skip this step, we already provide the output file.**
+We suggest using the virtual environment created to run the Tweet2Story framework to run this script.
 
 **To run the CaRB evaluator, we suggest you create a new python virtual environment.**
 Some packages have conflicting dependencies with Tweet2Story and can cause errors with the CaRB evaluator.
@@ -163,7 +169,7 @@ python pr_plot.py --in=dump/ --out=graphs/Tweet2Story.png
 
 -----
 
-In case you can't, or you do not want to create a new environment and run the CaRB evaluation tool, this repository already contains the results produced by it.
+**In case you can't, or you do not want to create a new environment and run the CaRB evaluation tool, this repository already contains the results produced by it.**
 
 The Tweet2Story results file is stored in *evaluation/CaRB/dump/Tweet2Story.dat*.
 The PR-curve can be is stored in *evaluation/CaRB/graphs/Tweet2Story.png* and looks like this:
