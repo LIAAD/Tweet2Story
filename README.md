@@ -144,8 +144,8 @@ In this repository, we use the CaRB tool stored in the *"evaluation/"* directory
 3. `python create_carb_output.py`
 4. The output is stored in *evaluation/CaRB/system_outputs/test/tweet2story_output.txt*.
 
-**If you want you can skip this step, we already provide the output file.**
-We suggest using the virtual environment created to run the Tweet2Story framework to run this script.
+**If you want you can skip the previous step, we already provide the output file.**
+We suggest using the virtual environment created to run the Tweet2Story framework to run the previous script.
 
 **To run the CaRB evaluator, we suggest you create a new python virtual environment.**
 Some packages have conflicting dependencies with Tweet2Story and can cause errors with the CaRB evaluator.
