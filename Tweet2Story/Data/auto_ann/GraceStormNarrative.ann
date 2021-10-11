@@ -322,7 +322,7 @@ R8	SEMROLE_theme Arg1:E1 Arg2:T1
 
 R9	SEMROLE_path Arg1:E1 Arg2:T2
 
-R10	SEMROLE_theme Arg1:E2 Arg2:T11
+R10	SEMROLE_agent Arg1:E2 Arg2:T11
 
 R11	SEMROLE_theme Arg1:E3 Arg2:T3
 
@@ -332,7 +332,7 @@ R13	SEMROLE_theme Arg1:E4 Arg2:T12
 
 R14	SEMROLE_location Arg1:E4 Arg2:T19
 
-R15	SEMROLE_theme Arg1:E5 Arg2:T13
+R15	SEMROLE_agent Arg1:E5 Arg2:T13
 
 R16	SEMROLE_theme Arg1:E5 Arg2:T6
 

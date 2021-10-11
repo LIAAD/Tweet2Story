@@ -186,6 +186,8 @@ def _srl_by_actor(srl_by_token, text, char_offset):
         tags = rows["tag"]
         if actor.startswith("EVENT"):
             sem_role_type = "EVENT"
+        elif any(tag.endswith("ARG0") for tag in tags):
+            sem_role_type = "AGENT"
         elif any("ARGM" in tag for tag in tags):
             argm_tags = [tag for tag in tags if "ARGM" in tag]
             sem_role_type = SRL_TYPE_MAPPING[argm_tags[0].split("-")[-1]]

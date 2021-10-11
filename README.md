@@ -110,6 +110,14 @@ It means Tweet2Story has finished its job, and you can **manually** terminate th
 
 **Do not be alarmed by the large amount of command line output, the program is functioning normally.**
 
+
+
+:bangbang: **POSSIBLE FAILURES** :bangbang: 
+
+The software lacks a few tests, so it may fail when the input file is too large, or when it lacks punctuation. **Make sure your texts are small (no more than 40 sentences) and always have correct punctuation.**
+
+So far, the tool lacks usage interface helpers, such as error descriptions when the program fails. So try to use Tweet2Story the way it is described in the [usage](#t2s-usage) chapter. **Any great deviation from those commands are not guaranteed to work correctly.**
+
 ### Narrative Visualization
 
 -----
@@ -234,7 +242,9 @@ Special thanks to both my master thesis supervisors: professor Ricardo Campos an
 
 A big thanks to my colleague Pedro Mota for helping with the structure of the framework. And a word of thanks and appreciation to Inês Cantante for providing the annotations of the news articles in the gold annotations dataset.
 
+A special thanks to Dyaa Albakour from Signal AI for making their dataset available to us and for readily answering our questions accurately. 
+
 ## Contact
 
-For further information related to this dataset please contact Vasco Campos using the e-mail address <vasco.m.campos@inesctec.pt>.
+For further information related to the contents of this repository (dataset or framework) please contact Vasco Campos using the e-mail address <vasco.m.campos@inesctec.pt>.
 
