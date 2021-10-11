@@ -25,9 +25,7 @@ This framework extracts the narrative of any document in a text file (.txt) from
 
 ### Tweet2Story structure
 
--------
-
-This framework follows a structure developed together with Pedro Mota (<up201805248@up.pt>) for the [Text2Story](https://text2story.inesctec.pt/) project.
+---
 
 ```
 .
