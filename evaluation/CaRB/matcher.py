@@ -1,5 +1,7 @@
 from __future__ import division
 import string
+import nltk
+nltk.download('stopwords')
 from nltk.translate.bleu_score import sentence_bleu
 from nltk.corpus import stopwords
 from copy import copy
