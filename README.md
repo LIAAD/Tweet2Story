@@ -17,6 +17,8 @@ Taking this into account, this repository provides **three** things:
 
 <!--Lastly, this repository also contains the current version of the short paper about the Tweet2Story framework that will be submitted to the [ECIR 2022](https://ecir2022.org/).-->
 
+The demo of the Tweet2Story app is deployed (with some limitations) using heroku on the domain - [tweet2story-demo-client.herokuapp.com/](https://tweet2story-demo-client.herokuapp.com/).
+
 ## How to use Tweet2Story
 
 ------
