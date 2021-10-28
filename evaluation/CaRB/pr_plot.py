@@ -18,7 +18,8 @@ import logging
 import ipdb
 logging.basicConfig(level = logging.INFO)
 
-plt.rcParams.update({'font.size': 14})
+# plt.rcParams.update({'font.size': 14})
+plt.rcParams.update({'font.size': 16})
 
 def trend_name(path):
     ''' return a system trend name from dat file path '''
@@ -43,16 +44,21 @@ if __name__ == '__main__':
     
     # plot graphs for all *.dat files in input path
     files = glob(os.path.join(input_folder, '*.dat'))
+    colors = plt.cm.Set1(np.linspace(0, 1, len(files)))
+    i = 0
     for _file in files:
         p, r = get_pr(_file)
         name = trend_name(_file)
-        plt.plot(r, p, label = name)
+        plt.plot(r, p, color=colors[i], linewidth=1.5, label = name)
+        i += 1
 
     # Set figure properties and save
     logging.info("Plotting P/R graph to {}".format(output_file))
-    plt.ylim([0.0, 1.05])
-    plt.xlim([0.0, 0.8])
+    # plt.ylim([0.0, 1.05])
+    # plt.xlim([0.0, 0.8])
+    plt.ylim([0.3, 0.9])
+    plt.xlim([0.0, 0.6])
     plt.xlabel('Recall')
     plt.ylabel('Precision')
-    plt.legend(loc="lower right")
+    plt.legend(loc="upper right", prop={'size': 14})
     plt.savefig(output_file)
