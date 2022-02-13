@@ -89,7 +89,7 @@ Basic usage of Tweet2Story:
     python -m text2story "GraceStormTweets.txt" -o "GraceStormNarrative.ann"
    ```
 
-The framework is computationally intensive, therefore it takes **~5 minutes** to extract a narrative.<br>
+The framework is computationally intensive to use locally, but using our [deployed version](http://tweet2story.inesctec.pt/) makes the extraction process very fast (5-7 seconds).<br>
 The file with the narrative in the form of annotation (.ann) is stored in the *"Data/auto_ann/"* directory.
 
 ### Input File Format <a name="input"></a>
@@ -117,11 +117,11 @@ It means Tweet2Story has finished its job, and you can **manually** terminate th
 
 
 
-:bangbang: **POSSIBLE FAILURES** :bangbang: 
+<!--:bangbang: **POSSIBLE FAILURES** :bangbang: 
 
 The software lacks a few tests, so it may fail when the input file is too large, or when it lacks punctuation. **Make sure your texts are small (no more than 40 sentences) and always have correct punctuation.**
 
-So far, the tool lacks usage interface helpers, such as error descriptions when the program fails. So try to use Tweet2Story the way it is described in the [usage](#t2s-usage) chapter. **Any great deviation from those commands are not guaranteed to work correctly.**
+So far, the tool lacks usage interface helpers, such as error descriptions when the program fails. So try to use Tweet2Story the way it is described in the [usage](#t2s-usage) chapter. **Any great deviation from those commands are not guaranteed to work correctly.**-->
 
 ### :tv: Narrative Visualization <a name="viz"></a>
 
